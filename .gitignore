@@ -1,0 +1,36 @@
+# Python / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+# Notebook / editor / operating system
+.ipynb_checkpoints/
+.ipython/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Credentials / temporary work
+.env
+.env.*
+!.env.example
+work/
+*.log
+~$*
+# Data stays local until provenance and redistribution rights are reviewed
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+# Power BI temporary files
+*.pbix.autosave
+*.tmp
