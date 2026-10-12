@@ -96,3 +96,15 @@ A verified source inventory and dictionary; reproducible Python preparation and 
 ## Phase 2 data discovery and collection
 
 See the [verified coverage matrix](docs/data_availability.md), [source catalogue](docs/source_catalog.json), [acquisition attempts](docs/acquisition_manifest.json) and [pipeline instructions/completion status](docs/collection_pipeline.md). Run `python -m src.collect_data` after enabling the official hosts listed in the source register. Run `python -m src.process_data` only after downloads succeed; Poppler is required and source reconciliation remains necessary. A failed download does not create a checksum or observation. Exact publication dates remain unverified where null in the catalogue.
+
+
+## Manual official Excel/CSV ingestion
+
+Automated source retrieval remains blocked. The manual workflow is prepared and **awaits actual official files**; no imported dataset is ready. See [DATA_UPLOAD_GUIDE.md](DATA_UPLOAD_GUIDE.md) for required governorate tables, official entry points, provenance requirements and GitHub uploads. Place unchanged originals under `data/raw/manual/` and retain source notes. [Manual metadata/validation contract](docs/manual_ingestion.md) and [current status](docs/manual_ingestion_status.json) distinguish valid imports, partial coverage and errors.
+
+```bash
+python -m src.manual_ingestion inspect
+python -m src.manual_ingestion run
+```
+
+This offline workflow supports selected XLSX sheets and CSV tables, English/Arabic headers and governorate labels, explicit wide-table mappings, decimal unit conversion, duplicate provenance and coverage validation. No network requests occur. New immutable output runs use `data/processed/manual/<run_id>/` for observations, provenance, coverage and validation reports; existing collector outputs and originals remain separate. A complete all-11 gate is evaluated per comparable indicator/period/category/scope, with no fabricated missing rows.

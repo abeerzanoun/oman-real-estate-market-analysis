@@ -52,3 +52,24 @@ The preliminary wide fields above remain proposed. Online inspection verified NC
 The combined observation key is indicator + period_start + period_end + frequency. The processor rejects duplicate observation keys across releases rather than silently choose a revision. No processed rows are currently present.
 
 Verified online but **not implemented in processing**: total traded property value, fees, issued title deeds/GCC title deeds, index categories, index weights and residential-land indices by governorate. Publication dates, exact index revision policy (2026 indices are marked provisional and historical comparison values differ by release), and record-level MOHUP property types/wilayats remain unresolved. Price indices will require a separate fact table including category, geography, base period and weight/revision metadata. Nulls and source blanks remain distinct from zero.
+
+
+## Manual XLSX/CSV output contract
+
+This schema is implemented but **no official files are imported**. Every production value must come from an original input cell.
+
+| Field | Meaning |
+|---|---|
+| observation_id | SHA-256 of the semantic observation key, project-generated identifier |
+| scope_id / indicator | Reviewer-declared comparable dataset definition and metric; never inferred from values |
+| value / unit | Exact decimal text and canonical count, OMR or index_points; no imputation |
+| period_start / period_end / frequency | Explicit ISO interval and monthly/quarterly/annual/year_to_date status |
+| geographic_level | National, governorate or wilayat; not silently aggregated |
+| governorate_id / governorate / governorate_ar | Internal project slug and canonical English/Arabic label for the 11 governorates; slugs are not official statistical codes |
+| wilayat | Source label preserved; hierarchy not automatically certified |
+| property_category / transaction_type | Source labels or documented table constants; unavailable dimensions remain blank |
+| index_base_period | Official source base period for index metrics; mandatory for indices |
+
+`provenance.csv` joins on observation_id and preserves dataset_id, original filename, SHA-256, sheet/row/column coordinates, publisher, title, source URL, publication/retrieval dates, review status, licence attribution and the original unit/multiplier. Multiple source cells may support one deduplicated observation. `coverage.csv` lists present/missing governorate slugs for each comparable group; no missing observations are generated. `validation_report.json` includes missing values, excluded totals, errors, counts and readiness flags.
+
+Business key: scope_id + indicator + unit + interval + frequency + geographic level + governorate + wilayat + category + transaction type + index base. Equal duplicates retain all provenance; conflicting values fail review. For raw row-level transactions, a dedicated ID/grain adapter is required. Readiness means valid actual imports and complete governorate aggregate groups with no missing metric cells; it does not imply complete 2020–2026 coverage, external authentication or certified Power BI measures.

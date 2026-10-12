@@ -29,3 +29,8 @@ Processing checks each original hash, extracts the reviewed page with `pdftotext
 **Pending:** network configuration, successful originals, full-file integrity inspection, actual Poppler-layout validation, source-to-output reconciliation, exact publication dates, full historical coverage, regional source licences and price-index processing. Tests use a genuine, disclosed transcription of an official table plus technical error fixtures; they do not certify the original-PDF extraction path. If actual extraction differs, update the profile only after inspecting the source; do not relax checks to manufacture output.
 
 Raw and processed records stay Git-ignored pending redistribution review. The repository tracks all discovery/provenance documentation and a small licensed test excerpt. No market findings or dashboards are produced in this phase.
+
+
+## Manual ingestion option
+
+Use the offline [manual upload guide](../DATA_UPLOAD_GUIDE.md) while automated destinations remain blocked. `python -m src.manual_ingestion run` consumes provenance-reviewed originals under `data/raw/manual/`. No collector call is made. The original PDF pipeline, audit register and historical work are preserved. New manual outputs appear only after real accepted input values exist.
