@@ -2,7 +2,7 @@
   {
     "source_id": "ncsi_2025_10",
     "source_url": "https://api.ncsi.gov.om/uploads/pdfs/publicationpdf1761108337.pdf",
-    "attempted_at": "2026-10-12T05:06:08.529883+00:00",
+    "attempted_at": "2026-10-12T05:44:08.314195+00:00",
     "retrieved_at": null,
     "status": "failed",
     "raw_path": null,
@@ -13,7 +13,7 @@
   {
     "source_id": "ncsi_2026_09",
     "source_url": "https://api.ncsi.gov.om/uploads/pdfs/monthly_statistical_bulletin__september_2026_1789899633.pdf",
-    "attempted_at": "2026-10-12T05:06:08.563273+00:00",
+    "attempted_at": "2026-10-12T05:44:08.323315+00:00",
     "retrieved_at": null,
     "status": "failed",
     "raw_path": null,
@@ -24,7 +24,7 @@
   {
     "source_id": "ncsi_yearbook_2026",
     "source_url": "https://api.ncsi.gov.om/uploads/pdfs/statistical_year_book_2026___issue_54_1777963604.pdf",
-    "attempted_at": "2026-10-12T05:06:08.580257+00:00",
+    "attempted_at": "2026-10-12T05:44:08.327056+00:00",
     "retrieved_at": null,
     "status": "failed",
     "raw_path": null,
@@ -35,7 +35,7 @@
   {
     "source_id": "ncsi_2024_02",
     "source_url": "https://api.ncsi.gov.om/uploads/pdfs/5079/bar_Monthly%20Statistical%20Bulletin_fef39be2-c183-4862-a0d3-21ff3e821734.pdf",
-    "attempted_at": "2026-10-12T05:06:08.596142+00:00",
+    "attempted_at": "2026-10-12T05:44:08.330810+00:00",
     "retrieved_at": null,
     "status": "failed",
     "raw_path": null,
@@ -46,7 +46,7 @@
   {
     "source_id": "ncsi_2026_01_xlsx",
     "source_url": "https://api.ncsi.gov.om/uploads/xls/monthly_statistical_bulletin___january_2026_1785742416.xlsx",
-    "attempted_at": "2026-10-12T05:06:08.610240+00:00",
+    "attempted_at": "2026-10-12T05:44:08.334348+00:00",
     "retrieved_at": null,
     "status": "failed",
     "raw_path": null,
@@ -57,7 +57,7 @@
   {
     "source_id": "mohup_2021_q1",
     "source_url": "https://cms.mohup.gov.om/uploads/alnshrt_aleqaryt_alrbe_alawl_2021_c19fd48bb9.pdf",
-    "attempted_at": "2026-10-12T05:06:08.628427+00:00",
+    "attempted_at": "2026-10-12T05:44:08.337671+00:00",
     "retrieved_at": null,
     "status": "failed",
     "raw_path": null,
@@ -68,7 +68,7 @@
   {
     "source_id": "mohup_2022_q1",
     "source_url": "https://cms.mohup.gov.om/uploads/alnshrt_aleqaryt_alrbe_alawl_2022m_2380e04113.pdf",
-    "attempted_at": "2026-10-12T05:06:08.650789+00:00",
+    "attempted_at": "2026-10-12T05:44:08.340945+00:00",
     "retrieved_at": null,
     "status": "failed",
     "raw_path": null,
@@ -79,7 +79,7 @@
   {
     "source_id": "mohup_annual_2021",
     "source_url": "https://cms.mohup.gov.om/uploads/altqryr_alihsayy_alsnwy_2021_d58feaee08.pdf",
-    "attempted_at": "2026-10-12T05:06:08.674772+00:00",
+    "attempted_at": "2026-10-12T05:44:08.344095+00:00",
     "retrieved_at": null,
     "status": "failed",
     "raw_path": null,

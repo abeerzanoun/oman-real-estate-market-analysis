@@ -1,0 +1,14 @@
+{
+  "environment_id": "ccarenv_b64_Y2NhcmVudl9iMDYwNmMzNTFjYWM4MTkxOGU3ZjRmOTU3M2JlOGE4Mg",
+  "source_config_id": "53f86d59-6a80-450d-9961-0fbad867c6c5~cecfg_6acb62eb7c9c8197904c72a6d565c802",
+  "source_config_version_id": "53f86d59-6a80-450d-9961-0fbad867c6c5~cecfgver_6acb63db321c81979e5df35a12cc128f",
+  "spec_revision": "26",
+  "observed_spec_revision": "26",
+  "observations_current": true,
+  "network_policy": {
+    "mode": "restricted",
+    "state": "enforced",
+    "allowed_hosts": []
+  },
+  "checked_date": "2026-10-12"
+}
