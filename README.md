@@ -90,4 +90,9 @@ A verified source inventory and dictionary; reproducible Python preparation and 
 
 ## Current project status
 
-**Infrastructure setup.** Repository organization, dependency specifications, environment validation, tests and preliminary documentation are prepared. No data collection, exploratory analysis, figures, dashboard or market findings have been produced. See [setup validation](docs/setup_validation.md) for executed checks and remaining requirements. Main-branch integration is subject to review; this setup does not merge changes automatically.
+**Phase 2 discovery and pipeline implemented; original acquisition blocked.** Official NCSI tables have been inspected online, with a 2020–2026 discovery matrix and audited retrieval attempts. Eight original-file downloads received proxy CONNECT 403; no raw originals or processed datasets are available. Full historical coverage and actual PDF extraction remain pending. No exploratory analysis, figures, dashboard or market findings have been produced. See [setup validation](docs/setup_validation.md) for executed checks and remaining requirements. Main-branch integration is subject to review; this setup does not merge changes automatically.
+
+
+## Phase 2 data discovery and collection
+
+See the [verified coverage matrix](docs/data_availability.md), [source catalogue](docs/source_catalog.json), [acquisition attempts](docs/acquisition_manifest.json) and [pipeline instructions/completion status](docs/collection_pipeline.md). Run `python -m src.collect_data` after enabling the official hosts listed in the source register. Run `python -m src.process_data` only after downloads succeed; Poppler is required and source reconciliation remains necessary. A failed download does not create a checksum or observation. Exact publication dates remain unverified where null in the catalogue.
