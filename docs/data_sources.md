@@ -45,3 +45,8 @@ After access is enabled, originals retain their decoded source filename in `data
 3. Retrieve the yearbook to verify annual 2020–2025 coverage, then historical bulletins for missing monthly/quarterly slices. Legacy Elibrary paths returned 404 through web retrieval and need current official replacements.
 4. Inspect MOHUP regional bulletins and each national-portal resource; distinguish brokerage subsets and land transactions from the entire market.
 5. Confirm exact publication dates, resource terms, revisions and price-index comparability. Preserve missing values; never turn a discovery gap into a zero or fabricate a complete year.
+
+
+## Manual-upload route
+
+[DATA_UPLOAD_GUIDE.md](../DATA_UPLOAD_GUIDE.md) describes genuine governorate-level aggregate transaction and price-index XLSX/CSV requirements and known official entry points. It does not assert newly verified Excel downloads or complete historical coverage. No blocked URLs were retried during manual-workflow setup. Uploaded original bytes and reviewer-attested source/licence metadata must pass the [manual admission contract](manual_ingestion.md); hashes alone do not authenticate publisher origin.

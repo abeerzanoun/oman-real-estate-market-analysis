@@ -34,3 +34,15 @@ work/
 # Power BI temporary files
 *.pbix.autosave
 *.tmp
+
+# Reviewed manual official uploads and their provenance notes are trackable
+!/data/raw/manual/
+/data/raw/manual/**
+!/data/raw/manual/**/
+!/data/raw/manual/.gitkeep
+!/data/raw/manual/**/*.xlsx
+!/data/raw/manual/**/*.XLSX
+!/data/raw/manual/**/*.csv
+!/data/raw/manual/**/*.CSV
+!/data/raw/manual/**/*.metadata.json
+!/data/raw/manual/**/*.source.md

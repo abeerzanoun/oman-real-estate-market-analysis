@@ -20,3 +20,13 @@ jobs:
       - run: python -m src.validate_environment
       - run: python -m pip check
       - run: python -m pytest
+      - name: Validate manual uploads without network access
+        run: |
+          python - <<'PY'
+          import json
+          from src.manual_ingestion import ROOT, run
+          report, code = run(ROOT / 'data/raw/manual', ROOT / 'data/processed/manual', ROOT / 'docs/manual_ingestion_status.json')
+          print(json.dumps({key: report[key] for key in ('state', 'unique_observations', 'ready_for_python_powerbi', 'errors')}, indent=2))
+          # Empty/partial coverage is reported honestly; validation errors fail CI.
+          raise SystemExit(1 if code == 1 else 0)
+          PY

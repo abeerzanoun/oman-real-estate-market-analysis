@@ -1,0 +1,5 @@
+# Preserve manually uploaded official originals byte-for-byte across checkouts.
+/data/raw/manual/**/*.xlsx -text
+/data/raw/manual/**/*.XLSX -text
+/data/raw/manual/**/*.csv -text
+/data/raw/manual/**/*.CSV -text
