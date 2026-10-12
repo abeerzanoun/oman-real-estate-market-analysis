@@ -1,33 +1,47 @@
-# Data source strategy and verification register
+# Official data discovery and source register
 
-Reviewed: 2026-10-11. This stage verifies official provider/publication pages only. No datasets have been downloaded, profiled, or accepted for analysis. Search-index evidence is distinguished from validation of files and historical series.
+Reviewed **2026-10-12**. Phase 2 research has inspected actual official NCSI tables online. Original-file acquisition is blocked by this environment's destination policy; no raw originals or analytical CSVs have been created. See [availability matrix](data_availability.md), [machine-readable catalogue](source_catalog.json) and [attempt register](acquisition_manifest.json).
 
-## Verified source pages and publication leads
+## Providers and evidence levels
 
-| Provider | Official link | Evidence observed | Still requires investigation |
-|---|---|---|---|
-| National Centre for Statistics and Information (NCSI) | https://ncsi.gov.om/ | Official publication listing includes Monthly Statistical Bulletin and Real Estate Price Inflation Report. | Archive completeness for 2020–2026, release dates, price index methodology, base year, revision policy and category/geographic detail. |
-| NCSI publications | https://www.ncsi.gov.om/publications | Official publication catalogue. | Locate relevant historical editions; confirm download links and reusable formats. |
-| NCSI Monthly Statistical Bulletin, October 2025 | https://www.ncsi.gov.om/Elibrary/LibraryContentDoc/bar_Monthly_Statistical_Bulletin_October2025_baad7d54-de99-4dd9-915d-4cce0d876d64.pdf | Search index identifies a real-estate activity section and traded-value measure in million OMR, attributed to MOHUP. PDF not downloaded or extracted. | Verify table definitions, transactions covered, monthly versus cumulative periods, values and counts; do not treat total traded value as sales value. |
-| Ministry of Housing and Urban Planning (MOHUP) | https://mohup.gov.om/en/open-data/data/Realestate%20Transaction | Official real estate transaction landing page; Arabic counterpart lists monthly land sale/purchase datasets and download formats. | File schemas, geographic fields, transaction scope, licence, duplicate handling and complete historical coverage. No assumption that land transactions represent all property categories. |
-| MOHUP open data policy/about | https://webapps.housing.gov.om/opendata/en/pages/about.aspx | Official page describes ministry commitment to open data. | Resource-specific reuse terms and availability of historical regional activity releases. |
-| Oman National Open Data Portal | https://opendata.gov.om/en | Official national portal discovered. | Search ministry datasets; verify publisher, versions, regional coverage and definitions. |
-| NCSI Oman Data Portal | https://data.gov.om/OMHSNG2016/housing?lang=en | Official housing topic page with real estate navigation. | Indicator availability, periods, dimensions, exports and metadata. This is a separate portal from the national open data portal above. |
+| Provider / resource | Evidence verified | Outstanding work |
+|---|---|---|
+| [NCSI publications](https://www.ncsi.gov.om/publications) | Official catalogue; footer links the Open Government Licence. | Exact release dates and historical versions must be read from publication records. |
+| NCSI October 2025 and September 2026 PDFs — exact URLs in catalogue | Actual pages 32–33 inspected online: national activity and price-index categories; residential-land index by governorate. | Original download/hash, full-file integrity, Poppler extraction and reconciliation. Publication month on PDF cover is verified; exact publication date remains null. |
+| [NCSI 2026 yearbook](https://api.ncsi.gov.om/uploads/pdfs/statistical_year_book_2026___issue_54_1777963604.pdf) | Official-host response detected by web tool, exceeding its 17 MB limit. | No historical table coverage inferred until inspected. |
+| [NCSI Oman Data Portal housing dataset](https://data.gov.om/OMHSNG2016/housing?lang=en) | Official metadata: annual/monthly; land-use, plots and building permits; date range shown through January 2025. | Item-level indicator coverage, export/API paths, stale release metadata and actual files. These measures are not sales transactions. |
+| [MOHUP real estate transaction page](https://mohup.gov.om/en/open-data/data/Realestate%20Transaction) | Official indexed monthly land-sale releases; indexed Arabic counterpart also provides period metadata. | Live page timed out; downloads, field schema, full coverage and exact licences not confirmed. |
+| MOHUP Q1 2021/Q1 2022 regional bulletins and annual report 2021 | Exact official CMS URLs identified in catalogue; indexed regional tables. | Files not inspected; publication dates, reporting scope and licence remain pending. |
+| [Oman National Open Data Portal](https://opendata.gov.om/en) | Official indexed MOHUP regional brokerage-registration resources for 2025. | Direct web fetch restricted; verify each page's own dataset versus related listings, downloadable URLs, geography, units and licence. |
+| [Oman News Agency](https://omannews.gov.om/topics/en/79/show/107440/dark) | Official contextual ministry/market reporting identified. | News prose is not substituted for a statistical dataset. |
+| [Central Bank of Oman Financial Stability Report 2022](https://cbo.gov.om/sites/assets/Documents/English/Publications/FSR/FinancialStabilityReport2022.pdf) | Official report identified as a price-market context lead. | Charts, methodology and reuse terms not inspected; not incorporated into analysis. |
 
-## Proposed dataset targets — not yet acquired or validated
+Third-party inventories were used only to discover candidate official URLs for an XLSX release and a migrated historical PDF. Their claims, dates and rows are not accepted as government observations. Such URLs remain `secondary_discovery_unverified` until verified on the official host.
 
-- Transaction counts and values: NCSI bulletins and MOHUP monthly releases. Confirm whether sales, mortgages, exchanges, fees, deeds or other registrations are separate series.
-- Property price indicators: NCSI price inflation reports and bulletin index tables. Verify residential/category scope, index versus percentage change, base periods and geographic availability.
-- Regional market activity: MOHUP and national portal resources. Governorate and wilayat detail is a target, not a confirmed common schema.
-- Historical coverage: build an availability matrix by metric, geography and reporting frequency. No reliable full 2020–2026 panel has been established; 2026 must remain partial until a complete official year is published.
+## Verified definitions and units
 
-## Acceptance and acquisition protocol for the next phase
+NCSI national activity tables distinguish total traded property value, sales, mortgages, barter, fees and issued deeds. Monetary measures use **million OMR**; counts are raw counts. Total traded value is not sales value. Issued deeds are not sales-contract counts. Six observation columns mix annual, monthly and year-to-date intervals; the final percent-change column must be excluded from observations.
 
-1. Record exact dataset title, publisher, landing/download URLs, release date, retrieval timestamp, licence and original filename before acquisition.
-2. Record SHA-256 checksum, file format, language, units, frequency, spatial level, period start/end, cumulative status, revisions and index base where applicable.
-3. Preserve immutable originals locally in `data/raw/`; review redistribution rights before committing any source files.
-4. Reconcile official definitions and overlaps across portals; avoid counting republished records twice. Keep sale and mortgage measures separate.
-5. Document missing periods and comparability breaks. Missing values are not zero; never manufacture observations or complete a partial year with invented values.
-6. Approve the actual schema and update the data dictionary before processing. Use matching reporting periods for year-on-year comparisons.
+Both inspected price tables use **base year 2018**, with category indices and governorate indices within residential land. Weights, index points and inflation percentages are different quantities. September 2026 has changed displayed weights; the same 2025 comparison quarter also differs between releases. September 2026 marks 2026 indices provisional. Preserve release vintages and verify revision methodology before combining indices. Transaction tables do not disaggregate property categories or geography.
 
-Prefer machine-readable CSV/XLSX with documented definitions. PDF extraction, if necessary later, requires reconciliation against original tables. Provider authority alone does not establish dataset suitability or completeness.
+## Licences and attribution
+
+NCSI's [Open Government Licence document](https://www.ncsi.gov.om/assets/docs/gov_license.pdf) was read through the web tool. It permits reuse under stated conditions, requires original attribution and disclosure of modifications, excludes certain protected material and prohibits misleading endorsement claims. The NCSI publication site links it as its content licence. Record this as **provider-site licence verified**, rather than inventing a resource-level licence statement.
+
+MOHUP and national-portal resource-specific licences remain unverified. A search-index reference to open data is not enough to assert the terms for every file. Such downloads, if access becomes available, stay local until terms are resolved. No institutional logos are included.
+
+## Acquisition and provenance
+
+`source_catalog.json` records exact discovered URLs, evidence status, publication-period labels, verified reporting slices, units, geography, licence evidence and reviewed extraction profiles. Null publication dates are intentional; filename timestamps and HTTP Last-Modified are not treated as publication dates.
+
+`python -m src.collect_data` attempted eight URLs on 2026-10-12. Every request failed at **proxy CONNECT with 403**, before the source server could be evaluated. The attempt register keeps URLs, UTC attempt times and exact errors; `raw_path`, byte length and checksum remain null. Failed responses are never saved as original datasets. This is a network-policy block, not an automatic approval rejection or proof that the datasets are unavailable.
+
+After access is enabled, originals retain their decoded source filename in `data/raw/<source_id>/`. Downloads check PDF/XLSX signatures, record SHA-256 and response metadata, and refuse to overwrite changed originals. Signature checks do not establish semantic integrity; processing additionally runs Poppler and verifies the recorded checksum.
+
+## Limitations and next retrieval priorities
+
+1. Permit official hosts through the managed environment configuration: `api.ncsi.gov.om`, `www.ncsi.gov.om`, `ncsi.gov.om`, `cms.mohup.gov.om`, `mohup.gov.om`, `www.housing.gov.om`, `webapps.housing.gov.om`, `data.gov.om`, `www.data.gov.om`, `opendata.gov.om` (and observed official redirect hosts if needed). No proxy bypass is used.
+2. Retrieve the two inspected NCSI bulletins and verify layout/values against originals. Process only reviewed profiles; reconcile output before analysis.
+3. Retrieve the yearbook to verify annual 2020–2025 coverage, then historical bulletins for missing monthly/quarterly slices. Legacy Elibrary paths returned 404 through web retrieval and need current official replacements.
+4. Inspect MOHUP regional bulletins and each national-portal resource; distinguish brokerage subsets and land transactions from the entire market.
+5. Confirm exact publication dates, resource terms, revisions and price-index comparability. Preserve missing values; never turn a discovery gap into a zero or fabricate a complete year.

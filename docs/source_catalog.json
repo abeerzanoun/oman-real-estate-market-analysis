@@ -1,0 +1,241 @@
+[
+  {
+    "source_id": "ncsi_2025_10",
+    "publisher": "NCSI",
+    "title": "Monthly Statistical Bulletin: October 2025",
+    "url": "https://api.ncsi.gov.om/uploads/pdfs/publicationpdf1761108337.pdf",
+    "format": "pdf",
+    "verification_status": "content_verified_online",
+    "publication_date": null,
+    "publication_date_status": "not_verified",
+    "licence": "Open Government Licence – Sultanate of Oman",
+    "licence_url": "https://www.ncsi.gov.om/assets/docs/gov_license.pdf",
+    "licence_status": "provider_site_verified",
+    "publication_period": "2025-10",
+    "geographic_coverage": "National transaction activity; governorates for residential land price index",
+    "reporting_periods": [
+      "2024 annual",
+      "2025-07 monthly",
+      "2025-08 monthly",
+      "2025-09 monthly",
+      "2024 Jan–Sep cumulative",
+      "2025 Jan–Sep cumulative",
+      "2024 Q2 index",
+      "2025 Q1 index",
+      "2025 Q2 index"
+    ],
+    "units": [
+      "million OMR",
+      "contract/title count",
+      "index points, base 2018"
+    ],
+    "evidence": "Official PDF pages 32–33 (1-based): tables 28 and 29 inspected through web tool on 2026-10-12.",
+    "profile": {
+      "page": 33,
+      "columns": [
+        {
+          "period_start": "2024-01-01",
+          "period_end": "2024-12-31",
+          "frequency": "annual"
+        },
+        {
+          "period_start": "2025-07-01",
+          "period_end": "2025-07-31",
+          "frequency": "monthly"
+        },
+        {
+          "period_start": "2025-08-01",
+          "period_end": "2025-08-31",
+          "frequency": "monthly"
+        },
+        {
+          "period_start": "2025-09-01",
+          "period_end": "2025-09-30",
+          "frequency": "monthly"
+        },
+        {
+          "period_start": "2024-01-01",
+          "period_end": "2024-09-30",
+          "frequency": "year_to_date"
+        },
+        {
+          "period_start": "2025-01-01",
+          "period_end": "2025-09-30",
+          "frequency": "year_to_date"
+        }
+      ]
+    }
+  },
+  {
+    "source_id": "ncsi_2026_09",
+    "publisher": "NCSI",
+    "title": "Monthly Statistical Bulletin: September 2026",
+    "url": "https://api.ncsi.gov.om/uploads/pdfs/monthly_statistical_bulletin__september_2026_1789899633.pdf",
+    "format": "pdf",
+    "verification_status": "content_verified_online",
+    "publication_date": null,
+    "publication_date_status": "not_verified",
+    "licence": "Open Government Licence – Sultanate of Oman",
+    "licence_url": "https://www.ncsi.gov.om/assets/docs/gov_license.pdf",
+    "licence_status": "provider_site_verified",
+    "publication_period": "2026-09",
+    "geographic_coverage": "National transaction activity; governorates for residential land price index",
+    "reporting_periods": [
+      "2025 annual",
+      "2026-06 monthly",
+      "2026-07 monthly",
+      "2026-08 monthly",
+      "2025 Jan–Aug cumulative",
+      "2026 Jan–Aug cumulative",
+      "2025 Q2 index",
+      "2026 Q1 index",
+      "2026 Q2 index"
+    ],
+    "units": [
+      "million OMR",
+      "contract/title count",
+      "index points, base 2018; Q1/Q2 2026 provisional"
+    ],
+    "evidence": "Official PDF pages 32–33 (1-based): tables 28 and 29 inspected through web tool on 2026-10-12. Table 28 marks 2026 index values provisional; 2025 comparison values/weights differ from the earlier release.",
+    "profile": {
+      "page": 33,
+      "columns": [
+        {
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "frequency": "annual"
+        },
+        {
+          "period_start": "2026-06-01",
+          "period_end": "2026-06-30",
+          "frequency": "monthly"
+        },
+        {
+          "period_start": "2026-07-01",
+          "period_end": "2026-07-31",
+          "frequency": "monthly"
+        },
+        {
+          "period_start": "2026-08-01",
+          "period_end": "2026-08-31",
+          "frequency": "monthly"
+        },
+        {
+          "period_start": "2025-01-01",
+          "period_end": "2025-08-31",
+          "frequency": "year_to_date"
+        },
+        {
+          "period_start": "2026-01-01",
+          "period_end": "2026-08-31",
+          "frequency": "year_to_date"
+        }
+      ]
+    }
+  },
+  {
+    "source_id": "ncsi_yearbook_2026",
+    "publisher": "NCSI",
+    "title": "Statistical Year Book 2026, Issue 54",
+    "url": "https://api.ncsi.gov.om/uploads/pdfs/statistical_year_book_2026___issue_54_1777963604.pdf",
+    "format": "pdf",
+    "verification_status": "resource_detected_not_inspected",
+    "publication_date": null,
+    "publication_date_status": "not_verified",
+    "licence": "Open Government Licence – Sultanate of Oman",
+    "licence_url": "https://www.ncsi.gov.om/assets/docs/gov_license.pdf",
+    "licence_status": "provider_site_verified",
+    "publication_period": "2026",
+    "geographic_coverage": "not verified",
+    "reporting_periods": [],
+    "units": [],
+    "evidence": "Official-host PDF detected by web retrieval; 17,012,041-byte response exceeded web-tool limit. Historical table coverage not verified."
+  },
+  {
+    "source_id": "ncsi_2024_02",
+    "publisher": "NCSI",
+    "title": "Monthly Statistical Bulletin: February 2024",
+    "url": "https://api.ncsi.gov.om/uploads/pdfs/5079/bar_Monthly%20Statistical%20Bulletin_fef39be2-c183-4862-a0d3-21ff3e821734.pdf",
+    "format": "pdf",
+    "verification_status": "secondary_discovery_unverified",
+    "publication_date": null,
+    "publication_date_status": "not_verified",
+    "licence": "Open Government Licence – Sultanate of Oman",
+    "licence_url": "https://www.ncsi.gov.om/assets/docs/gov_license.pdf",
+    "licence_status": "provider_site_verified",
+    "publication_period": "February 2024",
+    "geographic_coverage": "not verified",
+    "reporting_periods": [],
+    "units": [],
+    "evidence": "URL discovered in third-party publication inventory; not accepted as verified. Official-host retrieval required."
+  },
+  {
+    "source_id": "ncsi_2026_01_xlsx",
+    "publisher": "NCSI",
+    "title": "Monthly Statistical Bulletin: January 2026, XLSX",
+    "url": "https://api.ncsi.gov.om/uploads/xls/monthly_statistical_bulletin___january_2026_1785742416.xlsx",
+    "format": "xlsx",
+    "verification_status": "secondary_discovery_unverified",
+    "publication_date": null,
+    "publication_date_status": "not_verified",
+    "licence": "Open Government Licence – Sultanate of Oman",
+    "licence_url": "https://www.ncsi.gov.om/assets/docs/gov_license.pdf",
+    "licence_status": "provider_site_verified",
+    "publication_period": "January 2026",
+    "geographic_coverage": "not verified",
+    "reporting_periods": [],
+    "units": [],
+    "evidence": "URL discovered in third-party publication inventory; not accepted as verified. Official-host retrieval required."
+  },
+  {
+    "source_id": "mohup_2021_q1",
+    "publisher": "MOHUP",
+    "title": "Real Estate Bulletin: Q1 2021",
+    "url": "https://cms.mohup.gov.om/uploads/alnshrt_aleqaryt_alrbe_alawl_2021_c19fd48bb9.pdf",
+    "format": "pdf",
+    "verification_status": "official_search_index_only",
+    "publication_date": null,
+    "publication_date_status": "not_verified",
+    "licence": null,
+    "licence_url": "https://webapps.housing.gov.om/opendata/en/pages/TermsofUse.aspx",
+    "licence_status": "resource_terms_pending",
+    "geographic_coverage": "Regional tables indicated by search index; file not inspected",
+    "reporting_periods": [],
+    "units": [],
+    "evidence": "Official-host indexed PDF; publication and reporting metadata require file inspection."
+  },
+  {
+    "source_id": "mohup_2022_q1",
+    "publisher": "MOHUP",
+    "title": "Real Estate Bulletin: Q1 2022",
+    "url": "https://cms.mohup.gov.om/uploads/alnshrt_aleqaryt_alrbe_alawl_2022m_2380e04113.pdf",
+    "format": "pdf",
+    "verification_status": "official_search_index_only",
+    "publication_date": null,
+    "publication_date_status": "not_verified",
+    "licence": null,
+    "licence_url": "https://webapps.housing.gov.om/opendata/en/pages/TermsofUse.aspx",
+    "licence_status": "resource_terms_pending",
+    "geographic_coverage": "Regional tables indicated by search index; file not inspected",
+    "reporting_periods": [],
+    "units": [],
+    "evidence": "Official-host indexed PDF; publication and reporting metadata require file inspection."
+  },
+  {
+    "source_id": "mohup_annual_2021",
+    "publisher": "MOHUP",
+    "title": "Annual Statistical Report 2021",
+    "url": "https://cms.mohup.gov.om/uploads/altqryr_alihsayy_alsnwy_2021_d58feaee08.pdf",
+    "format": "pdf",
+    "verification_status": "official_search_index_only",
+    "publication_date": null,
+    "publication_date_status": "not_verified",
+    "licence": null,
+    "licence_url": "https://webapps.housing.gov.om/opendata/en/pages/TermsofUse.aspx",
+    "licence_status": "resource_terms_pending",
+    "geographic_coverage": "Regional tables indicated by search index; file not inspected",
+    "reporting_periods": [],
+    "units": [],
+    "evidence": "Official-host indexed PDF; publication and reporting metadata require file inspection."
+  }
+]

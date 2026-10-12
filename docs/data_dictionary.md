@@ -30,3 +30,25 @@ Potential observation grain: one source-defined metric for one reporting period,
 Use UTF-8 and stable snake_case names for future CSV exports; preserve Arabic labels and reviewed English mappings. Use ISO dates, explicit OMR units and documented decimals for Excel/Power BI. Export nulls consistently and avoid mixing missing observations with zero. Power BI relationships require verified date/geography/category keys; no dashboard or model is created in this phase.
 
 Changes to coverage, definitions, units and index bases must be recorded before aggregations or comparisons. An average transaction value is not a property price index and is sensitive to transaction mix.
+
+## Phase 2: verified source semantics and processing contract (2026-10-12)
+
+The preliminary wide fields above remain proposed. Online inspection verified NCSI national tables, but no original has been acquired. The following long-format schema is implemented as a **processing contract**, not yet a published dataset:
+
+| Field | Type | Contract |
+|---|---|---|
+| indicator | string | `sales_value_omr`, `mortgage_value_omr`, `barter_value_omr`, or corresponding `*_contract_count`; six separate metrics |
+| value | decimal text | Exact decimal conversion; source million OMR multiplied by 1,000,000, counts unchanged; no floating-point rounding |
+| unit | string | `OMR` or `count`; nonnegative finite observations, counts integral |
+| period_start / period_end | ISO date | Explicit interval from the reviewed source column; includes annual, monthly and year-to-date intervals |
+| frequency | enum | `annual`, `monthly`, `year_to_date`; cumulative records must not be added to monthly records |
+| geographic_level | string | `national` for these profiles |
+| governorate / wilayat | nullable string | Blank because the transaction tables lack this breakdown; never guessed |
+| property_category | string | `not_disaggregated`, because no category split is available in the activity table |
+| source_id / source_url | string | Exact catalogue identifier and official URL |
+| source_page | integer | 1-based PDF page locator |
+| raw_sha256 | string | SHA-256 of the actual downloaded original; mandatory for processed rows |
+
+The combined observation key is indicator + period_start + period_end + frequency. The processor rejects duplicate observation keys across releases rather than silently choose a revision. No processed rows are currently present.
+
+Verified online but **not implemented in processing**: total traded property value, fees, issued title deeds/GCC title deeds, index categories, index weights and residential-land indices by governorate. Publication dates, exact index revision policy (2026 indices are marked provisional and historical comparison values differ by release), and record-level MOHUP property types/wilayats remain unresolved. Price indices will require a separate fact table including category, geography, base period and weight/revision metadata. Nulls and source blanks remain distinct from zero.
