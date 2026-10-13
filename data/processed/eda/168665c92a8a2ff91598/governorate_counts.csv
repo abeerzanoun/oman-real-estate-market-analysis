@@ -1,0 +1,43 @@
+﻿dataset_id,scope_id,period_id,governorate_id,reported_record_count,cohort_record_count,share_pct,rank_within_dataset_period,governorate_en,governorate_ar
+land_dec_2022,land_buy_sell_2022,2022-12,ad_dakhiliyah,1075,5667,18.969472383977415,1,Ad Dakhiliyah,الداخلية
+land_dec_2022,land_buy_sell_2022,2022-12,adh_dhahirah,208,5667,3.6703723310393506,9,Adh Dhahirah,الظاهرة
+land_dec_2022,land_buy_sell_2022,2022-12,al_buraimi,196,5667,3.458620081171696,10,Al Buraimi,البريمي
+land_dec_2022,land_buy_sell_2022,2022-12,al_wusta,294,5667,5.187930121757543,8,Al Wusta,الوسطى
+land_dec_2022,land_buy_sell_2022,2022-12,dhofar,432,5667,7.623080995235575,6,Dhofar,ظفار
+land_dec_2022,land_buy_sell_2022,2022-12,musandam,23,5667,0.40585847891300514,11,Musandam,مسندم
+land_dec_2022,land_buy_sell_2022,2022-12,muscat,734,5667,12.952179283571555,4,Muscat,مسقط
+land_dec_2022,land_buy_sell_2022,2022-12,north_al_batinah,760,5667,13.410975824951473,3,North Al Batinah,شمال الباطنة
+land_dec_2022,land_buy_sell_2022,2022-12,north_ash_sharqiyah,706,5667,12.458090700547027,5,North Ash Sharqiyah,شمال الشرقية
+land_dec_2022,land_buy_sell_2022,2022-12,south_al_batinah,909,5667,16.040232927474854,2,South Al Batinah,جنوب الباطنة
+land_dec_2022,land_buy_sell_2022,2022-12,south_ash_sharqiyah,330,5667,5.823186871360508,7,South Ash Sharqiyah,جنوب الشرقية
+land_nov_2022,land_buy_sell_2022,2022-11,ad_dakhiliyah,1301,7501,17.34435408612185,1,Ad Dakhiliyah,الداخلية
+land_nov_2022,land_buy_sell_2022,2022-11,adh_dhahirah,309,7501,4.119450739901347,8,Adh Dhahirah,الظاهرة
+land_nov_2022,land_buy_sell_2022,2022-11,al_buraimi,212,7501,2.8262898280229303,9,Al Buraimi,البريمي
+land_nov_2022,land_buy_sell_2022,2022-11,al_wusta,105,7501,1.399813358218904,10,Al Wusta,الوسطى
+land_nov_2022,land_buy_sell_2022,2022-11,dhofar,871,7501,11.611785095320624,6,Dhofar,ظفار
+land_nov_2022,land_buy_sell_2022,2022-11,musandam,34,7501,0.45327289694707373,11,Musandam,مسندم
+land_nov_2022,land_buy_sell_2022,2022-11,muscat,960,7501,12.798293560858552,4,Muscat,مسقط
+land_nov_2022,land_buy_sell_2022,2022-11,north_al_batinah,954,7501,12.718304226103186,5,North Al Batinah,شمال الباطنة
+land_nov_2022,land_buy_sell_2022,2022-11,north_ash_sharqiyah,1300,7501,17.33102253032929,2,North Ash Sharqiyah,شمال الشرقية
+land_nov_2022,land_buy_sell_2022,2022-11,south_al_batinah,1053,7501,14.038128249566725,3,South Al Batinah,جنوب الباطنة
+land_nov_2022,land_buy_sell_2022,2022-11,south_ash_sharqiyah,402,7501,5.359285428609518,7,South Ash Sharqiyah,جنوب الشرقية
+land_oct_2024,land_service_coded_2024,2024-10,ad_dakhiliyah,721,6024,11.968791500664011,4,Ad Dakhiliyah,الداخلية
+land_oct_2024,land_service_coded_2024,2024-10,adh_dhahirah,294,6024,4.8804780876494025,8,Adh Dhahirah,الظاهرة
+land_oct_2024,land_service_coded_2024,2024-10,al_buraimi,183,6024,3.037848605577689,9,Al Buraimi,البريمي
+land_oct_2024,land_service_coded_2024,2024-10,al_wusta,109,6024,1.8094289508632138,10,Al Wusta,الوسطى
+land_oct_2024,land_service_coded_2024,2024-10,dhofar,513,6024,8.51593625498008,5,Dhofar,ظفار
+land_oct_2024,land_service_coded_2024,2024-10,musandam,69,6024,1.1454183266932272,11,Musandam,مسندم
+land_oct_2024,land_service_coded_2024,2024-10,muscat,1099,6024,18.243691899070384,2,Muscat,مسقط
+land_oct_2024,land_service_coded_2024,2024-10,north_al_batinah,1143,6024,18.97410358565737,1,North Al Batinah,شمال الباطنة
+land_oct_2024,land_service_coded_2024,2024-10,north_ash_sharqiyah,379,6024,6.291500664010624,7,North Ash Sharqiyah,شمال الشرقية
+land_oct_2024,land_service_coded_2024,2024-10,south_al_batinah,1083,6024,17.97808764940239,3,South Al Batinah,جنوب الباطنة
+land_oct_2024,land_service_coded_2024,2024-10,south_ash_sharqiyah,431,6024,7.154714475431607,6,South Ash Sharqiyah,جنوب الشرقية
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-01,muscat,857,857,100.0,1,Muscat,مسقط
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-02,muscat,1147,1147,100.0,1,Muscat,مسقط
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-03,muscat,819,819,100.0,1,Muscat,مسقط
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-04,muscat,880,880,100.0,1,Muscat,مسقط
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-05,muscat,1207,1207,100.0,1,Muscat,مسقط
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-06,muscat,816,816,100.0,1,Muscat,مسقط
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-07,muscat,1277,1277,100.0,1,Muscat,مسقط
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-08,muscat,1141,1141,100.0,1,Muscat,مسقط
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-09,muscat,1222,1222,100.0,1,Muscat,مسقط

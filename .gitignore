@@ -49,3 +49,6 @@ work/
 
 # Audited outputs from the four user-uploaded originals, with unresolved licences documented
 !/data/processed/audited/
+
+# Scoped EDA artifacts are traceable derivatives of the pinned audited originals.
+!/data/processed/eda/

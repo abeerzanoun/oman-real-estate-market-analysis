@@ -1,0 +1,5 @@
+﻿dataset_id,scope_id,reported_record_count,first_record_date,last_record_date,observed_months,observed_governorates,observed_wilayat_labels,nonstandard_wilayat_rows
+land_dec_2022,land_buy_sell_2022,5667,2022-12-04,2022-12-29,1,11,61,1
+land_nov_2022,land_buy_sell_2022,7501,2022-11-01,2022-11-29,1,11,62,1
+land_oct_2024,land_service_coded_2024,6024,2024-10-01,2024-10-31,1,11,63,0
+muscat_brokerage_2025,muscat_brokerage_registration_2025,9366,2025-01-02,2025-09-30,9,1,6,0

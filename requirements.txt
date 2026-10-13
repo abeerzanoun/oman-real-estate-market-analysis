@@ -10,3 +10,7 @@ ipykernel==6.29.5
 openpyxl==3.1.5
 xlsxwriter==3.2.2
 pytest==8.3.5
+
+# Presentation-only Arabic shaping and right-to-left display; raw labels stay unchanged.
+arabic-reshaper==3.0.0
+python-bidi==0.6.7

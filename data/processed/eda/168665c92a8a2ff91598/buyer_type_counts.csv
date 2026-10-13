@@ -1,0 +1,7 @@
+﻿dataset_id,scope_id,period_id,buyer_type,reported_record_count,cohort_record_count,share_pct
+land_dec_2022,land_buy_sell_2022,2022-12,Company,35,5667,0.6176107287806599
+land_dec_2022,land_buy_sell_2022,2022-12,Individual,5632,5667,99.38238927121934
+land_nov_2022,land_buy_sell_2022,2022-11,Company,54,7501,0.7199040127982935
+land_nov_2022,land_buy_sell_2022,2022-11,Individual,7447,7501,99.2800959872017
+land_oct_2024,land_service_coded_2024,2024-10,Company,17,6024,0.2822045152722444
+land_oct_2024,land_service_coded_2024,2024-10,Individual,6007,6024,99.71779548472776

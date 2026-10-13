@@ -1,0 +1,404 @@
+﻿dataset_id,period_id,governorate_id,wilayat_key,nonstandard_wilayat_label,property_use_key,property_description_key,reported_record_count,records_in_repeated_groups
+muscat_brokerage_2025,2025-01,muscat,muscat|السيب,False,تجاري,ارض فضاء,2,0
+muscat_brokerage_2025,2025-01,muscat,muscat|السيب,False,تجاري,محل تجاري,9,6
+muscat_brokerage_2025,2025-01,muscat,muscat|السيب,False,زراعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-01,muscat,muscat|السيب,False,سكني,ارض فضاء,144,144
+muscat_brokerage_2025,2025-01,muscat,muscat|السيب,False,سكني,شقه سكنيه,53,52
+muscat_brokerage_2025,2025-01,muscat,muscat|السيب,False,سكني,فيلا,60,58
+muscat_brokerage_2025,2025-01,muscat,muscat|السيب,False,سكني,فيلا وحده,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|السيب,False,سكني,منزل,2,0
+muscat_brokerage_2025,2025-01,muscat,muscat|السيب,False,سكني تجاري,ارض فضاء,12,11
+muscat_brokerage_2025,2025-01,muscat,muscat|السيب,False,صناعي,ارض فضاء,12,11
+muscat_brokerage_2025,2025-01,muscat,muscat|السيب,False,صناعي,منزل,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|العامرات,False,تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|العامرات,False,تجاري,محل تجاري,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|العامرات,False,سكني,ارض فضاء,240,240
+muscat_brokerage_2025,2025-01,muscat,muscat|العامرات,False,سكني,شقه سكنيه,3,0
+muscat_brokerage_2025,2025-01,muscat,muscat|العامرات,False,سكني,فيلا,20,10
+muscat_brokerage_2025,2025-01,muscat,muscat|العامرات,False,سكني تجاري,ارض فضاء,10,0
+muscat_brokerage_2025,2025-01,muscat,muscat|العامرات,False,سكني تجاري,عماره,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|العامرات,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|بوشر,False,تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|بوشر,False,تجاري,شقه سكنيه,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|بوشر,False,تجاري,محل تجاري,12,4
+muscat_brokerage_2025,2025-01,muscat,muscat|بوشر,False,تجاري,مخزن,8,7
+muscat_brokerage_2025,2025-01,muscat,muscat|بوشر,False,زراعي,ارض فضاء,2,2
+muscat_brokerage_2025,2025-01,muscat,muscat|بوشر,False,سكني,ارض فضاء,62,60
+muscat_brokerage_2025,2025-01,muscat,muscat|بوشر,False,سكني,شقه سكنيه,66,62
+muscat_brokerage_2025,2025-01,muscat,muscat|بوشر,False,سكني,فيلا,20,14
+muscat_brokerage_2025,2025-01,muscat,muscat|بوشر,False,سكني تجاري,ارض فضاء,11,6
+muscat_brokerage_2025,2025-01,muscat,muscat|بوشر,False,صناعي,ارض فضاء,5,0
+muscat_brokerage_2025,2025-01,muscat,muscat|قريات,False,تجاري,ارض فضاء,2,0
+muscat_brokerage_2025,2025-01,muscat,muscat|قريات,False,زراعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-01,muscat,muscat|قريات,False,زراعي,مزرعه,2,0
+muscat_brokerage_2025,2025-01,muscat,muscat|قريات,False,سكني,ارض فضاء,46,41
+muscat_brokerage_2025,2025-01,muscat,muscat|قريات,False,سكني,فيلا,3,0
+muscat_brokerage_2025,2025-01,muscat,muscat|قريات,False,سكني,مسكن اجتماعي,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|قريات,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|مسقط,False,زراعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|مسقط,False,سكني,ارض فضاء,17,8
+muscat_brokerage_2025,2025-01,muscat,muscat|مسقط,False,سكني,شقه سكنيه,2,0
+muscat_brokerage_2025,2025-01,muscat,muscat|مسقط,False,سكني,فيلا,5,0
+muscat_brokerage_2025,2025-01,muscat,muscat|مطرح,False,سكني,ارض فضاء,7,4
+muscat_brokerage_2025,2025-01,muscat,muscat|مطرح,False,سكني,شقه سكنيه,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|مطرح,False,سكني,فيلا,1,0
+muscat_brokerage_2025,2025-01,muscat,muscat|مطرح,False,سكني,منزل,2,0
+muscat_brokerage_2025,2025-01,muscat,muscat|مطرح,False,سكني تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,تجاري,محل تجاري,23,18
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,زراعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,سكني,ارض فضاء,169,169
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,سكني,شقه سكنيه,73,72
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,سكني,فيلا,58,53
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,سكني,قائم,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,سكني,محل تجاري,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,سكني,مسكن اجتماعي,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,سكني تجاري,ارض فضاء,17,8
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,سكني تجاري,شقه سكنيه,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,سكني تجاري,طابق طوابق بمبني,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,سكني تجاري,فيلا,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,صناعي,ارض فضاء,18,12
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,صناعي,محل تجاري,29,26
+muscat_brokerage_2025,2025-02,muscat,muscat|السيب,False,صناعي,مخزن,2,2
+muscat_brokerage_2025,2025-02,muscat,muscat|العامرات,False,تجاري,محل تجاري,2,0
+muscat_brokerage_2025,2025-02,muscat,muscat|العامرات,False,سكني,ارض فضاء,324,324
+muscat_brokerage_2025,2025-02,muscat,muscat|العامرات,False,سكني,شقه سكنيه,11,4
+muscat_brokerage_2025,2025-02,muscat,muscat|العامرات,False,سكني,فيلا,21,14
+muscat_brokerage_2025,2025-02,muscat,muscat|العامرات,False,سكني تجاري,ارض فضاء,6,0
+muscat_brokerage_2025,2025-02,muscat,muscat|العامرات,False,صناعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-02,muscat,muscat|بوشر,False,تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|بوشر,False,تجاري,محل تجاري,15,10
+muscat_brokerage_2025,2025-02,muscat,muscat|بوشر,False,تجاري,مخزن,8,0
+muscat_brokerage_2025,2025-02,muscat,muscat|بوشر,False,زراعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-02,muscat,muscat|بوشر,False,سكني,ارض فضاء,81,79
+muscat_brokerage_2025,2025-02,muscat,muscat|بوشر,False,سكني,شقه سكنيه,92,90
+muscat_brokerage_2025,2025-02,muscat,muscat|بوشر,False,سكني,فيلا,27,20
+muscat_brokerage_2025,2025-02,muscat,muscat|بوشر,False,سكني تجاري,ارض فضاء,12,6
+muscat_brokerage_2025,2025-02,muscat,muscat|بوشر,False,صناعي,ارض الادعاء,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|بوشر,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|قريات,False,زراعي,ارض فضاء,6,0
+muscat_brokerage_2025,2025-02,muscat,muscat|قريات,False,زراعي,مزرعه,2,0
+muscat_brokerage_2025,2025-02,muscat,muscat|قريات,False,سكني,ارض فضاء,94,92
+muscat_brokerage_2025,2025-02,muscat,muscat|قريات,False,سكني,فيلا,2,0
+muscat_brokerage_2025,2025-02,muscat,muscat|قريات,False,سكني,مسكن اجتماعي,3,0
+muscat_brokerage_2025,2025-02,muscat,muscat|قريات,False,سكني تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|مسقط,False,زراعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-02,muscat,muscat|مسقط,False,سكني,ارض فضاء,10,2
+muscat_brokerage_2025,2025-02,muscat,muscat|مسقط,False,سكني,شقه سكنيه,3,0
+muscat_brokerage_2025,2025-02,muscat,muscat|مسقط,False,سكني,فيلا,5,3
+muscat_brokerage_2025,2025-02,muscat,muscat|مطرح,False,سكني,ارض فضاء,9,0
+muscat_brokerage_2025,2025-02,muscat,muscat|مطرح,False,سكني,فيلا,1,0
+muscat_brokerage_2025,2025-02,muscat,muscat|مطرح,False,سكني تجاري,ارض فضاء,3,0
+muscat_brokerage_2025,2025-02,muscat,muscat|مطرح,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,تجاري,ارض فضاء,7,3
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,تجاري,محل تجاري,10,6
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,زراعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,سكني,ارض فضاء,165,165
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,سكني,شقه سكنيه,48,41
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,سكني,فيلا,37,33
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,سكني,منزل,2,2
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,سكني تجاري,ارض فضاء,21,14
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,سكني تجاري,فيلا,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,سياحي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,صناعي,محل تجاري,8,6
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,صناعي,مخزن,2,2
+muscat_brokerage_2025,2025-03,muscat,muscat|السيب,False,مسكن اجتماعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|العامرات,False,تجاري,محل تجاري,7,6
+muscat_brokerage_2025,2025-03,muscat,muscat|العامرات,False,تجاري,مخزن,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|العامرات,False,زراعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|العامرات,False,زراعي,مزرعه,2,0
+muscat_brokerage_2025,2025-03,muscat,muscat|العامرات,False,سكني,ارض فضاء,221,221
+muscat_brokerage_2025,2025-03,muscat,muscat|العامرات,False,سكني,شقه سكنيه,5,2
+muscat_brokerage_2025,2025-03,muscat,muscat|العامرات,False,سكني,فيلا,22,17
+muscat_brokerage_2025,2025-03,muscat,muscat|العامرات,False,سكني تجاري,ارض فضاء,4,2
+muscat_brokerage_2025,2025-03,muscat,muscat|العامرات,False,صناعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-03,muscat,muscat|بوشر,False,تجاري,محل تجاري,10,6
+muscat_brokerage_2025,2025-03,muscat,muscat|بوشر,False,تجاري,مخزن,5,4
+muscat_brokerage_2025,2025-03,muscat,muscat|بوشر,False,سكني,ارض فضاء,65,63
+muscat_brokerage_2025,2025-03,muscat,muscat|بوشر,False,سكني,شقه سكنيه,44,39
+muscat_brokerage_2025,2025-03,muscat,muscat|بوشر,False,سكني,فيلا,24,11
+muscat_brokerage_2025,2025-03,muscat,muscat|بوشر,False,سكني,منزل,3,0
+muscat_brokerage_2025,2025-03,muscat,muscat|بوشر,False,سكني تجاري,ارض فضاء,10,4
+muscat_brokerage_2025,2025-03,muscat,muscat|بوشر,False,صناعي,ارض فضاء,3,0
+muscat_brokerage_2025,2025-03,muscat,muscat|قريات,False,تجاري,ارض فضاء,2,0
+muscat_brokerage_2025,2025-03,muscat,muscat|قريات,False,تجاري,محل تجاري,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|قريات,False,زراعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-03,muscat,muscat|قريات,False,زراعي,مزرعه,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|قريات,False,سكني,ارض فضاء,37,33
+muscat_brokerage_2025,2025-03,muscat,muscat|قريات,False,سكني,مسكن اجتماعي,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|قريات,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|قريات,False,سكني تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|قريات,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|مسقط,False,سكني,ارض فضاء,14,4
+muscat_brokerage_2025,2025-03,muscat,muscat|مسقط,False,سكني,شقه سكنيه,3,0
+muscat_brokerage_2025,2025-03,muscat,muscat|مسقط,False,سكني,فيلا,4,0
+muscat_brokerage_2025,2025-03,muscat,muscat|مطرح,False,سكني,ارض فضاء,10,3
+muscat_brokerage_2025,2025-03,muscat,muscat|مطرح,False,سكني,شقه سكنيه,2,0
+muscat_brokerage_2025,2025-03,muscat,muscat|مطرح,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-03,muscat,muscat|مطرح,False,سكني تجاري,ارض فضاء,4,2
+muscat_brokerage_2025,2025-03,muscat,muscat|مطرح,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-04,muscat,muscat|السيب,False,تجاري,ارض فضاء,2,0
+muscat_brokerage_2025,2025-04,muscat,muscat|السيب,False,تجاري,محل تجاري,6,4
+muscat_brokerage_2025,2025-04,muscat,muscat|السيب,False,زراعي,مزرعه,1,0
+muscat_brokerage_2025,2025-04,muscat,muscat|السيب,False,سكني,ارض فضاء,165,165
+muscat_brokerage_2025,2025-04,muscat,muscat|السيب,False,سكني,شقه سكنيه,43,38
+muscat_brokerage_2025,2025-04,muscat,muscat|السيب,False,سكني,فيلا,38,33
+muscat_brokerage_2025,2025-04,muscat,muscat|السيب,False,سكني,منزل,3,0
+muscat_brokerage_2025,2025-04,muscat,muscat|السيب,False,سكني تجاري,ارض فضاء,19,14
+muscat_brokerage_2025,2025-04,muscat,muscat|السيب,False,صناعي,ارض فضاء,4,0
+muscat_brokerage_2025,2025-04,muscat,muscat|العامرات,False,زراعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-04,muscat,muscat|العامرات,False,زراعي,مزرعه,2,0
+muscat_brokerage_2025,2025-04,muscat,muscat|العامرات,False,سكني,ارض فضاء,293,293
+muscat_brokerage_2025,2025-04,muscat,muscat|العامرات,False,سكني,شقه سكنيه,8,4
+muscat_brokerage_2025,2025-04,muscat,muscat|العامرات,False,سكني,فيلا,19,9
+muscat_brokerage_2025,2025-04,muscat,muscat|العامرات,False,سكني تجاري,ارض فضاء,16,9
+muscat_brokerage_2025,2025-04,muscat,muscat|العامرات,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-04,muscat,muscat|بوشر,False,تجاري,شقه سكنيه,1,0
+muscat_brokerage_2025,2025-04,muscat,muscat|بوشر,False,تجاري,محل تجاري,10,9
+muscat_brokerage_2025,2025-04,muscat,muscat|بوشر,False,تجاري,مخزن,5,2
+muscat_brokerage_2025,2025-04,muscat,muscat|بوشر,False,زراعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-04,muscat,muscat|بوشر,False,سكني,ارض فضاء,68,66
+muscat_brokerage_2025,2025-04,muscat,muscat|بوشر,False,سكني,شقه سكنيه,55,54
+muscat_brokerage_2025,2025-04,muscat,muscat|بوشر,False,سكني,فيلا,17,10
+muscat_brokerage_2025,2025-04,muscat,muscat|بوشر,False,سكني,منزل,2,0
+muscat_brokerage_2025,2025-04,muscat,muscat|بوشر,False,سكني تجاري,ارض فضاء,11,5
+muscat_brokerage_2025,2025-04,muscat,muscat|بوشر,False,صناعي,ارض فضاء,3,0
+muscat_brokerage_2025,2025-04,muscat,muscat|قريات,False,زراعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-04,muscat,muscat|قريات,False,سكني,ارض فضاء,41,34
+muscat_brokerage_2025,2025-04,muscat,muscat|قريات,False,سكني,فيلا,3,0
+muscat_brokerage_2025,2025-04,muscat,muscat|قريات,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-04,muscat,muscat|مسقط,False,زراعي,ارض فضاء,2,2
+muscat_brokerage_2025,2025-04,muscat,muscat|مسقط,False,سكني,ارض فضاء,6,2
+muscat_brokerage_2025,2025-04,muscat,muscat|مسقط,False,سكني,شقه سكنيه,3,2
+muscat_brokerage_2025,2025-04,muscat,muscat|مسقط,False,سكني,فيلا,9,4
+muscat_brokerage_2025,2025-04,muscat,muscat|مطرح,False,سكني,ارض فضاء,10,4
+muscat_brokerage_2025,2025-04,muscat,muscat|مطرح,False,سكني,شقه سكنيه,4,3
+muscat_brokerage_2025,2025-04,muscat,muscat|مطرح,False,سكني,فيلا,1,0
+muscat_brokerage_2025,2025-04,muscat,muscat|مطرح,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-04,muscat,muscat|مطرح,False,سكني تجاري,ارض فضاء,3,2
+muscat_brokerage_2025,2025-05,muscat,muscat|السيب,False,تجاري,ارض فضاء,9,3
+muscat_brokerage_2025,2025-05,muscat,muscat|السيب,False,تجاري,محل تجاري,10,6
+muscat_brokerage_2025,2025-05,muscat,muscat|السيب,False,زراعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-05,muscat,muscat|السيب,False,زراعي,مزرعه,2,0
+muscat_brokerage_2025,2025-05,muscat,muscat|السيب,False,سكني,ارض فضاء,231,231
+muscat_brokerage_2025,2025-05,muscat,muscat|السيب,False,سكني,شقه سكنيه,70,68
+muscat_brokerage_2025,2025-05,muscat,muscat|السيب,False,سكني,فيلا,42,36
+muscat_brokerage_2025,2025-05,muscat,muscat|السيب,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-05,muscat,muscat|السيب,False,سكني تجاري,ارض فضاء,37,31
+muscat_brokerage_2025,2025-05,muscat,muscat|السيب,False,صناعي,ارض فضاء,10,6
+muscat_brokerage_2025,2025-05,muscat,muscat|السيب,False,صناعي,محل تجاري,2,0
+muscat_brokerage_2025,2025-05,muscat,muscat|السيب,False,مسكن اجتماعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-05,muscat,muscat|العامرات,False,تجاري,محل تجاري,3,2
+muscat_brokerage_2025,2025-05,muscat,muscat|العامرات,False,زراعي,مزرعه,1,0
+muscat_brokerage_2025,2025-05,muscat,muscat|العامرات,False,سكني,ارض فضاء,332,332
+muscat_brokerage_2025,2025-05,muscat,muscat|العامرات,False,سكني,شقه سكنيه,14,5
+muscat_brokerage_2025,2025-05,muscat,muscat|العامرات,False,سكني,فيلا,27,24
+muscat_brokerage_2025,2025-05,muscat,muscat|العامرات,False,سكني تجاري,ارض فضاء,11,5
+muscat_brokerage_2025,2025-05,muscat,muscat|بوشر,False,تجاري,ارض فضاء,10,10
+muscat_brokerage_2025,2025-05,muscat,muscat|بوشر,False,تجاري,شقه سكنيه,10,10
+muscat_brokerage_2025,2025-05,muscat,muscat|بوشر,False,تجاري,محل تجاري,20,13
+muscat_brokerage_2025,2025-05,muscat,muscat|بوشر,False,تجاري,مخزن,9,5
+muscat_brokerage_2025,2025-05,muscat,muscat|بوشر,False,زراعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-05,muscat,muscat|بوشر,False,زراعي,مزرعه,1,0
+muscat_brokerage_2025,2025-05,muscat,muscat|بوشر,False,سكني,ارض فضاء,117,116
+muscat_brokerage_2025,2025-05,muscat,muscat|بوشر,False,سكني,شقه سكنيه,66,63
+muscat_brokerage_2025,2025-05,muscat,muscat|بوشر,False,سكني,فيلا,22,11
+muscat_brokerage_2025,2025-05,muscat,muscat|بوشر,False,سكني تجاري,ارض فضاء,9,2
+muscat_brokerage_2025,2025-05,muscat,muscat|بوشر,False,صناعي,ارض فضاء,5,4
+muscat_brokerage_2025,2025-05,muscat,muscat|قريات,False,تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-05,muscat,muscat|قريات,False,زراعي,ارض فضاء,4,0
+muscat_brokerage_2025,2025-05,muscat,muscat|قريات,False,زراعي,مزرعه,3,0
+muscat_brokerage_2025,2025-05,muscat,muscat|قريات,False,سكني,ارض فضاء,57,53
+muscat_brokerage_2025,2025-05,muscat,muscat|قريات,False,سكني,فيلا,2,0
+muscat_brokerage_2025,2025-05,muscat,muscat|قريات,False,سكني,مزرعه,3,0
+muscat_brokerage_2025,2025-05,muscat,muscat|قريات,False,سكني,مسكن اجتماعي,2,0
+muscat_brokerage_2025,2025-05,muscat,muscat|قريات,False,صناعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-05,muscat,muscat|مسقط,False,سكني,ارض فضاء,17,9
+muscat_brokerage_2025,2025-05,muscat,muscat|مسقط,False,سكني,شقه سكنيه,5,0
+muscat_brokerage_2025,2025-05,muscat,muscat|مسقط,False,سكني,فيلا,12,4
+muscat_brokerage_2025,2025-05,muscat,muscat|مسقط,False,سكني,مزرعه,1,0
+muscat_brokerage_2025,2025-05,muscat,muscat|مسقط,False,سكني تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-05,muscat,muscat|مطرح,False,سكني,ارض فضاء,14,5
+muscat_brokerage_2025,2025-05,muscat,muscat|مطرح,False,سكني,شقه سكنيه,1,0
+muscat_brokerage_2025,2025-05,muscat,muscat|مطرح,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-05,muscat,muscat|مطرح,False,سكني تجاري,ارض فضاء,4,2
+muscat_brokerage_2025,2025-05,muscat,muscat|مطرح,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|السيب,False,تجاري,ارض فضاء,11,10
+muscat_brokerage_2025,2025-06,muscat,muscat|السيب,False,تجاري,محل تجاري,4,0
+muscat_brokerage_2025,2025-06,muscat,muscat|السيب,False,زراعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|السيب,False,زراعي,مزرعه,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|السيب,False,سكني,ارض فضاء,161,161
+muscat_brokerage_2025,2025-06,muscat,muscat|السيب,False,سكني,شقه سكنيه,43,40
+muscat_brokerage_2025,2025-06,muscat,muscat|السيب,False,سكني,فيلا,39,35
+muscat_brokerage_2025,2025-06,muscat,muscat|السيب,False,سكني تجاري,ارض فضاء,16,9
+muscat_brokerage_2025,2025-06,muscat,muscat|العامرات,False,سكني,ارض فضاء,225,225
+muscat_brokerage_2025,2025-06,muscat,muscat|العامرات,False,سكني,شقه سكنيه,15,12
+muscat_brokerage_2025,2025-06,muscat,muscat|العامرات,False,سكني,فيلا,16,9
+muscat_brokerage_2025,2025-06,muscat,muscat|العامرات,False,سكني تجاري,ارض فضاء,6,2
+muscat_brokerage_2025,2025-06,muscat,muscat|بوشر,False,تجاري,ارض فضاء,7,5
+muscat_brokerage_2025,2025-06,muscat,muscat|بوشر,False,تجاري,محل تجاري,9,4
+muscat_brokerage_2025,2025-06,muscat,muscat|بوشر,False,تجاري,مخزن,4,0
+muscat_brokerage_2025,2025-06,muscat,muscat|بوشر,False,سكني,ارض فضاء,79,77
+muscat_brokerage_2025,2025-06,muscat,muscat|بوشر,False,سكني,شقه سكنيه,53,47
+muscat_brokerage_2025,2025-06,muscat,muscat|بوشر,False,سكني,فيلا,16,10
+muscat_brokerage_2025,2025-06,muscat,muscat|بوشر,False,سكني,محل تجاري,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|بوشر,False,سكني,مسكن اجتماعي,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|بوشر,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|بوشر,False,سكني تجاري,ارض فضاء,14,7
+muscat_brokerage_2025,2025-06,muscat,muscat|بوشر,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|قريات,False,زراعي,ارض فضاء,4,2
+muscat_brokerage_2025,2025-06,muscat,muscat|قريات,False,زراعي,مزرعه,4,4
+muscat_brokerage_2025,2025-06,muscat,muscat|قريات,False,زراعي,منزل,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|قريات,False,سكني,ارض فضاء,47,44
+muscat_brokerage_2025,2025-06,muscat,muscat|قريات,False,سكني,فيلا,3,0
+muscat_brokerage_2025,2025-06,muscat,muscat|قريات,False,سكني,مسكن اجتماعي,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|قريات,False,سكني تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|مسقط,False,تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|مسقط,False,زراعي,مزرعه,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|مسقط,False,سكني,ارض فضاء,6,0
+muscat_brokerage_2025,2025-06,muscat,muscat|مسقط,False,سكني,شقه سكنيه,3,0
+muscat_brokerage_2025,2025-06,muscat,muscat|مسقط,False,سكني,فيلا,5,2
+muscat_brokerage_2025,2025-06,muscat,muscat|مطرح,False,سكني,ارض فضاء,10,4
+muscat_brokerage_2025,2025-06,muscat,muscat|مطرح,False,سكني,شقه سكنيه,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|مطرح,False,سكني,قائم,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|مطرح,False,سكني تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|مطرح,False,سكني تجاري,منزل,1,0
+muscat_brokerage_2025,2025-06,muscat,muscat|مطرح,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|السيب,False,تجاري,ارض فضاء,14,10
+muscat_brokerage_2025,2025-07,muscat,muscat|السيب,False,تجاري,محل تجاري,14,12
+muscat_brokerage_2025,2025-07,muscat,muscat|السيب,False,زراعي,ارض فضاء,3,0
+muscat_brokerage_2025,2025-07,muscat,muscat|السيب,False,زراعي,منزل,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|السيب,False,سكني,ارض فضاء,278,278
+muscat_brokerage_2025,2025-07,muscat,muscat|السيب,False,سكني,شقه سكنيه,70,66
+muscat_brokerage_2025,2025-07,muscat,muscat|السيب,False,سكني,فيلا,54,48
+muscat_brokerage_2025,2025-07,muscat,muscat|السيب,False,سكني,قائم,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|السيب,False,سكني,منزل,4,0
+muscat_brokerage_2025,2025-07,muscat,muscat|السيب,False,سكني تجاري,ارض فضاء,30,22
+muscat_brokerage_2025,2025-07,muscat,muscat|السيب,False,صناعي,ارض فضاء,4,4
+muscat_brokerage_2025,2025-07,muscat,muscat|العامرات,False,تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|العامرات,False,تجاري,محل تجاري,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|العامرات,False,زراعي,مزرعه,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|العامرات,False,سكني,ارض فضاء,361,361
+muscat_brokerage_2025,2025-07,muscat,muscat|العامرات,False,سكني,شقه سكنيه,9,0
+muscat_brokerage_2025,2025-07,muscat,muscat|العامرات,False,سكني,فيلا,15,2
+muscat_brokerage_2025,2025-07,muscat,muscat|العامرات,False,سكني,منزل,2,0
+muscat_brokerage_2025,2025-07,muscat,muscat|العامرات,False,سكني تجاري,ارض فضاء,13,6
+muscat_brokerage_2025,2025-07,muscat,muscat|العامرات,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|بوشر,False,تجاري,ارض فضاء,6,0
+muscat_brokerage_2025,2025-07,muscat,muscat|بوشر,False,تجاري,شقه سكنيه,2,0
+muscat_brokerage_2025,2025-07,muscat,muscat|بوشر,False,تجاري,محل تجاري,18,10
+muscat_brokerage_2025,2025-07,muscat,muscat|بوشر,False,تجاري,مخزن,2,0
+muscat_brokerage_2025,2025-07,muscat,muscat|بوشر,False,زراعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|بوشر,False,سكني,ارض فضاء,141,139
+muscat_brokerage_2025,2025-07,muscat,muscat|بوشر,False,سكني,شقه سكنيه,61,58
+muscat_brokerage_2025,2025-07,muscat,muscat|بوشر,False,سكني,عماره,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|بوشر,False,سكني,فيلا,18,12
+muscat_brokerage_2025,2025-07,muscat,muscat|بوشر,False,سكني تجاري,ارض فضاء,16,7
+muscat_brokerage_2025,2025-07,muscat,muscat|بوشر,False,سياحي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|بوشر,False,صناعي,ارض فضاء,6,2
+muscat_brokerage_2025,2025-07,muscat,muscat|قريات,False,تجاري,ارض فضاء,4,3
+muscat_brokerage_2025,2025-07,muscat,muscat|قريات,False,زراعي,ارض فضاء,3,0
+muscat_brokerage_2025,2025-07,muscat,muscat|قريات,False,زراعي,مزرعه,2,0
+muscat_brokerage_2025,2025-07,muscat,muscat|قريات,False,سكني,ارض فضاء,64,59
+muscat_brokerage_2025,2025-07,muscat,muscat|قريات,False,سكني,فيلا,2,0
+muscat_brokerage_2025,2025-07,muscat,muscat|قريات,False,سكني,مسكن اجتماعي,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|قريات,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|قريات,False,سكني تجاري,ارض فضاء,3,2
+muscat_brokerage_2025,2025-07,muscat,muscat|قريات,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|مسقط,False,سكني,ارض فضاء,11,6
+muscat_brokerage_2025,2025-07,muscat,muscat|مسقط,False,سكني,شقه سكنيه,5,2
+muscat_brokerage_2025,2025-07,muscat,muscat|مسقط,False,سكني,فيلا,2,2
+muscat_brokerage_2025,2025-07,muscat,muscat|مسقط,False,سكني,فيلا وحده,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|مطرح,False,سكني,ارض فضاء,17,8
+muscat_brokerage_2025,2025-07,muscat,muscat|مطرح,False,سكني,شقه سكنيه,2,0
+muscat_brokerage_2025,2025-07,muscat,muscat|مطرح,False,سكني,منزل,3,0
+muscat_brokerage_2025,2025-07,muscat,muscat|مطرح,False,سكني تجاري,ارض فضاء,3,0
+muscat_brokerage_2025,2025-07,muscat,muscat|مطرح,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-07,muscat,muscat|مطرح,False,صناعي تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-08,muscat,muscat|السيب,False,تجاري,ارض فضاء,21,19
+muscat_brokerage_2025,2025-08,muscat,muscat|السيب,False,تجاري,محل تجاري,5,4
+muscat_brokerage_2025,2025-08,muscat,muscat|السيب,False,زراعي,ارض فضاء,3,0
+muscat_brokerage_2025,2025-08,muscat,muscat|السيب,False,زراعي,مزرعه,1,0
+muscat_brokerage_2025,2025-08,muscat,muscat|السيب,False,سكني,ارض فضاء,238,237
+muscat_brokerage_2025,2025-08,muscat,muscat|السيب,False,سكني,شقه سكنيه,60,57
+muscat_brokerage_2025,2025-08,muscat,muscat|السيب,False,سكني,فيلا,55,48
+muscat_brokerage_2025,2025-08,muscat,muscat|السيب,False,سكني,منزل,4,0
+muscat_brokerage_2025,2025-08,muscat,muscat|السيب,False,سكني تجاري,ارض فضاء,33,29
+muscat_brokerage_2025,2025-08,muscat,muscat|السيب,False,سكني تجاري,عماره,1,0
+muscat_brokerage_2025,2025-08,muscat,muscat|السيب,False,صناعي,ارض فضاء,5,0
+muscat_brokerage_2025,2025-08,muscat,muscat|السيب,False,صناعي,محل تجاري,1,0
+muscat_brokerage_2025,2025-08,muscat,muscat|العامرات,False,تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-08,muscat,muscat|العامرات,False,تجاري,محل تجاري,3,0
+muscat_brokerage_2025,2025-08,muscat,muscat|العامرات,False,زراعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-08,muscat,muscat|العامرات,False,سكني,ارض فضاء,318,318
+muscat_brokerage_2025,2025-08,muscat,muscat|العامرات,False,سكني,شقه سكنيه,14,4
+muscat_brokerage_2025,2025-08,muscat,muscat|العامرات,False,سكني,فيلا,10,4
+muscat_brokerage_2025,2025-08,muscat,muscat|العامرات,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-08,muscat,muscat|العامرات,False,سكني تجاري,ارض فضاء,13,7
+muscat_brokerage_2025,2025-08,muscat,muscat|بوشر,False,تجاري,ارض فضاء,7,4
+muscat_brokerage_2025,2025-08,muscat,muscat|بوشر,False,تجاري,شقه سكنيه,4,0
+muscat_brokerage_2025,2025-08,muscat,muscat|بوشر,False,تجاري,محل تجاري,18,10
+muscat_brokerage_2025,2025-08,muscat,muscat|بوشر,False,تجاري,مخزن,1,0
+muscat_brokerage_2025,2025-08,muscat,muscat|بوشر,False,زراعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-08,muscat,muscat|بوشر,False,سكني,ارض فضاء,111,110
+muscat_brokerage_2025,2025-08,muscat,muscat|بوشر,False,سكني,شقه سكنيه,68,63
+muscat_brokerage_2025,2025-08,muscat,muscat|بوشر,False,سكني,فيلا,11,6
+muscat_brokerage_2025,2025-08,muscat,muscat|بوشر,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-08,muscat,muscat|بوشر,False,سكني تجاري,ارض فضاء,19,14
+muscat_brokerage_2025,2025-08,muscat,muscat|بوشر,False,صناعي,ارض فضاء,5,3
+muscat_brokerage_2025,2025-08,muscat,muscat|قريات,False,زراعي,ارض فضاء,5,0
+muscat_brokerage_2025,2025-08,muscat,muscat|قريات,False,زراعي,مزرعه,2,0
+muscat_brokerage_2025,2025-08,muscat,muscat|قريات,False,سكني,ارض فضاء,64,62
+muscat_brokerage_2025,2025-08,muscat,muscat|قريات,False,سكني,فيلا,4,2
+muscat_brokerage_2025,2025-08,muscat,muscat|مسقط,False,سكني,ارض فضاء,7,2
+muscat_brokerage_2025,2025-08,muscat,muscat|مسقط,False,سكني,شقه سكنيه,4,2
+muscat_brokerage_2025,2025-08,muscat,muscat|مسقط,False,سكني,فيلا,4,0
+muscat_brokerage_2025,2025-08,muscat,muscat|مطرح,False,سكني,ارض فضاء,12,5
+muscat_brokerage_2025,2025-08,muscat,muscat|مطرح,False,سكني,فيلا,2,0
+muscat_brokerage_2025,2025-08,muscat,muscat|مطرح,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-08,muscat,muscat|مطرح,False,سكني تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-08,muscat,muscat|مطرح,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,تجاري,ارض فضاء,15,8
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,تجاري,محل تجاري,9,4
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,زراعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,زراعي,مزرعه,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,سكني,ارض فضاء,244,244
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,سكني,شقه سكنيه,67,63
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,سكني,فيلا,34,24
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,سكني,مزرعه,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,سكني تجاري,ارض فضاء,29,26
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,سكني تجاري,طابق طوابق بمبني,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,سكني تجاري,محل تجاري,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,صناعي,ارض فضاء,5,2
+muscat_brokerage_2025,2025-09,muscat,muscat|السيب,False,صناعي,محل تجاري,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|العامرات,False,سكني,ارض فضاء,367,367
+muscat_brokerage_2025,2025-09,muscat,muscat|العامرات,False,سكني,شقه سكنيه,6,4
+muscat_brokerage_2025,2025-09,muscat,muscat|العامرات,False,سكني,فيلا,11,4
+muscat_brokerage_2025,2025-09,muscat,muscat|العامرات,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|العامرات,False,سكني تجاري,ارض فضاء,12,4
+muscat_brokerage_2025,2025-09,muscat,muscat|العامرات,False,صناعي,ارض فضاء,2,0
+muscat_brokerage_2025,2025-09,muscat,muscat|بوشر,False,تجاري,ارض فضاء,21,12
+muscat_brokerage_2025,2025-09,muscat,muscat|بوشر,False,تجاري,محل تجاري,7,4
+muscat_brokerage_2025,2025-09,muscat,muscat|بوشر,False,تجاري,مخزن,7,0
+muscat_brokerage_2025,2025-09,muscat,muscat|بوشر,False,سكني,ارض فضاء,121,119
+muscat_brokerage_2025,2025-09,muscat,muscat|بوشر,False,سكني,شقه سكنيه,87,84
+muscat_brokerage_2025,2025-09,muscat,muscat|بوشر,False,سكني,فيلا,16,9
+muscat_brokerage_2025,2025-09,muscat,muscat|بوشر,False,سكني تجاري,ارض فضاء,7,0
+muscat_brokerage_2025,2025-09,muscat,muscat|بوشر,False,صناعي,ارض فضاء,5,2
+muscat_brokerage_2025,2025-09,muscat,muscat|قريات,False,زراعي,ارض فضاء,6,3
+muscat_brokerage_2025,2025-09,muscat,muscat|قريات,False,زراعي,مزرعه,2,0
+muscat_brokerage_2025,2025-09,muscat,muscat|قريات,False,سكني,ارض فضاء,75,72
+muscat_brokerage_2025,2025-09,muscat,muscat|قريات,False,سكني,فيلا,2,0
+muscat_brokerage_2025,2025-09,muscat,muscat|قريات,False,سكني,مزرعه,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|قريات,False,سكني,منزل,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|قريات,False,سكني تجاري,ارض فضاء,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|قريات,False,صناعي,ارض فضاء,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|مسقط,False,سكني,ارض فضاء,19,15
+muscat_brokerage_2025,2025-09,muscat,muscat|مسقط,False,سكني,فيلا,7,0
+muscat_brokerage_2025,2025-09,muscat,muscat|مسقط,False,سياحي,شقه سكنيه,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|مطرح,False,سكني,ارض فضاء,19,9
+muscat_brokerage_2025,2025-09,muscat,muscat|مطرح,False,سكني,شقه سكنيه,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|مطرح,False,سكني,قائم,1,0
+muscat_brokerage_2025,2025-09,muscat,muscat|مطرح,False,سكني تجاري,ارض فضاء,4,0

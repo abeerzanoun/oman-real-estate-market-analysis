@@ -37,12 +37,16 @@ Python **3.12**, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Jupyter/JupyterLab,
 ```text
 oman-real-estate-market-analysis/
 ├── data/raw/manual/                 # four unchanged uploaded XLSX originals
-├── data/processed/audited/<run_id>/  # separate facts, dimensions, coverage, audit, hashes
-├── notebooks/
+├── data/processed/audited/<run_id>/  # unchanged PR #4 audit
+├── data/processed/eda/<run_id>/      # summaries and three monthly analytical facts
+├── notebooks/01_scoped_real_estate_eda.ipynb
 ├── src/                             # collector, aggregate adapter, row audit, validators
 ├── reports/data_quality_report.md
-├── reports/figures/
-├── powerbi/UPLOADED_DATA_MODEL.md
+├── reports/EDA_INDEX.md
+├── reports/eda/<run_id>/insights.md
+├── reports/figures/eda/<run_id>/
+├── powerbi/EDA_MODEL.md
+├── powerbi/EDA_MEASURES.dax
 ├── docs/                            # sources, dictionary, geography evidence, validation
 ├── tests/                           # environment, collection, aggregate and row checks
 ├── .github/workflows/validate.yml
@@ -71,7 +75,7 @@ On Windows, create the environment with `py -3.12 -m venv .venv`, then activate 
 
 `requirements.txt` pins direct dependencies; `requirements-lock.txt` records the full validated resolution. To deliberately refresh dependencies, install direct requirements in a fresh Python 3.12 environment, run all checks, then regenerate the lock with `python -m pip freeze > requirements-lock.txt` and review changes. The initial lock is validated on Linux/Python 3.12; validate other operating systems separately. The validator checks Python and all required imports and returns a nonzero exit code on failure. Tests cover actual imports and failure handling. Validation does not certify future data or dashboard correctness.
 
-Install Microsoft Excel separately as needed and Power BI Desktop on a supported Windows machine. Future processed UTF-8 CSV or XLSX exports will feed these tools with documented types, units and keys. Notebooks and dashboards await analysis of the audited records within their documented scope.
+Install Microsoft Excel separately as needed and Power BI Desktop on a supported Windows machine. Future processed UTF-8 CSV or XLSX exports will feed these tools with documented types, units and keys. The executed EDA notebook is included; Power BI Desktop import follows the analytical model instructions.
 
 ## Data source strategy
 
@@ -83,17 +87,24 @@ A verified source inventory and dictionary; reproducible Python preparation and 
 
 ## Current project status
 
-**Four uploaded XLSX files audited and prepared: 28,558 source record occurrences.** Land files cover November/December 2022 and October 2024 across eleven modern governorates; Muscat brokerage covers January–September 2025 only. Three incorrect worksheet dimensions are repaired in memory. Originals/checksums are preserved, repeated visible rows retained with flags, missing values left blank, and incompatible scopes kept separate.
+**Scoped EDA completed from merged PR #4 on latest main.** Four unchanged original workbooks provide **28,558 source record occurrences**: November/December 2022 land records, October 2024 service-coded land records, and January–September 2025 Muscat brokerage registrations. All eleven governorates are represented in each supplied land month; the brokerage scope is Muscat only.
 
-The project is ready for limited descriptive analysis of the uploaded records and Power BI import. It is **not ready for full 2020–2026 market trends, verified transaction turnover, prices or investment recommendations**. Exact source URLs/licences, service definitions, financial units and completeness remain unresolved. No dashboard or market findings have been produced. See [audit workflow](docs/uploaded_data_workflow.md), [uploaded dictionary](docs/uploaded_data_dictionary.md) and [Power BI model](powerbi/UPLOADED_DATA_MODEL.md).
+The delivered [executed Jupyter notebook](notebooks/01_scoped_real_estate_eda.ipynb), [computed insights](reports/eda/168665c92a8a2ff91598/insights.md), 31 analytical CSV tables and 14 PNG/SVG figures describe geographic and categorical patterns within the supported cohorts. A [Power BI model](powerbi/EDA_MODEL.md) includes three separate monthly facts, dimensions, relationships, suggested DAX and dashboard page designs. See the [artifact index](reports/EDA_INDEX.md) for all outputs and [validation](docs/eda_validation.md) for executed checks.
 
 ```bash
-python -m src.audit_uploaded_data
-python -m src.validate_uploads
+python -m src.run_eda
 python -m pytest
 ```
 
-The immutable run folder under `data/processed/audited/` contains separate fact CSVs, observed dimensions, source-quality and geography tables, the governorate/year/month availability matrix, detailed audit report and output SHA-256 manifest. See [quality report](reports/data_quality_report.md), [executed validation](docs/uploaded_data_validation.md) and [audit artifacts](data/processed/audited/) for the committed run. Original workbooks remain under `data/raw/manual/`.
+The pipeline verifies pinned input/output hashes, preserves all repeated source occurrences, generates separate scoped summaries/figures, and executes the notebook. See [methodology](docs/eda_methodology.md), [analytical dictionary](docs/eda_data_dictionary.md) and [input configuration](docs/eda_config.json) for every transformation and interpretation limit. Two presentation libraries provide readable Arabic figure labels; data labels/keys remain unchanged.
+
+**What these data show:** Ad Dakhiliyah has the most supplied rows in both 2022 land snapshots; North Al Batinah leads the October 2024 snapshot. Muscat brokerage has nine supplied months and distinct property-use/description distributions. These are uploaded-record findings, not evidence of complete-market dominance, prices or investment returns.
+
+**Limits remain:** sparse years/months, partial-year Muscat-only 2025 data, no official transaction IDs, unresolved exact source URLs/licences, unverified service-code meanings and financial units. No monetary/price conclusion, continuous 2020–2026 trend, dashboard binary or investment recommendation is claimed. The prepared Power BI model requires import into Power BI Desktop; its DAX is suggested and has not been executed there. Original audit outputs and source documentation remain intact.
+
+![Coverage of supplied data](reports/figures/eda/168665c92a8a2ff91598/coverage_calendar.png)
+
+![Comparable 2022 land snapshots](reports/figures/eda/168665c92a8a2ff91598/land_2022_governorates.png)
 
 
 

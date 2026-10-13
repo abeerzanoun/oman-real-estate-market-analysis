@@ -1,0 +1,5 @@
+﻿dataset_id,reported_record_count,records_in_repeated_groups,repeated_occurrences_after_first,repeated_group_share_pct,rows_removed,reported_amount_present_records,reported_amount_missing_records,monetary_unit_verified
+land_dec_2022,5667,2600,1843,45.879654137991885,0,,,False
+land_nov_2022,7501,3675,2629,48.993467537661644,0,,,False
+land_oct_2024,6024,0,0,0.0,0,5657.0,367.0,False
+muscat_brokerage_2025,9366,8174,6778,87.2731155242366,0,,,False

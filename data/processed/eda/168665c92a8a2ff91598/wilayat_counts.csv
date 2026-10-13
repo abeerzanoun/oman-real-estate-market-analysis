@@ -1,0 +1,241 @@
+﻿dataset_id,scope_id,period_id,governorate_id,wilayat_key,wilayat_ar,nonstandard_wilayat_label,reported_record_count,cohort_record_count,share_pct,within_governorate_share_pct
+land_dec_2022,land_buy_sell_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|ادم,ادم,False,89,5667,1.5704958531851068,8.279069767441861
+land_dec_2022,land_buy_sell_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|ازكي,ازكى,False,92,5667,1.6234339156520206,8.55813953488372
+land_dec_2022,land_buy_sell_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|الجبل الاخضر,الجبل الأخضر,False,51,5667,0.899947061937533,4.744186046511628
+land_dec_2022,land_buy_sell_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|الحمراء,الحمراء,False,28,5667,0.49408858302452796,2.604651162790698
+land_dec_2022,land_buy_sell_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|بدبد,بدبد,False,26,5667,0.4587965413799188,2.4186046511627906
+land_dec_2022,land_buy_sell_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|بهلاء,بهلاء,False,133,5667,2.3469207693665077,12.372093023255815
+land_dec_2022,land_buy_sell_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|سمائل,سمائل,False,83,5667,1.4646197282512794,7.72093023255814
+land_dec_2022,land_buy_sell_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|منح,منح,False,59,5667,1.0411152285159697,5.488372093023256
+land_dec_2022,land_buy_sell_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|نزوي,نزوى,False,514,5667,9.07005470266455,47.81395348837209
+land_dec_2022,land_buy_sell_2022,2022-12,adh_dhahirah,adh_dhahirah|ضنك,ضنك,False,17,5667,0.2999823539791777,8.173076923076923
+land_dec_2022,land_buy_sell_2022,2022-12,adh_dhahirah,adh_dhahirah|عبري,عبرى,False,169,5667,2.9821775189694724,81.25
+land_dec_2022,land_buy_sell_2022,2022-12,adh_dhahirah,adh_dhahirah|ينقل,ينقل,False,22,5667,0.38821245809070054,10.576923076923077
+land_dec_2022,land_buy_sell_2022,2022-12,al_buraimi,al_buraimi|البريمي,البريمي,False,113,5667,1.9940003529204164,57.6530612244898
+land_dec_2022,land_buy_sell_2022,2022-12,al_buraimi,al_buraimi|محضه,محضة,False,83,5667,1.4646197282512794,42.3469387755102
+land_dec_2022,land_buy_sell_2022,2022-12,al_wusta,al_wusta|الجازر,الجازر,False,8,5667,0.14116816657843656,2.7210884353741496
+land_dec_2022,land_buy_sell_2022,2022-12,al_wusta,al_wusta|الدقم,الدقم,False,22,5667,0.38821245809070054,7.482993197278912
+land_dec_2022,land_buy_sell_2022,2022-12,al_wusta,al_wusta|محوت,محوت,False,260,5667,4.587965413799188,88.43537414965986
+land_dec_2022,land_buy_sell_2022,2022-12,al_wusta,al_wusta|هيماء,هيماء,False,4,5667,0.07058408328921828,1.3605442176870748
+land_dec_2022,land_buy_sell_2022,2022-12,dhofar,dhofar|الساحل الشرقي,الساحل الشرقي,True,1,5667,0.01764602082230457,0.23148148148148148
+land_dec_2022,land_buy_sell_2022,2022-12,dhofar,dhofar|المزيونه,المزيونة,False,10,5667,0.1764602082230457,2.314814814814815
+land_dec_2022,land_buy_sell_2022,2022-12,dhofar,dhofar|ثمريت,ثمريت,False,48,5667,0.8470089994706194,11.11111111111111
+land_dec_2022,land_buy_sell_2022,2022-12,dhofar,dhofar|سدح,سدح,False,3,5667,0.05293806246691371,0.6944444444444444
+land_dec_2022,land_buy_sell_2022,2022-12,dhofar,dhofar|شليم وجزر الحلانيات,شليم وجزر الحلانيات,False,12,5667,0.21175224986765484,2.7777777777777777
+land_dec_2022,land_buy_sell_2022,2022-12,dhofar,dhofar|صلاله,صلالة,False,270,5667,4.764425622022234,62.5
+land_dec_2022,land_buy_sell_2022,2022-12,dhofar,dhofar|ضلكوت,ضلكوت,False,1,5667,0.01764602082230457,0.23148148148148148
+land_dec_2022,land_buy_sell_2022,2022-12,dhofar,dhofar|طاقه,طاقة,False,23,5667,0.40585847891300514,5.324074074074074
+land_dec_2022,land_buy_sell_2022,2022-12,dhofar,dhofar|مرباط,مرباط,False,22,5667,0.38821245809070054,5.092592592592593
+land_dec_2022,land_buy_sell_2022,2022-12,dhofar,dhofar|مقشن,مقشن,False,42,5667,0.741132874536792,9.722222222222221
+land_dec_2022,land_buy_sell_2022,2022-12,musandam,musandam|بخا,بخا,False,1,5667,0.01764602082230457,4.3478260869565215
+land_dec_2022,land_buy_sell_2022,2022-12,musandam,musandam|خصب,خصب,False,11,5667,0.19410622904535027,47.82608695652174
+land_dec_2022,land_buy_sell_2022,2022-12,musandam,musandam|دبا,دبا,False,7,5667,0.12352214575613199,30.434782608695652
+land_dec_2022,land_buy_sell_2022,2022-12,musandam,musandam|مدحا,مدحا,False,4,5667,0.07058408328921828,17.391304347826086
+land_dec_2022,land_buy_sell_2022,2022-12,muscat,muscat|السيب,السيب,False,272,5667,4.7997176636668435,37.05722070844686
+land_dec_2022,land_buy_sell_2022,2022-12,muscat,muscat|العامرات,العامرات,False,218,5667,3.8468325392623965,29.70027247956403
+land_dec_2022,land_buy_sell_2022,2022-12,muscat,muscat|بوشر,بوشر,False,139,5667,2.4527968943003353,18.93732970027248
+land_dec_2022,land_buy_sell_2022,2022-12,muscat,muscat|قريات,قريات,False,62,5667,1.0940532909828833,8.446866485013624
+land_dec_2022,land_buy_sell_2022,2022-12,muscat,muscat|مسقط,مسقط,False,22,5667,0.38821245809070054,2.997275204359673
+land_dec_2022,land_buy_sell_2022,2022-12,muscat,muscat|مطرح,مطرح,False,21,5667,0.370566437268396,2.861035422343324
+land_dec_2022,land_buy_sell_2022,2022-12,north_al_batinah,north_al_batinah|الخابوره,الخابورة,False,79,5667,1.394035644962061,10.394736842105264
+land_dec_2022,land_buy_sell_2022,2022-12,north_al_batinah,north_al_batinah|السويق,السويق,False,225,5667,3.9703546850185285,29.605263157894736
+land_dec_2022,land_buy_sell_2022,2022-12,north_al_batinah,north_al_batinah|شناص,شناص,False,128,5667,2.258690665254985,16.842105263157894
+land_dec_2022,land_buy_sell_2022,2022-12,north_al_batinah,north_al_batinah|صحار,صحار,False,140,5667,2.4704429151226397,18.42105263157895
+land_dec_2022,land_buy_sell_2022,2022-12,north_al_batinah,north_al_batinah|صحم,صحم,False,151,5667,2.66454914416799,19.86842105263158
+land_dec_2022,land_buy_sell_2022,2022-12,north_al_batinah,north_al_batinah|لوي,لوى,False,37,5667,0.6529027704252691,4.868421052631579
+land_dec_2022,land_buy_sell_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,إبراء,False,54,5667,0.9528851244044468,7.648725212464589
+land_dec_2022,land_buy_sell_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|القابل,القابل,False,39,5667,0.6881948120698782,5.524079320113314
+land_dec_2022,land_buy_sell_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,المضيبي,False,539,5667,9.511205223222163,76.34560906515581
+land_dec_2022,land_buy_sell_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|بديه,بدية,False,55,5667,0.9705311452267513,7.790368271954674
+land_dec_2022,land_buy_sell_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|دماء والطائيين,دماء والطائيين,False,11,5667,0.19410622904535027,1.5580736543909348
+land_dec_2022,land_buy_sell_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|وادي بني خالد,وادي بني خالد,False,8,5667,0.14116816657843656,1.13314447592068
+land_dec_2022,land_buy_sell_2022,2022-12,south_al_batinah,south_al_batinah|الرستاق,الرستاق,False,131,5667,2.3116287277218985,14.411441144114411
+land_dec_2022,land_buy_sell_2022,2022-12,south_al_batinah,south_al_batinah|العوابي,العوابى,False,17,5667,0.2999823539791777,1.87018701870187
+land_dec_2022,land_buy_sell_2022,2022-12,south_al_batinah,south_al_batinah|المصنعه,المصنعة,False,213,5667,3.7586024351508733,23.432343234323433
+land_dec_2022,land_buy_sell_2022,2022-12,south_al_batinah,south_al_batinah|بركاء,بركاء,False,469,5667,8.275983765660843,51.59515951595159
+land_dec_2022,land_buy_sell_2022,2022-12,south_al_batinah,south_al_batinah|نخل,نخل,False,47,5667,0.8293629786483148,5.17051705170517
+land_dec_2022,land_buy_sell_2022,2022-12,south_al_batinah,south_al_batinah|وادي المعاول,وادي المعاول,False,32,5667,0.5646726663137462,3.5203520352035205
+land_dec_2022,land_buy_sell_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,الكامل والوافي,False,57,5667,1.0058231868713605,17.272727272727273
+land_dec_2022,land_buy_sell_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو حسن,جعلان بني بو حسن,False,40,5667,0.7058408328921828,12.121212121212121
+land_dec_2022,land_buy_sell_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,جعلان بني بو علي,False,120,5667,2.1175224986765486,36.36363636363637
+land_dec_2022,land_buy_sell_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|صور,صور,False,105,5667,1.8528321863419799,31.818181818181817
+land_dec_2022,land_buy_sell_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|مصيره,مصيرة,False,8,5667,0.14116816657843656,2.4242424242424243
+land_nov_2022,land_buy_sell_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|ادم,ادم,False,237,7501,3.159578722836955,18.216756341275943
+land_nov_2022,land_buy_sell_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|ازكي,ازكى,False,75,7501,0.9998666844420744,5.764796310530361
+land_nov_2022,land_buy_sell_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|الجبل الاخضر,الجبل الأخضر,False,11,7501,0.1466471137181709,0.8455034588777863
+land_nov_2022,land_buy_sell_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|الحمراء,الحمراء,False,38,7501,0.5065991201173177,2.9208301306687163
+land_nov_2022,land_buy_sell_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|بدبد,بدبد,False,50,7501,0.6665777896280496,3.8431975403535743
+land_nov_2022,land_buy_sell_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|بهلاء,بهلاء,False,136,7501,1.813091587788295,10.453497309761723
+land_nov_2022,land_buy_sell_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|سمائل,سمائل,False,125,7501,1.666444474070124,9.607993850883936
+land_nov_2022,land_buy_sell_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|منح,منح,False,107,7501,1.4264764698040262,8.224442736356648
+land_nov_2022,land_buy_sell_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|نزوي,نزوى,False,522,7501,6.959072123716838,40.12298232129132
+land_nov_2022,land_buy_sell_2022,2022-11,adh_dhahirah,adh_dhahirah|ضنك,ضنك,False,34,7501,0.45327289694707373,11.003236245954692
+land_nov_2022,land_buy_sell_2022,2022-11,adh_dhahirah,adh_dhahirah|عبري,عبرى,False,244,7501,3.252899613384882,78.96440129449839
+land_nov_2022,land_buy_sell_2022,2022-11,adh_dhahirah,adh_dhahirah|ينقل,ينقل,False,31,7501,0.41327822956939075,10.032362459546926
+land_nov_2022,land_buy_sell_2022,2022-11,al_buraimi,al_buraimi|البريمي,البريمي,False,195,7501,2.5996533795493932,91.98113207547169
+land_nov_2022,land_buy_sell_2022,2022-11,al_buraimi,al_buraimi|السنينه,السنينة,False,2,7501,0.026663111585121985,0.9433962264150944
+land_nov_2022,land_buy_sell_2022,2022-11,al_buraimi,al_buraimi|محضه,محضة,False,15,7501,0.19997333688841487,7.0754716981132075
+land_nov_2022,land_buy_sell_2022,2022-11,al_wusta,al_wusta|الجازر,الجازر,False,8,7501,0.10665244634048794,7.619047619047619
+land_nov_2022,land_buy_sell_2022,2022-11,al_wusta,al_wusta|الدقم,الدقم,False,27,7501,0.35995200639914676,25.714285714285715
+land_nov_2022,land_buy_sell_2022,2022-11,al_wusta,al_wusta|محوت,محوت,False,66,7501,0.8798826823090254,62.857142857142854
+land_nov_2022,land_buy_sell_2022,2022-11,al_wusta,al_wusta|هيماء,هيماء,False,4,7501,0.05332622317024397,3.8095238095238093
+land_nov_2022,land_buy_sell_2022,2022-11,dhofar,dhofar|الساحل الشرقي,الساحل الشرقي,True,1,7501,0.013331555792560993,0.1148105625717566
+land_nov_2022,land_buy_sell_2022,2022-11,dhofar,dhofar|المزيونه,المزيونة,False,20,7501,0.26663111585121985,2.296211251435132
+land_nov_2022,land_buy_sell_2022,2022-11,dhofar,dhofar|ثمريت,ثمريت,False,59,7501,0.7865617917610985,6.77382319173364
+land_nov_2022,land_buy_sell_2022,2022-11,dhofar,dhofar|رخيوت,رخيوت,False,1,7501,0.013331555792560993,0.1148105625717566
+land_nov_2022,land_buy_sell_2022,2022-11,dhofar,dhofar|سدح,سدح,False,4,7501,0.05332622317024397,0.4592422502870264
+land_nov_2022,land_buy_sell_2022,2022-11,dhofar,dhofar|شليم وجزر الحلانيات,شليم وجزر الحلانيات,False,58,7501,0.7732302359685376,6.659012629161883
+land_nov_2022,land_buy_sell_2022,2022-11,dhofar,dhofar|صلاله,صلالة,False,390,7501,5.1993067590987865,44.776119402985074
+land_nov_2022,land_buy_sell_2022,2022-11,dhofar,dhofar|طاقه,طاقة,False,35,7501,0.4666044527396347,4.018369690011481
+land_nov_2022,land_buy_sell_2022,2022-11,dhofar,dhofar|مرباط,مرباط,False,275,7501,3.666177842954273,31.572904707233064
+land_nov_2022,land_buy_sell_2022,2022-11,dhofar,dhofar|مقشن,مقشن,False,28,7501,0.3732835621917078,3.214695752009185
+land_nov_2022,land_buy_sell_2022,2022-11,musandam,musandam|بخا,بخا,False,1,7501,0.013331555792560993,2.9411764705882355
+land_nov_2022,land_buy_sell_2022,2022-11,musandam,musandam|خصب,خصب,False,20,7501,0.26663111585121985,58.8235294117647
+land_nov_2022,land_buy_sell_2022,2022-11,musandam,musandam|دبا,دبا,False,9,7501,0.11998400213304893,26.470588235294116
+land_nov_2022,land_buy_sell_2022,2022-11,musandam,musandam|مدحا,مدحا,False,4,7501,0.05332622317024397,11.764705882352942
+land_nov_2022,land_buy_sell_2022,2022-11,muscat,muscat|السيب,السيب,False,339,7501,4.519397413678176,35.3125
+land_nov_2022,land_buy_sell_2022,2022-11,muscat,muscat|العامرات,العامرات,False,314,7501,4.186108518864152,32.708333333333336
+land_nov_2022,land_buy_sell_2022,2022-11,muscat,muscat|بوشر,بوشر,False,175,7501,2.3330222636981737,18.229166666666668
+land_nov_2022,land_buy_sell_2022,2022-11,muscat,muscat|قريات,قريات,False,68,7501,0.9065457938941475,7.083333333333333
+land_nov_2022,land_buy_sell_2022,2022-11,muscat,muscat|مسقط,مسقط,False,18,7501,0.23996800426609785,1.875
+land_nov_2022,land_buy_sell_2022,2022-11,muscat,muscat|مطرح,مطرح,False,46,7501,0.6132515664578057,4.791666666666667
+land_nov_2022,land_buy_sell_2022,2022-11,north_al_batinah,north_al_batinah|الخابوره,الخابورة,False,103,7501,1.3731502466337822,10.79664570230608
+land_nov_2022,land_buy_sell_2022,2022-11,north_al_batinah,north_al_batinah|السويق,السويق,False,304,7501,4.052792960938541,31.865828092243188
+land_nov_2022,land_buy_sell_2022,2022-11,north_al_batinah,north_al_batinah|شناص,شناص,False,107,7501,1.4264764698040262,11.215932914046121
+land_nov_2022,land_buy_sell_2022,2022-11,north_al_batinah,north_al_batinah|صحار,صحار,False,190,7501,2.5329956005865886,19.91614255765199
+land_nov_2022,land_buy_sell_2022,2022-11,north_al_batinah,north_al_batinah|صحم,صحم,False,222,7501,2.95960538594854,23.270440251572328
+land_nov_2022,land_buy_sell_2022,2022-11,north_al_batinah,north_al_batinah|لوي,لوى,False,28,7501,0.3732835621917078,2.9350104821802936
+land_nov_2022,land_buy_sell_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,إبراء,False,165,7501,2.1997067057725634,12.692307692307692
+land_nov_2022,land_buy_sell_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|القابل,القابل,False,89,7501,1.1865084655379283,6.846153846153846
+land_nov_2022,land_buy_sell_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,المضيبي,False,822,7501,10.958538861485135,63.23076923076923
+land_nov_2022,land_buy_sell_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|بديه,بدية,False,177,7501,2.3596853752832954,13.615384615384615
+land_nov_2022,land_buy_sell_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|دماء والطائيين,دماء والطائيين,False,28,7501,0.3732835621917078,2.1538461538461537
+land_nov_2022,land_buy_sell_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|وادي بني خالد,وادي بني خالد,False,19,7501,0.25329956005865883,1.4615384615384615
+land_nov_2022,land_buy_sell_2022,2022-11,south_al_batinah,south_al_batinah|الرستاق,الرستاق,False,160,7501,2.1330489268097588,15.194681861348528
+land_nov_2022,land_buy_sell_2022,2022-11,south_al_batinah,south_al_batinah|العوابي,العوابى,False,14,7501,0.1866417810958539,1.3295346628679963
+land_nov_2022,land_buy_sell_2022,2022-11,south_al_batinah,south_al_batinah|المصنعه,المصنعة,False,264,7501,3.5195307292361018,25.071225071225072
+land_nov_2022,land_buy_sell_2022,2022-11,south_al_batinah,south_al_batinah|بركاء,بركاء,False,505,7501,6.732435675243301,47.95821462488129
+land_nov_2022,land_buy_sell_2022,2022-11,south_al_batinah,south_al_batinah|نخل,نخل,False,71,7501,0.9465404612718304,6.7426400759734095
+land_nov_2022,land_buy_sell_2022,2022-11,south_al_batinah,south_al_batinah|وادي المعاول,وادي المعاول,False,39,7501,0.5199306759098787,3.7037037037037037
+land_nov_2022,land_buy_sell_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,الكامل والوافي,False,58,7501,0.7732302359685376,14.427860696517413
+land_nov_2022,land_buy_sell_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو حسن,جعلان بني بو حسن,False,59,7501,0.7865617917610985,14.676616915422885
+land_nov_2022,land_buy_sell_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,جعلان بني بو علي,False,142,7501,1.893080922543661,35.32338308457712
+land_nov_2022,land_buy_sell_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|صور,صور,False,123,7501,1.639781362485002,30.597014925373134
+land_nov_2022,land_buy_sell_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|مصيره,مصيرة,False,20,7501,0.26663111585121985,4.975124378109452
+land_oct_2024,land_service_coded_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|ادم,ادم,False,47,6024,0.7802124833997344,6.51872399445215
+land_oct_2024,land_service_coded_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|ازكي,ازكى,False,97,6024,1.6102257636122177,13.453536754507628
+land_oct_2024,land_service_coded_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|الجبل الاخضر,الجبل الأخضر,False,8,6024,0.13280212483399734,1.1095700416088765
+land_oct_2024,land_service_coded_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|الحمراء,الحمراء,False,34,6024,0.5644090305444888,4.715672676837725
+land_oct_2024,land_service_coded_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|بدبد,بدبد,False,64,6024,1.0624169986719787,8.876560332871012
+land_oct_2024,land_service_coded_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|بهلاء,بهلاء,False,134,6024,2.2244355909694553,18.58529819694868
+land_oct_2024,land_service_coded_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|سمائل,سمائل,False,109,6024,1.8094289508632138,15.117891816920944
+land_oct_2024,land_service_coded_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|منح,منح,False,43,6024,0.7138114209827358,5.9639389736477115
+land_oct_2024,land_service_coded_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|نزوي,نزوى,False,185,6024,3.0710491367861885,25.65880721220527
+land_oct_2024,land_service_coded_2024,2024-10,adh_dhahirah,adh_dhahirah|ضنك,ضنك,False,47,6024,0.7802124833997344,15.986394557823129
+land_oct_2024,land_service_coded_2024,2024-10,adh_dhahirah,adh_dhahirah|عبري,عبرى,False,199,6024,3.303452855245684,67.68707482993197
+land_oct_2024,land_service_coded_2024,2024-10,adh_dhahirah,adh_dhahirah|ينقل,ينقل,False,48,6024,0.796812749003984,16.3265306122449
+land_oct_2024,land_service_coded_2024,2024-10,al_buraimi,al_buraimi|البريمي,البريمي,False,153,6024,2.539840637450199,83.60655737704919
+land_oct_2024,land_service_coded_2024,2024-10,al_buraimi,al_buraimi|السنينه,السنينة,False,4,6024,0.06640106241699867,2.185792349726776
+land_oct_2024,land_service_coded_2024,2024-10,al_buraimi,al_buraimi|محضه,محضة,False,26,6024,0.4316069057104914,14.207650273224044
+land_oct_2024,land_service_coded_2024,2024-10,al_wusta,al_wusta|الجازر,الجازر,False,15,6024,0.24900398406374502,13.761467889908257
+land_oct_2024,land_service_coded_2024,2024-10,al_wusta,al_wusta|الدقم,الدقم,False,28,6024,0.4648074369189907,25.68807339449541
+land_oct_2024,land_service_coded_2024,2024-10,al_wusta,al_wusta|محوت,محوت,False,57,6024,0.9462151394422311,52.293577981651374
+land_oct_2024,land_service_coded_2024,2024-10,al_wusta,al_wusta|هيماء,هيماء,False,9,6024,0.14940239043824702,8.256880733944953
+land_oct_2024,land_service_coded_2024,2024-10,dhofar,dhofar|المزيونه,المزيونة,False,24,6024,0.398406374501992,4.678362573099415
+land_oct_2024,land_service_coded_2024,2024-10,dhofar,dhofar|ثمريت,ثمريت,False,24,6024,0.398406374501992,4.678362573099415
+land_oct_2024,land_service_coded_2024,2024-10,dhofar,dhofar|رخيوت,رخيوت,False,1,6024,0.016600265604249667,0.1949317738791423
+land_oct_2024,land_service_coded_2024,2024-10,dhofar,dhofar|سدح,سدح,False,8,6024,0.13280212483399734,1.5594541910331383
+land_oct_2024,land_service_coded_2024,2024-10,dhofar,dhofar|شليم وجزر الحلانيات,شليم وجزر الحلانيات,False,20,6024,0.33200531208499334,3.898635477582846
+land_oct_2024,land_service_coded_2024,2024-10,dhofar,dhofar|صلاله,صلالة,False,316,6024,5.245683930942895,61.59844054580897
+land_oct_2024,land_service_coded_2024,2024-10,dhofar,dhofar|ضلكوت,ضلكوت,False,2,6024,0.033200531208499334,0.3898635477582846
+land_oct_2024,land_service_coded_2024,2024-10,dhofar,dhofar|طاقه,طاقة,False,65,6024,1.0790172642762283,12.670565302144249
+land_oct_2024,land_service_coded_2024,2024-10,dhofar,dhofar|مرباط,مرباط,False,50,6024,0.8300132802124834,9.746588693957115
+land_oct_2024,land_service_coded_2024,2024-10,dhofar,dhofar|مقشن,مقشن,False,3,6024,0.049800796812749,0.5847953216374269
+land_oct_2024,land_service_coded_2024,2024-10,musandam,musandam|بخا,بخا,False,15,6024,0.24900398406374502,21.73913043478261
+land_oct_2024,land_service_coded_2024,2024-10,musandam,musandam|خصب,خصب,False,34,6024,0.5644090305444888,49.27536231884058
+land_oct_2024,land_service_coded_2024,2024-10,musandam,musandam|دبا,دبا,False,13,6024,0.2158034528552457,18.840579710144926
+land_oct_2024,land_service_coded_2024,2024-10,musandam,musandam|مدحاء,مدحاء,False,7,6024,0.11620185922974767,10.144927536231885
+land_oct_2024,land_service_coded_2024,2024-10,muscat,muscat|السيب,السيب,False,366,6024,6.075697211155378,33.303002729754326
+land_oct_2024,land_service_coded_2024,2024-10,muscat,muscat|العامرات,العامرات,False,316,6024,5.245683930942895,28.75341219290264
+land_oct_2024,land_service_coded_2024,2024-10,muscat,muscat|بوشر,بوشر,False,298,6024,4.946879150066401,27.115559599636033
+land_oct_2024,land_service_coded_2024,2024-10,muscat,muscat|قريات,قريات,False,76,6024,1.2616201859229748,6.915377616014559
+land_oct_2024,land_service_coded_2024,2024-10,muscat,muscat|مسقط,مسقط,False,19,6024,0.3154050464807437,1.7288444040036397
+land_oct_2024,land_service_coded_2024,2024-10,muscat,muscat|مطرح,مطرح,False,24,6024,0.398406374501992,2.183803457688808
+land_oct_2024,land_service_coded_2024,2024-10,north_al_batinah,north_al_batinah|الخابوره,الخابورة,False,115,6024,1.909030544488712,10.061242344706912
+land_oct_2024,land_service_coded_2024,2024-10,north_al_batinah,north_al_batinah|السويق,السويق,False,317,6024,5.262284196547145,27.73403324584427
+land_oct_2024,land_service_coded_2024,2024-10,north_al_batinah,north_al_batinah|شناص,شناص,False,176,6024,2.9216467463479416,15.398075240594926
+land_oct_2024,land_service_coded_2024,2024-10,north_al_batinah,north_al_batinah|صحار,صحار,False,260,6024,4.316069057104913,22.747156605424323
+land_oct_2024,land_service_coded_2024,2024-10,north_al_batinah,north_al_batinah|صحم,صحم,False,212,6024,3.5192563081009296,18.547681539807524
+land_oct_2024,land_service_coded_2024,2024-10,north_al_batinah,north_al_batinah|لوي,لوى,False,63,6024,1.045816733067729,5.511811023622047
+land_oct_2024,land_service_coded_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,إبراء,False,73,6024,1.2118193891102258,19.261213720316622
+land_oct_2024,land_service_coded_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|القابل,القابل,False,37,6024,0.6142098273572377,9.762532981530343
+land_oct_2024,land_service_coded_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,المضيبي,False,100,6024,1.6600265604249669,26.385224274406333
+land_oct_2024,land_service_coded_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|بديه,بدية,False,71,6024,1.1786188579017265,18.733509234828496
+land_oct_2024,land_service_coded_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|دماء والطائيين,دماء والطائيين,False,27,6024,0.448207171314741,7.124010554089709
+land_oct_2024,land_service_coded_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|سناو,سناو,False,57,6024,0.9462151394422311,15.03957783641161
+land_oct_2024,land_service_coded_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|وادي بني خالد,وادي بني خالد,False,14,6024,0.23240371845949534,3.6939313984168867
+land_oct_2024,land_service_coded_2024,2024-10,south_al_batinah,south_al_batinah|الرستاق,الرستاق,False,216,6024,3.585657370517928,19.94459833795014
+land_oct_2024,land_service_coded_2024,2024-10,south_al_batinah,south_al_batinah|العوابي,العوابى,False,19,6024,0.3154050464807437,1.7543859649122806
+land_oct_2024,land_service_coded_2024,2024-10,south_al_batinah,south_al_batinah|المصنعه,المصنعة,False,205,6024,3.403054448871182,18.928901200369346
+land_oct_2024,land_service_coded_2024,2024-10,south_al_batinah,south_al_batinah|بركاء,بركاء,False,537,6024,8.914342629482071,49.58448753462604
+land_oct_2024,land_service_coded_2024,2024-10,south_al_batinah,south_al_batinah|نخل,نخل,False,57,6024,0.9462151394422311,5.2631578947368425
+land_oct_2024,land_service_coded_2024,2024-10,south_al_batinah,south_al_batinah|وادي المعاول,وادي المعاول,False,49,6024,0.8134130146082338,4.524469067405356
+land_oct_2024,land_service_coded_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,الكامل والوافي,False,66,6024,1.095617529880478,15.31322505800464
+land_oct_2024,land_service_coded_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو حسن,جعلان بني بو حسن,False,59,6024,0.9794156706507304,13.689095127610209
+land_oct_2024,land_service_coded_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,جعلان بني بو علي,False,138,6024,2.2908366533864544,32.01856148491879
+land_oct_2024,land_service_coded_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|صور,صور,False,148,6024,2.456839309428951,34.33874709976798
+land_oct_2024,land_service_coded_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|مصيره,مصيرة,False,20,6024,0.33200531208499334,4.640371229698376
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-01,muscat,muscat|السيب,السيب,False,298,857,34.77246207701283,34.77246207701283
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-01,muscat,muscat|العامرات,العامرات,False,277,857,32.3220536756126,32.3220536756126
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-01,muscat,muscat|بوشر,بوشر,False,188,857,21.93698949824971,21.93698949824971
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-01,muscat,muscat|قريات,قريات,False,57,857,6.651108518086348,6.651108518086348
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-01,muscat,muscat|مسقط,مسقط,False,25,857,2.9171528588098017,2.9171528588098017
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-01,muscat,muscat|مطرح,مطرح,False,12,857,1.4002333722287048,1.4002333722287048
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-02,muscat,muscat|السيب,السيب,False,399,1147,34.78639930252834,34.78639930252834
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-02,muscat,muscat|العامرات,العامرات,False,366,1147,31.909328683522233,31.909328683522233
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-02,muscat,muscat|بوشر,بوشر,False,240,1147,20.92414995640802,20.92414995640802
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-02,muscat,muscat|قريات,قريات,False,108,1147,9.415867480383609,9.415867480383609
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-02,muscat,muscat|مسقط,مسقط,False,20,1147,1.7436791630340018,1.7436791630340018
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-02,muscat,muscat|مطرح,مطرح,False,14,1147,1.2205754141238012,1.2205754141238012
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-03,muscat,muscat|السيب,السيب,False,304,819,37.11843711843712,37.11843711843712
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-03,muscat,muscat|العامرات,العامرات,False,265,819,32.356532356532355,32.356532356532355
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-03,muscat,muscat|بوشر,بوشر,False,164,819,20.024420024420024,20.024420024420024
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-03,muscat,muscat|قريات,قريات,False,47,819,5.738705738705739,5.738705738705739
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-03,muscat,muscat|مسقط,مسقط,False,21,819,2.5641025641025643,2.5641025641025643
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-03,muscat,muscat|مطرح,مطرح,False,18,819,2.197802197802198,2.197802197802198
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-04,muscat,muscat|السيب,السيب,False,281,880,31.931818181818183,31.931818181818183
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-04,muscat,muscat|العامرات,العامرات,False,341,880,38.75,38.75
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-04,muscat,muscat|بوشر,بوشر,False,173,880,19.65909090909091,19.65909090909091
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-04,muscat,muscat|قريات,قريات,False,46,880,5.2272727272727275,5.2272727272727275
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-04,muscat,muscat|مسقط,مسقط,False,20,880,2.272727272727273,2.272727272727273
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-04,muscat,muscat|مطرح,مطرح,False,19,880,2.159090909090909,2.159090909090909
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-05,muscat,muscat|السيب,السيب,False,417,1207,34.54846727423364,34.54846727423364
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-05,muscat,muscat|العامرات,العامرات,False,388,1207,32.14581607290803,32.14581607290803
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-05,muscat,muscat|بوشر,بوشر,False,271,1207,22.452361226180614,22.452361226180614
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-05,muscat,muscat|قريات,قريات,False,74,1207,6.130903065451533,6.130903065451533
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-05,muscat,muscat|مسقط,مسقط,False,36,1207,2.9826014913007457,2.9826014913007457
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-05,muscat,muscat|مطرح,مطرح,False,21,1207,1.739850869925435,1.739850869925435
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-06,muscat,muscat|السيب,السيب,False,276,816,33.8235294117647,33.8235294117647
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-06,muscat,muscat|العامرات,العامرات,False,262,816,32.1078431372549,32.1078431372549
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-06,muscat,muscat|بوشر,بوشر,False,186,816,22.794117647058822,22.794117647058822
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-06,muscat,muscat|قريات,قريات,False,61,816,7.4754901960784315,7.4754901960784315
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-06,muscat,muscat|مسقط,مسقط,False,16,816,1.9607843137254901,1.9607843137254901
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-06,muscat,muscat|مطرح,مطرح,False,15,816,1.838235294117647,1.838235294117647
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-07,muscat,muscat|السيب,السيب,False,473,1277,37.039937353171496,37.039937353171496
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-07,muscat,muscat|العامرات,العامرات,False,404,1277,31.63664839467502,31.63664839467502
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-07,muscat,muscat|بوشر,بوشر,False,273,1277,21.378230227094754,21.378230227094754
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-07,muscat,muscat|قريات,قريات,False,81,1277,6.3429913860610805,6.3429913860610805
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-07,muscat,muscat|مسقط,مسقط,False,19,1277,1.4878621769772906,1.4878621769772906
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-07,muscat,muscat|مطرح,مطرح,False,27,1277,2.11433046202036,2.11433046202036
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-08,muscat,muscat|السيب,السيب,False,427,1141,37.423312883435585,37.423312883435585
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-08,muscat,muscat|العامرات,العامرات,False,361,1141,31.63891323400526,31.63891323400526
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-08,muscat,muscat|بوشر,بوشر,False,246,1141,21.56003505696757,21.56003505696757
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-08,muscat,muscat|قريات,قريات,False,75,1141,6.573181419807186,6.573181419807186
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-08,muscat,muscat|مسقط,مسقط,False,15,1141,1.3146362839614374,1.3146362839614374
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-08,muscat,muscat|مطرح,مطرح,False,17,1141,1.4899211218229622,1.4899211218229622
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-09,muscat,muscat|السيب,السيب,False,411,1222,33.633387888707034,33.633387888707034
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-09,muscat,muscat|العامرات,العامرات,False,399,1222,32.65139116202946,32.65139116202946
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-09,muscat,muscat|بوشر,بوشر,False,271,1222,22.176759410801964,22.176759410801964
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-09,muscat,muscat|قريات,قريات,False,89,1222,7.283142389525368,7.283142389525368
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-09,muscat,muscat|مسقط,مسقط,False,27,1222,2.20949263502455,2.20949263502455
+muscat_brokerage_2025,muscat_brokerage_registration_2025,2025-09,muscat,muscat|مطرح,مطرح,False,25,1222,2.0458265139116203,2.0458265139116203

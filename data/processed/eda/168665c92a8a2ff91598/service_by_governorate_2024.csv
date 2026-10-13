@@ -1,0 +1,23 @@
+﻿dataset_id,period_id,governorate_id,service_sub_id,reported_record_count,cohort_record_count,share_pct,governorate_en,governorate_ar
+land_oct_2024,2024-10,ad_dakhiliyah,RN13A,40,721,5.547850208044383,Ad Dakhiliyah,الداخلية
+land_oct_2024,2024-10,ad_dakhiliyah,RN13C,681,721,94.45214979195562,Ad Dakhiliyah,الداخلية
+land_oct_2024,2024-10,adh_dhahirah,RN13A,29,294,9.863945578231293,Adh Dhahirah,الظاهرة
+land_oct_2024,2024-10,adh_dhahirah,RN13C,265,294,90.1360544217687,Adh Dhahirah,الظاهرة
+land_oct_2024,2024-10,al_buraimi,RN13A,23,183,12.568306010928962,Al Buraimi,البريمي
+land_oct_2024,2024-10,al_buraimi,RN13C,160,183,87.43169398907104,Al Buraimi,البريمي
+land_oct_2024,2024-10,al_wusta,RN13A,13,109,11.926605504587156,Al Wusta,الوسطى
+land_oct_2024,2024-10,al_wusta,RN13C,96,109,88.07339449541284,Al Wusta,الوسطى
+land_oct_2024,2024-10,dhofar,RN13A,43,513,8.382066276803119,Dhofar,ظفار
+land_oct_2024,2024-10,dhofar,RN13C,470,513,91.61793372319688,Dhofar,ظفار
+land_oct_2024,2024-10,musandam,RN13A,17,69,24.63768115942029,Musandam,مسندم
+land_oct_2024,2024-10,musandam,RN13C,52,69,75.3623188405797,Musandam,مسندم
+land_oct_2024,2024-10,muscat,RN13A,69,1099,6.278434940855323,Muscat,مسقط
+land_oct_2024,2024-10,muscat,RN13C,1030,1099,93.72156505914468,Muscat,مسقط
+land_oct_2024,2024-10,north_al_batinah,RN13A,109,1143,9.536307961504813,North Al Batinah,شمال الباطنة
+land_oct_2024,2024-10,north_al_batinah,RN13C,1034,1143,90.46369203849518,North Al Batinah,شمال الباطنة
+land_oct_2024,2024-10,north_ash_sharqiyah,RN13A,24,379,6.332453825857519,North Ash Sharqiyah,شمال الشرقية
+land_oct_2024,2024-10,north_ash_sharqiyah,RN13C,355,379,93.66754617414249,North Ash Sharqiyah,شمال الشرقية
+land_oct_2024,2024-10,south_al_batinah,RN13A,135,1083,12.465373961218837,South Al Batinah,جنوب الباطنة
+land_oct_2024,2024-10,south_al_batinah,RN13C,948,1083,87.53462603878117,South Al Batinah,جنوب الباطنة
+land_oct_2024,2024-10,south_ash_sharqiyah,RN13A,97,431,22.505800464037122,South Ash Sharqiyah,جنوب الشرقية
+land_oct_2024,2024-10,south_ash_sharqiyah,RN13C,334,431,77.49419953596288,South Ash Sharqiyah,جنوب الشرقية

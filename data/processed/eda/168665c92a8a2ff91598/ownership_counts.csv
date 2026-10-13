@@ -1,0 +1,16 @@
+﻿dataset_id,scope_id,period_id,ownership_band,reported_record_count,cohort_record_count,share_pct
+land_dec_2022,land_buy_sell_2022,2022-12,1 owner,5416,5667,95.57084877360155
+land_dec_2022,land_buy_sell_2022,2022-12,2 owners,166,5667,2.929239456502559
+land_dec_2022,land_buy_sell_2022,2022-12,3 owners,28,5667,0.49408858302452796
+land_dec_2022,land_buy_sell_2022,2022-12,4 owners,13,5667,0.2293982706899594
+land_dec_2022,land_buy_sell_2022,2022-12,5+ owners,44,5667,0.7764249161814011
+land_nov_2022,land_buy_sell_2022,2022-11,1 owner,7081,7501,94.40074656712439
+land_nov_2022,land_buy_sell_2022,2022-11,2 owners,276,7501,3.6795093987468337
+land_nov_2022,land_buy_sell_2022,2022-11,3 owners,50,7501,0.6665777896280496
+land_nov_2022,land_buy_sell_2022,2022-11,4 owners,27,7501,0.35995200639914676
+land_nov_2022,land_buy_sell_2022,2022-11,5+ owners,67,7501,0.8932142381015864
+land_oct_2024,land_service_coded_2024,2024-10,1 owner,5666,6024,94.05710491367861
+land_oct_2024,land_service_coded_2024,2024-10,2 owners,245,6024,4.067065073041169
+land_oct_2024,land_service_coded_2024,2024-10,3 owners,33,6024,0.547808764940239
+land_oct_2024,land_service_coded_2024,2024-10,4 owners,22,6024,0.3652058432934927
+land_oct_2024,land_service_coded_2024,2024-10,5+ owners,58,6024,0.9628154050464808
