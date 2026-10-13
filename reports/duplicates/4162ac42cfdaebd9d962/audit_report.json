@@ -1,0 +1,1534 @@
+{
+  "actual_duplicate_economic_transaction_count": null,
+  "all_current_flags_recomputed": true,
+  "analytical_aggregate_validation": [
+    {
+      "file": "data/processed/eda/168665c92a8a2ff91598/fact_land_2022.csv",
+      "grain": [
+        "dataset_id",
+        "period_id",
+        "governorate_id",
+        "wilayat_key",
+        "nonstandard_wilayat_label",
+        "buyer_type",
+        "ownership_band"
+      ],
+      "physical_aggregate_rows": 361,
+      "preserved_source_occurrences": 13168,
+      "reported_record_count_sum": 13168,
+      "status": "all observed aggregation buckets and multiplicities match source occurrences"
+    },
+    {
+      "file": "data/processed/eda/168665c92a8a2ff91598/fact_land_2024.csv",
+      "grain": [
+        "dataset_id",
+        "period_id",
+        "governorate_id",
+        "wilayat_key",
+        "nonstandard_wilayat_label",
+        "buyer_type",
+        "ownership_band",
+        "service_sub_id",
+        "ownership_mode"
+      ],
+      "physical_aggregate_rows": 257,
+      "preserved_source_occurrences": 6024,
+      "reported_record_count_sum": 6024,
+      "status": "all observed aggregation buckets and multiplicities match source occurrences"
+    },
+    {
+      "file": "data/processed/eda/168665c92a8a2ff91598/fact_brokerage_2025.csv",
+      "grain": [
+        "dataset_id",
+        "period_id",
+        "governorate_id",
+        "wilayat_key",
+        "nonstandard_wilayat_label",
+        "property_use_key",
+        "property_description_key"
+      ],
+      "physical_aggregate_rows": 403,
+      "preserved_source_occurrences": 9366,
+      "reported_record_count_sum": 9366,
+      "status": "all observed aggregation buckets and multiplicities match source occurrences"
+    }
+  ],
+  "audit_complete": true,
+  "audit_date": "2026-10-13",
+  "audited_output_bundles": [
+    "data/processed/audited/71008482abd46aa7f0bc",
+    "data/processed/eda/168665c92a8a2ff91598"
+  ],
+  "base_main_commit": "c015ded58f219d8b320194b902d3b49c26a4fd7c",
+  "cleaned_outputs_created": [],
+  "confirmed_duplicate_economic_transactions": 0,
+  "confirmed_duplicate_ingestion_occurrences": 0,
+  "cross_file_date_ranges": [
+    {
+      "date_ranges_overlap": false,
+      "economic_event_overlap": "unknown: no stable official identity and different scopes/periods",
+      "left": "muscat_brokerage_2025",
+      "right": "land_nov_2022",
+      "same_source_schema": false,
+      "shared_observed_date_count": 0,
+      "shared_observed_transaction_dates": []
+    },
+    {
+      "date_ranges_overlap": false,
+      "economic_event_overlap": "unknown: no stable official identity and different scopes/periods",
+      "left": "muscat_brokerage_2025",
+      "right": "land_dec_2022",
+      "same_source_schema": false,
+      "shared_observed_date_count": 0,
+      "shared_observed_transaction_dates": []
+    },
+    {
+      "date_ranges_overlap": false,
+      "economic_event_overlap": "unknown: no stable official identity and different scopes/periods",
+      "left": "muscat_brokerage_2025",
+      "right": "land_oct_2024",
+      "same_source_schema": false,
+      "shared_observed_date_count": 0,
+      "shared_observed_transaction_dates": []
+    },
+    {
+      "date_ranges_overlap": false,
+      "economic_event_overlap": "unknown: no stable official identity and different scopes/periods",
+      "left": "land_nov_2022",
+      "right": "land_dec_2022",
+      "same_source_schema": true,
+      "shared_observed_date_count": 0,
+      "shared_observed_transaction_dates": []
+    },
+    {
+      "date_ranges_overlap": false,
+      "economic_event_overlap": "unknown: no stable official identity and different scopes/periods",
+      "left": "land_nov_2022",
+      "right": "land_oct_2024",
+      "same_source_schema": false,
+      "shared_observed_date_count": 0,
+      "shared_observed_transaction_dates": []
+    },
+    {
+      "date_ranges_overlap": false,
+      "economic_event_overlap": "unknown: no stable official identity and different scopes/periods",
+      "left": "land_dec_2022",
+      "right": "land_oct_2024",
+      "same_source_schema": false,
+      "shared_observed_date_count": 0,
+      "shared_observed_transaction_dates": []
+    }
+  ],
+  "datasets": [
+    {
+      "actual_duplicate_economic_transaction_count": null,
+      "candidate_identifier_columns": [],
+      "cleaned_output_created": false,
+      "cleaned_output_reason": "No sufficiently evidenced duplicate ingestion records; repeated attributes do not establish transaction duplication.",
+      "confirmed_duplicate_economic_transactions": 0,
+      "confirmed_duplicate_source_occurrence_rows": 0,
+      "current_method": "SHA-256 of json.dumps(tuple(original decoded row), ensure_ascii=False, default=str), preserving original field order/values, no normalization",
+      "dataset_id": "muscat_brokerage_2025",
+      "disposition": "retain_all_occurrences_identity_unresolved",
+      "examples": [
+        {
+          "assessment": "full_source_pattern_repetition_identity_unresolved",
+          "criterion": "full_source_equality",
+          "dataset_id": "muscat_brokerage_2025",
+          "differing_omitted_columns": "",
+          "differing_source_columns": "",
+          "distinct_full_source_patterns": 1,
+          "group_signature": "a4502c5089a2ff2555adae15124e5e944edadeda304e04a87d24d74fa99da06e",
+          "group_size": 41,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "5857;5858;5859;5860;5861;5862;5863;5864;5865;5866;5867;5868;5869;5870;5871;5872;5873;5874;5875;5876;5877;5878;5879;5880;5881;5882;5883;5884;5885;5886;5887;5888;5889;5890;5891;5892;5894;5895;5896;5897;5898",
+          "repeat_occurrences_after_first": 40,
+          "sample_values": {
+            "اسم المعاملة": "تسجيل عقد بيع من خلال مكاتب الوساطة العقارية",
+            "الولاية": "العامرات",
+            "تاريخ الإجراء": "2025-08-26 00:00:00",
+            "نوع الإستعمال": "سكني",
+            "وصف العقار": "أرض فضاء"
+          },
+          "source_rows": "5860;5861;5862;5863;5864;5865;5866;5867;5868;5869;5870;5871;5872;5873;5874;5875;5876;5877;5878;5879;5880;5881;5882;5883;5884;5885;5886;5887;5888;5889;5890;5891;5892;5893;5894;5895;5897;5898;5899;5900;5901"
+        },
+        {
+          "assessment": "full_source_pattern_repetition_identity_unresolved",
+          "criterion": "full_source_equality",
+          "dataset_id": "muscat_brokerage_2025",
+          "differing_omitted_columns": "",
+          "differing_source_columns": "",
+          "distinct_full_source_patterns": 1,
+          "group_signature": "45d8fb2534b731efa9116833a8793f76a56c44de526b9671fa985b880e492412",
+          "group_size": 29,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "6079;6080;6081;6082;6083;6084;6085;6086;6087;6088;6089;6090;6091;6092;6093;6094;6095;6097;6098;6099;6100;6101;6102;6103;6104;6105;6106;6107;6108",
+          "repeat_occurrences_after_first": 28,
+          "sample_values": {
+            "اسم المعاملة": "تسجيل عقد بيع من خلال مكاتب الوساطة العقارية",
+            "الولاية": "العامرات",
+            "تاريخ الإجراء": "2025-09-11 00:00:00",
+            "نوع الإستعمال": "سكني",
+            "وصف العقار": "أرض فضاء"
+          },
+          "source_rows": "6082;6083;6084;6085;6086;6087;6088;6089;6090;6091;6092;6093;6094;6095;6096;6097;6098;6100;6101;6102;6103;6104;6105;6106;6107;6108;6109;6110;6111"
+        },
+        {
+          "assessment": "full_source_pattern_repetition_identity_unresolved",
+          "criterion": "full_source_equality",
+          "dataset_id": "muscat_brokerage_2025",
+          "differing_omitted_columns": "",
+          "differing_source_columns": "",
+          "distinct_full_source_patterns": 1,
+          "group_signature": "21b309449ce2b95ddf8157d5cd32808ae4b05663f6f7eddfe38135e04637fd69",
+          "group_size": 28,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "4734;4735;4736;4737;4738;4739;4740;4741;4742;4743;4744;4746;4747;4748;4749;4750;4751;4752;4753;4755;4756;4757;4758;4759;4760;4761;4762;4763",
+          "repeat_occurrences_after_first": 27,
+          "sample_values": {
+            "اسم المعاملة": "تسجيل عقد بيع من خلال مكاتب الوساطة العقارية",
+            "الولاية": "العامرات",
+            "تاريخ الإجراء": "2025-05-18 00:00:00",
+            "نوع الإستعمال": "سكني",
+            "وصف العقار": "أرض فضاء"
+          },
+          "source_rows": "4737;4738;4739;4740;4741;4742;4743;4744;4745;4746;4747;4749;4750;4751;4752;4753;4754;4755;4756;4758;4759;4760;4761;4762;4763;4764;4765;4766"
+        },
+        {
+          "assessment": "full_source_pattern_repetition_identity_unresolved",
+          "criterion": "exported_payload_equality",
+          "dataset_id": "muscat_brokerage_2025",
+          "differing_omitted_columns": "",
+          "differing_source_columns": "",
+          "distinct_full_source_patterns": 1,
+          "group_signature": "6a116c33442787f9250a0a9f5948fe649f01a814dca6a77c4aff8ed2c9451981",
+          "group_size": 41,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "5857;5858;5859;5860;5861;5862;5863;5864;5865;5866;5867;5868;5869;5870;5871;5872;5873;5874;5875;5876;5877;5878;5879;5880;5881;5882;5883;5884;5885;5886;5887;5888;5889;5890;5891;5892;5894;5895;5896;5897;5898",
+          "repeat_occurrences_after_first": 40,
+          "sample_values": {
+            "اسم المعاملة": "تسجيل عقد بيع من خلال مكاتب الوساطة العقارية",
+            "الولاية": "العامرات",
+            "تاريخ الإجراء": "2025-08-26 00:00:00",
+            "نوع الإستعمال": "سكني",
+            "وصف العقار": "أرض فضاء"
+          },
+          "source_rows": "5860;5861;5862;5863;5864;5865;5866;5867;5868;5869;5870;5871;5872;5873;5874;5875;5876;5877;5878;5879;5880;5881;5882;5883;5884;5885;5886;5887;5888;5889;5890;5891;5892;5893;5894;5895;5897;5898;5899;5900;5901"
+        },
+        {
+          "assessment": "full_source_pattern_repetition_identity_unresolved",
+          "criterion": "exported_payload_equality",
+          "dataset_id": "muscat_brokerage_2025",
+          "differing_omitted_columns": "",
+          "differing_source_columns": "",
+          "distinct_full_source_patterns": 1,
+          "group_signature": "276811b2bc3ded2404cef6bfa7ad10591691976337712077b60a87acc6cab2e6",
+          "group_size": 29,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "6079;6080;6081;6082;6083;6084;6085;6086;6087;6088;6089;6090;6091;6092;6093;6094;6095;6097;6098;6099;6100;6101;6102;6103;6104;6105;6106;6107;6108",
+          "repeat_occurrences_after_first": 28,
+          "sample_values": {
+            "اسم المعاملة": "تسجيل عقد بيع من خلال مكاتب الوساطة العقارية",
+            "الولاية": "العامرات",
+            "تاريخ الإجراء": "2025-09-11 00:00:00",
+            "نوع الإستعمال": "سكني",
+            "وصف العقار": "أرض فضاء"
+          },
+          "source_rows": "6082;6083;6084;6085;6086;6087;6088;6089;6090;6091;6092;6093;6094;6095;6096;6097;6098;6100;6101;6102;6103;6104;6105;6106;6107;6108;6109;6110;6111"
+        },
+        {
+          "assessment": "full_source_pattern_repetition_identity_unresolved",
+          "criterion": "exported_payload_equality",
+          "dataset_id": "muscat_brokerage_2025",
+          "differing_omitted_columns": "",
+          "differing_source_columns": "",
+          "distinct_full_source_patterns": 1,
+          "group_signature": "233c9aa2d42e9231a9ca91f6bf45763d92633c8848499cb52cba567ef8e236cf",
+          "group_size": 28,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "4734;4735;4736;4737;4738;4739;4740;4741;4742;4743;4744;4746;4747;4748;4749;4750;4751;4752;4753;4755;4756;4757;4758;4759;4760;4761;4762;4763",
+          "repeat_occurrences_after_first": 27,
+          "sample_values": {
+            "اسم المعاملة": "تسجيل عقد بيع من خلال مكاتب الوساطة العقارية",
+            "الولاية": "العامرات",
+            "تاريخ الإجراء": "2025-05-18 00:00:00",
+            "نوع الإستعمال": "سكني",
+            "وصف العقار": "أرض فضاء"
+          },
+          "source_rows": "4737;4738;4739;4740;4741;4742;4743;4744;4745;4746;4747;4749;4750;4751;4752;4753;4754;4755;4756;4758;4759;4760;4761;4762;4763;4764;4765;4766"
+        }
+      ],
+      "exported_payload_equality": {
+        "distinct_attribute_patterns": 2588,
+        "largest_group": 41,
+        "occurrences_in_repeated_groups": 8174,
+        "repeat_occurrences_after_first": 6778,
+        "repeated_groups": 1396
+      },
+      "exported_source_payload_columns": [
+        "transaction_category_ar",
+        "source_wilayat_ar",
+        "transaction_date",
+        "property_use_ar",
+        "property_description_ar"
+      ],
+      "full_source_equality": {
+        "distinct_attribute_patterns": 2588,
+        "largest_group": 41,
+        "occurrences_in_repeated_groups": 8174,
+        "repeat_occurrences_after_first": 6778,
+        "repeated_groups": 1396
+      },
+      "generated_lineage_identifier_definition": "SHA-256(original file SHA|worksheet|Excel row), identifies the source occurrence, not the underlying transaction",
+      "header_row": 3,
+      "max_date": "2025-09-30",
+      "min_date": "2025-01-02",
+      "processed_columns_excluded_from_payload_comparison": [
+        "record_id",
+        "dataset_id",
+        "scope_id",
+        "source_sha256",
+        "source_sheet",
+        "source_row",
+        "year",
+        "month",
+        "governorate_id",
+        "source_region_ar",
+        "source_region_en",
+        "source_wilayat_en",
+        "wilayat_ar",
+        "wilayat_key",
+        "wilayat_normalization_method",
+        "governorate_mapping_method",
+        "nonstandard_wilayat_label",
+        "raw_row_signature",
+        "repeated_row_group_size",
+        "occurrence_rank",
+        "property_use_key",
+        "property_description_key",
+        "processed_record_ordinal"
+      ],
+      "processed_lineage_checks": {
+        "conflicting_lineage_groups": 0,
+        "repeated_generated_ids_after_first": 0,
+        "repeated_lineage_occurrences_after_first": 0
+      },
+      "projection_collision_groups": 0,
+      "projection_collision_occurrences": 0,
+      "reliable_official_transaction_or_record_id": false,
+      "removal_justifications": [],
+      "rows_removed": 0,
+      "source_column_identity_assessment": [
+        {
+          "column": "اسم المعاملة",
+          "distinct_nonmissing": 1,
+          "nonmissing": 9366,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "الولاية",
+          "distinct_nonmissing": 6,
+          "nonmissing": 9366,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "تاريخ الإجراء",
+          "distinct_nonmissing": 181,
+          "nonmissing": 9366,
+          "reliable_official_event_key": false,
+          "role": "procedure/transaction date; many records per date",
+          "unique_complete_column": false
+        },
+        {
+          "column": "نوع الإستعمال",
+          "distinct_nonmissing": 8,
+          "nonmissing": 9366,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "وصف العقار",
+          "distinct_nonmissing": 13,
+          "nonmissing": 9366,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        }
+      ],
+      "source_columns_in_current_detection": [
+        "اسم المعاملة",
+        "الولاية",
+        "تاريخ الإجراء",
+        "نوع الإستعمال",
+        "وصف العقار"
+      ],
+      "source_columns_omitted_from_export": [],
+      "source_file": "data/raw/manual/muscat_brokerage_sales_2025.xlsx",
+      "source_metadata": {
+        "audited_row_count": 9366,
+        "currency_unit": null,
+        "dataset_id": "muscat_brokerage_2025",
+        "file": "data/raw/manual/muscat_brokerage_sales_2025.xlsx",
+        "filename_period_label": "2025",
+        "header_row": 3,
+        "licence": null,
+        "licence_url": null,
+        "official_download_url": null,
+        "official_landing_url": null,
+        "provider": "Ministry of Housing and Urban Planning, Oman",
+        "provider_entry_point": "https://opendata.gov.om/en",
+        "provider_evidence": "embedded workbook source attribution and housing.gov.om contact domain",
+        "scope_id": "muscat_brokerage_registration_2025",
+        "service_code_definitions": {},
+        "sha256": "f00cabf8a4084644321dda07061167e69030091300ba8fadf3ab5eccc7c857ca",
+        "sheet": "تسجيل عقد بيع - مسقط",
+        "source_verification_status": "embedded_provider_attribution; exact resource pending",
+        "uploaded_commit": "6a461443f3522349ec9b827c8761e2672c605816"
+      },
+      "source_rows": 9366,
+      "source_sha256": "f00cabf8a4084644321dda07061167e69030091300ba8fadf3ab5eccc7c857ca",
+      "source_sheet": "تسجيل عقد بيع - مسقط",
+      "worksheets": [
+        {
+          "actual_dimensions": {
+            "columns": 4,
+            "rows": 18
+          },
+          "declared_dimensions": {
+            "columns": 4,
+            "rows": 18
+          },
+          "name": "البيانات الوصفية "
+        },
+        {
+          "actual_dimensions": {
+            "columns": 5,
+            "rows": 7
+          },
+          "declared_dimensions": {
+            "columns": 5,
+            "rows": 7
+          },
+          "name": "المتغيرات "
+        },
+        {
+          "actual_dimensions": {
+            "columns": 5,
+            "rows": 9369
+          },
+          "declared_dimensions": {
+            "columns": 5,
+            "rows": 9369
+          },
+          "name": "تسجيل عقد بيع - مسقط"
+        }
+      ]
+    },
+    {
+      "actual_duplicate_economic_transaction_count": null,
+      "candidate_identifier_columns": [],
+      "cleaned_output_created": false,
+      "cleaned_output_reason": "No sufficiently evidenced duplicate ingestion records; repeated attributes do not establish transaction duplication.",
+      "confirmed_duplicate_economic_transactions": 0,
+      "confirmed_duplicate_source_occurrence_rows": 0,
+      "current_method": "SHA-256 of json.dumps(tuple(original decoded row), ensure_ascii=False, default=str), preserving original field order/values, no normalization",
+      "dataset_id": "land_nov_2022",
+      "disposition": "retain_all_occurrences_identity_unresolved",
+      "examples": [
+        {
+          "assessment": "full_source_pattern_repetition_identity_unresolved",
+          "criterion": "full_source_equality",
+          "dataset_id": "land_nov_2022",
+          "differing_omitted_columns": "",
+          "differing_source_columns": "",
+          "distinct_full_source_patterns": 1,
+          "group_signature": "74ba2c06613d96d6c5d8a14a65d8cac0f209e039df851f3e7b1279a03cc2c837",
+          "group_size": 49,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "128;130;135;583;593;1044;1257;1483;1485;1492;1739;1743;1746;1968;1972;2210;2212;2213;2450;2674;2683;2920;3158;3161;3368;3370;3606;3849;3859;4086;4569;4803;4810;4811;5041;5265;5276;5492;5738;5745;6200;6459;6691;6694;6696;6933;6935;7188;7393",
+          "repeat_occurrences_after_first": 48,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "الـداخليـة",
+            "REGION_EN": "AlDakhliah",
+            "TRANSACTION_DATE": "2022-11-22 00:00:00",
+            "WILAYAT_AR": "نزوى",
+            "WILAYAT_EN": "Nizwa"
+          },
+          "source_rows": "129;131;136;584;594;1045;1258;1484;1486;1493;1740;1744;1747;1969;1973;2211;2213;2214;2451;2675;2684;2921;3159;3162;3369;3371;3607;3850;3860;4087;4570;4804;4811;4812;5042;5266;5277;5493;5739;5746;6201;6460;6692;6695;6697;6934;6936;7189;7394"
+        },
+        {
+          "assessment": "full_source_pattern_repetition_identity_unresolved",
+          "criterion": "full_source_equality",
+          "dataset_id": "land_nov_2022",
+          "differing_omitted_columns": "",
+          "differing_source_columns": "",
+          "distinct_full_source_patterns": 1,
+          "group_signature": "42b34814b9cf48bfcc2c84c0f7b814717cdb4989def0b6cd138434d6957c037d",
+          "group_size": 32,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "78;999;1443;1689;1925;2630;2862;2866;2869;3111;3112;3319;3560;3561;4037;4285;4286;4527;4761;5227;5228;5693;5922;5923;6405;6406;6407;6410;6896;6900;7147;7149",
+          "repeat_occurrences_after_first": 31,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "الـداخليـة",
+            "REGION_EN": "AlDakhliah",
+            "TRANSACTION_DATE": "2022-11-14 00:00:00",
+            "WILAYAT_AR": "نزوى",
+            "WILAYAT_EN": "Nizwa"
+          },
+          "source_rows": "79;1000;1444;1690;1926;2631;2863;2867;2870;3112;3113;3320;3561;3562;4038;4286;4287;4528;4762;5228;5229;5694;5923;5924;6406;6407;6408;6411;6897;6901;7148;7150"
+        },
+        {
+          "assessment": "full_source_pattern_repetition_identity_unresolved",
+          "criterion": "full_source_equality",
+          "dataset_id": "land_nov_2022",
+          "differing_omitted_columns": "",
+          "differing_source_columns": "",
+          "distinct_full_source_patterns": 1,
+          "group_signature": "1c5fdb1a432fabe31998c3e7e7518d685a58db552e84bf6ff5f05b2aa217225f",
+          "group_size": 31,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "52;281;285;492;1186;1188;1411;1652;1891;2134;2135;2375;2585;2592;3073;3075;3520;3524;3767;4496;4717;4722;4960;5186;5188;5653;5887;5895;6373;7101;7109",
+          "repeat_occurrences_after_first": 30,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "الـداخليـة",
+            "REGION_EN": "AlDakhliah",
+            "TRANSACTION_DATE": "2022-11-08 00:00:00",
+            "WILAYAT_AR": "ادم",
+            "WILAYAT_EN": "Adam"
+          },
+          "source_rows": "53;282;286;493;1187;1189;1412;1653;1892;2135;2136;2376;2586;2593;3074;3076;3521;3525;3768;4497;4718;4723;4961;5187;5189;5654;5888;5896;6374;7102;7110"
+        },
+        {
+          "assessment": "projection_collision_identity_unresolved",
+          "criterion": "exported_payload_equality",
+          "dataset_id": "land_nov_2022",
+          "differing_omitted_columns": "GENDER_NAME_AR;GENDER_NAME_EN",
+          "differing_source_columns": "GENDER_NAME_AR;GENDER_NAME_EN",
+          "distinct_full_source_patterns": 2,
+          "group_signature": "99a3ef58e8f38e23d0860c02c64a48d9fe58a95184ab84db44640f3509ccaaca",
+          "group_size": 59,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "128;130;132;135;583;589;593;1044;1045;1257;1483;1485;1492;1739;1743;1746;1968;1972;2210;2212;2213;2215;2217;2450;2674;2683;2684;2920;3158;3161;3368;3370;3372;3606;3849;3859;4084;4086;4097;4569;4803;4810;4811;5041;5265;5276;5492;5738;5745;6200;6459;6688;6691;6694;6696;6933;6935;7188;7393",
+          "repeat_occurrences_after_first": 58,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "الـداخليـة",
+            "REGION_EN": "AlDakhliah",
+            "TRANSACTION_DATE": "2022-11-22 00:00:00",
+            "WILAYAT_AR": "نزوى",
+            "WILAYAT_EN": "Nizwa"
+          },
+          "source_rows": "129;131;133;136;584;590;594;1045;1046;1258;1484;1486;1493;1740;1744;1747;1969;1973;2211;2213;2214;2216;2218;2451;2675;2684;2685;2921;3159;3162;3369;3371;3373;3607;3850;3860;4085;4087;4098;4570;4804;4811;4812;5042;5266;5277;5493;5739;5746;6201;6460;6689;6692;6695;6697;6934;6936;7189;7394"
+        },
+        {
+          "assessment": "projection_collision_identity_unresolved",
+          "criterion": "exported_payload_equality",
+          "dataset_id": "land_nov_2022",
+          "differing_omitted_columns": "GENDER_NAME_AR;GENDER_NAME_EN",
+          "differing_source_columns": "GENDER_NAME_AR;GENDER_NAME_EN",
+          "distinct_full_source_patterns": 2,
+          "group_signature": "3995c280133f84453e4de3fe523084a435838921aa1bd8bfd197a5ca00fc03fb",
+          "group_size": 40,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "52;279;281;285;492;751;1186;1188;1411;1652;1891;2134;2135;2375;2585;2592;3073;3075;3520;3524;3525;3767;4251;4496;4717;4722;4949;4960;5186;5188;5194;5653;5886;5887;5888;5895;6373;6855;7101;7109",
+          "repeat_occurrences_after_first": 39,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "الـداخليـة",
+            "REGION_EN": "AlDakhliah",
+            "TRANSACTION_DATE": "2022-11-08 00:00:00",
+            "WILAYAT_AR": "ادم",
+            "WILAYAT_EN": "Adam"
+          },
+          "source_rows": "53;280;282;286;493;752;1187;1189;1412;1653;1892;2135;2136;2376;2586;2593;3074;3076;3521;3525;3526;3768;4252;4497;4718;4723;4950;4961;5187;5189;5195;5654;5887;5888;5889;5896;6374;6856;7102;7110"
+        },
+        {
+          "assessment": "projection_collision_identity_unresolved",
+          "criterion": "exported_payload_equality",
+          "dataset_id": "land_nov_2022",
+          "differing_omitted_columns": "GENDER_NAME_AR;GENDER_NAME_EN",
+          "differing_source_columns": "GENDER_NAME_AR;GENDER_NAME_EN",
+          "distinct_full_source_patterns": 2,
+          "group_signature": "eb4665e231c077a5c389ea4e3670ef5ec97d15ba79e6cf10e11681077ab768b8",
+          "group_size": 33,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "78;999;1443;1689;1925;2630;2862;2866;2869;3111;3112;3319;3560;3561;4037;4285;4286;4527;4761;5227;5228;5693;5922;5923;6405;6406;6407;6410;6891;6896;6900;7147;7149",
+          "repeat_occurrences_after_first": 32,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "الـداخليـة",
+            "REGION_EN": "AlDakhliah",
+            "TRANSACTION_DATE": "2022-11-14 00:00:00",
+            "WILAYAT_AR": "نزوى",
+            "WILAYAT_EN": "Nizwa"
+          },
+          "source_rows": "79;1000;1444;1690;1926;2631;2863;2867;2870;3112;3113;3320;3561;3562;4038;4286;4287;4528;4762;5228;5229;5694;5923;5924;6406;6407;6408;6411;6892;6897;6901;7148;7150"
+        }
+      ],
+      "exported_payload_equality": {
+        "distinct_attribute_patterns": 4425,
+        "largest_group": 59,
+        "occurrences_in_repeated_groups": 4170,
+        "repeat_occurrences_after_first": 3076,
+        "repeated_groups": 1094
+      },
+      "exported_source_payload_columns": [
+        "transaction_date",
+        "buyer_type",
+        "source_region_ar",
+        "source_region_en",
+        "source_wilayat_ar",
+        "source_wilayat_en",
+        "source_village_ar",
+        "source_village_en",
+        "number_of_owners"
+      ],
+      "full_source_equality": {
+        "distinct_attribute_patterns": 4872,
+        "largest_group": 49,
+        "occurrences_in_repeated_groups": 3675,
+        "repeat_occurrences_after_first": 2629,
+        "repeated_groups": 1046
+      },
+      "generated_lineage_identifier_definition": "SHA-256(original file SHA|worksheet|Excel row), identifies the source occurrence, not the underlying transaction",
+      "header_row": 1,
+      "max_date": "2022-11-29",
+      "min_date": "2022-11-01",
+      "processed_columns_excluded_from_payload_comparison": [
+        "record_id",
+        "dataset_id",
+        "scope_id",
+        "source_sha256",
+        "source_sheet",
+        "source_row",
+        "year",
+        "month",
+        "governorate_id",
+        "wilayat_ar",
+        "wilayat_key",
+        "wilayat_normalization_method",
+        "governorate_mapping_method",
+        "nonstandard_wilayat_label",
+        "raw_row_signature",
+        "repeated_row_group_size",
+        "occurrence_rank",
+        "processed_record_ordinal"
+      ],
+      "processed_lineage_checks": {
+        "conflicting_lineage_groups": 0,
+        "repeated_generated_ids_after_first": 0,
+        "repeated_lineage_occurrences_after_first": 0
+      },
+      "projection_collision_groups": 437,
+      "projection_collision_occurrences": 2391,
+      "reliable_official_transaction_or_record_id": false,
+      "removal_justifications": [],
+      "rows_removed": 0,
+      "source_column_identity_assessment": [
+        {
+          "column": "TRANSACTION_DATE",
+          "distinct_nonmissing": 22,
+          "nonmissing": 7501,
+          "reliable_official_event_key": false,
+          "role": "procedure/transaction date; many records per date",
+          "unique_complete_column": false
+        },
+        {
+          "column": "BUYER_TYPE",
+          "distinct_nonmissing": 2,
+          "nonmissing": 7501,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "REGION_AR",
+          "distinct_nonmissing": 12,
+          "nonmissing": 7501,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "REGION_EN",
+          "distinct_nonmissing": 10,
+          "nonmissing": 7501,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "WILAYAT_AR",
+          "distinct_nonmissing": 63,
+          "nonmissing": 7501,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "WILAYAT_EN",
+          "distinct_nonmissing": 63,
+          "nonmissing": 7463,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "VILLAGE_AR",
+          "distinct_nonmissing": 1145,
+          "nonmissing": 7501,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "VILLAGE_EN",
+          "distinct_nonmissing": 1353,
+          "nonmissing": 7436,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "GENDER_NAME_AR",
+          "distinct_nonmissing": 4,
+          "nonmissing": 7028,
+          "reliable_official_event_key": false,
+          "role": "demographic attribute; never a transaction identity key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "GENDER_NAME_EN",
+          "distinct_nonmissing": 5,
+          "nonmissing": 7028,
+          "reliable_official_event_key": false,
+          "role": "demographic attribute; never a transaction identity key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "NO_OF_OWNERS",
+          "distinct_nonmissing": 17,
+          "nonmissing": 7501,
+          "reliable_official_event_key": false,
+          "role": "owner count; not record sequence or transaction count",
+          "unique_complete_column": false
+        }
+      ],
+      "source_columns_in_current_detection": [
+        "TRANSACTION_DATE",
+        "BUYER_TYPE",
+        "REGION_AR",
+        "REGION_EN",
+        "WILAYAT_AR",
+        "WILAYAT_EN",
+        "VILLAGE_AR",
+        "VILLAGE_EN",
+        "GENDER_NAME_AR",
+        "GENDER_NAME_EN",
+        "NO_OF_OWNERS"
+      ],
+      "source_columns_omitted_from_export": [
+        "GENDER_NAME_AR",
+        "GENDER_NAME_EN"
+      ],
+      "source_file": "data/raw/manual/oman_land_transactions_nov_2022.xlsx",
+      "source_metadata": {
+        "audited_row_count": 7501,
+        "currency_unit": null,
+        "dataset_id": "land_nov_2022",
+        "file": "data/raw/manual/oman_land_transactions_nov_2022.xlsx",
+        "filename_period_label": "2022-11",
+        "header_row": 1,
+        "licence": null,
+        "licence_url": null,
+        "official_download_url": null,
+        "official_landing_url": null,
+        "provider": "Ministry of Housing and Urban Planning, Oman",
+        "provider_entry_point": "https://mohup.gov.om/en/open-data/data/Realestate%20Transaction",
+        "provider_evidence": "user-declared official upload; source layout matches earlier MOHUP transaction resource leads",
+        "scope_id": "land_buy_sell_2022",
+        "service_code_definitions": {},
+        "sha256": "80b8c39857e6379b72960342574feb721b55007e1d95bcd37db7f473768edf8a",
+        "sheet": "BuySell",
+        "source_verification_status": "user_attributed; exact resource pending",
+        "uploaded_commit": "6a461443f3522349ec9b827c8761e2672c605816"
+      },
+      "source_rows": 7501,
+      "source_sha256": "80b8c39857e6379b72960342574feb721b55007e1d95bcd37db7f473768edf8a",
+      "source_sheet": "BuySell",
+      "worksheets": [
+        {
+          "actual_dimensions": {
+            "columns": 11,
+            "rows": 7502
+          },
+          "declared_dimensions": {
+            "columns": 1,
+            "rows": 1
+          },
+          "name": "BuySell"
+        }
+      ]
+    },
+    {
+      "actual_duplicate_economic_transaction_count": null,
+      "candidate_identifier_columns": [],
+      "cleaned_output_created": false,
+      "cleaned_output_reason": "No sufficiently evidenced duplicate ingestion records; repeated attributes do not establish transaction duplication.",
+      "confirmed_duplicate_economic_transactions": 0,
+      "confirmed_duplicate_source_occurrence_rows": 0,
+      "current_method": "SHA-256 of json.dumps(tuple(original decoded row), ensure_ascii=False, default=str), preserving original field order/values, no normalization",
+      "dataset_id": "land_dec_2022",
+      "disposition": "retain_all_occurrences_identity_unresolved",
+      "examples": [
+        {
+          "assessment": "full_source_pattern_repetition_identity_unresolved",
+          "criterion": "full_source_equality",
+          "dataset_id": "land_dec_2022",
+          "differing_omitted_columns": "",
+          "differing_source_columns": "",
+          "distinct_full_source_patterns": 1,
+          "group_signature": "626f7e1b7c5995e74b8cfab02f0d0af64f0e8c474de752817ae0adf537c02373",
+          "group_size": 44,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "7531;7708;7710;7887;8049;8442;8763;8766;8767;8942;8943;9102;9280;9443;9445;9446;9448;9450;9451;9630;9631;9792;9793;9802;9984;9987;10524;10910;11079;11080;11417;11588;11589;11771;11940;11941;11943;12113;12116;12290;12292;12469;12846;13026",
+          "repeat_occurrences_after_first": 43,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "الـداخليـة",
+            "REGION_EN": "AlDakhliah",
+            "TRANSACTION_DATE": "2022-12-07 00:00:00",
+            "WILAYAT_AR": "نزوى",
+            "WILAYAT_EN": "Nizwa"
+          },
+          "source_rows": "31;208;210;387;549;942;1263;1266;1267;1442;1443;1602;1780;1943;1945;1946;1948;1950;1951;2130;2131;2292;2293;2302;2484;2487;3024;3410;3579;3580;3917;4088;4089;4271;4440;4441;4443;4613;4616;4790;4792;4969;5346;5526"
+        },
+        {
+          "assessment": "full_source_pattern_repetition_identity_unresolved",
+          "criterion": "full_source_equality",
+          "dataset_id": "land_dec_2022",
+          "differing_omitted_columns": "",
+          "differing_source_columns": "",
+          "distinct_full_source_patterns": 1,
+          "group_signature": "9fa592b63f8880660ed4c0eb9c5872753585604e883d37a563851c0ec504b7c0",
+          "group_size": 37,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "7615;7874;8031;8033;8035;8041;8223;8226;8430;8432;8586;8587;8754;8932;9268;9765;9772;9969;9971;10146;10152;10343;11072;11244;11398;11401;11576;11578;11749;11919;11920;12101;12103;12457;12637;12639;13010",
+          "repeat_occurrences_after_first": 36,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "الـداخليـة",
+            "REGION_EN": "AlDakhliah",
+            "TRANSACTION_DATE": "2022-12-05 00:00:00",
+            "WILAYAT_AR": "نزوى(نيابة بركة الموز)",
+            "WILAYAT_EN": "Nizwa (Neyaba Brakat Al Mooz)"
+          },
+          "source_rows": "115;374;531;533;535;541;723;726;930;932;1086;1087;1254;1432;1768;2265;2272;2469;2471;2646;2652;2843;3572;3744;3898;3901;4076;4078;4249;4419;4420;4601;4603;4957;5137;5139;5510"
+        },
+        {
+          "assessment": "full_source_pattern_repetition_identity_unresolved",
+          "criterion": "full_source_equality",
+          "dataset_id": "land_dec_2022",
+          "differing_omitted_columns": "",
+          "differing_source_columns": "",
+          "distinct_full_source_patterns": 1,
+          "group_signature": "fce2cb0d56bf4d57fccf6a8d22b2d872fba89e3cce8ea79b7ccb01a2705a5b22",
+          "group_size": 36,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "7527;7705;8233;8239;8599;9439;9629;9778;9781;9789;9980;10154;10157;10516;10518;10522;10705;10706;10707;10902;10903;11074;11075;11249;11250;11410;11413;11586;11932;11936;12111;12462;12646;12838;13018;13023",
+          "repeat_occurrences_after_first": 35,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "الـداخليـة",
+            "REGION_EN": "AlDakhliah",
+            "TRANSACTION_DATE": "2022-12-06 00:00:00",
+            "WILAYAT_AR": "نزوى",
+            "WILAYAT_EN": "Nizwa"
+          },
+          "source_rows": "27;205;733;739;1099;1939;2129;2278;2281;2289;2480;2654;2657;3016;3018;3022;3205;3206;3207;3402;3403;3574;3575;3749;3750;3910;3913;4086;4432;4436;4611;4962;5146;5338;5518;5523"
+        },
+        {
+          "assessment": "projection_collision_identity_unresolved",
+          "criterion": "exported_payload_equality",
+          "dataset_id": "land_dec_2022",
+          "differing_omitted_columns": "GENDER_NAME_AR;GENDER_NAME_EN",
+          "differing_source_columns": "GENDER_NAME_AR;GENDER_NAME_EN",
+          "distinct_full_source_patterns": 2,
+          "group_signature": "84b026b4055e82f642a136a9610775e7ea6daca9ff3174eb000f9dd033ff250a",
+          "group_size": 51,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "7531;7708;7710;7887;8049;8243;8442;8763;8766;8767;8942;8943;9102;9104;9280;9443;9445;9446;9448;9450;9451;9630;9631;9792;9793;9797;9802;9983;9984;9987;10524;10531;10713;10910;11079;11080;11417;11588;11589;11771;11940;11941;11943;12113;12116;12117;12290;12292;12469;12846;13026",
+          "repeat_occurrences_after_first": 50,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "الـداخليـة",
+            "REGION_EN": "AlDakhliah",
+            "TRANSACTION_DATE": "2022-12-07 00:00:00",
+            "WILAYAT_AR": "نزوى",
+            "WILAYAT_EN": "Nizwa"
+          },
+          "source_rows": "31;208;210;387;549;743;942;1263;1266;1267;1442;1443;1602;1604;1780;1943;1945;1946;1948;1950;1951;2130;2131;2292;2293;2297;2302;2483;2484;2487;3024;3031;3213;3410;3579;3580;3917;4088;4089;4271;4440;4441;4443;4613;4616;4617;4790;4792;4969;5346;5526"
+        },
+        {
+          "assessment": "projection_collision_identity_unresolved",
+          "criterion": "exported_payload_equality",
+          "dataset_id": "land_dec_2022",
+          "differing_omitted_columns": "GENDER_NAME_AR;GENDER_NAME_EN",
+          "differing_source_columns": "GENDER_NAME_AR;GENDER_NAME_EN",
+          "distinct_full_source_patterns": 2,
+          "group_signature": "24ebc69ed403a4c2754c62c12fd28cc7d5327f2eeb99e9da49d6feaa28141ac2",
+          "group_size": 50,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "7524;7692;7698;7875;8032;8428;8431;8434;8588;8591;8592;8595;8596;8748;8930;9090;9092;9093;9267;9433;9763;9769;9975;10149;10340;10342;10503;10504;10506;10507;10700;10890;10896;11241;11243;11399;11404;11405;11922;12100;12104;12105;12278;12281;12451;12456;12824;13011;13012;13014",
+          "repeat_occurrences_after_first": 49,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "جنـوب الباطنة",
+            "REGION_EN": "South Batinah",
+            "TRANSACTION_DATE": "2022-12-05 00:00:00",
+            "WILAYAT_AR": "بركاء",
+            "WILAYAT_EN": "Barka"
+          },
+          "source_rows": "24;192;198;375;532;928;931;934;1088;1091;1092;1095;1096;1248;1430;1590;1592;1593;1767;1933;2263;2269;2475;2649;2840;2842;3003;3004;3006;3007;3200;3390;3396;3741;3743;3899;3904;3905;4422;4600;4604;4605;4778;4781;4951;4956;5324;5511;5512;5514"
+        },
+        {
+          "assessment": "projection_collision_identity_unresolved",
+          "criterion": "exported_payload_equality",
+          "dataset_id": "land_dec_2022",
+          "differing_omitted_columns": "GENDER_NAME_AR;GENDER_NAME_EN",
+          "differing_source_columns": "GENDER_NAME_AR;GENDER_NAME_EN",
+          "distinct_full_source_patterns": 2,
+          "group_signature": "6bbc81519f10621f6b83d70dd111de9b8a7ca3e95a23a398c16a692c3d91ba39",
+          "group_size": 43,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "7615;7874;8031;8033;8035;8040;8041;8223;8226;8430;8432;8586;8587;8747;8754;8932;9266;9268;9765;9772;9965;9969;9971;10146;10152;10343;11072;11244;11398;11401;11576;11578;11584;11749;11919;11920;12101;12102;12103;12457;12637;12639;13010",
+          "repeat_occurrences_after_first": 42,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "الـداخليـة",
+            "REGION_EN": "AlDakhliah",
+            "TRANSACTION_DATE": "2022-12-05 00:00:00",
+            "WILAYAT_AR": "نزوى(نيابة بركة الموز)",
+            "WILAYAT_EN": "Nizwa (Neyaba Brakat Al Mooz)"
+          },
+          "source_rows": "115;374;531;533;535;540;541;723;726;930;932;1086;1087;1247;1254;1432;1766;1768;2265;2272;2465;2469;2471;2646;2652;2843;3572;3744;3898;3901;4076;4078;4084;4249;4419;4420;4601;4602;4603;4957;5137;5139;5510"
+        }
+      ],
+      "exported_payload_equality": {
+        "distinct_attribute_patterns": 3529,
+        "largest_group": 51,
+        "occurrences_in_repeated_groups": 2942,
+        "repeat_occurrences_after_first": 2138,
+        "repeated_groups": 804
+      },
+      "exported_source_payload_columns": [
+        "transaction_date",
+        "buyer_type",
+        "source_region_ar",
+        "source_region_en",
+        "source_wilayat_ar",
+        "source_wilayat_en",
+        "source_village_ar",
+        "source_village_en",
+        "number_of_owners"
+      ],
+      "full_source_equality": {
+        "distinct_attribute_patterns": 3824,
+        "largest_group": 44,
+        "occurrences_in_repeated_groups": 2600,
+        "repeat_occurrences_after_first": 1843,
+        "repeated_groups": 757
+      },
+      "generated_lineage_identifier_definition": "SHA-256(original file SHA|worksheet|Excel row), identifies the source occurrence, not the underlying transaction",
+      "header_row": 1,
+      "max_date": "2022-12-29",
+      "min_date": "2022-12-04",
+      "processed_columns_excluded_from_payload_comparison": [
+        "record_id",
+        "dataset_id",
+        "scope_id",
+        "source_sha256",
+        "source_sheet",
+        "source_row",
+        "year",
+        "month",
+        "governorate_id",
+        "wilayat_ar",
+        "wilayat_key",
+        "wilayat_normalization_method",
+        "governorate_mapping_method",
+        "nonstandard_wilayat_label",
+        "raw_row_signature",
+        "repeated_row_group_size",
+        "occurrence_rank",
+        "processed_record_ordinal"
+      ],
+      "processed_lineage_checks": {
+        "conflicting_lineage_groups": 0,
+        "repeated_generated_ids_after_first": 0,
+        "repeated_lineage_occurrences_after_first": 0
+      },
+      "projection_collision_groups": 286,
+      "projection_collision_occurrences": 1604,
+      "reliable_official_transaction_or_record_id": false,
+      "removal_justifications": [],
+      "rows_removed": 0,
+      "source_column_identity_assessment": [
+        {
+          "column": "TRANSACTION_DATE",
+          "distinct_nonmissing": 20,
+          "nonmissing": 5667,
+          "reliable_official_event_key": false,
+          "role": "procedure/transaction date; many records per date",
+          "unique_complete_column": false
+        },
+        {
+          "column": "BUYER_TYPE",
+          "distinct_nonmissing": 2,
+          "nonmissing": 5667,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "REGION_AR",
+          "distinct_nonmissing": 12,
+          "nonmissing": 5667,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "REGION_EN",
+          "distinct_nonmissing": 10,
+          "nonmissing": 5667,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "WILAYAT_AR",
+          "distinct_nonmissing": 62,
+          "nonmissing": 5667,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "WILAYAT_EN",
+          "distinct_nonmissing": 62,
+          "nonmissing": 5639,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "VILLAGE_AR",
+          "distinct_nonmissing": 1018,
+          "nonmissing": 5667,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "VILLAGE_EN",
+          "distinct_nonmissing": 1183,
+          "nonmissing": 5640,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "GENDER_NAME_AR",
+          "distinct_nonmissing": 3,
+          "nonmissing": 5381,
+          "reliable_official_event_key": false,
+          "role": "demographic attribute; never a transaction identity key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "GENDER_NAME_EN",
+          "distinct_nonmissing": 3,
+          "nonmissing": 5381,
+          "reliable_official_event_key": false,
+          "role": "demographic attribute; never a transaction identity key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "NO_OF_OWNERS",
+          "distinct_nonmissing": 14,
+          "nonmissing": 5667,
+          "reliable_official_event_key": false,
+          "role": "owner count; not record sequence or transaction count",
+          "unique_complete_column": false
+        }
+      ],
+      "source_columns_in_current_detection": [
+        "TRANSACTION_DATE",
+        "BUYER_TYPE",
+        "REGION_AR",
+        "REGION_EN",
+        "WILAYAT_AR",
+        "WILAYAT_EN",
+        "VILLAGE_AR",
+        "VILLAGE_EN",
+        "GENDER_NAME_AR",
+        "GENDER_NAME_EN",
+        "NO_OF_OWNERS"
+      ],
+      "source_columns_omitted_from_export": [
+        "GENDER_NAME_AR",
+        "GENDER_NAME_EN"
+      ],
+      "source_file": "data/raw/manual/oman_land_transactions_dec_2022.xlsx",
+      "source_metadata": {
+        "audited_row_count": 5667,
+        "currency_unit": null,
+        "dataset_id": "land_dec_2022",
+        "file": "data/raw/manual/oman_land_transactions_dec_2022.xlsx",
+        "filename_period_label": "2022-12",
+        "header_row": 1,
+        "licence": null,
+        "licence_url": null,
+        "official_download_url": null,
+        "official_landing_url": null,
+        "provider": "Ministry of Housing and Urban Planning, Oman",
+        "provider_entry_point": "https://mohup.gov.om/en/open-data/data/Realestate%20Transaction",
+        "provider_evidence": "user-declared official upload; source layout matches earlier MOHUP transaction resource leads",
+        "scope_id": "land_buy_sell_2022",
+        "service_code_definitions": {},
+        "sha256": "fd52d06d8a678597f1cb437cea8510777ac379886e9aa640c955cf0ee0389202",
+        "sheet": "BuySell",
+        "source_verification_status": "user_attributed; exact resource pending",
+        "uploaded_commit": "6a461443f3522349ec9b827c8761e2672c605816"
+      },
+      "source_rows": 5667,
+      "source_sha256": "fd52d06d8a678597f1cb437cea8510777ac379886e9aa640c955cf0ee0389202",
+      "source_sheet": "BuySell",
+      "worksheets": [
+        {
+          "actual_dimensions": {
+            "columns": 11,
+            "rows": 5668
+          },
+          "declared_dimensions": {
+            "columns": 1,
+            "rows": 1
+          },
+          "name": "BuySell"
+        }
+      ]
+    },
+    {
+      "actual_duplicate_economic_transaction_count": null,
+      "candidate_identifier_columns": [
+        {
+          "column": "SERVICE_SUB_ID",
+          "distinct_nonmissing": 2,
+          "nonmissing": 6024,
+          "reliable_unique_transaction_id": false,
+          "role": "service classification code, not transaction/record identity"
+        }
+      ],
+      "cleaned_output_created": false,
+      "cleaned_output_reason": "No sufficiently evidenced duplicate ingestion records; repeated attributes do not establish transaction duplication.",
+      "confirmed_duplicate_economic_transactions": 0,
+      "confirmed_duplicate_source_occurrence_rows": 0,
+      "current_method": "SHA-256 of json.dumps(tuple(original decoded row), ensure_ascii=False, default=str), preserving original field order/values, no normalization",
+      "dataset_id": "land_oct_2024",
+      "disposition": "retain_all_occurrences_identity_unresolved",
+      "examples": [
+        {
+          "assessment": "projection_collision_identity_unresolved",
+          "criterion": "exported_payload_equality",
+          "dataset_id": "land_oct_2024",
+          "differing_omitted_columns": "DATE_OF_BIRTH",
+          "differing_source_columns": "DATE_OF_BIRTH",
+          "distinct_full_source_patterns": 8,
+          "group_signature": "c03ebf6ccc911acb437cd1908c7f3ced8fba5330dc18839eec67b314ff859d22",
+          "group_size": 8,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "3909;3910;3911;3912;3913;3914;3915;3916",
+          "repeat_occurrences_after_first": 7,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "جنـوب الباطنة",
+            "REGION_EN": "South Batinah",
+            "SERVICE_SUB_ID": "RN13C",
+            "SINGLE_MULTIPLE": "Single",
+            "TRANSACTION_DATE": "2024-10-22 00:00:00",
+            "WILAYAT_AR": "بركاء",
+            "WILAYAT_EN": "Barka"
+          },
+          "source_rows": "3910;3911;3912;3913;3914;3915;3916;3917"
+        },
+        {
+          "assessment": "projection_collision_identity_unresolved",
+          "criterion": "exported_payload_equality",
+          "dataset_id": "land_oct_2024",
+          "differing_omitted_columns": "DATE_OF_BIRTH",
+          "differing_source_columns": "DATE_OF_BIRTH",
+          "distinct_full_source_patterns": 5,
+          "group_signature": "eff12867defde2561894db2f77941e83bc9f6edfc0eec4748a394c82c0761f83",
+          "group_size": 5,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "3538;3539;3540;3541;3542",
+          "repeat_occurrences_after_first": 4,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "محافظـة ظفـار",
+            "REGION_EN": "Dhofar",
+            "SERVICE_SUB_ID": "RN13C",
+            "SINGLE_MULTIPLE": "Single",
+            "TRANSACTION_DATE": "2024-10-20 00:00:00",
+            "WILAYAT_AR": "صلالة",
+            "WILAYAT_EN": "Salalah"
+          },
+          "source_rows": "3539;3540;3541;3542;3543"
+        },
+        {
+          "assessment": "projection_collision_identity_unresolved",
+          "criterion": "exported_payload_equality",
+          "dataset_id": "land_oct_2024",
+          "differing_omitted_columns": "DATE_OF_BIRTH;GENDER_NAME_AR;GENDER_NAME_EN",
+          "differing_source_columns": "DATE_OF_BIRTH;GENDER_NAME_AR;GENDER_NAME_EN",
+          "distinct_full_source_patterns": 4,
+          "group_signature": "76e4ca033ac4e40e6d43333b28d8752107341d42ed39fc851d2df434e5b62d21",
+          "group_size": 4,
+          "omitted_values_policy": "No birth date, gender, village or monetary token values are displayed; comparisons used the actual fields.",
+          "processed_record_ordinals": "840;841;842;843",
+          "repeat_occurrences_after_first": 3,
+          "sample_values": {
+            "BUYER_TYPE": "Individual",
+            "NO_OF_OWNERS": 1.0,
+            "REGION_AR": "مسقط",
+            "REGION_EN": "Muscat",
+            "SERVICE_SUB_ID": "RN13C",
+            "SINGLE_MULTIPLE": "Single",
+            "TRANSACTION_DATE": "2024-10-03 00:00:00",
+            "WILAYAT_AR": "العامرات",
+            "WILAYAT_EN": "Amerat"
+          },
+          "source_rows": "841;842;843;844"
+        }
+      ],
+      "exported_payload_equality": {
+        "distinct_attribute_patterns": 5746,
+        "largest_group": 8,
+        "occurrences_in_repeated_groups": 510,
+        "repeat_occurrences_after_first": 278,
+        "repeated_groups": 232
+      },
+      "exported_source_payload_columns": [
+        "transaction_date",
+        "service_sub_id",
+        "buyer_type",
+        "source_region_ar",
+        "source_region_en",
+        "source_wilayat_ar",
+        "source_wilayat_en",
+        "source_village_ar",
+        "source_village_en",
+        "reported_re_value",
+        "ownership_mode",
+        "number_of_owners"
+      ],
+      "full_source_equality": {
+        "distinct_attribute_patterns": 6024,
+        "largest_group": 1,
+        "occurrences_in_repeated_groups": 0,
+        "repeat_occurrences_after_first": 0,
+        "repeated_groups": 0
+      },
+      "generated_lineage_identifier_definition": "SHA-256(original file SHA|worksheet|Excel row), identifies the source occurrence, not the underlying transaction",
+      "header_row": 1,
+      "max_date": "2024-10-31",
+      "min_date": "2024-10-01",
+      "processed_columns_excluded_from_payload_comparison": [
+        "record_id",
+        "dataset_id",
+        "scope_id",
+        "source_sha256",
+        "source_sheet",
+        "source_row",
+        "year",
+        "month",
+        "governorate_id",
+        "wilayat_ar",
+        "wilayat_key",
+        "wilayat_normalization_method",
+        "governorate_mapping_method",
+        "nonstandard_wilayat_label",
+        "raw_row_signature",
+        "repeated_row_group_size",
+        "occurrence_rank",
+        "currency_unit",
+        "reported_value_tail_flag",
+        "processed_record_ordinal"
+      ],
+      "processed_lineage_checks": {
+        "conflicting_lineage_groups": 0,
+        "repeated_generated_ids_after_first": 0,
+        "repeated_lineage_occurrences_after_first": 0
+      },
+      "projection_collision_groups": 232,
+      "projection_collision_occurrences": 510,
+      "reliable_official_transaction_or_record_id": false,
+      "removal_justifications": [],
+      "rows_removed": 0,
+      "source_column_identity_assessment": [
+        {
+          "column": "TRANSACTION_DATE",
+          "distinct_nonmissing": 23,
+          "nonmissing": 6024,
+          "reliable_official_event_key": false,
+          "role": "procedure/transaction date; many records per date",
+          "unique_complete_column": false
+        },
+        {
+          "column": "SERVICE_SUB_ID",
+          "distinct_nonmissing": 2,
+          "nonmissing": 6024,
+          "reliable_official_event_key": false,
+          "role": "two observed service codes; not unique record identity",
+          "unique_complete_column": false
+        },
+        {
+          "column": "BUYER_TYPE",
+          "distinct_nonmissing": 2,
+          "nonmissing": 6024,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "REGION_AR",
+          "distinct_nonmissing": 12,
+          "nonmissing": 6024,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "REGION_EN",
+          "distinct_nonmissing": 10,
+          "nonmissing": 6024,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "WILAYAT_AR",
+          "distinct_nonmissing": 64,
+          "nonmissing": 6024,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "WILAYAT_EN",
+          "distinct_nonmissing": 64,
+          "nonmissing": 5990,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "VILLAGE_AR",
+          "distinct_nonmissing": 1162,
+          "nonmissing": 6024,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "VILLAGE_EN",
+          "distinct_nonmissing": 1327,
+          "nonmissing": 5947,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "RE_VALUE",
+          "distinct_nonmissing": 2069,
+          "nonmissing": 5657,
+          "reliable_official_event_key": false,
+          "role": "reported numeric value; meaning/unit unverified; not identity",
+          "unique_complete_column": false
+        },
+        {
+          "column": "DATE_OF_BIRTH",
+          "distinct_nonmissing": 3364,
+          "nonmissing": 5649,
+          "reliable_official_event_key": false,
+          "role": "demographic attribute; never a transaction identity key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "GENDER_NAME_AR",
+          "distinct_nonmissing": 4,
+          "nonmissing": 5649,
+          "reliable_official_event_key": false,
+          "role": "demographic attribute; never a transaction identity key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "GENDER_NAME_EN",
+          "distinct_nonmissing": 4,
+          "nonmissing": 5649,
+          "reliable_official_event_key": false,
+          "role": "demographic attribute; never a transaction identity key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "SINGLE_MULTIPLE",
+          "distinct_nonmissing": 2,
+          "nonmissing": 6024,
+          "reliable_official_event_key": false,
+          "role": "classification/geographic attribute, not an event key",
+          "unique_complete_column": false
+        },
+        {
+          "column": "NO_OF_OWNERS",
+          "distinct_nonmissing": 18,
+          "nonmissing": 6024,
+          "reliable_official_event_key": false,
+          "role": "owner count; not record sequence or transaction count",
+          "unique_complete_column": false
+        }
+      ],
+      "source_columns_in_current_detection": [
+        "TRANSACTION_DATE",
+        "SERVICE_SUB_ID",
+        "BUYER_TYPE",
+        "REGION_AR",
+        "REGION_EN",
+        "WILAYAT_AR",
+        "WILAYAT_EN",
+        "VILLAGE_AR",
+        "VILLAGE_EN",
+        "RE_VALUE",
+        "DATE_OF_BIRTH",
+        "GENDER_NAME_AR",
+        "GENDER_NAME_EN",
+        "SINGLE_MULTIPLE",
+        "NO_OF_OWNERS"
+      ],
+      "source_columns_omitted_from_export": [
+        "DATE_OF_BIRTH",
+        "GENDER_NAME_AR",
+        "GENDER_NAME_EN"
+      ],
+      "source_file": "data/raw/manual/oman_land_transactions_oct_2024.xlsx",
+      "source_metadata": {
+        "audited_row_count": 6024,
+        "currency_unit": null,
+        "dataset_id": "land_oct_2024",
+        "file": "data/raw/manual/oman_land_transactions_oct_2024.xlsx",
+        "filename_period_label": "2024-10",
+        "header_row": 1,
+        "licence": null,
+        "licence_url": null,
+        "official_download_url": null,
+        "official_landing_url": null,
+        "provider": "Ministry of Housing and Urban Planning, Oman",
+        "provider_entry_point": "https://mohup.gov.om/en/open-data/data/Realestate%20Transaction",
+        "provider_evidence": "user-declared official upload; source layout matches earlier MOHUP transaction resource leads",
+        "scope_id": "land_service_coded_2024",
+        "service_code_definitions": {},
+        "sha256": "df278f485f7d66bab0376c38c468d4f2fad2f88a4923fd9aaa7d2e0f2af1848c",
+        "sheet": "Sheet1",
+        "source_verification_status": "user_attributed; exact resource pending",
+        "uploaded_commit": "6a461443f3522349ec9b827c8761e2672c605816"
+      },
+      "source_rows": 6024,
+      "source_sha256": "df278f485f7d66bab0376c38c468d4f2fad2f88a4923fd9aaa7d2e0f2af1848c",
+      "source_sheet": "Sheet1",
+      "worksheets": [
+        {
+          "actual_dimensions": {
+            "columns": 15,
+            "rows": 6025
+          },
+          "declared_dimensions": {
+            "columns": 1,
+            "rows": 1
+          },
+          "name": "Sheet1"
+        }
+      ]
+    }
+  ],
+  "import_guidance": "Audit complete: retain occurrence counts under separate source definitions; no DISTINCT or drop_duplicates on business attributes; future imports must rerun this audit.",
+  "intentional_identical_csv_copies": [
+    {
+      "assessment": "intentional identical reference/quality/coverage copy across stages; not duplicated transaction evidence",
+      "files": [
+        "data/processed/audited/71008482abd46aa7f0bc/dim_dataset.csv",
+        "data/processed/eda/168665c92a8a2ff91598/dim_dataset.csv"
+      ],
+      "sha256": "3b47776f4901f56f23fad72e7fecc4fac6cae49730286b481c18a8d01ad9784c"
+    },
+    {
+      "assessment": "intentional identical reference/quality/coverage copy across stages; not duplicated transaction evidence",
+      "files": [
+        "data/processed/audited/71008482abd46aa7f0bc/dim_wilayat.csv",
+        "data/processed/eda/168665c92a8a2ff91598/dim_wilayat.csv"
+      ],
+      "sha256": "8945df946fcf38be2ccb1ed2841781abb0f4cd58b8607d2bd862184437a5e419"
+    },
+    {
+      "assessment": "intentional identical reference/quality/coverage copy across stages; not duplicated transaction evidence",
+      "files": [
+        "data/processed/audited/71008482abd46aa7f0bc/coverage_matrix_2020_2026.csv",
+        "data/processed/eda/168665c92a8a2ff91598/coverage_matrix_2020_2026.csv"
+      ],
+      "sha256": "970625caabe0205997245ca5aaf4cb9a7fe928fe1cc8040f7cf8e5301bb4d92d"
+    },
+    {
+      "assessment": "intentional identical reference/quality/coverage copy across stages; not duplicated transaction evidence",
+      "files": [
+        "data/processed/audited/71008482abd46aa7f0bc/source_column_quality.csv",
+        "data/processed/eda/168665c92a8a2ff91598/source_column_quality.csv"
+      ],
+      "sha256": "a1b5d402f4365071c3e5019d28055e209fd7ca0e944db556b4c6d9ab0bf74b30"
+    },
+    {
+      "assessment": "intentional identical reference/quality/coverage copy across stages; not duplicated transaction evidence",
+      "files": [
+        "data/processed/audited/71008482abd46aa7f0bc/dim_governorate.csv",
+        "data/processed/eda/168665c92a8a2ff91598/dim_governorate.csv"
+      ],
+      "sha256": "c50295cd42cddb8ba9ea953503063d543f9b3787c445d21432efd2a100698961"
+    }
+  ],
+  "powerbi_modeling_performed": false,
+  "processed_csv_files_audited": 43,
+  "rows_removed": 0,
+  "source_and_processed_occurrences_match": true,
+  "source_occurrences": 28558,
+  "transaction_identity_status": "not determinable from supplied fields"
+}

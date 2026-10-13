@@ -1,0 +1,5 @@
+﻿dataset_id,source_rows,raw_repeated_groups,raw_repeat_occurrences_after_first,raw_occurrences_in_repeated_groups,exported_payload_repeated_groups,exported_payload_repeat_occurrences_after_first,exported_payload_occurrences_in_repeated_groups,projection_collision_groups,projection_collision_occurrences,reliable_official_transaction_or_record_id,confirmed_duplicate_ingestion_occurrences,rows_removed
+muscat_brokerage_2025,9366,1396,6778,8174,1396,6778,8174,0,0,False,0,0
+land_nov_2022,7501,1046,2629,3675,1094,3076,4170,437,2391,False,0,0
+land_dec_2022,5667,757,1843,2600,804,2138,2942,286,1604,False,0,0
+land_oct_2024,6024,0,0,0,232,278,510,232,510,False,0,0

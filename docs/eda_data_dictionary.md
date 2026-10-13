@@ -67,3 +67,8 @@ The [uploaded-source dictionary](uploaded_data_dictionary.md) remains authoritat
 | source_column_quality | Source dataset, original column | Inherited missing/type audit, not observations |
 
 `analysis_manifest.json` records input audit manifest SHA, all input/output hashes, base-main commit, original hashes, implementation/lock hashes, rendering-environment versions/font hashes, verified canonical analytical-CSV baseline, table rows, per-family source/fact reconciliation and the figure inventory. `insights.md` is generated from summary tables. Arabic shaping is confined to figures; neither the tables nor keys contain presentation-form substitutions.
+
+
+## Duplicate interpretation reviewed before import
+
+The completed [duplicate audit](../reports/DUPLICATE_AUDIT.md) separates full-source patterns from projected business-attribute collisions. `records_in_repeated_groups` inherits all-original-column matching, including non-exported demographics; it is not a confirmed duplicate count. Generated record IDs track original occurrences. No source occurrences were removed and current fact/summary files remain unchanged.
