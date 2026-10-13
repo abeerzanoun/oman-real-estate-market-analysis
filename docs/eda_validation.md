@@ -1,6 +1,6 @@
 # EDA validation — 2026-10-13 (Asia/Muscat)
 
-Base latest main: `2c4237a5ec24e01b3dde13f2b0ac518b92437db3`, containing merged PR #4; feature branch `feature/scoped-exploratory-analysis`. Analysis run: `863d9b8097310b650602`. Locked Python 3.12.14 environment. Two pinned presentation dependencies (arabic-reshaper 3.0.0, python-bidi 0.6.7) added; existing dependency versions unchanged.
+Base latest main: `2c4237a5ec24e01b3dde13f2b0ac518b92437db3`, containing merged PR #4; feature branch `feature/scoped-exploratory-analysis`. Analysis run: `168665c92a8a2ff91598`. Locked Python 3.12.14 environment. Two pinned presentation dependencies (arabic-reshaper 3.0.0, python-bidi 0.6.7) added; existing dependency versions unchanged.
 
 | Check | Executed result |
 |---|---|
@@ -16,7 +16,7 @@ Base latest main: `2c4237a5ec24e01b3dde13f2b0ac518b92437db3`, containing merged 
 | Dimensional integrity | PASS, unique dimension keys, matched foreign keys, distinct scopes and separate category definitions |
 | Monetary/data-gap safeguards | PASS, no monetary/demographic analytical fact fields, unknown service meanings retained, missing coverage counts stay null |
 | Repeated execution | PASS, byte-identical CSVs/figures/manifests; changed immutable output rejected |
-| Full `python -m pytest -q` | **85 passed**, 14 existing Matplotlib/Pyparsing deprecation warnings; 31.47 seconds |
+| Full `python -m pytest -q` | **85 passed**, 14 existing Matplotlib/Pyparsing deprecation warnings; 19.88 seconds |
 | Python/import environment validation | PASS, Python 3.12 and thirteen required imports |
 | `python -m pip check` | PASS, no broken requirements |
 | `git diff --check` | PASS; exact CSV bytes preserved by Git attributes |
@@ -30,3 +30,10 @@ Tests cover real-source baselines, protected inputs, scope/comparison restrictio
 Charts were visually inspected for layout, common 2022 axes, coverage semantics and Arabic readability. Suggested DAX and the dashboard specification were reviewed against the table grains, but **not executed in Power BI Desktop**. No PBIX or deployed dashboard is claimed. CI regenerates the notebook and analytical bundle before running tests.
 
 The EDA is meaningful for supplied-record geography, categories and the documented two-month comparison. It does not establish continuous 2020–2026 trends, complete-market volumes, independently unique transactions, monetary values/prices or investment returns. Exact official workbook URLs/licences, land publication dates, service definitions and RE_VALUE units remain pending.
+
+
+## Portability correction verified after the first Actions attempt
+
+The initial GitHub Actions attempt passed imports, dependencies and original/input validation, then stopped at the immutable analytical bundle check. A portability bug used filesystem listing order in figure-hash serialization; the local listing was reverse creation order and is not guaranteed on another filesystem. Artifact names and JSON keys are now sorted. Native rendering inputs (Python patch, OS/architecture/libc, FreeType, zlib and exact font bytes) are recorded in the run fingerprint; environments may have distinct figure bytes without changing analytical results.
+
+All 31 analytical CSV hashes are independently pinned in the reviewed configuration and must match across rendering environments. The new executed run verifies every hash. An integration test deliberately reverses the figure directory listing and requires identical regenerated bundle bytes. Different statistical outputs still fail closed; no original or historical PR4 audit artifact is overwritten. The corrected Actions result is available in PR #5 checks.

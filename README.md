@@ -89,7 +89,7 @@ A verified source inventory and dictionary; reproducible Python preparation and 
 
 **Scoped EDA completed from merged PR #4 on latest main.** Four unchanged original workbooks provide **28,558 source record occurrences**: November/December 2022 land records, October 2024 service-coded land records, and January–September 2025 Muscat brokerage registrations. All eleven governorates are represented in each supplied land month; the brokerage scope is Muscat only.
 
-The delivered [executed Jupyter notebook](notebooks/01_scoped_real_estate_eda.ipynb), [computed insights](reports/eda/863d9b8097310b650602/insights.md), 31 analytical CSV tables and 14 PNG/SVG figures describe geographic and categorical patterns within the supported cohorts. A [Power BI model](powerbi/EDA_MODEL.md) includes three separate monthly facts, dimensions, relationships, suggested DAX and dashboard page designs. See the [artifact index](reports/EDA_INDEX.md) for all outputs and [validation](docs/eda_validation.md) for executed checks.
+The delivered [executed Jupyter notebook](notebooks/01_scoped_real_estate_eda.ipynb), [computed insights](reports/eda/168665c92a8a2ff91598/insights.md), 31 analytical CSV tables and 14 PNG/SVG figures describe geographic and categorical patterns within the supported cohorts. A [Power BI model](powerbi/EDA_MODEL.md) includes three separate monthly facts, dimensions, relationships, suggested DAX and dashboard page designs. See the [artifact index](reports/EDA_INDEX.md) for all outputs and [validation](docs/eda_validation.md) for executed checks.
 
 ```bash
 python -m src.run_eda
@@ -102,9 +102,9 @@ The pipeline verifies pinned input/output hashes, preserves all repeated source 
 
 **Limits remain:** sparse years/months, partial-year Muscat-only 2025 data, no official transaction IDs, unresolved exact source URLs/licences, unverified service-code meanings and financial units. No monetary/price conclusion, continuous 2020–2026 trend, dashboard binary or investment recommendation is claimed. The prepared Power BI model requires import into Power BI Desktop; its DAX is suggested and has not been executed there. Original audit outputs and source documentation remain intact.
 
-![Coverage of supplied data](reports/figures/eda/863d9b8097310b650602/coverage_calendar.png)
+![Coverage of supplied data](reports/figures/eda/168665c92a8a2ff91598/coverage_calendar.png)
 
-![Comparable 2022 land snapshots](reports/figures/eda/863d9b8097310b650602/land_2022_governorates.png)
+![Comparable 2022 land snapshots](reports/figures/eda/168665c92a8a2ff91598/land_2022_governorates.png)
 
 
 

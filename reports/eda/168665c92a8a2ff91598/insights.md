@@ -1,6 +1,6 @@
 # Exploratory findings — supplied record occurrences
 
-Analysis run `863d9b8097310b650602`; input audit `71008482abd46aa7f0bc`; base main `2c4237a` (merged PR #4).
+Analysis run `168665c92a8a2ff91598`; input audit `71008482abd46aa7f0bc`; base main `2c4237a` (merged PR #4).
 
 **Interpretation:** counts describe uploaded source record occurrences. Completeness and unique transaction identity are unverified; repeated visible rows remain. The three scopes are never pooled into a national sales series. No monetary or price conclusion is calculated.
 

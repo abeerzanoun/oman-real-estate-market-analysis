@@ -8,7 +8,6 @@ import nbformat
 from nbclient import NotebookClient
 from jupyter_client import KernelManager
 
-from src.eda_figures import FIGURE_TITLES
 
 
 def notebook_source(run_id):
@@ -49,7 +48,7 @@ from src.eda_analysis import load_inputs, summarize
 from src.run_eda import run
 
 analysis = run(execute_notebook=False)
-assert analysis["run_id"] == "{run_id}", "Notebook/code changed: regenerate with python -m src.run_eda"
+assert analysis["run_id"] == "{run_id}", "Notebook/code/runtime changed: regenerate with python -m src.run_eda"
 inputs = load_inputs()
 tables = summarize(inputs)
 FIGURES = ROOT / analysis["figures_directory"]

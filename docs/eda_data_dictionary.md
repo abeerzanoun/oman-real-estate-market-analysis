@@ -66,4 +66,4 @@ The [uploaded-source dictionary](uploaded_data_dictionary.md) remains authoritat
 | coverage_matrix_2020_2026 | Scope, governorate, year, month | Availability metadata, blank missing counts; inherited audit statuses |
 | source_column_quality | Source dataset, original column | Inherited missing/type audit, not observations |
 
-`analysis_manifest.json` records input audit manifest SHA, all input/output hashes, base-main commit, original hashes, implementation/lock hashes, table rows, per-family source/fact reconciliation and the figure inventory. `insights.md` is generated from summary tables. Arabic shaping is confined to figures; neither the tables nor keys contain presentation-form substitutions.
+`analysis_manifest.json` records input audit manifest SHA, all input/output hashes, base-main commit, original hashes, implementation/lock hashes, rendering-environment versions/font hashes, verified canonical analytical-CSV baseline, table rows, per-family source/fact reconciliation and the figure inventory. `insights.md` is generated from summary tables. Arabic shaping is confined to figures; neither the tables nor keys contain presentation-form substitutions.

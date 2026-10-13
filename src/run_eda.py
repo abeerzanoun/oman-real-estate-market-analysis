@@ -2,14 +2,16 @@
 import argparse
 import json
 import os
+import platform
+import zlib
 from pathlib import Path
 import tempfile
 
-from src.eda_analysis import ROOT, CONFIG, SCOPES, digest, load_inputs, summarize
+from src.eda_analysis import ROOT, CONFIG, digest, load_inputs, summarize
 
 
 def text_json(value):
-    return json.dumps(value,ensure_ascii=False,indent=2,default=str)+'\n'
+    return json.dumps(value,ensure_ascii=False,indent=2,default=str,sort_keys=True)+'\n'
 
 
 def markdown_table(frame,columns,formatters=None):
@@ -22,7 +24,7 @@ def markdown_table(frame,columns,formatters=None):
 
 
 def findings(tables,run_id):
-    summary=tables['dataset_summary'];g=tables['governorate_counts'];w=tables['wilayat_counts']
+    summary=tables['dataset_summary'];g=tables['governorate_counts']
     comparison=tables['governorate_nov_dec_2022'];broker=tables['brokerage_wilayat_counts'].sort_values('reported_record_count',ascending=False)
     monthly=tables['brokerage_monthly_counts'];land2024=g[g.period_id.eq('2024-10')].sort_values('reported_record_count',ascending=False)
     november=int(summary.loc[summary.dataset_id.eq('land_nov_2022'),'reported_record_count'].iloc[0])
@@ -74,13 +76,28 @@ def persist_immutable(target,artifacts):
     if target.exists():
         existing={p.relative_to(target).as_posix() for p in target.rglob('*') if p.is_file()}
         if existing!=set(artifacts) or any((target/name).read_bytes()!=data for name,data in artifacts.items()):
-            raise ValueError(f'Existing analysis output differs; refusing to overwrite {target}')
+            changed=sorted(name for name in set(artifacts)|existing if name not in artifacts or name not in existing or (target/name).read_bytes()!=artifacts[name])
+            raise ValueError(f'Existing analysis output differs ({changed}); refusing to overwrite {target}')
         return
     target.parent.mkdir(parents=True,exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='.pending-',dir=target.parent) as staging:
         for name,data in artifacts.items():
             path=Path(staging)/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(data)
         Path(staging).rename(target)
+
+
+def render_environment():
+    """Record native/font/runtime inputs that can affect exported figure bytes."""
+    import matplotlib
+    from matplotlib import ft2font, font_manager
+    from PIL import features
+    return dict(python=platform.python_version(),python_implementation=platform.python_implementation(),
+        system=platform.system(),machine=platform.machine(),libc=list(platform.libc_ver()),
+        python_zlib=zlib.ZLIB_RUNTIME_VERSION,matplotlib=matplotlib.__version__,
+        freetype=ft2font.__freetype_version__,pillow_zlib=features.version('zlib'),
+        fonts={style:digest(Path(font_manager.findfont(font_manager.FontProperties(
+            family='DejaVu Sans',weight='bold' if style=='bold' else 'normal'))).read_bytes())
+            for style in ('regular','bold')})
 
 
 def run(execute_notebook=True,output_root=ROOT):
@@ -92,20 +109,25 @@ def run(execute_notebook=True,output_root=ROOT):
     inputs=load_inputs();tables=summarize(inputs)
     components=[ROOT/'src'/name for name in ['eda_analysis.py','eda_figures.py','eda_notebook.py','run_eda.py']]+[CONFIG,ROOT/'requirements-lock.txt']
     implementation={p.relative_to(ROOT).as_posix():digest(p.read_bytes()) for p in components}
-    run_id=digest(text_json(dict(input_manifest=inputs['config']['audit_manifest_sha256'],implementation=implementation)).encode())[:20]
+    environment=render_environment()
+    run_id=digest(text_json(dict(input_manifest=inputs['config']['audit_manifest_sha256'],implementation=implementation,render_environment=environment)).encode())[:20]
     table_dir=Path('data/processed/eda')/run_id
     figures_dir=Path('reports/figures/eda')/run_id
     report_dir=Path('reports/eda')/run_id
     csv_artifacts={name+'.csv':frame.to_csv(index=False,lineterminator='\n').encode('utf-8-sig') for name,frame in tables.items()}
     csv_hashes={name:digest(data) for name,data in csv_artifacts.items()}
+    expected=inputs['config'].get('expected_analytical_csv_sha256')
+    if expected is not None and csv_hashes!=expected:
+        changed=sorted(name for name in set(csv_hashes)|set(expected) if csv_hashes.get(name)!=expected.get(name))
+        raise ValueError(f'Analytical CSVs differ from reviewed data baseline: {changed}')
     with tempfile.TemporaryDirectory(prefix='oman-eda-') as temporary:
         generated=Path(temporary)/'figures';figure_names=generate_figures(tables,generated,run_id)
-        figure_artifacts={p.name:p.read_bytes() for p in generated.iterdir()}
+        figure_artifacts={p.name:p.read_bytes() for p in sorted(generated.iterdir())}
     insight_bytes=findings(tables,run_id).encode()
     manifest=dict(run_id=run_id,base_main_commit=inputs['config']['base_main_commit'],merged_audit_pr=4,
         input_audit_directory=inputs['config']['audit_directory'],input_manifest_sha256=inputs['config']['audit_manifest_sha256'],
         input_artifact_sha256=inputs['manifest']['artifact_sha256'],original_sha256=inputs['manifest']['source_sha256'],
-        implementation_sha256=implementation,metric='reported_record_occurrences',monetary_analysis=False,
+        implementation_sha256=implementation,render_environment=environment,analytical_csv_baseline_verified=expected is not None,metric='reported_record_occurrences',monetary_analysis=False,
         source_occurrences=inputs['audit_report']['record_count'],table_rows={name:len(table) for name,table in tables.items()},
         fact_reconciliation={family:dict(aggregated_rows=len(tables['fact_'+family]),reported_record_count=int(tables['fact_'+family].reported_record_count.sum()),source_rows=len(frame)) for family,frame in inputs['facts'].items()},
         csv_sha256=csv_hashes,figure_sha256={name:digest(data) for name,data in figure_artifacts.items()},

@@ -133,7 +133,7 @@ def test_category_labels_preserved_and_shaping_is_presentation_only(inputs,table
     assert tables['brokerage_property_use_by_wilayat'].reported_record_count.sum()==9366
 
 
-def test_real_figures_and_artifact_manifest(tmp_path):
+def test_real_figures_and_artifact_manifest(tmp_path,monkeypatch):
     result=run(execute_notebook=False,output_root=tmp_path)
     folder=tmp_path/result['tables_directory']
     manifest=json.loads((folder/'analysis_manifest.json').read_text())
@@ -151,7 +151,17 @@ def test_real_figures_and_artifact_manifest(tmp_path):
                 img.verify()
     assert manifest['source_occurrences']==28558
     assert manifest['monetary_analysis'] is False
+    assert manifest['analytical_csv_baseline_verified'] is True
+    assert manifest['render_environment']['python'].startswith('3.12.')
+    assert set(manifest['render_environment']['fonts'])=={'regular','bold'}
+    assert manifest['csv_sha256']==json.loads(CONFIG.read_text())['expected_analytical_csv_sha256']
     before=(folder/'analysis_manifest.json').read_bytes()
+    # Different machines list filesystem entries differently: outputs must still match.
+    original_iterdir=Path.iterdir
+    def reordered_listing(path):
+        items=list(original_iterdir(path))
+        return iter(sorted(items,reverse=True)) if path.name=='figures' else iter(items)
+    monkeypatch.setattr(Path,'iterdir',reordered_listing)
     again=run(execute_notebook=False,output_root=tmp_path)
     assert result['run_id']==again['run_id'] and (folder/'analysis_manifest.json').read_bytes()==before
 
