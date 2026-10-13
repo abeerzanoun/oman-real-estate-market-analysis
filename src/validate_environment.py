@@ -9,6 +9,7 @@ REQUIRED_MODULES = {
     "jupyterlab": "jupyterlab", "ipykernel": "ipykernel",
     "openpyxl": "openpyxl", "xlsxwriter": "xlsxwriter", "pytest": "pytest",
     "arabic_reshaper": "arabic-reshaper", "bidi": "python-bidi",
+    "streamlit": "streamlit",
 }
 
 

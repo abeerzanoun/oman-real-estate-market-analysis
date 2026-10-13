@@ -30,12 +30,14 @@ Separate sales from mortgages and other registrations. Do not combine national t
 
 ## Technology stack
 
-Python **3.12**, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Jupyter/JupyterLab, openpyxl and XlsxWriter for Excel exchange, Microsoft Excel, Power BI Desktop, Git/GitHub and Pytest. OpenAI Codex assists project implementation. Excel and Power BI are separate desktop applications, not pip dependencies.
+Python **3.12**, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Streamlit, Jupyter/JupyterLab, openpyxl and XlsxWriter for Excel exchange, Microsoft Excel, Power BI Desktop, Git/GitHub and Pytest. OpenAI Codex assists project implementation. Excel and Power BI are separate desktop applications, not pip dependencies.
 
 ## Repository structure
 
 ```text
 oman-real-estate-market-analysis/
+├── streamlit_app.py                 # read-only six-page interactive dashboard
+├── .streamlit/config.toml           # theme, local bind and disabled telemetry
 ├── data/raw/manual/                 # four unchanged uploaded XLSX originals
 ├── data/processed/audited/<run_id>/  # unchanged PR #4 audit
 ├── data/processed/eda/<run_id>/      # summaries and three monthly analytical facts
@@ -87,6 +89,8 @@ A verified source inventory and dictionary; reproducible Python preparation and 
 
 ## Current project status
 
+**Interactive dashboard prepared on merged PRs #4–#6.** It uses the reviewed EDA facts and completed duplicate audit; public deployment has not been performed. See [dashboard instructions](docs/DASHBOARD.md) and [executed validation](docs/dashboard_validation.md).
+
 **Scoped EDA completed from merged PR #4 on latest main.** Four unchanged original workbooks provide **28,558 source record occurrences**: November/December 2022 land records, October 2024 service-coded land records, and January–September 2025 Muscat brokerage registrations. All eleven governorates are represented in each supplied land month; the brokerage scope is Muscat only.
 
 The delivered [executed Jupyter notebook](notebooks/01_scoped_real_estate_eda.ipynb), [computed insights](reports/eda/168665c92a8a2ff91598/insights.md), 31 analytical CSV tables and 14 PNG/SVG figures describe geographic and categorical patterns within the supported cohorts. A [Power BI model](powerbi/EDA_MODEL.md) includes three separate monthly facts, dimensions, relationships, suggested DAX and dashboard page designs. See the [artifact index](reports/EDA_INDEX.md) for all outputs and [validation](docs/eda_validation.md) for executed checks.
@@ -133,3 +137,22 @@ python -m src.manual_ingestion run
 ```
 
 This offline workflow supports selected XLSX sheets and CSV tables, English/Arabic headers and governorate labels, explicit wide-table mappings, decimal unit conversion, duplicate provenance and coverage validation. No network requests occur. New immutable output runs use `data/processed/manual/<run_id>/` for observations, provenance, coverage and validation reports; existing collector outputs and originals remain separate. A complete all-11 gate is evaluated per comparable indicator/period/category/scope, with no fabricated missing rows.
+
+## Interactive Streamlit dashboard
+
+The six-page **Oman Real Estate Observatory** uses the reviewed EDA aggregates and
+the completed duplicate audit, with bilingual filters, Plotly charts, source
+occurrence KPIs and selected aggregate CSV downloads. The land and Muscat brokerage
+definitions remain separate; missing periods and unverified unique transactions
+are clearly identified. Original XLSX and processed outputs remain unchanged.
+
+```bash
+python -m pip install -r requirements-lock.txt
+streamlit run streamlit_app.py
+```
+
+Run from the repository root with Python 3.12. Open `http://127.0.0.1:8501`.
+See [dashboard setup, methodology and deployment instructions](docs/DASHBOARD.md).
+Public deployment requires owner approval and has not been performed.
+
+![Desktop dashboard preview](reports/figures/dashboard/desktop_overview.png)

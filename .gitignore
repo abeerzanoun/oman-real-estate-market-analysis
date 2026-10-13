@@ -25,6 +25,7 @@ Thumbs.db
 !.env.example
 work/
 *.log
+.streamlit/secrets.toml
 ~$*
 # Data stays local until provenance and redistribution rights are reviewed
 /data/raw/*
