@@ -50,3 +50,14 @@ After access is enabled, originals retain their decoded source filename in `data
 ## Manual-upload route
 
 [DATA_UPLOAD_GUIDE.md](../DATA_UPLOAD_GUIDE.md) describes genuine governorate-level aggregate transaction and price-index XLSX/CSV requirements and known official entry points. It does not assert newly verified Excel downloads or complete historical coverage. No blocked URLs were retried during manual-workflow setup. Uploaded original bytes and reviewer-attested source/licence metadata must pass the [manual admission contract](manual_ingestion.md); hashes alone do not authenticate publisher origin.
+
+
+## Four uploaded row-level workbooks audited on 2026-10-13
+
+The current audit uses genuine uploaded files, not online table transcriptions or generated observations. The original byte checksums and Git upload commit are recorded in [uploaded_source_registry.json](uploaded_source_registry.json). See [uploaded workflow](uploaded_data_workflow.md) for actual periods, schemas and the immutable audit report.
+
+Muscat's embedded metadata attributes the Ministry of Housing and Urban Planning. The three land files have no embedded resource URLs; official provenance is user-attributed and requires exact dataset-page/download links. Provider entry points in the registry are investigation leads, not verified provenance for these particular files. Download URL, licence and land-file publication date remain null. No blocked acquisition URL was retried.
+
+Actual coverage is Nov/Dec 2022 land records across all eleven modern governorates (legacy Sharqiyah resolved by observed wilayat), Oct 2024 service-coded records across eleven, and Jan–Sep 2025 Muscat brokerage registrations only. The Muscat source publication label predates some records, requiring confirmation. RE_VALUE units and RN13A/RN13C meanings are unknown. No national historical continuity, completeness or price series is claimed.
+
+Official geography evidence is cited in [reference_geography.json](reference_geography.json): Foreign Ministry regional pages and an indexed NCSI yearbook for the observed historical Sharqiyah memberships; the North Sharqiyah Governorate site for Sinaw. These are administrative references, not transaction data sources. Original source translations and missing English labels remain in the crosswalk.

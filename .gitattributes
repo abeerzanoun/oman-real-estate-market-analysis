@@ -3,3 +3,5 @@
 /data/raw/manual/**/*.XLSX -text
 /data/raw/manual/**/*.csv -text
 /data/raw/manual/**/*.CSV -text
+# Audited CSV hashes refer to exact UTF-8 BOM bytes; raw labels may contain whitespace.
+/data/processed/audited/**/*.csv -text whitespace=-blank-at-eol

@@ -186,8 +186,13 @@ def read_table(path, table):
     if path.suffix.lower() == '.xlsx':
         if not isinstance(table.get('sheet'), str) or not table['sheet']:
             raise ValueError('Explicit XLSX sheet name required')
-        frame = pd.read_excel(path, sheet_name=table['sheet'], header=header-1,
-                              dtype=object, keep_default_na=False, engine='openpyxl')
+        from src.excel_reader import read_workbook
+        sheet = next((s for s in read_workbook(path)['sheets'] if s['name'] == table['sheet']), None)
+        if sheet is None or len(sheet['rows']) < header:
+            raise ValueError('Selected worksheet or header row is absent')
+        rows = sheet['rows']
+        frame = pd.DataFrame(rows[header:], columns=rows[header-1], dtype=object)
+        frame = frame.where(frame.notna(), '')
     else:
         frame = pd.read_csv(path, header=header-1, dtype=str, keep_default_na=False,
                             encoding=table.get('encoding', 'utf-8-sig'), sep=table.get('delimiter', ','))
@@ -391,9 +396,9 @@ def inspect_files(folder):
         print(json.dumps(item,ensure_ascii=False))
 
 
-def run(folder, output_root, status_path, as_of=None):
+def run(folder, output_root, status_path, as_of=None, files=None):
     as_of = as_of or datetime.now(ZoneInfo('Asia/Muscat')).date()
-    files = input_files(folder)
+    files = input_files(folder) if files is None else list(files)
     report = dict(pipeline_version=VERSION,as_of=as_of.isoformat(),state='awaiting_official_files',
         imported_files=0,unique_observations=0,ready_for_python_powerbi=False,
         original_files=[],errors=[],coverage=[],missing_values=[],excluded_rows=[])

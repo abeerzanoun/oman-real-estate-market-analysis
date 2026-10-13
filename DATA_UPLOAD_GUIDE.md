@@ -70,3 +70,8 @@ Valid imports create a new immutable run folder under `data/processed/manual/` w
 Exit codes: **0** = actual imports passed the all-11 coverage gate; **1** = validation failed; **2** = no files or incomplete coverage. `docs/manual_ingestion_status.json` records the current result. The gate checks each governorate-level indicator/period/category/scope group, not just a union of names across unrelated datasets. Missing metric values also prevent a ready flag. It does not certify full 2020–2026 historical completeness or authenticate a file independently of its documented manual review.
 
 For Power BI, load the actual run's CSVs only after reviewing the report. Use ISO dates, text geography IDs and `observation_id` to relate provenance to observations. Parse numeric values with the configured decimal convention; select count versus OMR versus index using `unit`. Never sum indices or overlapping monthly/cumulative/annual periods. The original decimal text is retained so precision is not silently rounded.
+
+
+## Current uploads: row-level adapter now available
+
+Four workbooks have been uploaded and audited. Their schemas describe individual record occurrences, so use `python -m src.audit_uploaded_data` instead of the aggregate `manual_ingestion run` command above. See [uploaded-data workflow](docs/uploaded_data_workflow.md) for actual coverage and separate scopes. No new sample records are needed. Exact official links/licences and RE_VALUE/service-code documentation are still needed for the existing sources; complete comparable monthly files and official value/index series are needed to expand historical analysis.

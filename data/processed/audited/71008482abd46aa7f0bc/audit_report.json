@@ -1,0 +1,963 @@
+{
+  "audit_as_of": "2026-10-13",
+  "record_count": 28558,
+  "datasets": [
+    {
+      "dataset_id": "muscat_brokerage_2025",
+      "scope_id": "muscat_brokerage_registration_2025",
+      "file": "data/raw/manual/muscat_brokerage_sales_2025.xlsx",
+      "sha256": "f00cabf8a4084644321dda07061167e69030091300ba8fadf3ab5eccc7c857ca",
+      "sheet": "تسجيل عقد بيع - مسقط",
+      "header_row": 3,
+      "audited_row_count": 9366,
+      "filename_period_label": "2025",
+      "provider": "Ministry of Housing and Urban Planning, Oman",
+      "provider_evidence": "embedded workbook source attribution and housing.gov.om contact domain",
+      "official_download_url": null,
+      "official_landing_url": null,
+      "provider_entry_point": "https://opendata.gov.om/en",
+      "source_verification_status": "embedded_provider_attribution; exact resource pending",
+      "licence": null,
+      "licence_url": null,
+      "currency_unit": null,
+      "service_code_definitions": {},
+      "uploaded_commit": "6a461443f3522349ec9b827c8761e2672c605816",
+      "actual_record_count": 9366,
+      "min_date": "2025-01-02",
+      "max_date": "2025-09-30",
+      "filename_period_verified": true,
+      "annual_label_is_partial": true,
+      "reported_publication_cell": "2025-07-12 00:00:00",
+      "publication_precedes_last_record": true,
+      "source_xml_core_properties": {
+        "creator": null,
+        "lastModifiedBy": null,
+        "created": "2015-06-05T18:17:20Z",
+        "modified": "2025-12-04T09:36:32Z"
+      },
+      "reader_warnings": [],
+      "sheets": [
+        {
+          "name": "البيانات الوصفية ",
+          "declared_dimensions": {
+            "rows": 18,
+            "columns": 4
+          },
+          "actual_dimensions": {
+            "rows": 18,
+            "columns": 4
+          },
+          "dimension_reset_required": false,
+          "declared_xml_range": "A1:D18",
+          "xml_cells": 41,
+          "formula_cells": 0
+        },
+        {
+          "name": "المتغيرات ",
+          "declared_dimensions": {
+            "rows": 7,
+            "columns": 5
+          },
+          "actual_dimensions": {
+            "rows": 7,
+            "columns": 5
+          },
+          "dimension_reset_required": false,
+          "declared_xml_range": "A1:E7",
+          "xml_cells": 30,
+          "formula_cells": 0
+        },
+        {
+          "name": "تسجيل عقد بيع - مسقط",
+          "declared_dimensions": {
+            "rows": 9369,
+            "columns": 5
+          },
+          "actual_dimensions": {
+            "rows": 9369,
+            "columns": 5
+          },
+          "dimension_reset_required": false,
+          "declared_xml_range": "A1:E9369",
+          "xml_cells": 46840,
+          "formula_cells": 0
+        }
+      ],
+      "embedded_metadata_sheets": {
+        "البيانات الوصفية ": [
+          [],
+          [
+            "اسم مجموعة البيانات ",
+            "تسجيل عقد بيع من خلال مكاتب الوساطة العقارية-محافظة مسقط 2025",
+            null,
+            null
+          ],
+          [
+            "وصف مجموعة البيانات",
+            "هي مجموعة تسجيل عقد البيع والتي تعتبر من معاملات التصرفات العقارية والتي تتم خلال مكاتب الوساطة العقارية المجموعة خاصة  بمحافظة مسقط",
+            null,
+            null
+          ],
+          [
+            "الفئة",
+            "معاملات التصرفات العقارية - تسجيل عقد البيع من خلال مكاتب الوساطة العقارية",
+            "الدورية",
+            "سنوي"
+          ],
+          [
+            "الكلمات المفتاحية",
+            "سكني/تجاري,سكني,زراعي,صناعي,تجاري,صناعي/خفيف,مسكن اجتماعي,سياحي,فندق,خدمات عامه,سكن ريفي",
+            null,
+            null
+          ],
+          [
+            "تاريخ النشر",
+            "2025-07-12 00:00:00",
+            "تاريخ التعديل إن وجد",
+            null
+          ],
+          [
+            "اسم نقطة التواصل",
+            "علي الوهيبي",
+            "رقم التواصل",
+            22715770
+          ],
+          [
+            "البريد الالكتروني",
+            "Ali.Al-Wahaibi83@housing.gov.om",
+            "صيغة الملف",
+            "Excel sheet"
+          ],
+          [
+            "الفترة المرجعية للبيانات",
+            2025,
+            "التغطية الجغرافية للبيانات",
+            "محافظة مسقط"
+          ],
+          [
+            "مؤشرات إجمالية",
+            "9366 إجمالي المعاملات التي تم استلامها لعام 2025",
+            "المصدر: ",
+            "منصة وزارة الإسكان والتخطيط العمراني"
+          ],
+          [
+            "اللغة",
+            "العريبة",
+            null,
+            null
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            null,
+            null
+          ]
+        ],
+        "المتغيرات ": [
+          [],
+          [
+            "م",
+            "اسم المتغير",
+            "وصف المتغير",
+            "نوع البيانات",
+            "مستوى الإلزامية(إجباري/ اختياري)"
+          ],
+          [
+            1,
+            "اسم المعاملة ",
+            "هنا وصف لاسم المعاملة وهي معاملة تسجيل عقد بيع من خلال مكاتب الوساطة العقارية ",
+            "نص",
+            "إلزامي"
+          ],
+          [
+            2,
+            "نوع الإستعمال",
+            "هنا وصف الإستعمال للعقار حسب ما هو محدد في الرسم المساحي سكني/تجاري,سكني,زراعي,صناعي,تجاري,صناعي/خفيف,مسكن اجتماعي,سياحي,فندق,خدمات عامه,سكن ريفي",
+            "نص",
+            "إلزامي"
+          ],
+          [
+            3,
+            "وصف العقار",
+            "هنا وصف العقار القائم على قطعة الأرض: أرض فضاء,مسكن أجتماعي,منزل,مزرعة,عمارة,أرض الإدعاء,زراعي+منزل قائم,شقة سكنية,فيلا,فيلا/ وحدة,قائم,محل تجاري,بيت عربي,طابق/طوابق بمبنى",
+            "نص",
+            "إلزامي"
+          ],
+          [
+            4,
+            "الولاية",
+            "جميع ولايات محافظة مسقط",
+            "نص",
+            "إلزامي"
+          ],
+          [
+            5,
+            "تاريخ الإجراء",
+            "تاريخ إجراء المعاملة",
+            "تاريخ",
+            "إلزامي"
+          ]
+        ]
+      },
+      "columns": [
+        {
+          "dataset_id": "muscat_brokerage_2025",
+          "column": "اسم المعاملة",
+          "missing": 0,
+          "observed_types": {
+            "str": 9366
+          }
+        },
+        {
+          "dataset_id": "muscat_brokerage_2025",
+          "column": "الولاية",
+          "missing": 0,
+          "observed_types": {
+            "str": 9366
+          }
+        },
+        {
+          "dataset_id": "muscat_brokerage_2025",
+          "column": "تاريخ الإجراء",
+          "missing": 0,
+          "observed_types": {
+            "datetime": 9366
+          }
+        },
+        {
+          "dataset_id": "muscat_brokerage_2025",
+          "column": "نوع الإستعمال",
+          "missing": 0,
+          "observed_types": {
+            "str": 9366
+          }
+        },
+        {
+          "dataset_id": "muscat_brokerage_2025",
+          "column": "وصف العقار",
+          "missing": 0,
+          "observed_types": {
+            "str": 9366
+          }
+        }
+      ],
+      "exact_repeat_occurrences_after_first": 6778,
+      "records_in_repeated_groups": 8174,
+      "rows_removed": 0,
+      "invalid_transaction_dates": 0,
+      "unresolved_governorates": 0,
+      "nonstandard_wilayat_rows": 0,
+      "numerical_profile": {},
+      "quality_flags": {},
+      "owner_count_range": null,
+      "categorical_counts": {
+        "governorate_id": {
+          "muscat": 9366
+        },
+        "property_use_ar": {
+          "سكني": 8202,
+          "سكني/تجاري": 455,
+          "تجاري": 443,
+          "صناعي": 159,
+          "زراعي": 100,
+          "مسكن اجتماعي": 3,
+          "سياحي": 3,
+          "صناعي/تجاري": 1
+        },
+        "property_description_ar": {
+          "أرض فضاء": 6839,
+          "شقة سكنية": 1264,
+          "فيلا": 830,
+          "محل تجاري": 271,
+          "مخزن": 54,
+          "منزل": 47,
+          "مزرعة": 38,
+          "مسكن أجتماعي": 11,
+          "قائم": 4,
+          "عمارة": 3,
+          "طابق/طوابق بمبنى": 2,
+          "فيلا/ وحدة": 2,
+          "أرض الإدعاء": 1
+        }
+      },
+      "monthly_records": {
+        "(2025, 1)": 857,
+        "(2025, 2)": 1147,
+        "(2025, 3)": 819,
+        "(2025, 4)": 880,
+        "(2025, 5)": 1207,
+        "(2025, 6)": 816,
+        "(2025, 7)": 1277,
+        "(2025, 8)": 1141,
+        "(2025, 9)": 1222
+      }
+    },
+    {
+      "dataset_id": "land_nov_2022",
+      "scope_id": "land_buy_sell_2022",
+      "file": "data/raw/manual/oman_land_transactions_nov_2022.xlsx",
+      "sha256": "80b8c39857e6379b72960342574feb721b55007e1d95bcd37db7f473768edf8a",
+      "sheet": "BuySell",
+      "header_row": 1,
+      "audited_row_count": 7501,
+      "filename_period_label": "2022-11",
+      "provider": "Ministry of Housing and Urban Planning, Oman",
+      "provider_evidence": "user-declared official upload; source layout matches earlier MOHUP transaction resource leads",
+      "official_download_url": null,
+      "official_landing_url": null,
+      "provider_entry_point": "https://mohup.gov.om/en/open-data/data/Realestate%20Transaction",
+      "source_verification_status": "user_attributed; exact resource pending",
+      "licence": null,
+      "licence_url": null,
+      "currency_unit": null,
+      "service_code_definitions": {},
+      "uploaded_commit": "6a461443f3522349ec9b827c8761e2672c605816",
+      "actual_record_count": 7501,
+      "min_date": "2022-11-01",
+      "max_date": "2022-11-29",
+      "filename_period_verified": true,
+      "annual_label_is_partial": false,
+      "reported_publication_cell": null,
+      "publication_precedes_last_record": false,
+      "source_xml_core_properties": {
+        "created": "2023-01-03T09:03:28Z",
+        "creator": "Apache POI"
+      },
+      "reader_warnings": [
+        "Workbook contains no default style, apply openpyxl's default"
+      ],
+      "sheets": [
+        {
+          "name": "BuySell",
+          "declared_dimensions": {
+            "rows": 1,
+            "columns": 1
+          },
+          "actual_dimensions": {
+            "rows": 7502,
+            "columns": 11
+          },
+          "dimension_reset_required": true,
+          "declared_xml_range": "A1",
+          "xml_cells": 82522,
+          "formula_cells": 0
+        }
+      ],
+      "embedded_metadata_sheets": {},
+      "columns": [
+        {
+          "dataset_id": "land_nov_2022",
+          "column": "TRANSACTION_DATE",
+          "missing": 0,
+          "observed_types": {
+            "datetime": 7501
+          }
+        },
+        {
+          "dataset_id": "land_nov_2022",
+          "column": "BUYER_TYPE",
+          "missing": 0,
+          "observed_types": {
+            "str": 7501
+          }
+        },
+        {
+          "dataset_id": "land_nov_2022",
+          "column": "REGION_AR",
+          "missing": 0,
+          "observed_types": {
+            "str": 7501
+          }
+        },
+        {
+          "dataset_id": "land_nov_2022",
+          "column": "REGION_EN",
+          "missing": 0,
+          "observed_types": {
+            "str": 7501
+          }
+        },
+        {
+          "dataset_id": "land_nov_2022",
+          "column": "WILAYAT_AR",
+          "missing": 0,
+          "observed_types": {
+            "str": 7501
+          }
+        },
+        {
+          "dataset_id": "land_nov_2022",
+          "column": "WILAYAT_EN",
+          "missing": 38,
+          "observed_types": {
+            "str": 7463,
+            "missing": 38
+          }
+        },
+        {
+          "dataset_id": "land_nov_2022",
+          "column": "VILLAGE_AR",
+          "missing": 0,
+          "observed_types": {
+            "str": 7501
+          }
+        },
+        {
+          "dataset_id": "land_nov_2022",
+          "column": "VILLAGE_EN",
+          "missing": 65,
+          "observed_types": {
+            "str": 7436,
+            "missing": 65
+          }
+        },
+        {
+          "dataset_id": "land_nov_2022",
+          "column": "GENDER_NAME_AR",
+          "missing": 473,
+          "observed_types": {
+            "str": 7028,
+            "missing": 473
+          }
+        },
+        {
+          "dataset_id": "land_nov_2022",
+          "column": "GENDER_NAME_EN",
+          "missing": 473,
+          "observed_types": {
+            "str": 7028,
+            "missing": 473
+          }
+        },
+        {
+          "dataset_id": "land_nov_2022",
+          "column": "NO_OF_OWNERS",
+          "missing": 0,
+          "observed_types": {
+            "float": 7501
+          }
+        }
+      ],
+      "exact_repeat_occurrences_after_first": 2629,
+      "records_in_repeated_groups": 3675,
+      "rows_removed": 0,
+      "invalid_transaction_dates": 0,
+      "unresolved_governorates": 0,
+      "nonstandard_wilayat_rows": 1,
+      "numerical_profile": {},
+      "quality_flags": {},
+      "owner_count_range": {
+        "min": 1,
+        "max": 25
+      },
+      "categorical_counts": {
+        "governorate_id": {
+          "ad_dakhiliyah": 1301,
+          "north_ash_sharqiyah": 1300,
+          "south_al_batinah": 1053,
+          "muscat": 960,
+          "north_al_batinah": 954,
+          "dhofar": 871,
+          "south_ash_sharqiyah": 402,
+          "adh_dhahirah": 309,
+          "al_buraimi": 212,
+          "al_wusta": 105,
+          "musandam": 34
+        },
+        "buyer_type": {
+          "Individual": 7447,
+          "Company": 54
+        }
+      },
+      "monthly_records": {
+        "(2022, 11)": 7501
+      }
+    },
+    {
+      "dataset_id": "land_dec_2022",
+      "scope_id": "land_buy_sell_2022",
+      "file": "data/raw/manual/oman_land_transactions_dec_2022.xlsx",
+      "sha256": "fd52d06d8a678597f1cb437cea8510777ac379886e9aa640c955cf0ee0389202",
+      "sheet": "BuySell",
+      "header_row": 1,
+      "audited_row_count": 5667,
+      "filename_period_label": "2022-12",
+      "provider": "Ministry of Housing and Urban Planning, Oman",
+      "provider_evidence": "user-declared official upload; source layout matches earlier MOHUP transaction resource leads",
+      "official_download_url": null,
+      "official_landing_url": null,
+      "provider_entry_point": "https://mohup.gov.om/en/open-data/data/Realestate%20Transaction",
+      "source_verification_status": "user_attributed; exact resource pending",
+      "licence": null,
+      "licence_url": null,
+      "currency_unit": null,
+      "service_code_definitions": {},
+      "uploaded_commit": "6a461443f3522349ec9b827c8761e2672c605816",
+      "actual_record_count": 5667,
+      "min_date": "2022-12-04",
+      "max_date": "2022-12-29",
+      "filename_period_verified": true,
+      "annual_label_is_partial": false,
+      "reported_publication_cell": null,
+      "publication_precedes_last_record": false,
+      "source_xml_core_properties": {
+        "created": "2023-01-03T09:10:40Z",
+        "creator": "Apache POI"
+      },
+      "reader_warnings": [
+        "Workbook contains no default style, apply openpyxl's default"
+      ],
+      "sheets": [
+        {
+          "name": "BuySell",
+          "declared_dimensions": {
+            "rows": 1,
+            "columns": 1
+          },
+          "actual_dimensions": {
+            "rows": 5668,
+            "columns": 11
+          },
+          "dimension_reset_required": true,
+          "declared_xml_range": "A1",
+          "xml_cells": 62348,
+          "formula_cells": 0
+        }
+      ],
+      "embedded_metadata_sheets": {},
+      "columns": [
+        {
+          "dataset_id": "land_dec_2022",
+          "column": "TRANSACTION_DATE",
+          "missing": 0,
+          "observed_types": {
+            "datetime": 5667
+          }
+        },
+        {
+          "dataset_id": "land_dec_2022",
+          "column": "BUYER_TYPE",
+          "missing": 0,
+          "observed_types": {
+            "str": 5667
+          }
+        },
+        {
+          "dataset_id": "land_dec_2022",
+          "column": "REGION_AR",
+          "missing": 0,
+          "observed_types": {
+            "str": 5667
+          }
+        },
+        {
+          "dataset_id": "land_dec_2022",
+          "column": "REGION_EN",
+          "missing": 0,
+          "observed_types": {
+            "str": 5667
+          }
+        },
+        {
+          "dataset_id": "land_dec_2022",
+          "column": "WILAYAT_AR",
+          "missing": 0,
+          "observed_types": {
+            "str": 5667
+          }
+        },
+        {
+          "dataset_id": "land_dec_2022",
+          "column": "WILAYAT_EN",
+          "missing": 28,
+          "observed_types": {
+            "str": 5639,
+            "missing": 28
+          }
+        },
+        {
+          "dataset_id": "land_dec_2022",
+          "column": "VILLAGE_AR",
+          "missing": 0,
+          "observed_types": {
+            "str": 5667
+          }
+        },
+        {
+          "dataset_id": "land_dec_2022",
+          "column": "VILLAGE_EN",
+          "missing": 27,
+          "observed_types": {
+            "str": 5640,
+            "missing": 27
+          }
+        },
+        {
+          "dataset_id": "land_dec_2022",
+          "column": "GENDER_NAME_AR",
+          "missing": 286,
+          "observed_types": {
+            "str": 5381,
+            "missing": 286
+          }
+        },
+        {
+          "dataset_id": "land_dec_2022",
+          "column": "GENDER_NAME_EN",
+          "missing": 286,
+          "observed_types": {
+            "str": 5381,
+            "missing": 286
+          }
+        },
+        {
+          "dataset_id": "land_dec_2022",
+          "column": "NO_OF_OWNERS",
+          "missing": 0,
+          "observed_types": {
+            "float": 5667
+          }
+        }
+      ],
+      "exact_repeat_occurrences_after_first": 1843,
+      "records_in_repeated_groups": 2600,
+      "rows_removed": 0,
+      "invalid_transaction_dates": 0,
+      "unresolved_governorates": 0,
+      "nonstandard_wilayat_rows": 1,
+      "numerical_profile": {},
+      "quality_flags": {},
+      "owner_count_range": {
+        "min": 1,
+        "max": 14
+      },
+      "categorical_counts": {
+        "governorate_id": {
+          "ad_dakhiliyah": 1075,
+          "south_al_batinah": 909,
+          "north_al_batinah": 760,
+          "muscat": 734,
+          "north_ash_sharqiyah": 706,
+          "dhofar": 432,
+          "south_ash_sharqiyah": 330,
+          "al_wusta": 294,
+          "adh_dhahirah": 208,
+          "al_buraimi": 196,
+          "musandam": 23
+        },
+        "buyer_type": {
+          "Individual": 5632,
+          "Company": 35
+        }
+      },
+      "monthly_records": {
+        "(2022, 12)": 5667
+      }
+    },
+    {
+      "dataset_id": "land_oct_2024",
+      "scope_id": "land_service_coded_2024",
+      "file": "data/raw/manual/oman_land_transactions_oct_2024.xlsx",
+      "sha256": "df278f485f7d66bab0376c38c468d4f2fad2f88a4923fd9aaa7d2e0f2af1848c",
+      "sheet": "Sheet1",
+      "header_row": 1,
+      "audited_row_count": 6024,
+      "filename_period_label": "2024-10",
+      "provider": "Ministry of Housing and Urban Planning, Oman",
+      "provider_evidence": "user-declared official upload; source layout matches earlier MOHUP transaction resource leads",
+      "official_download_url": null,
+      "official_landing_url": null,
+      "provider_entry_point": "https://mohup.gov.om/en/open-data/data/Realestate%20Transaction",
+      "source_verification_status": "user_attributed; exact resource pending",
+      "licence": null,
+      "licence_url": null,
+      "currency_unit": null,
+      "service_code_definitions": {},
+      "uploaded_commit": "6a461443f3522349ec9b827c8761e2672c605816",
+      "actual_record_count": 6024,
+      "min_date": "2024-10-01",
+      "max_date": "2024-10-31",
+      "filename_period_verified": true,
+      "annual_label_is_partial": false,
+      "reported_publication_cell": null,
+      "publication_precedes_last_record": false,
+      "source_xml_core_properties": {
+        "created": "2024-11-18T07:17:08Z",
+        "creator": "Apache POI"
+      },
+      "reader_warnings": [
+        "Workbook contains no default style, apply openpyxl's default"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "declared_dimensions": {
+            "rows": 1,
+            "columns": 1
+          },
+          "actual_dimensions": {
+            "rows": 6025,
+            "columns": 15
+          },
+          "dimension_reset_required": true,
+          "declared_xml_range": "A1",
+          "xml_cells": 90375,
+          "formula_cells": 0
+        }
+      ],
+      "embedded_metadata_sheets": {},
+      "columns": [
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "TRANSACTION_DATE",
+          "missing": 0,
+          "observed_types": {
+            "datetime": 6024
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "SERVICE_SUB_ID",
+          "missing": 0,
+          "observed_types": {
+            "str": 6024
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "BUYER_TYPE",
+          "missing": 0,
+          "observed_types": {
+            "str": 6024
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "REGION_AR",
+          "missing": 0,
+          "observed_types": {
+            "str": 6024
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "REGION_EN",
+          "missing": 0,
+          "observed_types": {
+            "str": 6024
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "WILAYAT_AR",
+          "missing": 0,
+          "observed_types": {
+            "str": 6024
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "WILAYAT_EN",
+          "missing": 34,
+          "observed_types": {
+            "str": 5990,
+            "missing": 34
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "VILLAGE_AR",
+          "missing": 0,
+          "observed_types": {
+            "str": 6024
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "VILLAGE_EN",
+          "missing": 77,
+          "observed_types": {
+            "str": 5947,
+            "missing": 77
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "RE_VALUE",
+          "missing": 367,
+          "observed_types": {
+            "missing": 367,
+            "float": 5657
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "DATE_OF_BIRTH",
+          "missing": 375,
+          "observed_types": {
+            "missing": 375,
+            "datetime": 5649
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "GENDER_NAME_AR",
+          "missing": 375,
+          "observed_types": {
+            "missing": 375,
+            "str": 5649
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "GENDER_NAME_EN",
+          "missing": 375,
+          "observed_types": {
+            "missing": 375,
+            "str": 5649
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "SINGLE_MULTIPLE",
+          "missing": 0,
+          "observed_types": {
+            "str": 6024
+          }
+        },
+        {
+          "dataset_id": "land_oct_2024",
+          "column": "NO_OF_OWNERS",
+          "missing": 0,
+          "observed_types": {
+            "float": 6024
+          }
+        }
+      ],
+      "exact_repeat_occurrences_after_first": 0,
+      "records_in_repeated_groups": 0,
+      "rows_removed": 0,
+      "invalid_transaction_dates": 0,
+      "unresolved_governorates": 0,
+      "nonstandard_wilayat_rows": 0,
+      "numerical_profile": {
+        "present": 5657,
+        "missing": 367,
+        "unit_verified": false,
+        "min": "31.2",
+        "max": "2500000.0",
+        "median": "5383.0",
+        "raw_unit_sum": "89547462.666",
+        "p01": 919.9,
+        "p99": 150000.0,
+        "tail_flagged": 112,
+        "by_service_code": {
+          "RN13A": {
+            "records": 599,
+            "present": 233,
+            "missing": 366
+          },
+          "RN13C": {
+            "records": 5425,
+            "present": 5424,
+            "missing": 1
+          }
+        },
+        "note": "Empirical tails are review flags, not errors; no clipping. RE_VALUE is not a verified price or OMR amount."
+      },
+      "quality_flags": {
+        "birth_date_missing": 375,
+        "birth_date_1900_sentinel": 617,
+        "birth_date_under_18": 27,
+        "birth_date_after_transaction": 1
+      },
+      "owner_count_range": {
+        "min": 1,
+        "max": 31
+      },
+      "categorical_counts": {
+        "governorate_id": {
+          "north_al_batinah": 1143,
+          "muscat": 1099,
+          "south_al_batinah": 1083,
+          "ad_dakhiliyah": 721,
+          "dhofar": 513,
+          "south_ash_sharqiyah": 431,
+          "north_ash_sharqiyah": 379,
+          "adh_dhahirah": 294,
+          "al_buraimi": 183,
+          "al_wusta": 109,
+          "musandam": 69
+        },
+        "buyer_type": {
+          "Individual": 6007,
+          "Company": 17
+        },
+        "service_sub_id": {
+          "RN13C": 5425,
+          "RN13A": 599
+        }
+      },
+      "monthly_records": {
+        "(2024, 10)": 6024
+      }
+    }
+  ],
+  "original_checksums_verified": true,
+  "rows_removed": 0,
+  "duplicate_policy": "Retain every source occurrence: visible field repeats cannot establish transaction identity.",
+  "observed_governorate_month_cells": 42,
+  "ready_for_limited_descriptive_record_analysis": true,
+  "ready_for_2020_2026_market_analysis": false,
+  "verified_monetary_units": false,
+  "exact_download_urls_verified": false,
+  "licences_verified": false,
+  "demographic_policy": "Birth date and gender retained only in originals; quality totals reported, excluded from market-facing facts.",
+  "geographical_reference": {
+    "verified_on": "2026-10-13",
+    "sources": [
+      "https://www.fm.gov.om/en/about-oman/state/oman-by-region/",
+      "https://www.fm.gov.om/ar/about-oman/state/oman-by-region/",
+      "https://www.ncsi.gov.om/Elibrary/LibraryContentDoc/bar_Statistical%20Year%20Book%202017_c2111831-e13a-4075-bf7b-c4b5516e1028.pdf",
+      "https://nsg.gov.om/statedetails/%D9%88%D9%84%D8%A7%D9%8A%D8%A9%20%D8%B3%D9%86%D8%A7%D9%88/SanawLocation"
+    ],
+    "evidence_note": "Foreign Ministry pages inspected online for Sharqiyah membership; NCSI 2017 indexed table independently lists the same observed wilayats. The Foreign Ministry page omits newer wilayats in some sections and is not used as a complete current wilayat inventory. North Sharqiyah Governorate official site independently confirms observed Sinaw membership; the older six-wilayat list is incomplete after 2022.",
+    "legacy_sharqiyah_wilayats": {
+      "north_ash_sharqiyah": [
+        "إبراء",
+        "المضيبي",
+        "بدية",
+        "القابل",
+        "وادي بني خالد",
+        "دماء والطائيين",
+        "سناو"
+      ],
+      "south_ash_sharqiyah": [
+        "صور",
+        "الكامل والوافي",
+        "جعلان بني بو حسن",
+        "جعلان بني بو علي",
+        "مصيرة"
+      ]
+    },
+    "observed_spelling_aliases": {
+      "ابراء": "إبراء",
+      "المضيبى": "المضيبي",
+      "دماء والطائين": "دماء والطائيين",
+      "وادى بنى خالد": "وادي بني خالد",
+      "الكامل والوافى": "الكامل والوافي",
+      "جعلان بنى بوحسن": "جعلان بني بو حسن",
+      "جعلان بنى بوعلى": "جعلان بني بو علي"
+    },
+    "source_parenthetical_wilayat_alias": {
+      "نزوى(نيابة بركة الموز)": "نزوى"
+    },
+    "nonstandard_source_wilayat_labels": [
+      "الساحل الشرقي"
+    ]
+  }
+}

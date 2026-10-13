@@ -1,0 +1,43 @@
+{
+  "verified_on": "2026-10-13",
+  "sources": [
+    "https://www.fm.gov.om/en/about-oman/state/oman-by-region/",
+    "https://www.fm.gov.om/ar/about-oman/state/oman-by-region/",
+    "https://www.ncsi.gov.om/Elibrary/LibraryContentDoc/bar_Statistical%20Year%20Book%202017_c2111831-e13a-4075-bf7b-c4b5516e1028.pdf",
+    "https://nsg.gov.om/statedetails/%D9%88%D9%84%D8%A7%D9%8A%D8%A9%20%D8%B3%D9%86%D8%A7%D9%88/SanawLocation"
+  ],
+  "evidence_note": "Foreign Ministry pages inspected online for Sharqiyah membership; NCSI 2017 indexed table independently lists the same observed wilayats. The Foreign Ministry page omits newer wilayats in some sections and is not used as a complete current wilayat inventory. North Sharqiyah Governorate official site independently confirms observed Sinaw membership; the older six-wilayat list is incomplete after 2022.",
+  "legacy_sharqiyah_wilayats": {
+    "north_ash_sharqiyah": [
+      "إبراء",
+      "المضيبي",
+      "بدية",
+      "القابل",
+      "وادي بني خالد",
+      "دماء والطائيين",
+      "سناو"
+    ],
+    "south_ash_sharqiyah": [
+      "صور",
+      "الكامل والوافي",
+      "جعلان بني بو حسن",
+      "جعلان بني بو علي",
+      "مصيرة"
+    ]
+  },
+  "observed_spelling_aliases": {
+    "ابراء": "إبراء",
+    "المضيبى": "المضيبي",
+    "دماء والطائين": "دماء والطائيين",
+    "وادى بنى خالد": "وادي بني خالد",
+    "الكامل والوافى": "الكامل والوافي",
+    "جعلان بنى بوحسن": "جعلان بني بو حسن",
+    "جعلان بنى بوعلى": "جعلان بني بو علي"
+  },
+  "source_parenthetical_wilayat_alias": {
+    "نزوى(نيابة بركة الموز)": "نزوى"
+  },
+  "nonstandard_source_wilayat_labels": [
+    "الساحل الشرقي"
+  ]
+}

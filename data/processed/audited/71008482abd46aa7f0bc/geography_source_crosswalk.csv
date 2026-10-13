@@ -1,0 +1,212 @@
+﻿dataset_id,source_region_ar,source_region_en,source_wilayat_ar,source_wilayat_en,governorate_id,wilayat_ar,wilayat_key,governorate_mapping_method,wilayat_normalization_method,nonstandard_wilayat_label,reported_record_count
+land_dec_2022,الـداخليـة,AlDakhliah,ادم,Adam,ad_dakhiliyah,ادم,ad_dakhiliyah|ادم,source_bilingual_region,unicode_cleanup,False,89
+land_dec_2022,الـداخليـة,AlDakhliah,ازكى,Azki,ad_dakhiliyah,ازكى,ad_dakhiliyah|ازكي,source_bilingual_region,unicode_cleanup,False,92
+land_dec_2022,الـداخليـة,AlDakhliah,الجبل الأخضر,Al Jabal Al Akhdar,ad_dakhiliyah,الجبل الأخضر,ad_dakhiliyah|الجبل الاخضر,source_bilingual_region,unicode_cleanup,False,51
+land_dec_2022,الـداخليـة,AlDakhliah,الحمراء,,ad_dakhiliyah,الحمراء,ad_dakhiliyah|الحمراء,source_bilingual_region,unicode_cleanup,False,28
+land_dec_2022,الـداخليـة,AlDakhliah,بدبد,Bidbid,ad_dakhiliyah,بدبد,ad_dakhiliyah|بدبد,source_bilingual_region,unicode_cleanup,False,26
+land_dec_2022,الـداخليـة,AlDakhliah,بهلاء,Bahla,ad_dakhiliyah,بهلاء,ad_dakhiliyah|بهلاء,source_bilingual_region,unicode_cleanup,False,133
+land_dec_2022,الـداخليـة,AlDakhliah,سمائل,Sumail,ad_dakhiliyah,سمائل,ad_dakhiliyah|سمائل,source_bilingual_region,unicode_cleanup,False,83
+land_dec_2022,الـداخليـة,AlDakhliah,منح,Maneh,ad_dakhiliyah,منح,ad_dakhiliyah|منح,source_bilingual_region,unicode_cleanup,False,59
+land_dec_2022,الـداخليـة,AlDakhliah,نزوى,Nizwa,ad_dakhiliyah,نزوى,ad_dakhiliyah|نزوي,source_bilingual_region,unicode_cleanup,False,402
+land_dec_2022,الـداخليـة,AlDakhliah,نزوى(نيابة بركة الموز),Nizwa (Neyaba Brakat Al Mooz),ad_dakhiliyah,نزوى,ad_dakhiliyah|نزوي,source_bilingual_region,spelling_alias,False,112
+land_dec_2022,الظـا هـرة,AlDahra,ضنك,Danak,adh_dhahirah,ضنك,adh_dhahirah|ضنك,source_bilingual_region,unicode_cleanup,False,17
+land_dec_2022,الظـا هـرة,AlDahra,عبرى,Ibri,adh_dhahirah,عبرى,adh_dhahirah|عبري,source_bilingual_region,unicode_cleanup,False,169
+land_dec_2022,الظـا هـرة,AlDahra,ينقل,Yanqul,adh_dhahirah,ينقل,adh_dhahirah|ينقل,source_bilingual_region,unicode_cleanup,False,22
+land_dec_2022,البــريــمى,Al Buraimi,البريمي,Buraimi,al_buraimi,البريمي,al_buraimi|البريمي,source_bilingual_region,unicode_cleanup,False,113
+land_dec_2022,البــريــمى,Al Buraimi,محضة,Mahda,al_buraimi,محضة,al_buraimi|محضه,source_bilingual_region,unicode_cleanup,False,83
+land_dec_2022,الوسطى,AlWasta,الجازر,Gezer,al_wusta,الجازر,al_wusta|الجازر,source_bilingual_region,unicode_cleanup,False,8
+land_dec_2022,الوسطى,AlWasta,الدقم,Duqm,al_wusta,الدقم,al_wusta|الدقم,source_bilingual_region,unicode_cleanup,False,22
+land_dec_2022,الوسطى,AlWasta,محوت,Mahoot,al_wusta,محوت,al_wusta|محوت,source_bilingual_region,unicode_cleanup,False,260
+land_dec_2022,الوسطى,AlWasta,هيماء,Haima,al_wusta,هيماء,al_wusta|هيماء,source_bilingual_region,unicode_cleanup,False,4
+land_dec_2022,محافظـة ظفـار,Dhofar,الساحل الشرقي,Al Sahel Al Sharki,dhofar,الساحل الشرقي,dhofar|الساحل الشرقي,source_bilingual_region,unicode_cleanup,True,1
+land_dec_2022,محافظـة ظفـار,Dhofar,المزيونة,Al Mazyona,dhofar,المزيونة,dhofar|المزيونه,source_bilingual_region,unicode_cleanup,False,10
+land_dec_2022,محافظـة ظفـار,Dhofar,ثمريت,Thumrait,dhofar,ثمريت,dhofar|ثمريت,source_bilingual_region,unicode_cleanup,False,48
+land_dec_2022,محافظـة ظفـار,Dhofar,سدح,Sadah,dhofar,سدح,dhofar|سدح,source_bilingual_region,unicode_cleanup,False,3
+land_dec_2022,محافظـة ظفـار,Dhofar,شليم وجزر الحلانيات,Shalim and the Hallaniyat Islands,dhofar,شليم وجزر الحلانيات,dhofar|شليم وجزر الحلانيات,source_bilingual_region,unicode_cleanup,False,12
+land_dec_2022,محافظـة ظفـار,Dhofar,صلالة,Salalah,dhofar,صلالة,dhofar|صلاله,source_bilingual_region,unicode_cleanup,False,270
+land_dec_2022,محافظـة ظفـار,Dhofar,ضلكوت,Dhalkut,dhofar,ضلكوت,dhofar|ضلكوت,source_bilingual_region,unicode_cleanup,False,1
+land_dec_2022,محافظـة ظفـار,Dhofar,طاقة,Taqah,dhofar,طاقة,dhofar|طاقه,source_bilingual_region,unicode_cleanup,False,23
+land_dec_2022,محافظـة ظفـار,Dhofar,مرباط,Mirbat,dhofar,مرباط,dhofar|مرباط,source_bilingual_region,unicode_cleanup,False,22
+land_dec_2022,محافظـة ظفـار,Dhofar,مقشن,Makshan,dhofar,مقشن,dhofar|مقشن,source_bilingual_region,unicode_cleanup,False,42
+land_dec_2022,مســندم,Musandam,بخا,Bukha,musandam,بخا,musandam|بخا,source_bilingual_region,unicode_cleanup,False,1
+land_dec_2022,مســندم,Musandam,خصب,Khassab,musandam,خصب,musandam|خصب,source_bilingual_region,unicode_cleanup,False,11
+land_dec_2022,مســندم,Musandam,دبا,Dibba,musandam,دبا,musandam|دبا,source_bilingual_region,unicode_cleanup,False,7
+land_dec_2022,مســندم,Musandam,مدحا,Madha,musandam,مدحا,musandam|مدحا,source_bilingual_region,unicode_cleanup,False,4
+land_dec_2022,مسقط,Muscat,السيب,Seeb,muscat,السيب,muscat|السيب,source_bilingual_region,unicode_cleanup,False,266
+land_dec_2022,محافظة مسقط,Muscat,السيب,Seeb,muscat,السيب,muscat|السيب,source_bilingual_region,unicode_cleanup,False,6
+land_dec_2022,مسقط,Muscat,العامرات,Amerat,muscat,العامرات,muscat|العامرات,source_bilingual_region,unicode_cleanup,False,213
+land_dec_2022,محافظة مسقط,Muscat,العامرات,Amerat,muscat,العامرات,muscat|العامرات,source_bilingual_region,unicode_cleanup,False,5
+land_dec_2022,مسقط,Muscat,بوشر,Bawshar,muscat,بوشر,muscat|بوشر,source_bilingual_region,unicode_cleanup,False,136
+land_dec_2022,محافظة مسقط,Muscat,بوشر,Boshar,muscat,بوشر,muscat|بوشر,source_bilingual_region,unicode_cleanup,False,3
+land_dec_2022,مسقط,Muscat,قريات,Qurayyat,muscat,قريات,muscat|قريات,source_bilingual_region,unicode_cleanup,False,59
+land_dec_2022,محافظة مسقط,Muscat,قريات,Qurayyat,muscat,قريات,muscat|قريات,source_bilingual_region,unicode_cleanup,False,3
+land_dec_2022,مسقط,Muscat,مسقط,Muscat,muscat,مسقط,muscat|مسقط,source_bilingual_region,unicode_cleanup,False,22
+land_dec_2022,مسقط,Muscat,مطرح,Matra,muscat,مطرح,muscat|مطرح,source_bilingual_region,unicode_cleanup,False,18
+land_dec_2022,محافظة مسقط,Muscat,مطرح,Matra,muscat,مطرح,muscat|مطرح,source_bilingual_region,unicode_cleanup,False,3
+land_dec_2022,شـمال الباطنة,North Batinah,الخابورة,The Khaboura,north_al_batinah,الخابورة,north_al_batinah|الخابوره,source_bilingual_region,unicode_cleanup,False,79
+land_dec_2022,شـمال الباطنة,North Batinah,السويق,Suwaiq,north_al_batinah,السويق,north_al_batinah|السويق,source_bilingual_region,unicode_cleanup,False,225
+land_dec_2022,شـمال الباطنة,North Batinah,شناص,Shinas,north_al_batinah,شناص,north_al_batinah|شناص,source_bilingual_region,unicode_cleanup,False,128
+land_dec_2022,شمال الباطنة,North Batinah,صحار,Sohar,north_al_batinah,صحار,north_al_batinah|صحار,source_bilingual_region,unicode_cleanup,False,136
+land_dec_2022,شـمال الباطنة,North Batinah,صحار,Sohar,north_al_batinah,صحار,north_al_batinah|صحار,source_bilingual_region,unicode_cleanup,False,4
+land_dec_2022,شـمال الباطنة,North Batinah,صحم,Saham,north_al_batinah,صحم,north_al_batinah|صحم,source_bilingual_region,unicode_cleanup,False,151
+land_dec_2022,شـمال الباطنة,North Batinah,لوى,Luwa,north_al_batinah,لوى,north_al_batinah|لوي,source_bilingual_region,unicode_cleanup,False,37
+land_dec_2022,الشــرقــية,Alsharqia,ابراء,Ibra,north_ash_sharqiyah,إبراء,north_ash_sharqiyah|ابراء,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,54
+land_dec_2022,الشــرقــية,Alsharqia,القابل,Al Kabel,north_ash_sharqiyah,القابل,north_ash_sharqiyah|القابل,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,39
+land_dec_2022,الشــرقــية,Alsharqia,المضيبى,Al Mudhaibi,north_ash_sharqiyah,المضيبي,north_ash_sharqiyah|المضيبي,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,539
+land_dec_2022,الشــرقــية,Alsharqia,بدية,Bediya,north_ash_sharqiyah,بدية,north_ash_sharqiyah|بديه,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,55
+land_dec_2022,الشــرقــية,Alsharqia,دماء والطائين,Dema wal Taeen,north_ash_sharqiyah,دماء والطائيين,north_ash_sharqiyah|دماء والطائيين,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,11
+land_dec_2022,الشــرقــية,Alsharqia,وادى بنى خالد,Wadi Bani Khalid,north_ash_sharqiyah,وادي بني خالد,north_ash_sharqiyah|وادي بني خالد,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,8
+land_dec_2022,جنـوب الباطنة,South Batinah,الرستاق,Rustaq,south_al_batinah,الرستاق,south_al_batinah|الرستاق,source_bilingual_region,unicode_cleanup,False,131
+land_dec_2022,جنـوب الباطنة,South Batinah,العوابى,Awabi,south_al_batinah,العوابى,south_al_batinah|العوابي,source_bilingual_region,unicode_cleanup,False,17
+land_dec_2022,جنـوب الباطنة,South Batinah,المصنعة,Masnah,south_al_batinah,المصنعة,south_al_batinah|المصنعه,source_bilingual_region,unicode_cleanup,False,213
+land_dec_2022,جنـوب الباطنة,South Batinah,بركاء,Barka,south_al_batinah,بركاء,south_al_batinah|بركاء,source_bilingual_region,unicode_cleanup,False,469
+land_dec_2022,جنـوب الباطنة,South Batinah,نخل,Nakhil,south_al_batinah,نخل,south_al_batinah|نخل,source_bilingual_region,unicode_cleanup,False,47
+land_dec_2022,جنـوب الباطنة,South Batinah,وادي المعاول,Wadi Al Maawel,south_al_batinah,وادي المعاول,south_al_batinah|وادي المعاول,source_bilingual_region,unicode_cleanup,False,32
+land_dec_2022,الشــرقــية,Alsharqia,الكامل والوافى,Al Kamel wal Wafi,south_ash_sharqiyah,الكامل والوافي,south_ash_sharqiyah|الكامل والوافي,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,57
+land_dec_2022,الشــرقــية,Alsharqia,جعلان بنى بوحسن,Jaalan built Bu Hassan,south_ash_sharqiyah,جعلان بني بو حسن,south_ash_sharqiyah|جعلان بني بو حسن,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,40
+land_dec_2022,الشــرقــية,Alsharqia,جعلان بنى بوعلى,Jaalan built Bouali,south_ash_sharqiyah,جعلان بني بو علي,south_ash_sharqiyah|جعلان بني بو علي,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,120
+land_dec_2022,الشــرقــية,Alsharqia,صور,Soor,south_ash_sharqiyah,صور,south_ash_sharqiyah|صور,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,105
+land_dec_2022,الشــرقــية,Alsharqia,مصيرة,Masirah,south_ash_sharqiyah,مصيرة,south_ash_sharqiyah|مصيره,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,8
+land_nov_2022,الـداخليـة,AlDakhliah,ادم,Adam,ad_dakhiliyah,ادم,ad_dakhiliyah|ادم,source_bilingual_region,unicode_cleanup,False,237
+land_nov_2022,الـداخليـة,AlDakhliah,ازكى,Azki,ad_dakhiliyah,ازكى,ad_dakhiliyah|ازكي,source_bilingual_region,unicode_cleanup,False,75
+land_nov_2022,الـداخليـة,AlDakhliah,الجبل الأخضر,Al Jabal Al Akhdar,ad_dakhiliyah,الجبل الأخضر,ad_dakhiliyah|الجبل الاخضر,source_bilingual_region,unicode_cleanup,False,11
+land_nov_2022,الـداخليـة,AlDakhliah,الحمراء,,ad_dakhiliyah,الحمراء,ad_dakhiliyah|الحمراء,source_bilingual_region,unicode_cleanup,False,38
+land_nov_2022,الـداخليـة,AlDakhliah,بدبد,Bidbid,ad_dakhiliyah,بدبد,ad_dakhiliyah|بدبد,source_bilingual_region,unicode_cleanup,False,50
+land_nov_2022,الـداخليـة,AlDakhliah,بهلاء,Bahla,ad_dakhiliyah,بهلاء,ad_dakhiliyah|بهلاء,source_bilingual_region,unicode_cleanup,False,136
+land_nov_2022,الـداخليـة,AlDakhliah,سمائل,Sumail,ad_dakhiliyah,سمائل,ad_dakhiliyah|سمائل,source_bilingual_region,unicode_cleanup,False,125
+land_nov_2022,الـداخليـة,AlDakhliah,منح,Maneh,ad_dakhiliyah,منح,ad_dakhiliyah|منح,source_bilingual_region,unicode_cleanup,False,107
+land_nov_2022,الـداخليـة,AlDakhliah,نزوى,Nizwa,ad_dakhiliyah,نزوى,ad_dakhiliyah|نزوي,source_bilingual_region,unicode_cleanup,False,471
+land_nov_2022,الـداخليـة,AlDakhliah,نزوى(نيابة بركة الموز),Nizwa (Neyaba Brakat Al Mooz),ad_dakhiliyah,نزوى,ad_dakhiliyah|نزوي,source_bilingual_region,spelling_alias,False,51
+land_nov_2022,الظـا هـرة,AlDahra,ضنك,Danak,adh_dhahirah,ضنك,adh_dhahirah|ضنك,source_bilingual_region,unicode_cleanup,False,34
+land_nov_2022,الظـا هـرة,AlDahra,عبرى,Ibri,adh_dhahirah,عبرى,adh_dhahirah|عبري,source_bilingual_region,unicode_cleanup,False,244
+land_nov_2022,الظـا هـرة,AlDahra,ينقل,Yanqul,adh_dhahirah,ينقل,adh_dhahirah|ينقل,source_bilingual_region,unicode_cleanup,False,31
+land_nov_2022,البــريــمى,Al Buraimi,البريمي,Buraimi,al_buraimi,البريمي,al_buraimi|البريمي,source_bilingual_region,unicode_cleanup,False,195
+land_nov_2022,البــريــمى,Al Buraimi,السنينة,Sunain,al_buraimi,السنينة,al_buraimi|السنينه,source_bilingual_region,unicode_cleanup,False,2
+land_nov_2022,البــريــمى,Al Buraimi,محضة,Mahda,al_buraimi,محضة,al_buraimi|محضه,source_bilingual_region,unicode_cleanup,False,15
+land_nov_2022,الوسطى,AlWasta,الجازر,Gezer,al_wusta,الجازر,al_wusta|الجازر,source_bilingual_region,unicode_cleanup,False,8
+land_nov_2022,الوسطى,AlWasta,الدقم,Duqm,al_wusta,الدقم,al_wusta|الدقم,source_bilingual_region,unicode_cleanup,False,27
+land_nov_2022,الوسطى,AlWasta,محوت,Mahoot,al_wusta,محوت,al_wusta|محوت,source_bilingual_region,unicode_cleanup,False,66
+land_nov_2022,الوسطى,AlWasta,هيماء,Haima,al_wusta,هيماء,al_wusta|هيماء,source_bilingual_region,unicode_cleanup,False,4
+land_nov_2022,محافظـة ظفـار,Dhofar,الساحل الشرقي,Al Sahel Al Sharki,dhofar,الساحل الشرقي,dhofar|الساحل الشرقي,source_bilingual_region,unicode_cleanup,True,1
+land_nov_2022,محافظـة ظفـار,Dhofar,المزيونة,Al Mazyona,dhofar,المزيونة,dhofar|المزيونه,source_bilingual_region,unicode_cleanup,False,20
+land_nov_2022,محافظـة ظفـار,Dhofar,ثمريت,Thumrait,dhofar,ثمريت,dhofar|ثمريت,source_bilingual_region,unicode_cleanup,False,59
+land_nov_2022,محافظـة ظفـار,Dhofar,رخيوت,Rakhyut,dhofar,رخيوت,dhofar|رخيوت,source_bilingual_region,unicode_cleanup,False,1
+land_nov_2022,محافظـة ظفـار,Dhofar,سدح,Sadah,dhofar,سدح,dhofar|سدح,source_bilingual_region,unicode_cleanup,False,4
+land_nov_2022,محافظـة ظفـار,Dhofar,شليم وجزر الحلانيات,Shalim and the Hallaniyat Islands,dhofar,شليم وجزر الحلانيات,dhofar|شليم وجزر الحلانيات,source_bilingual_region,unicode_cleanup,False,58
+land_nov_2022,محافظـة ظفـار,Dhofar,صلالة,Salalah,dhofar,صلالة,dhofar|صلاله,source_bilingual_region,unicode_cleanup,False,390
+land_nov_2022,محافظـة ظفـار,Dhofar,طاقة,Taqah,dhofar,طاقة,dhofar|طاقه,source_bilingual_region,unicode_cleanup,False,35
+land_nov_2022,محافظـة ظفـار,Dhofar,مرباط,Mirbat,dhofar,مرباط,dhofar|مرباط,source_bilingual_region,unicode_cleanup,False,275
+land_nov_2022,محافظـة ظفـار,Dhofar,مقشن,Makshan,dhofar,مقشن,dhofar|مقشن,source_bilingual_region,unicode_cleanup,False,28
+land_nov_2022,مســندم,Musandam,بخا,Bukha,musandam,بخا,musandam|بخا,source_bilingual_region,unicode_cleanup,False,1
+land_nov_2022,مســندم,Musandam,خصب,Khassab,musandam,خصب,musandam|خصب,source_bilingual_region,unicode_cleanup,False,20
+land_nov_2022,مســندم,Musandam,دبا,Dibba,musandam,دبا,musandam|دبا,source_bilingual_region,unicode_cleanup,False,9
+land_nov_2022,مســندم,Musandam,مدحا,Madha,musandam,مدحا,musandam|مدحا,source_bilingual_region,unicode_cleanup,False,4
+land_nov_2022,مسقط,Muscat,السيب,Seeb,muscat,السيب,muscat|السيب,source_bilingual_region,unicode_cleanup,False,328
+land_nov_2022,محافظة مسقط,Muscat,السيب,Seeb,muscat,السيب,muscat|السيب,source_bilingual_region,unicode_cleanup,False,11
+land_nov_2022,مسقط,Muscat,العامرات,Amerat,muscat,العامرات,muscat|العامرات,source_bilingual_region,unicode_cleanup,False,304
+land_nov_2022,محافظة مسقط,Muscat,العامرات,Amerat,muscat,العامرات,muscat|العامرات,source_bilingual_region,unicode_cleanup,False,10
+land_nov_2022,مسقط,Muscat,بوشر,Bawshar,muscat,بوشر,muscat|بوشر,source_bilingual_region,unicode_cleanup,False,168
+land_nov_2022,محافظة مسقط,Muscat,بوشر,Boshar,muscat,بوشر,muscat|بوشر,source_bilingual_region,unicode_cleanup,False,7
+land_nov_2022,مسقط,Muscat,قريات,Qurayyat,muscat,قريات,muscat|قريات,source_bilingual_region,unicode_cleanup,False,66
+land_nov_2022,محافظة مسقط,Muscat,قريات,Qurayyat,muscat,قريات,muscat|قريات,source_bilingual_region,unicode_cleanup,False,2
+land_nov_2022,مسقط,Muscat,مسقط,Muscat,muscat,مسقط,muscat|مسقط,source_bilingual_region,unicode_cleanup,False,17
+land_nov_2022,محافظة مسقط,Muscat,مسقط,Muscat,muscat,مسقط,muscat|مسقط,source_bilingual_region,unicode_cleanup,False,1
+land_nov_2022,مسقط,Muscat,مطرح,Matra,muscat,مطرح,muscat|مطرح,source_bilingual_region,unicode_cleanup,False,40
+land_nov_2022,محافظة مسقط,Muscat,مطرح,Matra,muscat,مطرح,muscat|مطرح,source_bilingual_region,unicode_cleanup,False,6
+land_nov_2022,شـمال الباطنة,North Batinah,الخابورة,The Khaboura,north_al_batinah,الخابورة,north_al_batinah|الخابوره,source_bilingual_region,unicode_cleanup,False,103
+land_nov_2022,شـمال الباطنة,North Batinah,السويق,Suwaiq,north_al_batinah,السويق,north_al_batinah|السويق,source_bilingual_region,unicode_cleanup,False,304
+land_nov_2022,شـمال الباطنة,North Batinah,شناص,Shinas,north_al_batinah,شناص,north_al_batinah|شناص,source_bilingual_region,unicode_cleanup,False,107
+land_nov_2022,شمال الباطنة,North Batinah,صحار,Sohar,north_al_batinah,صحار,north_al_batinah|صحار,source_bilingual_region,unicode_cleanup,False,181
+land_nov_2022,شـمال الباطنة,North Batinah,صحار,Sohar,north_al_batinah,صحار,north_al_batinah|صحار,source_bilingual_region,unicode_cleanup,False,9
+land_nov_2022,شـمال الباطنة,North Batinah,صحم,Saham,north_al_batinah,صحم,north_al_batinah|صحم,source_bilingual_region,unicode_cleanup,False,222
+land_nov_2022,شـمال الباطنة,North Batinah,لوى,Luwa,north_al_batinah,لوى,north_al_batinah|لوي,source_bilingual_region,unicode_cleanup,False,28
+land_nov_2022,الشــرقــية,Alsharqia,ابراء,Ibra,north_ash_sharqiyah,إبراء,north_ash_sharqiyah|ابراء,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,165
+land_nov_2022,الشــرقــية,Alsharqia,القابل,Al Kabel,north_ash_sharqiyah,القابل,north_ash_sharqiyah|القابل,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,89
+land_nov_2022,الشــرقــية,Alsharqia,المضيبى,Al Mudhaibi,north_ash_sharqiyah,المضيبي,north_ash_sharqiyah|المضيبي,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,822
+land_nov_2022,الشــرقــية,Alsharqia,بدية,Bediya,north_ash_sharqiyah,بدية,north_ash_sharqiyah|بديه,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,177
+land_nov_2022,الشــرقــية,Alsharqia,دماء والطائين,Dema wal Taeen,north_ash_sharqiyah,دماء والطائيين,north_ash_sharqiyah|دماء والطائيين,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,28
+land_nov_2022,الشــرقــية,Alsharqia,وادى بنى خالد,Wadi Bani Khalid,north_ash_sharqiyah,وادي بني خالد,north_ash_sharqiyah|وادي بني خالد,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,19
+land_nov_2022,جنـوب الباطنة,South Batinah,الرستاق,Rustaq,south_al_batinah,الرستاق,south_al_batinah|الرستاق,source_bilingual_region,unicode_cleanup,False,160
+land_nov_2022,جنـوب الباطنة,South Batinah,العوابى,Awabi,south_al_batinah,العوابى,south_al_batinah|العوابي,source_bilingual_region,unicode_cleanup,False,14
+land_nov_2022,جنـوب الباطنة,South Batinah,المصنعة,Masnah,south_al_batinah,المصنعة,south_al_batinah|المصنعه,source_bilingual_region,unicode_cleanup,False,264
+land_nov_2022,جنـوب الباطنة,South Batinah,بركاء,Barka,south_al_batinah,بركاء,south_al_batinah|بركاء,source_bilingual_region,unicode_cleanup,False,505
+land_nov_2022,جنـوب الباطنة,South Batinah,نخل,Nakhil,south_al_batinah,نخل,south_al_batinah|نخل,source_bilingual_region,unicode_cleanup,False,71
+land_nov_2022,جنـوب الباطنة,South Batinah,وادي المعاول,Wadi Al Maawel,south_al_batinah,وادي المعاول,south_al_batinah|وادي المعاول,source_bilingual_region,unicode_cleanup,False,39
+land_nov_2022,الشــرقــية,Alsharqia,الكامل والوافى,Al Kamel wal Wafi,south_ash_sharqiyah,الكامل والوافي,south_ash_sharqiyah|الكامل والوافي,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,58
+land_nov_2022,الشــرقــية,Alsharqia,جعلان بنى بوحسن,Jaalan built Bu Hassan,south_ash_sharqiyah,جعلان بني بو حسن,south_ash_sharqiyah|جعلان بني بو حسن,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,59
+land_nov_2022,الشــرقــية,Alsharqia,جعلان بنى بوعلى,Jaalan built Bouali,south_ash_sharqiyah,جعلان بني بو علي,south_ash_sharqiyah|جعلان بني بو علي,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,142
+land_nov_2022,الشــرقــية,Alsharqia,صور,Soor,south_ash_sharqiyah,صور,south_ash_sharqiyah|صور,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,123
+land_nov_2022,الشــرقــية,Alsharqia,مصيرة,Masirah,south_ash_sharqiyah,مصيرة,south_ash_sharqiyah|مصيره,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,20
+land_oct_2024,الـداخليـة,AlDakhliah,ادم,Adam,ad_dakhiliyah,ادم,ad_dakhiliyah|ادم,source_bilingual_region,unicode_cleanup,False,47
+land_oct_2024,الـداخليـة,AlDakhliah,ازكى,Azki,ad_dakhiliyah,ازكى,ad_dakhiliyah|ازكي,source_bilingual_region,unicode_cleanup,False,97
+land_oct_2024,الـداخليـة,AlDakhliah,الجبل الأخضر,Al Jabal Al Akhdar,ad_dakhiliyah,الجبل الأخضر,ad_dakhiliyah|الجبل الاخضر,source_bilingual_region,unicode_cleanup,False,8
+land_oct_2024,الـداخليـة,AlDakhliah,الحمراء,,ad_dakhiliyah,الحمراء,ad_dakhiliyah|الحمراء,source_bilingual_region,unicode_cleanup,False,34
+land_oct_2024,الـداخليـة,AlDakhliah,بدبد,Bidbid,ad_dakhiliyah,بدبد,ad_dakhiliyah|بدبد,source_bilingual_region,unicode_cleanup,False,64
+land_oct_2024,الـداخليـة,AlDakhliah,بهلاء,Bahla,ad_dakhiliyah,بهلاء,ad_dakhiliyah|بهلاء,source_bilingual_region,unicode_cleanup,False,134
+land_oct_2024,الـداخليـة,AlDakhliah,سمائل,Sumail,ad_dakhiliyah,سمائل,ad_dakhiliyah|سمائل,source_bilingual_region,unicode_cleanup,False,109
+land_oct_2024,الـداخليـة,AlDakhliah,منح,Maneh,ad_dakhiliyah,منح,ad_dakhiliyah|منح,source_bilingual_region,unicode_cleanup,False,43
+land_oct_2024,الـداخليـة,AlDakhliah,نزوى,Nizwa,ad_dakhiliyah,نزوى,ad_dakhiliyah|نزوي,source_bilingual_region,unicode_cleanup,False,167
+land_oct_2024,الـداخليـة,AlDakhliah,نزوى(نيابة بركة الموز),Nizwa (Neyaba Brakat Al Mooz),ad_dakhiliyah,نزوى,ad_dakhiliyah|نزوي,source_bilingual_region,spelling_alias,False,18
+land_oct_2024,الظـا هـرة,AlDahra,ضنك,Danak,adh_dhahirah,ضنك,adh_dhahirah|ضنك,source_bilingual_region,unicode_cleanup,False,47
+land_oct_2024,الظـا هـرة,AlDahra,عبرى,Ibri,adh_dhahirah,عبرى,adh_dhahirah|عبري,source_bilingual_region,unicode_cleanup,False,199
+land_oct_2024,الظـا هـرة,AlDahra,ينقل,Yanqul,adh_dhahirah,ينقل,adh_dhahirah|ينقل,source_bilingual_region,unicode_cleanup,False,48
+land_oct_2024,البــريــمى,Al Buraimi,البريمي,Buraimi,al_buraimi,البريمي,al_buraimi|البريمي,source_bilingual_region,unicode_cleanup,False,153
+land_oct_2024,البــريــمى,Al Buraimi,السنينة,Sunain,al_buraimi,السنينة,al_buraimi|السنينه,source_bilingual_region,unicode_cleanup,False,4
+land_oct_2024,البــريــمى,Al Buraimi,محضة,Mahda,al_buraimi,محضة,al_buraimi|محضه,source_bilingual_region,unicode_cleanup,False,26
+land_oct_2024,الوسطى,AlWasta,الجازر,Gezer,al_wusta,الجازر,al_wusta|الجازر,source_bilingual_region,unicode_cleanup,False,15
+land_oct_2024,الوسطى,AlWasta,الدقم,Duqm,al_wusta,الدقم,al_wusta|الدقم,source_bilingual_region,unicode_cleanup,False,28
+land_oct_2024,الوسطى,AlWasta,محوت,Mahoot,al_wusta,محوت,al_wusta|محوت,source_bilingual_region,unicode_cleanup,False,57
+land_oct_2024,الوسطى,AlWasta,هيماء,Haima,al_wusta,هيماء,al_wusta|هيماء,source_bilingual_region,unicode_cleanup,False,9
+land_oct_2024,محافظـة ظفـار,Dhofar,المزيونة,Al Mazyona,dhofar,المزيونة,dhofar|المزيونه,source_bilingual_region,unicode_cleanup,False,24
+land_oct_2024,محافظـة ظفـار,Dhofar,ثمريت,Thumrait,dhofar,ثمريت,dhofar|ثمريت,source_bilingual_region,unicode_cleanup,False,24
+land_oct_2024,محافظـة ظفـار,Dhofar,رخيوت,Rakhyut,dhofar,رخيوت,dhofar|رخيوت,source_bilingual_region,unicode_cleanup,False,1
+land_oct_2024,محافظـة ظفـار,Dhofar,سدح,Sadah,dhofar,سدح,dhofar|سدح,source_bilingual_region,unicode_cleanup,False,8
+land_oct_2024,محافظـة ظفـار,Dhofar,شليم وجزر الحلانيات,Shalim and the Hallaniyat Islands,dhofar,شليم وجزر الحلانيات,dhofar|شليم وجزر الحلانيات,source_bilingual_region,unicode_cleanup,False,20
+land_oct_2024,محافظـة ظفـار,Dhofar,صلالة,Salalah,dhofar,صلالة,dhofar|صلاله,source_bilingual_region,unicode_cleanup,False,316
+land_oct_2024,محافظـة ظفـار,Dhofar,ضلكوت,Dhalkut,dhofar,ضلكوت,dhofar|ضلكوت,source_bilingual_region,unicode_cleanup,False,2
+land_oct_2024,محافظـة ظفـار,Dhofar,طاقة,Taqah,dhofar,طاقة,dhofar|طاقه,source_bilingual_region,unicode_cleanup,False,65
+land_oct_2024,محافظـة ظفـار,Dhofar,مرباط,Mirbat,dhofar,مرباط,dhofar|مرباط,source_bilingual_region,unicode_cleanup,False,50
+land_oct_2024,محافظـة ظفـار,Dhofar,مقشن,Makshan,dhofar,مقشن,dhofar|مقشن,source_bilingual_region,unicode_cleanup,False,3
+land_oct_2024,مســندم,Musandam,بخا,Bukha,musandam,بخا,musandam|بخا,source_bilingual_region,unicode_cleanup,False,15
+land_oct_2024,مســندم,Musandam,خصب,Khassab,musandam,خصب,musandam|خصب,source_bilingual_region,unicode_cleanup,False,34
+land_oct_2024,مســندم,Musandam,دبا,Dibba,musandam,دبا,musandam|دبا,source_bilingual_region,unicode_cleanup,False,13
+land_oct_2024,مســندم,Musandam,مدحاء,Madha,musandam,مدحاء,musandam|مدحاء,source_bilingual_region,unicode_cleanup,False,7
+land_oct_2024,مسقط,Muscat,السيب,Seeb,muscat,السيب,muscat|السيب,source_bilingual_region,unicode_cleanup,False,366
+land_oct_2024,مسقط,Muscat,العامرات,Amerat,muscat,العامرات,muscat|العامرات,source_bilingual_region,unicode_cleanup,False,315
+land_oct_2024,محافظة مسقط,Muscat,العامرات,Amerat,muscat,العامرات,muscat|العامرات,source_bilingual_region,unicode_cleanup,False,1
+land_oct_2024,مسقط,Muscat,بوشر,Bawshar,muscat,بوشر,muscat|بوشر,source_bilingual_region,unicode_cleanup,False,297
+land_oct_2024,محافظة مسقط,Muscat,بوشر,Boshar,muscat,بوشر,muscat|بوشر,source_bilingual_region,unicode_cleanup,False,1
+land_oct_2024,مسقط,Muscat,قريات,Qurayyat,muscat,قريات,muscat|قريات,source_bilingual_region,unicode_cleanup,False,76
+land_oct_2024,مسقط,Muscat,مسقط,Muscat,muscat,مسقط,muscat|مسقط,source_bilingual_region,unicode_cleanup,False,19
+land_oct_2024,مسقط,Muscat,مطرح,Matra,muscat,مطرح,muscat|مطرح,source_bilingual_region,unicode_cleanup,False,24
+land_oct_2024,شـمال الباطنة,North Batinah,الخابورة,The Khaboura,north_al_batinah,الخابورة,north_al_batinah|الخابوره,source_bilingual_region,unicode_cleanup,False,115
+land_oct_2024,شـمال الباطنة,North Batinah,السويق,Suwaiq,north_al_batinah,السويق,north_al_batinah|السويق,source_bilingual_region,unicode_cleanup,False,317
+land_oct_2024,شـمال الباطنة,North Batinah,شناص,Shinas,north_al_batinah,شناص,north_al_batinah|شناص,source_bilingual_region,unicode_cleanup,False,176
+land_oct_2024,شمال الباطنة,North Batinah,صحار,Sohar,north_al_batinah,صحار,north_al_batinah|صحار,source_bilingual_region,unicode_cleanup,False,257
+land_oct_2024,شـمال الباطنة,North Batinah,صحار,Sohar,north_al_batinah,صحار,north_al_batinah|صحار,source_bilingual_region,unicode_cleanup,False,3
+land_oct_2024,شـمال الباطنة,North Batinah,صحم,Saham,north_al_batinah,صحم,north_al_batinah|صحم,source_bilingual_region,unicode_cleanup,False,212
+land_oct_2024,شـمال الباطنة,North Batinah,لوى,Luwa,north_al_batinah,لوى,north_al_batinah|لوي,source_bilingual_region,unicode_cleanup,False,63
+land_oct_2024,الشــرقــية,Alsharqia,ابراء,Ibra,north_ash_sharqiyah,إبراء,north_ash_sharqiyah|ابراء,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,73
+land_oct_2024,الشــرقــية,Alsharqia,القابل,Al Kabel,north_ash_sharqiyah,القابل,north_ash_sharqiyah|القابل,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,37
+land_oct_2024,الشــرقــية,Alsharqia,المضيبى,Al Mudhaibi,north_ash_sharqiyah,المضيبي,north_ash_sharqiyah|المضيبي,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,100
+land_oct_2024,الشــرقــية,Alsharqia,بدية,Bediya,north_ash_sharqiyah,بدية,north_ash_sharqiyah|بديه,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,71
+land_oct_2024,الشــرقــية,Alsharqia,دماء والطائين,Dema wal Taeen,north_ash_sharqiyah,دماء والطائيين,north_ash_sharqiyah|دماء والطائيين,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,27
+land_oct_2024,الشــرقــية,Alsharqia,سناو ,Snaw,north_ash_sharqiyah,سناو,north_ash_sharqiyah|سناو,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,57
+land_oct_2024,الشــرقــية,Alsharqia,وادى بنى خالد,Wadi Bani Khalid,north_ash_sharqiyah,وادي بني خالد,north_ash_sharqiyah|وادي بني خالد,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,14
+land_oct_2024,جنـوب الباطنة,South Batinah,الرستاق,Rustaq,south_al_batinah,الرستاق,south_al_batinah|الرستاق,source_bilingual_region,unicode_cleanup,False,216
+land_oct_2024,جنـوب الباطنة,South Batinah,العوابى,Awabi,south_al_batinah,العوابى,south_al_batinah|العوابي,source_bilingual_region,unicode_cleanup,False,19
+land_oct_2024,جنـوب الباطنة,South Batinah,المصنعة,Masnah,south_al_batinah,المصنعة,south_al_batinah|المصنعه,source_bilingual_region,unicode_cleanup,False,205
+land_oct_2024,جنـوب الباطنة,South Batinah,بركاء,Barka,south_al_batinah,بركاء,south_al_batinah|بركاء,source_bilingual_region,unicode_cleanup,False,537
+land_oct_2024,جنـوب الباطنة,South Batinah,نخل,Nakhil,south_al_batinah,نخل,south_al_batinah|نخل,source_bilingual_region,unicode_cleanup,False,57
+land_oct_2024,جنـوب الباطنة,South Batinah,وادي المعاول,Wadi Al Maawel,south_al_batinah,وادي المعاول,south_al_batinah|وادي المعاول,source_bilingual_region,unicode_cleanup,False,49
+land_oct_2024,الشــرقــية,Alsharqia,الكامل والوافى,Al Kamel wal Wafi,south_ash_sharqiyah,الكامل والوافي,south_ash_sharqiyah|الكامل والوافي,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,66
+land_oct_2024,الشــرقــية,Alsharqia,جعلان بنى بوحسن,Jaalan built Bu Hassan,south_ash_sharqiyah,جعلان بني بو حسن,south_ash_sharqiyah|جعلان بني بو حسن,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,59
+land_oct_2024,الشــرقــية,Alsharqia,جعلان بنى بوعلى,Jaalan built Bouali,south_ash_sharqiyah,جعلان بني بو علي,south_ash_sharqiyah|جعلان بني بو علي,legacy_region_resolved_by_verified_wilayat,spelling_alias,False,138
+land_oct_2024,الشــرقــية,Alsharqia,صور,Soor,south_ash_sharqiyah,صور,south_ash_sharqiyah|صور,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,148
+land_oct_2024,الشــرقــية,Alsharqia,مصيرة,Masirah,south_ash_sharqiyah,مصيرة,south_ash_sharqiyah|مصيره,legacy_region_resolved_by_verified_wilayat,unicode_cleanup,False,20
+muscat_brokerage_2025,,,السيب,,muscat,السيب,muscat|السيب,embedded_workbook_scope,unicode_cleanup,False,3286
+muscat_brokerage_2025,,,العامرات,,muscat,العامرات,muscat|العامرات,embedded_workbook_scope,unicode_cleanup,False,3063
+muscat_brokerage_2025,,,بوشر,,muscat,بوشر,muscat|بوشر,embedded_workbook_scope,unicode_cleanup,False,2012
+muscat_brokerage_2025,,,قريات,,muscat,قريات,muscat|قريات,embedded_workbook_scope,unicode_cleanup,False,638
+muscat_brokerage_2025,,,مسقط,,muscat,مسقط,muscat|مسقط,embedded_workbook_scope,unicode_cleanup,False,199
+muscat_brokerage_2025,,,مطرح,,muscat,مطرح,muscat|مطرح,embedded_workbook_scope,unicode_cleanup,False,168

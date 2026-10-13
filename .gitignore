@@ -46,3 +46,6 @@ work/
 !/data/raw/manual/**/*.CSV
 !/data/raw/manual/**/*.metadata.json
 !/data/raw/manual/**/*.source.md
+
+# Audited outputs from the four user-uploaded originals, with unresolved licences documented
+!/data/processed/audited/
