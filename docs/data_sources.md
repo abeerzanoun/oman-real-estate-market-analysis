@@ -66,3 +66,16 @@ Official geography evidence is cited in [reference_geography.json](reference_geo
 ## Exploratory analysis provenance
 
 EDA uses the exact immutable PR #4 audit manifest pinned in [eda_config.json](eda_config.json), from merged main commit `2c4237a`. Original hashes and every input artifact hash are checked before analysis. No additional market dataset was downloaded; source authenticity/licence/definition limitations above continue to apply. Derived counts, category shares and geographic comparisons retain separate 2022 land, 2024 land and Muscat brokerage scopes. See [methodology](eda_methodology.md) and the generated analysis manifest for transformations and reproducibility.
+
+## Read-only dashboard data access
+
+The Streamlit app uses only the existing reviewed aggregate facts in
+`data/processed/eda/168665c92a8a2ff91598/` and the completed duplicate audit in
+`reports/duplicates/4162ac42cfdaebd9d962/`. On each rerun, it verifies the original
+XLSX checksums, audited inputs, EDA CSVs and audit evidence used in the app.
+It performs no network data retrieval, new source collection or source replacement.
+
+All previous source-attribution, reporting-period, service-code, monetary-unit and
+licence limitations still apply. The app presents actual attribution evidence and
+labels provider entry points as entry points rather than verified download URLs.
+See [dashboard documentation](DASHBOARD.md).

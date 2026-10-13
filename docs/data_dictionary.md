@@ -1,6 +1,6 @@
-# Preliminary data dictionary
+# Data dictionary
 
-**Every field below is proposed.** No source dataset or analytical schema has been obtained. Types, requiredness, dimensions and validation rules must be confirmed after acquisition; unsupported dimensions remain unavailable.
+The four supplied workbooks, audited record schemas and reviewed EDA facts are documented in the later sections of this file. The initial candidate dictionary below is retained as a research proposal: it does not establish the availability of monetary values, price indices or continuous 2020–2026 coverage. The dashboard uses only the actual audited/EDA schemas and the view semantics documented at the end.
 
 Potential observation grain: one source-defined metric for one reporting period, geographic level, property category and transaction scope. Transaction measures and price indices may need separate fact tables when their grains differ. A unique key cannot be finalized yet.
 
@@ -81,3 +81,20 @@ The proposed variables above remain candidate indicators. The four actual XLSX u
 
 
 The executed EDA adds a separate [analytical dictionary](eda_data_dictionary.md) for actual grouped counts, observed periods, ownership bands, shares and comparison variables. No proposed prices or indices are filled.
+
+## Dashboard view semantics
+
+The Streamlit dashboard reads the existing pinned EDA facts and dimensions;
+it does not create replacement processed datasets. Its counts sum
+`reported_record_count`, which means **source record occurrences**, not verified
+unique transactions. `share_of_selection_pct` is calculated after filtering as
+100 × grouped occurrences / all filtered occurrences. No unobserved categories
+or periods are added to count tables.
+
+Selected CSV downloads retain aggregate fields and add `scope_id`,
+`count_semantics=source_record_occurrences_not_verified_unique_transactions`,
+and `eda_run_id=168665c92a8a2ff91598`. `records_in_repeated_groups` retains its
+full-original-row equality meaning from the original cohort; it is not recalculated
+after filtering, a verified duplicate count, or a deletion recommendation.
+Financial and private demographic fields are not present in these downloads.
+See [dashboard documentation](DASHBOARD.md) for filter/denominator rules.
