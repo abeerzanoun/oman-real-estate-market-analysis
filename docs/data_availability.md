@@ -1,5 +1,7 @@
 # Data availability matrix — 2020–2026
 
+> This page records the earlier online-discovery status. For the four uploaded workbook versions, use the current [audit validation](uploaded_data_validation.md) and immutable `coverage_matrix_2020_2026.csv` / `coverage_observed.csv` in the audited run. Online source leads do not establish uploaded-file coverage.
+
 Assessment date: **2026-10-12**. Verification is based on official web content and separately on local acquisition. This is a discovery inventory, not a claim of a complete historical dataset.
 
 **V** = actual official table inspected online; **L** = official indexed lead, not confirmed from an acquired file; **?** = not verified in this pass. **No source has yet been downloaded into this environment**, because all eight automated attempts received a proxy CONNECT 403. A network block does not establish that a provider lacks data.

@@ -73,3 +73,8 @@ This schema is implemented but **no official files are imported**. Every product
 `provenance.csv` joins on observation_id and preserves dataset_id, original filename, SHA-256, sheet/row/column coordinates, publisher, title, source URL, publication/retrieval dates, review status, licence attribution and the original unit/multiplier. Multiple source cells may support one deduplicated observation. `coverage.csv` lists present/missing governorate slugs for each comparable group; no missing observations are generated. `validation_report.json` includes missing values, excluded totals, errors, counts and readiness flags.
 
 Business key: scope_id + indicator + unit + interval + frequency + geographic level + governorate + wilayat + category + transaction type + index base. Equal duplicates retain all provenance; conflicting values fail review. For raw row-level transactions, a dedicated ID/grain adapter is required. Readiness means valid actual imports and complete governorate aggregate groups with no missing metric cells; it does not imply complete 2020–2026 coverage, external authentication or certified Power BI measures.
+
+
+## Actual uploaded-record schema
+
+The proposed variables above remain candidate indicators. The four actual XLSX uploads now have a separate [source-backed row dictionary](uploaded_data_dictionary.md). No transaction_count, OMR amount, property price index or area is inferred from these records. Owner counts, record occurrences and unverified RE_VALUE have distinct definitions.

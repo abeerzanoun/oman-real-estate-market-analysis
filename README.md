@@ -36,28 +36,21 @@ Python **3.12**, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Jupyter/JupyterLab,
 
 ```text
 oman-real-estate-market-analysis/
-├── data/
-│   ├── raw/.gitkeep
-│   └── processed/.gitkeep
-├── notebooks/.gitkeep
-├── src/
-│   ├── __init__.py
-│   └── validate_environment.py
-├── reports/
-│   └── figures/.gitkeep
-├── powerbi/.gitkeep
-├── docs/
-│   ├── data_sources.md
-│   ├── data_dictionary.md
-│   └── setup_validation.md
-├── tests/
-│   └── test_environment.py
-├── .gitignore
-├── .python-version
-├── pytest.ini
+├── data/raw/manual/                 # four unchanged uploaded XLSX originals
+├── data/processed/audited/<run_id>/  # separate facts, dimensions, coverage, audit, hashes
+├── notebooks/
+├── src/                             # collector, aggregate adapter, row audit, validators
+├── reports/data_quality_report.md
+├── reports/figures/
+├── powerbi/UPLOADED_DATA_MODEL.md
+├── docs/                            # sources, dictionary, geography evidence, validation
+├── tests/                           # environment, collection, aggregate and row checks
+├── .github/workflows/validate.yml
+├── DATA_UPLOAD_GUIDE.md
 ├── README.md
 ├── requirements.txt
-└── requirements-lock.txt
+├── requirements-lock.txt
+└── .gitignore
 ```
 
 ## Setup and execution
@@ -78,11 +71,11 @@ On Windows, create the environment with `py -3.12 -m venv .venv`, then activate 
 
 `requirements.txt` pins direct dependencies; `requirements-lock.txt` records the full validated resolution. To deliberately refresh dependencies, install direct requirements in a fresh Python 3.12 environment, run all checks, then regenerate the lock with `python -m pip freeze > requirements-lock.txt` and review changes. The initial lock is validated on Linux/Python 3.12; validate other operating systems separately. The validator checks Python and all required imports and returns a nonzero exit code on failure. Tests cover actual imports and failure handling. Validation does not certify future data or dashboard correctness.
 
-Install Microsoft Excel separately as needed and Power BI Desktop on a supported Windows machine. Future processed UTF-8 CSV or XLSX exports will feed these tools with documented types, units and keys. Notebooks and dashboards are intentionally pending acquisition.
+Install Microsoft Excel separately as needed and Power BI Desktop on a supported Windows machine. Future processed UTF-8 CSV or XLSX exports will feed these tools with documented types, units and keys. Notebooks and dashboards await analysis of the audited records within their documented scope.
 
 ## Data source strategy
 
-Prioritize NCSI, the Ministry of Housing and Urban Planning and Oman official data portals. See [source register](docs/data_sources.md) for verified pages and unresolved dataset questions, and [proposed dictionary](docs/data_dictionary.md) for candidate variables. No dataset has yet been accepted. Raw and processed data are ignored by default pending provenance, size and redistribution review; `.gitkeep` preserves their directories.
+Prioritize NCSI, the Ministry of Housing and Urban Planning and Oman official data portals. See [source register](docs/data_sources.md) for verified pages and unresolved dataset questions, and [proposed dictionary](docs/data_dictionary.md) for candidate variables. Four uploaded workbooks are now audited for limited descriptive record analysis; source URLs/licences and financial definitions remain pending. Raw and processed data are ignored by default pending provenance, size and redistribution review; `.gitkeep` preserves their directories.
 
 ## Expected deliverables
 
@@ -90,7 +83,18 @@ A verified source inventory and dictionary; reproducible Python preparation and 
 
 ## Current project status
 
-**Phase 2 discovery and pipeline implemented; original acquisition blocked.** Official NCSI tables have been inspected online, with a 2020–2026 discovery matrix and audited retrieval attempts. Eight original-file downloads received proxy CONNECT 403; no raw originals or processed datasets are available. Full historical coverage and actual PDF extraction remain pending. No exploratory analysis, figures, dashboard or market findings have been produced. See [setup validation](docs/setup_validation.md) for executed checks and remaining requirements. Main-branch integration is subject to review; this setup does not merge changes automatically.
+**Four uploaded XLSX files audited and prepared: 28,558 source record occurrences.** Land files cover November/December 2022 and October 2024 across eleven modern governorates; Muscat brokerage covers January–September 2025 only. Three incorrect worksheet dimensions are repaired in memory. Originals/checksums are preserved, repeated visible rows retained with flags, missing values left blank, and incompatible scopes kept separate.
+
+The project is ready for limited descriptive analysis of the uploaded records and Power BI import. It is **not ready for full 2020–2026 market trends, verified transaction turnover, prices or investment recommendations**. Exact source URLs/licences, service definitions, financial units and completeness remain unresolved. No dashboard or market findings have been produced. See [audit workflow](docs/uploaded_data_workflow.md), [uploaded dictionary](docs/uploaded_data_dictionary.md) and [Power BI model](powerbi/UPLOADED_DATA_MODEL.md).
+
+```bash
+python -m src.audit_uploaded_data
+python -m src.validate_uploads
+python -m pytest
+```
+
+The immutable run folder under `data/processed/audited/` contains separate fact CSVs, observed dimensions, source-quality and geography tables, the governorate/year/month availability matrix, detailed audit report and output SHA-256 manifest. See [quality report](reports/data_quality_report.md), [executed validation](docs/uploaded_data_validation.md) and [audit artifacts](data/processed/audited/) for the committed run. Original workbooks remain under `data/raw/manual/`.
+
 
 
 ## Phase 2 data discovery and collection
@@ -100,7 +104,7 @@ See the [verified coverage matrix](docs/data_availability.md), [source catalogue
 
 ## Manual official Excel/CSV ingestion
 
-Automated source retrieval remains blocked. The manual workflow is prepared and **awaits actual official files**; no imported dataset is ready. See [DATA_UPLOAD_GUIDE.md](DATA_UPLOAD_GUIDE.md) for required governorate tables, official entry points, provenance requirements and GitHub uploads. Place unchanged originals under `data/raw/manual/` and retain source notes. [Manual metadata/validation contract](docs/manual_ingestion.md) and [current status](docs/manual_ingestion_status.json) distinguish valid imports, partial coverage and errors.
+Automated source retrieval remains blocked. The aggregate manual workflow remains available for future official indicator tables. The four current row-level uploads use the dedicated audit workflow above. See [DATA_UPLOAD_GUIDE.md](DATA_UPLOAD_GUIDE.md) for required governorate tables, official entry points, provenance requirements and GitHub uploads. Place unchanged originals under `data/raw/manual/` and retain source notes. [Manual metadata/validation contract](docs/manual_ingestion.md) and [current status](docs/manual_ingestion_status.json) distinguish valid imports, partial coverage and errors.
 
 ```bash
 python -m src.manual_ingestion inspect

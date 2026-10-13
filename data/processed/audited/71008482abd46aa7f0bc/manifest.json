@@ -1,0 +1,33 @@
+{
+  "run_id": "71008482abd46aa7f0bc",
+  "source_sha256": {
+    "data/raw/manual/muscat_brokerage_sales_2025.xlsx": "f00cabf8a4084644321dda07061167e69030091300ba8fadf3ab5eccc7c857ca",
+    "data/raw/manual/oman_land_transactions_nov_2022.xlsx": "80b8c39857e6379b72960342574feb721b55007e1d95bcd37db7f473768edf8a",
+    "data/raw/manual/oman_land_transactions_dec_2022.xlsx": "fd52d06d8a678597f1cb437cea8510777ac379886e9aa640c955cf0ee0389202",
+    "data/raw/manual/oman_land_transactions_oct_2024.xlsx": "df278f485f7d66bab0376c38c468d4f2fad2f88a4923fd9aaa7d2e0f2af1848c"
+  },
+  "implementation_sha256": {
+    "src/audit_uploaded_data.py": "cbe552abc2d617592b1bdc4c03d2fb1c72bb7134b23fb58ef383511612e1b218",
+    "src/excel_reader.py": "8ff6dbc50cf44e9f86c8782999b004320a765b6c4154666761e130b51b6ce589",
+    "src/manual_reference.py": "2c67731246cb10a982525b0e34f832f638776584d6b231f8a5bafdf1af00eb67",
+    "requirements-lock.txt": "c0ef05104c003d2c5cae5317ee1dfc687c3eb864ddc653073e6e7c7da0ffb77c",
+    "docs/uploaded_source_registry.json": "1b7c436a04424ef0211f8a72af4618029c8b0459ac34e130888081f0f3179d8f",
+    "docs/reference_geography.json": "e481631bf7a6390f9d442aa8a61fd17d804b72426610ee6eb8fea8aa585bc161"
+  },
+  "artifact_sha256": {
+    "land_records_2022.csv": "885337015ddfd9ba170d666cfbd5969d01114915c1e469f0500bddfa8947fbe5",
+    "land_records_2024.csv": "10c9420e42f289adcdceade406011bc8a24756c6e2cc4c8cc14473d1b495a41f",
+    "muscat_brokerage_records_2025.csv": "6eaa6a55e52057fcdba5671fe9bbee7b540d1fac5741e3a41819a1f0cda2a47a",
+    "coverage_observed.csv": "ae2433d50061ba160f9f6cfa481e7fc89930a241450e97e9556cd7c44619080c",
+    "monthly_reported_records.csv": "2b94b993fe2238eee219fae627ff5767065c1cb333bcab7ba2e8a3c10e98ec46",
+    "coverage_matrix_2020_2026.csv": "970625caabe0205997245ca5aaf4cb9a7fe928fe1cc8040f7cf8e5301bb4d92d",
+    "dim_governorate.csv": "c50295cd42cddb8ba9ea953503063d543f9b3787c445d21432efd2a100698961",
+    "dim_wilayat.csv": "8945df946fcf38be2ccb1ed2841781abb0f4cd58b8607d2bd862184437a5e419",
+    "dim_date.csv": "210c267f2bc709e1fb1c6b3209beefc8be6564067592e30c70882cf0494a3d66",
+    "dim_dataset.csv": "3b47776f4901f56f23fad72e7fecc4fac6cae49730286b481c18a8d01ad9784c",
+    "source_column_quality.csv": "a1b5d402f4365071c3e5019d28055e209fd7ca0e944db556b4c6d9ab0bf74b30",
+    "geography_source_crosswalk.csv": "86e8bab1cd867e769b19bd7734f60df9f7b64ff23d0b46fd7562009b3a74584f",
+    "audit_report.json": "e9f299e38c961211f80f008029dfc9c82401b0ddeb82aff3d87e2aaa08ef716e",
+    "data_quality_report.md": "37defbe2f418f7d470275aedd60969fd4e9547f41e4a2de6fe3ecde63ed5b8b3"
+  }
+}
