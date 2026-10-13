@@ -78,3 +78,6 @@ Business key: scope_id + indicator + unit + interval + frequency + geographic le
 ## Actual uploaded-record schema
 
 The proposed variables above remain candidate indicators. The four actual XLSX uploads now have a separate [source-backed row dictionary](uploaded_data_dictionary.md). No transaction_count, OMR amount, property price index or area is inferred from these records. Owner counts, record occurrences and unverified RE_VALUE have distinct definitions.
+
+
+The executed EDA adds a separate [analytical dictionary](eda_data_dictionary.md) for actual grouped counts, observed periods, ownership bands, shares and comparison variables. No proposed prices or indices are filled.

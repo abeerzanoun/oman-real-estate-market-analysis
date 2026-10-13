@@ -5,3 +5,12 @@
 /data/raw/manual/**/*.CSV -text
 # Audited CSV hashes refer to exact UTF-8 BOM bytes; raw labels may contain whitespace.
 /data/processed/audited/**/*.csv -text whitespace=-blank-at-eol
+
+# EDA CSV hashes are exact bytes, including BOM and quoted source metadata.
+/data/processed/eda/**/*.csv -text whitespace=-blank-at-eol
+# Byte-hashed bundles include JSON/Markdown as well as CSV.
+/data/processed/audited/** -text
+/data/processed/eda/** -text
+/reports/eda/**/*.md -text
+# Matplotlib SVG paths include formatting whitespace; preserve generated vector bytes.
+/reports/figures/eda/**/*.svg -text whitespace=-blank-at-eol linguist-generated=true

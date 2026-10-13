@@ -1,0 +1,258 @@
+﻿dataset_id,period_id,governorate_id,wilayat_key,nonstandard_wilayat_label,buyer_type,ownership_band,service_sub_id,ownership_mode,reported_record_count,records_in_repeated_groups
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|ادم,False,Individual,1 owner,RN13A,Single,3,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|ادم,False,Individual,1 owner,RN13C,Single,42,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|ادم,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|ادم,False,Individual,5+ owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Company,1 owner,RN13A,Single,3,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Individual,1 owner,RN13A,Single,5,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Individual,1 owner,RN13C,Single,85,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Individual,2 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Individual,3 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|الجبل الاخضر,False,Individual,1 owner,RN13C,Single,8,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|الحمراء,False,Individual,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|الحمراء,False,Individual,1 owner,RN13C,Single,32,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|الحمراء,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|بدبد,False,Individual,1 owner,RN13A,Single,3,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|بدبد,False,Individual,1 owner,RN13C,Single,55,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|بدبد,False,Individual,2 owners,RN13C,Multiple,3,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|بدبد,False,Individual,3 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|بدبد,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|بهلاء,False,Individual,1 owner,RN13A,Single,8,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|بهلاء,False,Individual,1 owner,RN13C,Single,124,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|بهلاء,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|بهلاء,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|سمائل,False,Individual,1 owner,RN13A,Single,3,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|سمائل,False,Individual,1 owner,RN13C,Single,94,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|سمائل,False,Individual,2 owners,RN13C,Multiple,8,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|سمائل,False,Individual,3 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|سمائل,False,Individual,5+ owners,RN13C,Multiple,3,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|منح,False,Company,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|منح,False,Individual,1 owner,RN13A,Single,3,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|منح,False,Individual,1 owner,RN13C,Single,37,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|منح,False,Individual,3 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|منح,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,1 owner,RN13A,Single,8,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,1 owner,RN13C,Single,168,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,2 owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,2 owners,RN13C,Multiple,8,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|ضنك,False,Individual,1 owner,RN13A,Single,6,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|ضنك,False,Individual,1 owner,RN13C,Single,40,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|ضنك,False,Individual,2 owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|عبري,False,Individual,1 owner,RN13A,Single,14,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|عبري,False,Individual,1 owner,RN13C,Single,175,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|عبري,False,Individual,2 owners,RN13A,Multiple,2,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|عبري,False,Individual,2 owners,RN13C,Multiple,5,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|عبري,False,Individual,3 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|عبري,False,Individual,5+ owners,RN13A,Multiple,2,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|ينقل,False,Individual,1 owner,RN13A,Single,2,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|ينقل,False,Individual,1 owner,RN13C,Single,43,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|ينقل,False,Individual,2 owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|ينقل,False,Individual,5+ owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,adh_dhahirah,adh_dhahirah|ينقل,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,al_buraimi,al_buraimi|البريمي,False,Individual,1 owner,RN13A,Single,11,0
+land_oct_2024,2024-10,al_buraimi,al_buraimi|البريمي,False,Individual,1 owner,RN13C,Single,134,0
+land_oct_2024,2024-10,al_buraimi,al_buraimi|البريمي,False,Individual,2 owners,RN13A,Multiple,3,0
+land_oct_2024,2024-10,al_buraimi,al_buraimi|البريمي,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,al_buraimi,al_buraimi|البريمي,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,al_buraimi,al_buraimi|البريمي,False,Individual,5+ owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,al_buraimi,al_buraimi|البريمي,False,Individual,5+ owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,al_buraimi,al_buraimi|السنينه,False,Individual,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,al_buraimi,al_buraimi|السنينه,False,Individual,1 owner,RN13C,Single,3,0
+land_oct_2024,2024-10,al_buraimi,al_buraimi|محضه,False,Individual,1 owner,RN13A,Single,7,0
+land_oct_2024,2024-10,al_buraimi,al_buraimi|محضه,False,Individual,1 owner,RN13C,Single,19,0
+land_oct_2024,2024-10,al_wusta,al_wusta|الجازر,False,Individual,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,al_wusta,al_wusta|الجازر,False,Individual,1 owner,RN13C,Single,13,0
+land_oct_2024,2024-10,al_wusta,al_wusta|الجازر,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,al_wusta,al_wusta|الدقم,False,Individual,1 owner,RN13C,Single,28,0
+land_oct_2024,2024-10,al_wusta,al_wusta|محوت,False,Individual,1 owner,RN13A,Single,11,0
+land_oct_2024,2024-10,al_wusta,al_wusta|محوت,False,Individual,1 owner,RN13C,Single,44,0
+land_oct_2024,2024-10,al_wusta,al_wusta|محوت,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,al_wusta,al_wusta|محوت,False,Individual,3 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,al_wusta,al_wusta|هيماء,False,Individual,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,al_wusta,al_wusta|هيماء,False,Individual,1 owner,RN13C,Single,8,0
+land_oct_2024,2024-10,dhofar,dhofar|المزيونه,False,Individual,1 owner,RN13C,Single,23,0
+land_oct_2024,2024-10,dhofar,dhofar|المزيونه,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,dhofar,dhofar|ثمريت,False,Individual,1 owner,RN13C,Single,22,0
+land_oct_2024,2024-10,dhofar,dhofar|ثمريت,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,dhofar,dhofar|ثمريت,False,Individual,5+ owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,dhofar,dhofar|رخيوت,False,Individual,1 owner,RN13C,Single,1,0
+land_oct_2024,2024-10,dhofar,dhofar|سدح,False,Individual,1 owner,RN13C,Single,8,0
+land_oct_2024,2024-10,dhofar,dhofar|شليم وجزر الحلانيات,False,Individual,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,dhofar,dhofar|شليم وجزر الحلانيات,False,Individual,1 owner,RN13C,Single,19,0
+land_oct_2024,2024-10,dhofar,dhofar|صلاله,False,Company,1 owner,RN13A,Single,3,0
+land_oct_2024,2024-10,dhofar,dhofar|صلاله,False,Individual,1 owner,RN13A,Single,27,0
+land_oct_2024,2024-10,dhofar,dhofar|صلاله,False,Individual,1 owner,RN13C,Single,264,0
+land_oct_2024,2024-10,dhofar,dhofar|صلاله,False,Individual,2 owners,RN13A,Multiple,3,0
+land_oct_2024,2024-10,dhofar,dhofar|صلاله,False,Individual,2 owners,RN13C,Multiple,13,0
+land_oct_2024,2024-10,dhofar,dhofar|صلاله,False,Individual,3 owners,RN13C,Multiple,3,0
+land_oct_2024,2024-10,dhofar,dhofar|صلاله,False,Individual,5+ owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,dhofar,dhofar|صلاله,False,Individual,5+ owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,dhofar,dhofar|ضلكوت,False,Individual,1 owner,RN13C,Single,2,0
+land_oct_2024,2024-10,dhofar,dhofar|طاقه,False,Individual,1 owner,RN13A,Single,4,0
+land_oct_2024,2024-10,dhofar,dhofar|طاقه,False,Individual,1 owner,RN13C,Single,54,0
+land_oct_2024,2024-10,dhofar,dhofar|طاقه,False,Individual,2 owners,RN13C,Multiple,4,0
+land_oct_2024,2024-10,dhofar,dhofar|طاقه,False,Individual,3 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,dhofar,dhofar|طاقه,False,Individual,5+ owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,dhofar,dhofar|مرباط,False,Individual,1 owner,RN13A,Single,2,0
+land_oct_2024,2024-10,dhofar,dhofar|مرباط,False,Individual,1 owner,RN13C,Single,45,0
+land_oct_2024,2024-10,dhofar,dhofar|مرباط,False,Individual,2 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,dhofar,dhofar|مرباط,False,Individual,3 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,dhofar,dhofar|مقشن,False,Individual,1 owner,RN13C,Single,3,0
+land_oct_2024,2024-10,musandam,musandam|بخا,False,Individual,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,musandam,musandam|بخا,False,Individual,1 owner,RN13C,Single,14,0
+land_oct_2024,2024-10,musandam,musandam|خصب,False,Individual,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,musandam,musandam|خصب,False,Individual,1 owner,RN13C,Single,30,0
+land_oct_2024,2024-10,musandam,musandam|خصب,False,Individual,4 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,musandam,musandam|خصب,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,musandam,musandam|دبا,False,Individual,1 owner,RN13A,Single,9,0
+land_oct_2024,2024-10,musandam,musandam|دبا,False,Individual,1 owner,RN13C,Single,4,0
+land_oct_2024,2024-10,musandam,musandam|مدحاء,False,Individual,1 owner,RN13A,Single,6,0
+land_oct_2024,2024-10,musandam,musandam|مدحاء,False,Individual,1 owner,RN13C,Single,1,0
+land_oct_2024,2024-10,muscat,muscat|السيب,False,Individual,1 owner,RN13A,Single,14,0
+land_oct_2024,2024-10,muscat,muscat|السيب,False,Individual,1 owner,RN13C,Single,313,0
+land_oct_2024,2024-10,muscat,muscat|السيب,False,Individual,2 owners,RN13C,Multiple,31,0
+land_oct_2024,2024-10,muscat,muscat|السيب,False,Individual,3 owners,RN13C,Multiple,5,0
+land_oct_2024,2024-10,muscat,muscat|السيب,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,muscat,muscat|السيب,False,Individual,5+ owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,muscat,muscat|السيب,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,muscat,muscat|العامرات,False,Individual,1 owner,RN13A,Single,11,0
+land_oct_2024,2024-10,muscat,muscat|العامرات,False,Individual,1 owner,RN13C,Single,284,0
+land_oct_2024,2024-10,muscat,muscat|العامرات,False,Individual,2 owners,RN13C,Multiple,19,0
+land_oct_2024,2024-10,muscat,muscat|العامرات,False,Individual,5+ owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,muscat,muscat|العامرات,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,muscat,muscat|بوشر,False,Company,1 owner,RN13C,Single,1,0
+land_oct_2024,2024-10,muscat,muscat|بوشر,False,Individual,1 owner,RN13A,Single,29,0
+land_oct_2024,2024-10,muscat,muscat|بوشر,False,Individual,1 owner,RN13C,Single,228,0
+land_oct_2024,2024-10,muscat,muscat|بوشر,False,Individual,2 owners,RN13A,Multiple,4,0
+land_oct_2024,2024-10,muscat,muscat|بوشر,False,Individual,2 owners,RN13C,Multiple,27,0
+land_oct_2024,2024-10,muscat,muscat|بوشر,False,Individual,3 owners,RN13C,Multiple,5,0
+land_oct_2024,2024-10,muscat,muscat|بوشر,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,muscat,muscat|بوشر,False,Individual,5+ owners,RN13C,Multiple,3,0
+land_oct_2024,2024-10,muscat,muscat|قريات,False,Individual,1 owner,RN13A,Single,2,0
+land_oct_2024,2024-10,muscat,muscat|قريات,False,Individual,1 owner,RN13C,Single,67,0
+land_oct_2024,2024-10,muscat,muscat|قريات,False,Individual,2 owners,RN13C,Multiple,3,0
+land_oct_2024,2024-10,muscat,muscat|قريات,False,Individual,5+ owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,muscat,muscat|قريات,False,Individual,5+ owners,RN13C,Multiple,3,0
+land_oct_2024,2024-10,muscat,muscat|مسقط,False,Individual,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,muscat,muscat|مسقط,False,Individual,1 owner,RN13C,Single,15,0
+land_oct_2024,2024-10,muscat,muscat|مسقط,False,Individual,2 owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,muscat,muscat|مسقط,False,Individual,2 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,muscat,muscat|مطرح,False,Individual,1 owner,RN13A,Single,4,0
+land_oct_2024,2024-10,muscat,muscat|مطرح,False,Individual,1 owner,RN13C,Single,19,0
+land_oct_2024,2024-10,muscat,muscat|مطرح,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|الخابوره,False,Individual,1 owner,RN13A,Single,6,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|الخابوره,False,Individual,1 owner,RN13C,Single,105,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|الخابوره,False,Individual,2 owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|الخابوره,False,Individual,2 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|الخابوره,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|السويق,False,Individual,1 owner,RN13A,Single,11,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|السويق,False,Individual,1 owner,RN13C,Single,296,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|السويق,False,Individual,2 owners,RN13C,Multiple,4,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|السويق,False,Individual,3 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|السويق,False,Individual,4 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|السويق,False,Individual,5+ owners,RN13C,Multiple,3,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|شناص,False,Individual,1 owner,RN13A,Single,13,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|شناص,False,Individual,1 owner,RN13C,Single,160,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|شناص,False,Individual,2 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|شناص,False,Individual,3 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحار,False,Company,1 owner,RN13A,Single,2,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحار,False,Individual,1 owner,RN13A,Single,35,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحار,False,Individual,1 owner,RN13C,Single,212,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحار,False,Individual,2 owners,RN13C,Multiple,9,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحار,False,Individual,3 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحار,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحم,False,Company,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحم,False,Individual,1 owner,RN13A,Single,21,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحم,False,Individual,1 owner,RN13C,Single,175,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحم,False,Individual,2 owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحم,False,Individual,2 owners,RN13C,Multiple,9,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحم,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحم,False,Individual,5+ owners,RN13A,Multiple,2,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|صحم,False,Individual,5+ owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|لوي,False,Company,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|لوي,False,Individual,1 owner,RN13A,Single,14,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|لوي,False,Individual,1 owner,RN13C,Single,45,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|لوي,False,Individual,2 owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|لوي,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_al_batinah,north_al_batinah|لوي,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,1 owner,RN13A,Single,3,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,1 owner,RN13C,Single,66,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,2 owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|القابل,False,Individual,1 owner,RN13A,Single,3,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|القابل,False,Individual,1 owner,RN13C,Single,31,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|القابل,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|القابل,False,Individual,5+ owners,RN13A,Multiple,2,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,1 owner,RN13A,Single,8,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,1 owner,RN13C,Single,86,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,2 owners,RN13C,Multiple,3,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,3 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,5+ owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|بديه,False,Individual,1 owner,RN13A,Single,3,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|بديه,False,Individual,1 owner,RN13C,Single,67,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|بديه,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|دماء والطائيين,False,Individual,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|دماء والطائيين,False,Individual,1 owner,RN13C,Single,25,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|دماء والطائيين,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|سناو,False,Individual,1 owner,RN13A,Single,2,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|سناو,False,Individual,1 owner,RN13C,Single,51,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|سناو,False,Individual,2 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|سناو,False,Individual,4 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|وادي بني خالد,False,Individual,1 owner,RN13C,Single,12,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|وادي بني خالد,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,north_ash_sharqiyah,north_ash_sharqiyah|وادي بني خالد,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|الرستاق,False,Individual,1 owner,RN13A,Single,13,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|الرستاق,False,Individual,1 owner,RN13C,Single,195,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|الرستاق,False,Individual,2 owners,RN13C,Multiple,5,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|الرستاق,False,Individual,5+ owners,RN13C,Multiple,3,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|العوابي,False,Individual,1 owner,RN13C,Single,19,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|المصنعه,False,Company,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|المصنعه,False,Individual,1 owner,RN13A,Single,37,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|المصنعه,False,Individual,1 owner,RN13C,Single,159,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|المصنعه,False,Individual,2 owners,RN13C,Multiple,5,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|المصنعه,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|المصنعه,False,Individual,5+ owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|المصنعه,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|بركاء,False,Individual,1 owner,RN13A,Single,53,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|بركاء,False,Individual,1 owner,RN13C,Single,441,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|بركاء,False,Individual,2 owners,RN13A,Multiple,3,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|بركاء,False,Individual,2 owners,RN13C,Multiple,30,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|بركاء,False,Individual,3 owners,RN13C,Multiple,4,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|بركاء,False,Individual,4 owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|بركاء,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|بركاء,False,Individual,5+ owners,RN13A,Multiple,2,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|بركاء,False,Individual,5+ owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|نخل,False,Company,1 owner,RN13A,Single,2,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|نخل,False,Individual,1 owner,RN13A,Single,11,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|نخل,False,Individual,1 owner,RN13C,Single,42,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|نخل,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|نخل,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|وادي المعاول,False,Company,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|وادي المعاول,False,Individual,1 owner,RN13A,Single,10,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|وادي المعاول,False,Individual,1 owner,RN13C,Single,37,0
+land_oct_2024,2024-10,south_al_batinah,south_al_batinah|وادي المعاول,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,False,Company,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,False,Individual,1 owner,RN13A,Single,11,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,False,Individual,1 owner,RN13C,Single,50,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,False,Individual,2 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,False,Individual,3 owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,False,Individual,5+ owners,RN13A,Multiple,2,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو حسن,False,Individual,1 owner,RN13A,Single,8,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو حسن,False,Individual,1 owner,RN13C,Single,47,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو حسن,False,Individual,2 owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو حسن,False,Individual,2 owners,RN13C,Multiple,2,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو حسن,False,Individual,4 owners,RN13A,Multiple,1,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,False,Individual,1 owner,RN13A,Single,37,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,False,Individual,1 owner,RN13C,Single,97,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,False,Individual,2 owners,RN13C,Multiple,3,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Individual,1 owner,RN13A,Single,34,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Individual,1 owner,RN13C,Single,109,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Individual,2 owners,RN13C,Multiple,3,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Individual,4 owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Individual,5+ owners,RN13C,Multiple,1,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|مصيره,False,Individual,1 owner,RN13A,Single,1,0
+land_oct_2024,2024-10,south_ash_sharqiyah,south_ash_sharqiyah|مصيره,False,Individual,1 owner,RN13C,Single,19,0

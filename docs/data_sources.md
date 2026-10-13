@@ -61,3 +61,8 @@ Muscat's embedded metadata attributes the Ministry of Housing and Urban Planning
 Actual coverage is Nov/Dec 2022 land records across all eleven modern governorates (legacy Sharqiyah resolved by observed wilayat), Oct 2024 service-coded records across eleven, and Jan–Sep 2025 Muscat brokerage registrations only. The Muscat source publication label predates some records, requiring confirmation. RE_VALUE units and RN13A/RN13C meanings are unknown. No national historical continuity, completeness or price series is claimed.
 
 Official geography evidence is cited in [reference_geography.json](reference_geography.json): Foreign Ministry regional pages and an indexed NCSI yearbook for the observed historical Sharqiyah memberships; the North Sharqiyah Governorate site for Sinaw. These are administrative references, not transaction data sources. Original source translations and missing English labels remain in the crosswalk.
+
+
+## Exploratory analysis provenance
+
+EDA uses the exact immutable PR #4 audit manifest pinned in [eda_config.json](eda_config.json), from merged main commit `2c4237a`. Original hashes and every input artifact hash are checked before analysis. No additional market dataset was downloaded; source authenticity/licence/definition limitations above continue to apply. Derived counts, category shares and geographic comparisons retain separate 2022 land, 2024 land and Muscat brokerage scopes. See [methodology](eda_methodology.md) and the generated analysis manifest for transformations and reproducibility.

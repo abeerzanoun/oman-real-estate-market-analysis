@@ -1,0 +1,362 @@
+﻿dataset_id,period_id,governorate_id,wilayat_key,nonstandard_wilayat_label,buyer_type,ownership_band,reported_record_count,records_in_repeated_groups
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|ادم,False,Company,1 owner,1,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|ادم,False,Individual,1 owner,84,47
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|ادم,False,Individual,2 owners,3,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|ادم,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Company,1 owner,1,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Individual,1 owner,86,30
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Individual,2 owners,3,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Individual,4 owners,1,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|الجبل الاخضر,False,Individual,1 owner,51,47
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|الحمراء,False,Individual,1 owner,26,2
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|الحمراء,False,Individual,4 owners,1,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|الحمراء,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|بدبد,False,Individual,1 owner,25,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|بدبد,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|بهلاء,False,Individual,1 owner,125,47
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|بهلاء,False,Individual,2 owners,7,2
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|بهلاء,False,Individual,4 owners,1,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|سمائل,False,Individual,1 owner,78,16
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|سمائل,False,Individual,2 owners,5,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|منح,False,Company,1 owner,2,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|منح,False,Individual,1 owner,52,22
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|منح,False,Individual,2 owners,3,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|منح,False,Individual,3 owners,1,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|منح,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Company,1 owner,1,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,1 owner,492,401
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,2 owners,14,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,3 owners,4,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,4 owners,2,0
+land_dec_2022,2022-12,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,adh_dhahirah,adh_dhahirah|ضنك,False,Individual,1 owner,17,0
+land_dec_2022,2022-12,adh_dhahirah,adh_dhahirah|عبري,False,Individual,1 owner,158,38
+land_dec_2022,2022-12,adh_dhahirah,adh_dhahirah|عبري,False,Individual,2 owners,7,0
+land_dec_2022,2022-12,adh_dhahirah,adh_dhahirah|عبري,False,Individual,3 owners,1,0
+land_dec_2022,2022-12,adh_dhahirah,adh_dhahirah|عبري,False,Individual,5+ owners,3,0
+land_dec_2022,2022-12,adh_dhahirah,adh_dhahirah|ينقل,False,Individual,1 owner,21,2
+land_dec_2022,2022-12,adh_dhahirah,adh_dhahirah|ينقل,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,al_buraimi,al_buraimi|البريمي,False,Individual,1 owner,103,54
+land_dec_2022,2022-12,al_buraimi,al_buraimi|البريمي,False,Individual,2 owners,6,2
+land_dec_2022,2022-12,al_buraimi,al_buraimi|البريمي,False,Individual,3 owners,1,0
+land_dec_2022,2022-12,al_buraimi,al_buraimi|البريمي,False,Individual,4 owners,2,0
+land_dec_2022,2022-12,al_buraimi,al_buraimi|البريمي,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,al_buraimi,al_buraimi|محضه,False,Individual,1 owner,83,61
+land_dec_2022,2022-12,al_wusta,al_wusta|الجازر,False,Individual,1 owner,8,4
+land_dec_2022,2022-12,al_wusta,al_wusta|الدقم,False,Individual,1 owner,22,13
+land_dec_2022,2022-12,al_wusta,al_wusta|محوت,False,Individual,1 owner,259,223
+land_dec_2022,2022-12,al_wusta,al_wusta|محوت,False,Individual,2 owners,1,0
+land_dec_2022,2022-12,al_wusta,al_wusta|هيماء,False,Individual,1 owner,4,2
+land_dec_2022,2022-12,dhofar,dhofar|الساحل الشرقي,True,Individual,1 owner,1,0
+land_dec_2022,2022-12,dhofar,dhofar|المزيونه,False,Individual,1 owner,10,2
+land_dec_2022,2022-12,dhofar,dhofar|ثمريت,False,Individual,1 owner,48,40
+land_dec_2022,2022-12,dhofar,dhofar|سدح,False,Individual,1 owner,3,0
+land_dec_2022,2022-12,dhofar,dhofar|شليم وجزر الحلانيات,False,Individual,1 owner,12,2
+land_dec_2022,2022-12,dhofar,dhofar|صلاله,False,Company,1 owner,6,2
+land_dec_2022,2022-12,dhofar,dhofar|صلاله,False,Individual,1 owner,253,159
+land_dec_2022,2022-12,dhofar,dhofar|صلاله,False,Individual,2 owners,6,0
+land_dec_2022,2022-12,dhofar,dhofar|صلاله,False,Individual,3 owners,2,0
+land_dec_2022,2022-12,dhofar,dhofar|صلاله,False,Individual,5+ owners,3,0
+land_dec_2022,2022-12,dhofar,dhofar|ضلكوت,False,Individual,1 owner,1,0
+land_dec_2022,2022-12,dhofar,dhofar|طاقه,False,Individual,1 owner,23,8
+land_dec_2022,2022-12,dhofar,dhofar|مرباط,False,Company,1 owner,2,0
+land_dec_2022,2022-12,dhofar,dhofar|مرباط,False,Individual,1 owner,19,6
+land_dec_2022,2022-12,dhofar,dhofar|مرباط,False,Individual,3 owners,1,0
+land_dec_2022,2022-12,dhofar,dhofar|مقشن,False,Individual,1 owner,42,39
+land_dec_2022,2022-12,musandam,musandam|بخا,False,Individual,1 owner,1,0
+land_dec_2022,2022-12,musandam,musandam|خصب,False,Company,1 owner,3,0
+land_dec_2022,2022-12,musandam,musandam|خصب,False,Individual,1 owner,7,0
+land_dec_2022,2022-12,musandam,musandam|خصب,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,musandam,musandam|دبا,False,Individual,1 owner,7,2
+land_dec_2022,2022-12,musandam,musandam|مدحا,False,Individual,1 owner,4,2
+land_dec_2022,2022-12,muscat,muscat|السيب,False,Company,1 owner,5,0
+land_dec_2022,2022-12,muscat,muscat|السيب,False,Individual,1 owner,242,154
+land_dec_2022,2022-12,muscat,muscat|السيب,False,Individual,2 owners,23,11
+land_dec_2022,2022-12,muscat,muscat|السيب,False,Individual,3 owners,1,0
+land_dec_2022,2022-12,muscat,muscat|السيب,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,muscat,muscat|العامرات,False,Individual,1 owner,209,134
+land_dec_2022,2022-12,muscat,muscat|العامرات,False,Individual,2 owners,7,2
+land_dec_2022,2022-12,muscat,muscat|العامرات,False,Individual,3 owners,1,0
+land_dec_2022,2022-12,muscat,muscat|العامرات,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,muscat,muscat|بوشر,False,Company,1 owner,1,0
+land_dec_2022,2022-12,muscat,muscat|بوشر,False,Individual,1 owner,133,60
+land_dec_2022,2022-12,muscat,muscat|بوشر,False,Individual,2 owners,4,0
+land_dec_2022,2022-12,muscat,muscat|بوشر,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,muscat,muscat|قريات,False,Company,1 owner,1,0
+land_dec_2022,2022-12,muscat,muscat|قريات,False,Individual,1 owner,55,9
+land_dec_2022,2022-12,muscat,muscat|قريات,False,Individual,2 owners,5,0
+land_dec_2022,2022-12,muscat,muscat|قريات,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,muscat,muscat|مسقط,False,Individual,1 owner,17,4
+land_dec_2022,2022-12,muscat,muscat|مسقط,False,Individual,2 owners,4,2
+land_dec_2022,2022-12,muscat,muscat|مسقط,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,muscat,muscat|مطرح,False,Company,1 owner,1,0
+land_dec_2022,2022-12,muscat,muscat|مطرح,False,Individual,1 owner,18,0
+land_dec_2022,2022-12,muscat,muscat|مطرح,False,Individual,2 owners,1,0
+land_dec_2022,2022-12,muscat,muscat|مطرح,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|الخابوره,False,Individual,1 owner,76,27
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|الخابوره,False,Individual,2 owners,1,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|الخابوره,False,Individual,4 owners,1,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|الخابوره,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|السويق,False,Company,1 owner,1,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|السويق,False,Individual,1 owner,211,58
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|السويق,False,Individual,2 owners,9,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|السويق,False,Individual,3 owners,1,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|السويق,False,Individual,5+ owners,3,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|شناص,False,Company,1 owner,1,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|شناص,False,Individual,1 owner,123,34
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|شناص,False,Individual,2 owners,2,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|شناص,False,Individual,5+ owners,2,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|صحار,False,Company,1 owner,2,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|صحار,False,Individual,1 owner,130,35
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|صحار,False,Individual,2 owners,7,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|صحار,False,Individual,3 owners,1,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|صحم,False,Individual,1 owner,145,48
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|صحم,False,Individual,2 owners,3,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|صحم,False,Individual,3 owners,2,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|صحم,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|لوي,False,Company,1 owner,2,0
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|لوي,False,Individual,1 owner,34,12
+land_dec_2022,2022-12,north_al_batinah,north_al_batinah|لوي,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,1 owner,52,10
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,2 owners,1,0
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|القابل,False,Individual,1 owner,36,8
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|القابل,False,Individual,2 owners,3,0
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Company,1 owner,1,0
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,1 owner,510,241
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,2 owners,17,0
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,3 owners,5,0
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,4 owners,2,0
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,5+ owners,4,0
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|بديه,False,Individual,1 owner,53,20
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|بديه,False,Individual,2 owners,1,0
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|بديه,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|دماء والطائيين,False,Individual,1 owner,11,2
+land_dec_2022,2022-12,north_ash_sharqiyah,north_ash_sharqiyah|وادي بني خالد,False,Individual,1 owner,8,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|الرستاق,False,Individual,1 owner,125,18
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|الرستاق,False,Individual,2 owners,4,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|الرستاق,False,Individual,3 owners,1,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|الرستاق,False,Individual,4 owners,1,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|العوابي,False,Individual,1 owner,14,6
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|العوابي,False,Individual,2 owners,2,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|العوابي,False,Individual,3 owners,1,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|المصنعه,False,Company,1 owner,1,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|المصنعه,False,Individual,1 owner,208,84
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|المصنعه,False,Individual,2 owners,3,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|المصنعه,False,Individual,3 owners,1,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|بركاء,False,Individual,1 owner,455,239
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|بركاء,False,Individual,2 owners,8,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|بركاء,False,Individual,3 owners,2,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|بركاء,False,Individual,5+ owners,4,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|نخل,False,Individual,1 owner,46,19
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|نخل,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|وادي المعاول,False,Company,1 owner,2,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|وادي المعاول,False,Individual,1 owner,28,13
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|وادي المعاول,False,Individual,2 owners,1,0
+land_dec_2022,2022-12,south_al_batinah,south_al_batinah|وادي المعاول,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,False,Individual,1 owner,57,18
+land_dec_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو حسن,False,Individual,1 owner,38,6
+land_dec_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو حسن,False,Individual,3 owners,2,0
+land_dec_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,False,Individual,1 owner,117,33
+land_dec_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,False,Individual,2 owners,1,0
+land_dec_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,False,Individual,5+ owners,2,0
+land_dec_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Company,1 owner,1,0
+land_dec_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Individual,1 owner,97,16
+land_dec_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Individual,2 owners,4,2
+land_dec_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Individual,4 owners,2,0
+land_dec_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Individual,5+ owners,1,0
+land_dec_2022,2022-12,south_ash_sharqiyah,south_ash_sharqiyah|مصيره,False,Individual,1 owner,8,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|ادم,False,Individual,1 owner,233,202
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|ادم,False,Individual,2 owners,4,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Company,1 owner,2,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Individual,1 owner,70,16
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Individual,3 owners,1,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Individual,4 owners,1,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|ازكي,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|الجبل الاخضر,False,Individual,1 owner,11,7
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|الحمراء,False,Individual,1 owner,37,8
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|الحمراء,False,Individual,3 owners,1,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|بدبد,False,Individual,1 owner,43,9
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|بدبد,False,Individual,2 owners,4,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|بدبد,False,Individual,4 owners,1,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|بدبد,False,Individual,5+ owners,2,2
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|بهلاء,False,Individual,1 owner,133,39
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|بهلاء,False,Individual,2 owners,2,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|بهلاء,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|سمائل,False,Company,1 owner,1,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|سمائل,False,Individual,1 owner,120,29
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|سمائل,False,Individual,2 owners,4,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|منح,False,Individual,1 owner,101,68
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|منح,False,Individual,2 owners,4,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|منح,False,Individual,3 owners,1,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|منح,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Company,1 owner,4,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,1 owner,497,375
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,2 owners,14,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,3 owners,5,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,4 owners,1,0
+land_nov_2022,2022-11,ad_dakhiliyah,ad_dakhiliyah|نزوي,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,adh_dhahirah,adh_dhahirah|ضنك,False,Individual,1 owner,31,4
+land_nov_2022,2022-11,adh_dhahirah,adh_dhahirah|ضنك,False,Individual,2 owners,2,0
+land_nov_2022,2022-11,adh_dhahirah,adh_dhahirah|ضنك,False,Individual,3 owners,1,0
+land_nov_2022,2022-11,adh_dhahirah,adh_dhahirah|عبري,False,Individual,1 owner,231,75
+land_nov_2022,2022-11,adh_dhahirah,adh_dhahirah|عبري,False,Individual,2 owners,7,0
+land_nov_2022,2022-11,adh_dhahirah,adh_dhahirah|عبري,False,Individual,5+ owners,6,0
+land_nov_2022,2022-11,adh_dhahirah,adh_dhahirah|ينقل,False,Company,1 owner,1,0
+land_nov_2022,2022-11,adh_dhahirah,adh_dhahirah|ينقل,False,Individual,1 owner,30,3
+land_nov_2022,2022-11,al_buraimi,al_buraimi|البريمي,False,Company,1 owner,1,0
+land_nov_2022,2022-11,al_buraimi,al_buraimi|البريمي,False,Individual,1 owner,184,123
+land_nov_2022,2022-11,al_buraimi,al_buraimi|البريمي,False,Individual,2 owners,7,0
+land_nov_2022,2022-11,al_buraimi,al_buraimi|البريمي,False,Individual,4 owners,2,0
+land_nov_2022,2022-11,al_buraimi,al_buraimi|البريمي,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,al_buraimi,al_buraimi|السنينه,False,Individual,1 owner,2,0
+land_nov_2022,2022-11,al_buraimi,al_buraimi|محضه,False,Individual,1 owner,15,5
+land_nov_2022,2022-11,al_wusta,al_wusta|الجازر,False,Individual,1 owner,7,0
+land_nov_2022,2022-11,al_wusta,al_wusta|الجازر,False,Individual,4 owners,1,0
+land_nov_2022,2022-11,al_wusta,al_wusta|الدقم,False,Individual,1 owner,22,12
+land_nov_2022,2022-11,al_wusta,al_wusta|الدقم,False,Individual,2 owners,2,0
+land_nov_2022,2022-11,al_wusta,al_wusta|الدقم,False,Individual,3 owners,2,0
+land_nov_2022,2022-11,al_wusta,al_wusta|الدقم,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,al_wusta,al_wusta|محوت,False,Individual,1 owner,64,24
+land_nov_2022,2022-11,al_wusta,al_wusta|محوت,False,Individual,2 owners,1,0
+land_nov_2022,2022-11,al_wusta,al_wusta|محوت,False,Individual,4 owners,1,0
+land_nov_2022,2022-11,al_wusta,al_wusta|هيماء,False,Individual,1 owner,4,0
+land_nov_2022,2022-11,dhofar,dhofar|الساحل الشرقي,True,Individual,1 owner,1,0
+land_nov_2022,2022-11,dhofar,dhofar|المزيونه,False,Individual,1 owner,19,6
+land_nov_2022,2022-11,dhofar,dhofar|المزيونه,False,Individual,2 owners,1,0
+land_nov_2022,2022-11,dhofar,dhofar|ثمريت,False,Company,1 owner,1,0
+land_nov_2022,2022-11,dhofar,dhofar|ثمريت,False,Individual,1 owner,58,51
+land_nov_2022,2022-11,dhofar,dhofar|رخيوت,False,Individual,1 owner,1,0
+land_nov_2022,2022-11,dhofar,dhofar|سدح,False,Individual,1 owner,4,0
+land_nov_2022,2022-11,dhofar,dhofar|شليم وجزر الحلانيات,False,Individual,1 owner,58,46
+land_nov_2022,2022-11,dhofar,dhofar|صلاله,False,Company,1 owner,4,0
+land_nov_2022,2022-11,dhofar,dhofar|صلاله,False,Individual,1 owner,350,243
+land_nov_2022,2022-11,dhofar,dhofar|صلاله,False,Individual,2 owners,28,6
+land_nov_2022,2022-11,dhofar,dhofar|صلاله,False,Individual,3 owners,3,0
+land_nov_2022,2022-11,dhofar,dhofar|صلاله,False,Individual,4 owners,4,0
+land_nov_2022,2022-11,dhofar,dhofar|صلاله,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,dhofar,dhofar|طاقه,False,Individual,1 owner,31,11
+land_nov_2022,2022-11,dhofar,dhofar|طاقه,False,Individual,2 owners,2,0
+land_nov_2022,2022-11,dhofar,dhofar|طاقه,False,Individual,3 owners,1,0
+land_nov_2022,2022-11,dhofar,dhofar|طاقه,False,Individual,4 owners,1,0
+land_nov_2022,2022-11,dhofar,dhofar|مرباط,False,Individual,1 owner,261,247
+land_nov_2022,2022-11,dhofar,dhofar|مرباط,False,Individual,2 owners,6,2
+land_nov_2022,2022-11,dhofar,dhofar|مرباط,False,Individual,3 owners,1,0
+land_nov_2022,2022-11,dhofar,dhofar|مرباط,False,Individual,4 owners,1,0
+land_nov_2022,2022-11,dhofar,dhofar|مرباط,False,Individual,5+ owners,6,0
+land_nov_2022,2022-11,dhofar,dhofar|مقشن,False,Company,1 owner,1,0
+land_nov_2022,2022-11,dhofar,dhofar|مقشن,False,Individual,1 owner,27,22
+land_nov_2022,2022-11,musandam,musandam|بخا,False,Individual,1 owner,1,0
+land_nov_2022,2022-11,musandam,musandam|خصب,False,Company,1 owner,5,0
+land_nov_2022,2022-11,musandam,musandam|خصب,False,Individual,1 owner,13,4
+land_nov_2022,2022-11,musandam,musandam|خصب,False,Individual,2 owners,2,0
+land_nov_2022,2022-11,musandam,musandam|دبا,False,Individual,1 owner,9,0
+land_nov_2022,2022-11,musandam,musandam|مدحا,False,Individual,1 owner,4,0
+land_nov_2022,2022-11,muscat,muscat|السيب,False,Company,1 owner,5,0
+land_nov_2022,2022-11,muscat,muscat|السيب,False,Individual,1 owner,299,188
+land_nov_2022,2022-11,muscat,muscat|السيب,False,Individual,2 owners,26,2
+land_nov_2022,2022-11,muscat,muscat|السيب,False,Individual,5+ owners,9,0
+land_nov_2022,2022-11,muscat,muscat|العامرات,False,Company,1 owner,4,0
+land_nov_2022,2022-11,muscat,muscat|العامرات,False,Individual,1 owner,291,193
+land_nov_2022,2022-11,muscat,muscat|العامرات,False,Individual,2 owners,12,2
+land_nov_2022,2022-11,muscat,muscat|العامرات,False,Individual,3 owners,3,0
+land_nov_2022,2022-11,muscat,muscat|العامرات,False,Individual,5+ owners,4,0
+land_nov_2022,2022-11,muscat,muscat|بوشر,False,Company,1 owner,4,0
+land_nov_2022,2022-11,muscat,muscat|بوشر,False,Company,2 owners,1,0
+land_nov_2022,2022-11,muscat,muscat|بوشر,False,Individual,1 owner,145,50
+land_nov_2022,2022-11,muscat,muscat|بوشر,False,Individual,2 owners,22,6
+land_nov_2022,2022-11,muscat,muscat|بوشر,False,Individual,3 owners,2,0
+land_nov_2022,2022-11,muscat,muscat|بوشر,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,muscat,muscat|قريات,False,Individual,1 owner,60,12
+land_nov_2022,2022-11,muscat,muscat|قريات,False,Individual,2 owners,5,0
+land_nov_2022,2022-11,muscat,muscat|قريات,False,Individual,5+ owners,3,0
+land_nov_2022,2022-11,muscat,muscat|مسقط,False,Company,1 owner,1,0
+land_nov_2022,2022-11,muscat,muscat|مسقط,False,Individual,1 owner,13,0
+land_nov_2022,2022-11,muscat,muscat|مسقط,False,Individual,2 owners,3,0
+land_nov_2022,2022-11,muscat,muscat|مسقط,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,muscat,muscat|مطرح,False,Individual,1 owner,41,6
+land_nov_2022,2022-11,muscat,muscat|مطرح,False,Individual,2 owners,3,0
+land_nov_2022,2022-11,muscat,muscat|مطرح,False,Individual,4 owners,1,0
+land_nov_2022,2022-11,muscat,muscat|مطرح,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|الخابوره,False,Individual,1 owner,98,23
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|الخابوره,False,Individual,2 owners,3,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|الخابوره,False,Individual,3 owners,1,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|الخابوره,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|السويق,False,Individual,1 owner,297,77
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|السويق,False,Individual,2 owners,3,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|السويق,False,Individual,3 owners,2,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|السويق,False,Individual,4 owners,2,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|شناص,False,Company,1 owner,7,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|شناص,False,Individual,1 owner,95,25
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|شناص,False,Individual,2 owners,5,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|صحار,False,Company,1 owner,7,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|صحار,False,Individual,1 owner,171,62
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|صحار,False,Individual,2 owners,9,4
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|صحار,False,Individual,3 owners,1,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|صحار,False,Individual,5+ owners,2,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|صحم,False,Company,1 owner,1,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|صحم,False,Individual,1 owner,209,59
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|صحم,False,Individual,2 owners,10,2
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|صحم,False,Individual,3 owners,1,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|صحم,False,Individual,4 owners,1,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|لوي,False,Company,1 owner,1,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|لوي,False,Individual,1 owner,25,4
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|لوي,False,Individual,2 owners,1,0
+land_nov_2022,2022-11,north_al_batinah,north_al_batinah|لوي,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,1 owner,148,72
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,2 owners,10,2
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,3 owners,2,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,4 owners,3,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|ابراء,False,Individual,5+ owners,2,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|القابل,False,Individual,1 owner,81,42
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|القابل,False,Individual,2 owners,6,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|القابل,False,Individual,3 owners,1,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|القابل,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,1 owner,792,584
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,2 owners,19,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,3 owners,3,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,4 owners,4,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|المضيبي,False,Individual,5+ owners,4,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|بديه,False,Company,1 owner,1,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|بديه,False,Individual,1 owner,166,98
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|بديه,False,Individual,2 owners,4,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|بديه,False,Individual,3 owners,4,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|بديه,False,Individual,5+ owners,2,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|دماء والطائيين,False,Individual,1 owner,27,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|دماء والطائيين,False,Individual,2 owners,1,0
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|وادي بني خالد,False,Individual,1 owner,18,2
+land_nov_2022,2022-11,north_ash_sharqiyah,north_ash_sharqiyah|وادي بني خالد,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|الرستاق,False,Individual,1 owner,157,39
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|الرستاق,False,Individual,2 owners,2,0
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|الرستاق,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|العوابي,False,Individual,1 owner,13,2
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|العوابي,False,Individual,4 owners,1,0
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|المصنعه,False,Individual,1 owner,254,114
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|المصنعه,False,Individual,2 owners,10,0
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|بركاء,False,Company,1 owner,1,0
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|بركاء,False,Individual,1 owner,469,204
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|بركاء,False,Individual,2 owners,19,2
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|بركاء,False,Individual,3 owners,12,6
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|بركاء,False,Individual,5+ owners,4,2
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|نخل,False,Company,1 owner,1,0
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|نخل,False,Individual,1 owner,67,27
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|نخل,False,Individual,2 owners,2,2
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|نخل,False,Individual,4 owners,1,0
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|وادي المعاول,False,Individual,1 owner,37,8
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|وادي المعاول,False,Individual,3 owners,1,0
+land_nov_2022,2022-11,south_al_batinah,south_al_batinah|وادي المعاول,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,False,Individual,1 owner,55,13
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,False,Individual,2 owners,2,0
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|الكامل والوافي,False,Individual,4 owners,1,0
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو حسن,False,Individual,1 owner,58,12
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو حسن,False,Individual,5+ owners,1,0
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,False,Individual,1 owner,137,56
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,False,Individual,2 owners,2,0
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,False,Individual,3 owners,1,0
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|جعلان بني بو علي,False,Individual,5+ owners,2,0
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Individual,1 owner,114,32
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Individual,2 owners,5,0
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|صور,False,Individual,5+ owners,4,0
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|مصيره,False,Individual,1 owner,19,2
+land_nov_2022,2022-11,south_ash_sharqiyah,south_ash_sharqiyah|مصيره,False,Individual,2 owners,1,0

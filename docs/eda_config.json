@@ -1,0 +1,16 @@
+{
+  "base_main_commit": "2c4237a5ec24e01b3dde13f2b0ac518b92437db3",
+  "merged_audit_pr": 4,
+  "audit_directory": "data/processed/audited/71008482abd46aa7f0bc",
+  "audit_manifest_sha256": "69c6915479effb3744afe16eb21b04092455a06a948583e06182f8170da17b26",
+  "metric": "reported_record_occurrences",
+  "comparison_policy": "2022-11 vs 2022-12 only, same observed BuySell layout; no completeness or continuous-trend claim",
+  "monetary_analysis": false,
+  "owner_bands": {
+    "1": "1 owner",
+    "2": "2 owners",
+    "3": "3 owners",
+    "4": "4 owners",
+    "5_or_more": "5+ owners"
+  }
+}

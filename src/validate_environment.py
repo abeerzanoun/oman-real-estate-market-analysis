@@ -8,6 +8,7 @@ REQUIRED_MODULES = {
     "seaborn": "seaborn", "plotly": "plotly", "jupyter": "jupyter",
     "jupyterlab": "jupyterlab", "ipykernel": "ipykernel",
     "openpyxl": "openpyxl", "xlsxwriter": "xlsxwriter", "pytest": "pytest",
+    "arabic_reshaper": "arabic-reshaper", "bidi": "python-bidi",
 }
 
 

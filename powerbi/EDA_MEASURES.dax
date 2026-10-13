@@ -1,0 +1,108 @@
+-- Create each named measure separately in Power BI. These are suggested DAX;
+-- the CSV model is reconciled in Python, but DAX has not run in Power BI Desktop.
+-- Slice by dimension columns, and filter pages to their documented scope.
+
+Land 2022 Reported Records =
+SUM ( 'fact_land_2022'[reported_record_count] )
+
+Land Oct 2024 Reported Records =
+SUM ( 'fact_land_2024'[reported_record_count] )
+
+Muscat Brokerage Registrations =
+SUM ( 'fact_brokerage_2025'[reported_record_count] )
+
+-- Geographic denominator retains observed period, dataset and attribute filters.
+Land 2022 Geographic Share =
+DIVIDE (
+    [Land 2022 Reported Records],
+    CALCULATE (
+        [Land 2022 Reported Records],
+        REMOVEFILTERS ( 'dim_governorate' ),
+        REMOVEFILTERS ( 'dim_wilayat' )
+    )
+)
+
+Land Oct 2024 Geographic Share =
+DIVIDE (
+    [Land Oct 2024 Reported Records],
+    CALCULATE (
+        [Land Oct 2024 Reported Records],
+        REMOVEFILTERS ( 'dim_governorate' ),
+        REMOVEFILTERS ( 'dim_wilayat' )
+    )
+)
+
+Muscat Brokerage Geographic Share =
+DIVIDE (
+    [Muscat Brokerage Registrations],
+    CALCULATE (
+        [Muscat Brokerage Registrations],
+        REMOVEFILTERS ( 'dim_governorate' ),
+        REMOVEFILTERS ( 'dim_wilayat' )
+    )
+)
+
+Brokerage Property Use Share =
+DIVIDE (
+    [Muscat Brokerage Registrations],
+    CALCULATE (
+        [Muscat Brokerage Registrations],
+        REMOVEFILTERS ( 'dim_property_use' )
+    )
+)
+
+Land 2022 Supplied Governorates =
+DISTINCTCOUNT ( 'fact_land_2022'[governorate_id] )
+
+Land Oct 2024 Supplied Governorates =
+DISTINCTCOUNT ( 'fact_land_2024'[governorate_id] )
+
+Muscat Brokerage Supplied Months =
+DISTINCTCOUNT ( 'fact_brokerage_2025'[period_id] )
+
+-- Repeated groups are not confirmed duplicate transactions. Format as percentage.
+Land 2022 Repeated Group Share =
+DIVIDE (
+    SUM ( 'fact_land_2022'[records_in_repeated_groups] ),
+    [Land 2022 Reported Records]
+)
+
+Muscat Brokerage Repeated Group Share =
+DIVIDE (
+    SUM ( 'fact_brokerage_2025'[records_in_repeated_groups] ),
+    [Muscat Brokerage Registrations]
+)
+
+-- Explicit two-file comparison only, scoped to the 2022 page.
+-- Dataset/month slicers are cleared deliberately; geographic and buyer/owner filters stay.
+-- Blank means a comparison cohort is unavailable under the remaining filters.
+Land 2022 November Rows =
+CALCULATE (
+    [Land 2022 Reported Records],
+    REMOVEFILTERS ( 'dim_period' ),
+    REMOVEFILTERS ( 'dim_dataset' ),
+    'dim_period'[period_id] = "2022-11"
+)
+
+Land 2022 December Rows =
+CALCULATE (
+    [Land 2022 Reported Records],
+    REMOVEFILTERS ( 'dim_period' ),
+    REMOVEFILTERS ( 'dim_dataset' ),
+    'dim_period'[period_id] = "2022-12"
+)
+
+Land 2022 Nov Dec Row Difference =
+VAR NovemberRows = [Land 2022 November Rows]
+VAR DecemberRows = [Land 2022 December Rows]
+RETURN
+    IF (
+        ISBLANK ( NovemberRows ) || ISBLANK ( DecemberRows ),
+        BLANK (),
+        DecemberRows - NovemberRows
+    )
+
+Land 2022 Nov Dec Row Change =
+DIVIDE ( [Land 2022 Nov Dec Row Difference], [Land 2022 November Rows] )
+
+-- No generic cross-family total, monetary SUM, property price, annual/YTD or YoY measure.
