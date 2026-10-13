@@ -14,3 +14,7 @@
 /reports/eda/**/*.md -text
 # Matplotlib SVG paths include formatting whitespace; preserve generated vector bytes.
 /reports/figures/eda/**/*.svg -text whitespace=-blank-at-eol linguist-generated=true
+
+# Duplicate audit reports/ledgers are exact byte-hashed evidence.
+/reports/duplicates/** -text
+/reports/duplicates/**/*.csv whitespace=-blank-at-eol

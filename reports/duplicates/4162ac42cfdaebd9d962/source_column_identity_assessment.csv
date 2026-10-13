@@ -1,0 +1,43 @@
+﻿dataset_id,column,nonmissing,distinct_nonmissing,unique_complete_column,role,reliable_official_event_key
+muscat_brokerage_2025,اسم المعاملة,9366,1,False,"classification/geographic attribute, not an event key",False
+muscat_brokerage_2025,الولاية,9366,6,False,"classification/geographic attribute, not an event key",False
+muscat_brokerage_2025,تاريخ الإجراء,9366,181,False,procedure/transaction date; many records per date,False
+muscat_brokerage_2025,نوع الإستعمال,9366,8,False,"classification/geographic attribute, not an event key",False
+muscat_brokerage_2025,وصف العقار,9366,13,False,"classification/geographic attribute, not an event key",False
+land_nov_2022,TRANSACTION_DATE,7501,22,False,procedure/transaction date; many records per date,False
+land_nov_2022,BUYER_TYPE,7501,2,False,"classification/geographic attribute, not an event key",False
+land_nov_2022,REGION_AR,7501,12,False,"classification/geographic attribute, not an event key",False
+land_nov_2022,REGION_EN,7501,10,False,"classification/geographic attribute, not an event key",False
+land_nov_2022,WILAYAT_AR,7501,63,False,"classification/geographic attribute, not an event key",False
+land_nov_2022,WILAYAT_EN,7463,63,False,"classification/geographic attribute, not an event key",False
+land_nov_2022,VILLAGE_AR,7501,1145,False,"classification/geographic attribute, not an event key",False
+land_nov_2022,VILLAGE_EN,7436,1353,False,"classification/geographic attribute, not an event key",False
+land_nov_2022,GENDER_NAME_AR,7028,4,False,demographic attribute; never a transaction identity key,False
+land_nov_2022,GENDER_NAME_EN,7028,5,False,demographic attribute; never a transaction identity key,False
+land_nov_2022,NO_OF_OWNERS,7501,17,False,owner count; not record sequence or transaction count,False
+land_dec_2022,TRANSACTION_DATE,5667,20,False,procedure/transaction date; many records per date,False
+land_dec_2022,BUYER_TYPE,5667,2,False,"classification/geographic attribute, not an event key",False
+land_dec_2022,REGION_AR,5667,12,False,"classification/geographic attribute, not an event key",False
+land_dec_2022,REGION_EN,5667,10,False,"classification/geographic attribute, not an event key",False
+land_dec_2022,WILAYAT_AR,5667,62,False,"classification/geographic attribute, not an event key",False
+land_dec_2022,WILAYAT_EN,5639,62,False,"classification/geographic attribute, not an event key",False
+land_dec_2022,VILLAGE_AR,5667,1018,False,"classification/geographic attribute, not an event key",False
+land_dec_2022,VILLAGE_EN,5640,1183,False,"classification/geographic attribute, not an event key",False
+land_dec_2022,GENDER_NAME_AR,5381,3,False,demographic attribute; never a transaction identity key,False
+land_dec_2022,GENDER_NAME_EN,5381,3,False,demographic attribute; never a transaction identity key,False
+land_dec_2022,NO_OF_OWNERS,5667,14,False,owner count; not record sequence or transaction count,False
+land_oct_2024,TRANSACTION_DATE,6024,23,False,procedure/transaction date; many records per date,False
+land_oct_2024,SERVICE_SUB_ID,6024,2,False,two observed service codes; not unique record identity,False
+land_oct_2024,BUYER_TYPE,6024,2,False,"classification/geographic attribute, not an event key",False
+land_oct_2024,REGION_AR,6024,12,False,"classification/geographic attribute, not an event key",False
+land_oct_2024,REGION_EN,6024,10,False,"classification/geographic attribute, not an event key",False
+land_oct_2024,WILAYAT_AR,6024,64,False,"classification/geographic attribute, not an event key",False
+land_oct_2024,WILAYAT_EN,5990,64,False,"classification/geographic attribute, not an event key",False
+land_oct_2024,VILLAGE_AR,6024,1162,False,"classification/geographic attribute, not an event key",False
+land_oct_2024,VILLAGE_EN,5947,1327,False,"classification/geographic attribute, not an event key",False
+land_oct_2024,RE_VALUE,5657,2069,False,reported numeric value; meaning/unit unverified; not identity,False
+land_oct_2024,DATE_OF_BIRTH,5649,3364,False,demographic attribute; never a transaction identity key,False
+land_oct_2024,GENDER_NAME_AR,5649,4,False,demographic attribute; never a transaction identity key,False
+land_oct_2024,GENDER_NAME_EN,5649,4,False,demographic attribute; never a transaction identity key,False
+land_oct_2024,SINGLE_MULTIPLE,6024,2,False,"classification/geographic attribute, not an event key",False
+land_oct_2024,NO_OF_OWNERS,6024,18,False,owner count; not record sequence or transaction count,False

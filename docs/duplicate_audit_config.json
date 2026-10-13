@@ -1,0 +1,10 @@
+{
+  "audit_date": "2026-10-13",
+  "base_main_commit": "c015ded58f219d8b320194b902d3b49c26a4fd7c",
+  "source_registry": "docs/uploaded_source_registry.json",
+  "audited_directory": "data/processed/audited/71008482abd46aa7f0bc",
+  "eda_directory": "data/processed/eda/168665c92a8a2ff91598",
+  "evidence_policy": "Source equality is a candidate only. Confirmed ingestion repetition requires multiple identical processed representations of the same original file/sheet/row. Economic transaction identity is unconfirmed without official IDs/grain documentation.",
+  "removal_policy": "No automatic deletion or rewriting. Separately named removal outputs require sufficient source-backed evidence; no confirmed ingestion duplicates are expected in the current inputs.",
+  "example_groups_per_criterion": 3
+}
