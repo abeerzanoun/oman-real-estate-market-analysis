@@ -1,0 +1,16 @@
+# Full project direct dependencies for Python 3.12.
+# Install requirements-lock.txt for the existing validated full resolution.
+-r requirements.txt
+
+matplotlib==3.10.1
+seaborn==0.13.2
+jupyter==1.1.1
+jupyterlab==4.3.6
+ipykernel==6.29.5
+openpyxl==3.1.5
+xlsxwriter==3.2.2
+pytest==8.3.5
+
+# Presentation-only shaping for static figures; source labels are unchanged.
+arabic-reshaper==3.0.0
+python-bidi==0.6.7

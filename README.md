@@ -55,6 +55,7 @@ oman-real-estate-market-analysis/
 ├── DATA_UPLOAD_GUIDE.md
 ├── README.md
 ├── requirements.txt
+├── requirements-analysis.txt       # full project direct dependencies
 ├── requirements-lock.txt
 └── .gitignore
 ```
@@ -75,7 +76,7 @@ jupyter lab
 
 On Windows, create the environment with `py -3.12 -m venv .venv`, then activate it in PowerShell using `.venv\Scripts\Activate.ps1`. Execute remaining commands from the repository root.
 
-`requirements.txt` pins direct dependencies; `requirements-lock.txt` records the full validated resolution. To deliberately refresh dependencies, install direct requirements in a fresh Python 3.12 environment, run all checks, then regenerate the lock with `python -m pip freeze > requirements-lock.txt` and review changes. The initial lock is validated on Linux/Python 3.12; validate other operating systems separately. The validator checks Python and all required imports and returns a nonzero exit code on failure. Tests cover actual imports and failure handling. Validation does not certify future data or dashboard correctness.
+`requirements.txt` pins the dashboard runtime for Streamlit Community Cloud. `requirements-analysis.txt` includes those pins plus the original analysis, notebook, Excel and test tools; `requirements-lock.txt` records their full validated resolution. To deliberately refresh the full environment, install `requirements-analysis.txt` in a fresh Python 3.12 environment, run all checks, then regenerate the lock with `python -m pip freeze > requirements-lock.txt` and review changes. The lock is validated on Linux/Python 3.12; validate other operating systems separately. The validator checks Python and all required imports and returns a nonzero exit code on failure. Tests cover actual imports and failure handling. Validation does not certify future data or dashboard correctness.
 
 Install Microsoft Excel separately as needed and Power BI Desktop on a supported Windows machine. Future processed UTF-8 CSV or XLSX exports will feed these tools with documented types, units and keys. The executed EDA notebook is included; Power BI Desktop import follows the analytical model instructions.
 
@@ -147,12 +148,12 @@ definitions remain separate; missing periods and unverified unique transactions
 are clearly identified. Original XLSX and processed outputs remain unchanged.
 
 ```bash
-python -m pip install -r requirements-lock.txt
-streamlit run streamlit_app.py
+python -m pip install -r requirements.txt
+streamlit run streamlit_app.py --server.address 127.0.0.1
 ```
 
 Run from the repository root with Python 3.12. Open `http://127.0.0.1:8501`.
 See [dashboard setup, methodology and deployment instructions](docs/DASHBOARD.md).
-Public deployment requires owner approval and has not been performed.
+For the existing Community Cloud deployment, select **Python 3.12** in the deployment form's **Advanced settings**. An existing Python 3.14 app must be recreated to change its interpreter; see [Cloud recovery and validation](docs/streamlit_cloud_fix.md). This repository fix performs no remote deployment or merge.
 
 ![Desktop dashboard preview](reports/figures/dashboard/desktop_overview.png)
