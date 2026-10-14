@@ -16,15 +16,22 @@ python -m pip install -r requirements-lock.txt
 python -m src.validate_environment
 python -m pip check
 python -m pytest -q
-streamlit run streamlit_app.py
+streamlit run streamlit_app.py --server.address 127.0.0.1
 ```
 
 Windows PowerShell activation: `.venv\Scripts\Activate.ps1`. Open
-`http://127.0.0.1:8501` in a desktop browser. The checked-in configuration binds
-only to loopback and disables usage telemetry. There is no runtime source download,
+`http://127.0.0.1:8501` in a desktop browser. The command above binds locally to
+loopback; the shared configuration leaves the address to the hosting platform and
+disables usage telemetry. There is no runtime source download,
 API credential requirement, data upload, data editing or data regeneration.
-`requirements.txt` pins direct dependencies; `requirements-lock.txt` pins their
-resolved dependencies for reproducible installation.
+`requirements.txt` pins the four dashboard runtime dependencies for Community Cloud.
+`requirements-analysis.txt` includes the runtime plus the original notebook,
+analysis, Excel and test tools. `requirements-lock.txt` preserves the full validated
+Python 3.12 environment for analysis and tests; its pins are unchanged.
+
+To run only the dashboard in a clean Python 3.12 environment, install
+`requirements.txt` instead of the full lock, then use the local Streamlit command
+above. The full-project validator and Pytest require the analysis environment.
 
 For a tablet on the **same trusted local network**, explicitly bind the local
 machine's private LAN address:
@@ -39,21 +46,43 @@ if needed. This does not publish a public site. Use the top-left sidebar control
 for navigation on smaller screens; rotate the tablet for wider comparison tables.
 Charts support touch hover, and tables have their own horizontal scrolling.
 
-## Public deployment instructions — approval required first
+## Streamlit Community Cloud deployment and recovery
 
-After the repository owner explicitly approves public deployment, a Streamlit
-Community Cloud deployment can select this repository, the approved branch and
-`streamlit_app.py` as the entry point, with Python 3.12. At that time, verify source
-redistribution licences (currently unresolved) and hosting access requirements.
+For the owner's existing deployment, use repository
+`abeerzanoun/oman-real-estate-market-analysis`, branch **`main`**, entry point
+**`streamlit_app.py`** and Python **3.12**. Select the version explicitly through
+**Advanced settings → Python version** on the deployment form, then save and
+deploy. `.python-version` records the local target; it does not change the Python
+version of an already-created Community Cloud app. No `runtime.txt` workaround is
+added. Merging the dependency fix alone will not switch an existing Python 3.14 app.
+
+According to Streamlit's [Python-version recovery instructions](https://docs.streamlit.io/deploy/streamlit-community-cloud/manage-your-app/upgrade-python),
+an existing app's Python version cannot be changed in place. To switch the failed
+3.14 deployment to 3.12, first retain its repository coordinates, custom subdomain,
+access settings and any secrets; then delete **that Cloud app deployment** and
+recreate it from the same repository with Python 3.12 selected in Advanced settings.
+This does not require deleting the GitHub repository or its files. Restore the
+subdomain/settings as appropriate. This dashboard currently requires no secrets.
+Do not paste secret values into GitHub issues or logs. These Cloud actions are
+instructions for the owner; this PR does not execute them.
+
 Community Cloud installs the root `requirements.txt`; it does **not** automatically
-use `requirements-lock.txt`. For an exact locked deployment, use a host/build command
-that explicitly installs the lock file. Preserve the pinned data/report directories
-listed below and use the hosting platform's documented server address/port settings
-instead of the loopback default. No application secrets are needed. Real secrets, if
-later introduced, belong outside Git; `.streamlit/secrets.toml` is ignored.
+use `requirements-analysis.txt` or `requirements-lock.txt`. Its documented attempt
+to install with **uv** is normal. The runtime file deliberately excludes notebook,
+static-plot, Excel and test packages that the dashboard does not import. Preserve
+the pinned data/report directories listed below. The shared config no longer
+forces a localhost-only address; the local command sets it explicitly, and Cloud
+can apply its own address/port settings. Real secrets, if later introduced, belong
+outside Git; `.streamlit/secrets.toml` is ignored.
 
-No deploy/publish action is authorized by the current task. Local startup is the
-only implemented execution path; the dashboard has no user authentication layer.
+After recreating, verify the build log says **Python 3.12**, dependencies install,
+and all six pages load. If the installer still fails, retain the first detailed
+package/build exception above the generic non-zero-exit summary; that information
+is required to identify the exact package or platform failure. See
+[compatibility evidence and validation](streamlit_cloud_fix.md).
+
+No remote deployment, deletion or merge is performed by this fix. The source
+redistribution licences retain their unresolved documented status.
 
 ## Pages and filters
 
