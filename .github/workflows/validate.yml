@@ -7,27 +7,21 @@ permissions:
 jobs:
   cloud-runtime:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.12', '3.14']
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: ${{ matrix.python-version }}
           cache: pip
       - run: python -m pip install uv
       - name: Install only the Cloud runtime with uv and prebuilt wheels
         run: uv pip install --system --no-build -r requirements.txt
       - run: uv pip check --system
-      - name: Render all six pages without analysis or notebook dependencies
-        run: |
-          python - <<'PY'
-          from streamlit.testing.v1 import AppTest
-          from src.dashboard_pages import PAGES
-          app = AppTest.from_file("streamlit_app.py", default_timeout=30).run()
-          for page in PAGES:
-              app.radio(key="page").set_value(page).run()
-              assert not app.exception and not app.error, f"Runtime failure: {page}"
-              print(f"PASS Cloud runtime: {page}")
-          PY
+      - name: Check Express imports, real-data charts and all six pages
+        run: python tests/check_dashboard_runtime.py
   python:
     runs-on: ubuntu-latest
     env:

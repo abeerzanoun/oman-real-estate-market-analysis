@@ -1,5 +1,10 @@
 # Streamlit Community Cloud dependency recovery
 
+**Historical report from October 14:** the subsequent
+[Plotly Express/runtime fix](plotly_import_fix.md) adds tested Python 3.14.8
+dashboard support. Recreating the existing app on 3.12 is now optional, not a
+requirement to use the updated runtime dependencies. The analysis lock remains 3.12.
+
 Investigated October 14, 2026, on main after merged PR #7. The owner's log excerpt
 reports Python **3.14.8**, uv resolving **131 packages**, and a non-zero installer
 exit during dependency processing. It does not name a failing package or contain

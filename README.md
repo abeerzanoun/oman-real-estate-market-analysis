@@ -154,6 +154,6 @@ streamlit run streamlit_app.py --server.address 127.0.0.1
 
 Run from the repository root with Python 3.12. Open `http://127.0.0.1:8501`.
 See [dashboard setup, methodology and deployment instructions](docs/DASHBOARD.md).
-For the existing Community Cloud deployment, select **Python 3.12** in the deployment form's **Advanced settings**. An existing Python 3.14 app must be recreated to change its interpreter; see [Cloud recovery and validation](docs/streamlit_cloud_fix.md). This repository fix performs no remote deployment or merge.
+The dashboard runtime is tested on **Python 3.12 and 3.14**, including the existing Cloud interpreter **3.14.8**. Conditional Pandas/NumPy pins support 3.14 without changing the Python 3.12 analysis lock. After merging, let Cloud rebuild dependencies and reboot if needed; see [Plotly Express import recovery](docs/plotly_import_fix.md). Full analysis/notebook reproduction still uses Python 3.12. This repository fix performs no remote deployment or merge.
 
 ![Desktop dashboard preview](reports/figures/dashboard/desktop_overview.png)
