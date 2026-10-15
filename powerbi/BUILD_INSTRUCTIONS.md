@@ -4,9 +4,10 @@
 
 Use a current supported 64-bit Power BI Desktop on Windows, a local checkout containing the committed data files (not only GitHub web previews), and the project's Python 3.12 environment. No Power BI Service connection or public deployment is needed.
 
-From the repository root, run:
+From the repository root in PowerShell, enable Python UTF-8 mode for this session (the existing audit helpers also read Arabic JSON/text), then run:
 
 ```powershell
+$env:PYTHONUTF8 = "1"
 python -m powerbi.prepare_package --check
 python -m pytest tests powerbi/tests
 ```

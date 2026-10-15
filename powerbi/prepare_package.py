@@ -314,14 +314,14 @@ def build():
     # Existing reader verifies originals, all audited/EDA bytes and completed duplicate audit.
     bundle = load_dashboard()
     inputs = load_inputs()
-    model = json.loads(CONTRACT.read_text())
+    model = json.loads(CONTRACT.read_text(encoding='utf-8'))
     if model['eda_directory'] != bundle['config']['eda_directory']:
         raise ValueError('Model pin differs from reviewed dashboard pin')
     if model['coverage_as_of'] != inputs['audit_report']['audit_as_of']:
         raise ValueError('Coverage snapshot date mismatch')
     tables = load_tables(model)
     validate_model(model, tables)
-    measures = parse_measures((PACKAGE/'EDA_MEASURES.dax').read_text())
+    measures = parse_measures((PACKAGE/'EDA_MEASURES.dax').read_text(encoding='utf-8'))
     validate_bindings(measures, tables)
     specs = catalogue(measures)
     originals = enriched_originals(model, tables, inputs)

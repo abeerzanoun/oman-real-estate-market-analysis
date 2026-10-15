@@ -14,7 +14,7 @@ from powerbi.prepare_package import (
 
 @pytest.fixture(scope='module')
 def model():
-    return json.loads(CONTRACT.read_text())
+    return json.loads(CONTRACT.read_text(encoding='utf-8'))
 
 
 @pytest.fixture(scope='module')
@@ -24,7 +24,7 @@ def tables(model):
 
 @pytest.fixture(scope='module')
 def measures():
-    return parse_measures((PACKAGE/'EDA_MEASURES.dax').read_text())
+    return parse_measures((PACKAGE/'EDA_MEASURES.dax').read_text(encoding='utf-8'))
 
 
 def test_generated_package_is_reproducible_and_preserves_originals():
@@ -76,7 +76,7 @@ def test_disallowed_relationship_direction_is_rejected(model, tables):
 
 
 def test_unknown_dax_column_and_text_sum_fail_closed(measures, tables):
-    text = (PACKAGE/'EDA_MEASURES.dax').read_text()
+    text = (PACKAGE/'EDA_MEASURES.dax').read_text(encoding='utf-8')
     with pytest.raises(ValueError, match='Unknown column'):
         validate_bindings(parse_measures(text.replace('[reported_record_count]', '[absent_column]')), tables)
     with pytest.raises(ValueError, match='numeric column'):
@@ -85,7 +85,7 @@ def test_unknown_dax_column_and_text_sum_fail_closed(measures, tables):
 
 
 def test_unreviewed_dax_function_is_rejected(tables):
-    text = (PACKAGE/'EDA_MEASURES.dax').read_text().replace('SUM (', 'COUNTROWS (', 1)
+    text = (PACKAGE/'EDA_MEASURES.dax').read_text(encoding='utf-8').replace('SUM (', 'COUNTROWS (', 1)
     with pytest.raises(ValueError, match='Unsupported function'):
         validate_bindings(parse_measures(text), tables)
 
@@ -136,7 +136,7 @@ def test_nullable_whole_numbers_do_not_round_or_impute():
 
 
 def test_m_syntax_report_covers_all_current_queries():
-    report = json.loads((PACKAGE/'validation/m_syntax_results.json').read_text())
+    report = json.loads((PACKAGE/'validation/m_syntax_results.json').read_text(encoding='utf-8'))
     assert not report['microsoft_power_query_engine_executed']
     assert {r['file'] for r in report['queries']} == {str(p.relative_to(PACKAGE)) for p in (PACKAGE/'m').glob('*.pq')}
     for result in report['queries']:
@@ -148,17 +148,17 @@ def test_desktop_acceptance_queries_require_engine_checks_and_separate_blank():
     paths = sorted((PACKAGE/'validation').glob('desktop_*.dax'))
     assert len(paths) == 9
     for path in paths:
-        text = path.read_text()
+        text = path.read_text(encoding='utf-8')
         assert text.count('ROW ( "Measure"') == 17
         assert 'ISBLANK' in text and '"Pass"' in text and 'EVALUATE' in text
         assert 'TREATAS ( {}' not in text
 
 
 def test_package_links_and_theme_json_are_well_formed():
-    theme = json.loads((PACKAGE/'report_theme.json').read_text())
+    theme = json.loads((PACKAGE/'report_theme.json').read_text(encoding='utf-8'))
     assert len(theme['dataColors']) == 8
     assert all(re.fullmatch('#[0-9A-Fa-f]{6}', color) for color in theme['dataColors'])
     for path in PACKAGE.glob('*.md'):
-        for target in re.findall(r'\]\(([^)]+)\)', path.read_text()):
+        for target in re.findall(r'\]\(([^)]+)\)', path.read_text(encoding='utf-8')):
             if not target.startswith(('https://','http://','#')):
                 assert (path.parent/target.split('#')[0]).exists(), (path.name,target)
