@@ -24,7 +24,9 @@ Windows PowerShell activation: `.venv\Scripts\Activate.ps1`. Open
 loopback; the shared configuration leaves the address to the hosting platform and
 disables usage telemetry. There is no runtime source download,
 API credential requirement, data upload, data editing or data regeneration.
-`requirements.txt` pins the four dashboard runtime dependencies for Community Cloud.
+`requirements.txt` pins the dashboard runtime for Community Cloud, including
+`plotly[express]` and its validated Narwhals adapter. It selects the original
+Pandas/NumPy pins on Python 3.12 and wheel-compatible pins on Python 3.14.
 `requirements-analysis.txt` includes the runtime plus the original notebook,
 analysis, Excel and test tools. `requirements-lock.txt` preserves the full validated
 Python 3.12 environment for analysis and tests; its pins are unchanged.
@@ -49,22 +51,24 @@ Charts support touch hover, and tables have their own horizontal scrolling.
 ## Streamlit Community Cloud deployment and recovery
 
 For the owner's existing deployment, use repository
-`abeerzanoun/oman-real-estate-market-analysis`, branch **`main`**, entry point
-**`streamlit_app.py`** and Python **3.12**. Select the version explicitly through
-**Advanced settings → Python version** on the deployment form, then save and
-deploy. `.python-version` records the local target; it does not change the Python
-version of an already-created Community Cloud app. No `runtime.txt` workaround is
-added. Merging the dependency fix alone will not switch an existing Python 3.14 app.
+`abeerzanoun/oman-real-estate-market-analysis`, branch **`main`** and entry point
+**`streamlit_app.py`**. Dashboard runtime checks now cover both Python **3.12.14**
+and **3.14.8**. Full analysis/notebook reproduction still requires Python **3.12**;
+the full lock and `.python-version` remain unchanged.
 
-According to Streamlit's [Python-version recovery instructions](https://docs.streamlit.io/deploy/streamlit-community-cloud/manage-your-app/upgrade-python),
-an existing app's Python version cannot be changed in place. To switch the failed
-3.14 deployment to 3.12, first retain its repository coordinates, custom subdomain,
-access settings and any secrets; then delete **that Cloud app deployment** and
-recreate it from the same repository with Python 3.12 selected in Advanced settings.
-This does not require deleting the GitHub repository or its files. Restore the
-subdomain/settings as appropriate. This dashboard currently requires no secrets.
-Do not paste secret values into GitHub issues or logs. These Cloud actions are
-instructions for the owner; this PR does not execute them.
+An existing Python 3.14.8 deployment can stay on that interpreter after merging
+the conditional runtime dependency fix. Let Cloud rebuild requirements, then
+reboot the app if it continues using a stale environment. Verify successful
+dependency installation and all six pages. No deployment deletion is required
+merely to use the new compatible requirements. See
+[Plotly Express investigation and recovery](plotly_import_fix.md).
+
+For a new deployment, select Python explicitly through **Advanced settings →
+Python version**. If you independently choose to change an existing app's Python
+version, Streamlit's [Python-version instructions](https://docs.streamlit.io/deploy/streamlit-community-cloud/manage-your-app/upgrade-python)
+require recreating that Cloud deployment; retain its settings first.
+`.python-version` does not switch an existing Cloud interpreter. No `runtime.txt`
+workaround is added. This dashboard currently requires no secrets.
 
 Community Cloud installs the root `requirements.txt`; it does **not** automatically
 use `requirements-analysis.txt` or `requirements-lock.txt`. Its documented attempt
@@ -75,11 +79,11 @@ forces a localhost-only address; the local command sets it explicitly, and Cloud
 can apply its own address/port settings. Real secrets, if later introduced, belong
 outside Git; `.streamlit/secrets.toml` is ignored.
 
-After recreating, verify the build log says **Python 3.12**, dependencies install,
-and all six pages load. If the installer still fails, retain the first detailed
-package/build exception above the generic non-zero-exit summary; that information
-is required to identify the exact package or platform failure. See
-[compatibility evidence and validation](streamlit_cloud_fix.md).
+If startup still fails, retain the final `ModuleNotFoundError: No module named
+'…'` line and nearby traceback frames, or the first package-specific installer
+exception. An import line alone does not reveal whether Plotly, NumPy, Pandas or
+an internal dependency is missing. The earlier [Python 3.12 recovery report](streamlit_cloud_fix.md)
+documents the previous deployment limitation, before 3.14 runtime support was added.
 
 No remote deployment, deletion or merge is performed by this fix. The source
 redistribution licences retain their unresolved documented status.
@@ -171,6 +175,11 @@ category counts, observed periods, safe downloads, missing coverage, checksum
 rejection, all six pages and interactive Streamlit reruns. Run the full repository
 suite with `python -m pytest -q`; CI installs the lock file and reproduces the
 existing audit/EDA in addition to those tests.
+
+In a clean runtime-only environment, run `python tests/check_dashboard_runtime.py`.
+This explicitly imports Express, its adapter, the chart module and the entry point;
+reconciles real geographic counts; serializes the real-data charts; renders all six
+pages; and verifies a filtered KPI. CI runs it on both Python 3.12 and 3.14.
 
 Optional real-browser checks use Playwright and a locally installed Chromium:
 
