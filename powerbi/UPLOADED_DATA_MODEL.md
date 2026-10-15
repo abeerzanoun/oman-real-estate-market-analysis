@@ -1,5 +1,7 @@
 # Power BI model for audited uploaded records
 
+This documents the alternative **row-level** model. The [current reporting package](README.md) selects the EDA aggregate model instead, with SUM-weight measures. Do not import both as additive facts. The count rules below apply only to this row-level alternative.
+
 Import CSVs from one `data/processed/audited/<run_id>/` folder. Use UTF-8 encoding (65001); exports include a UTF-8 BOM for Excel. Keep CSV quote handling enabled (Power Query QuoteStyle.Csv) for embedded line breaks in original location labels. Do not auto-detect dates/units without reviewing the dictionary.
 
 Use separate fact tables for 2022 BuySell records, 2024 service-coded records and 2025 Muscat brokerage registrations. Do not append them into a national sales table. Each fact has a unique lineage record_id, not an official transaction ID. Use **Count Rows** labelled "Reported record occurrences"; distinct visible-row signatures are not a count of unique transactions.

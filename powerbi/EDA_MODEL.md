@@ -1,5 +1,7 @@
 # Power BI preparation: separate monthly analytical facts
 
+For the reproducible six-page reporting package, strict Power Query imports, verified column contract, measure checks and Desktop build/acceptance instructions, use [powerbi/README.md](README.md). That package implements this aggregate model; no PBIX or Microsoft engine execution is claimed.
+
 Before import or further modeling, read the completed [duplicate audit](../reports/DUPLICATE_AUDIT.md) and its [criteria](../docs/duplicate_audit_methodology.md). It retains every source occurrence: no confirmed ingestion duplicates or deletion evidence was found. Full-source repeat flags include demographic fields absent from the business view and must not be labelled unique-transaction validation. Do not apply business-field Remove duplicates/DISTINCT. This audit does not change the model or facts below.
 
 This is an import-ready analytical model, with CSVs, model instructions, DAX and page specifications. A binary PBIX is not generated or tested: Power BI Desktop is a separate Windows application. Use the notebook and Python figures as the validated analytical reference.

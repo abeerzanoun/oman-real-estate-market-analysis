@@ -67,6 +67,12 @@ DIVIDE (
     [Land 2022 Reported Records]
 )
 
+Land Oct 2024 Repeated Group Share =
+DIVIDE (
+    SUM ( 'fact_land_2024'[records_in_repeated_groups] ),
+    [Land Oct 2024 Reported Records]
+)
+
 Muscat Brokerage Repeated Group Share =
 DIVIDE (
     SUM ( 'fact_brokerage_2025'[records_in_repeated_groups] ),

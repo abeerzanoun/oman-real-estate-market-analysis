@@ -1,0 +1,13 @@
+{
+  "name": "Oman Real Estate - Audited Coverage",
+  "dataColors": ["#087F8C", "#183153", "#DDA448", "#6D8496", "#A76F8D", "#73A580", "#B35C44", "#7899A6"],
+  "background": "#F5F7FA",
+  "foreground": "#183153",
+  "tableAccent": "#087F8C",
+  "textClasses": {
+    "title": {"fontFace": "Segoe UI", "fontSize": 18, "color": "#183153"},
+    "header": {"fontFace": "Segoe UI", "fontSize": 13, "color": "#183153"},
+    "label": {"fontFace": "Segoe UI", "fontSize": 11, "color": "#183153"},
+    "callout": {"fontFace": "Segoe UI", "fontSize": 28, "color": "#087F8C"}
+  }
+}
