@@ -1,6 +1,25 @@
 # Official data discovery and source register
 
-Reviewed **2026-10-12**. Phase 2 research has inspected actual official NCSI tables online. Original-file acquisition is blocked by this environment's destination policy; no raw originals or analytical CSVs have been created. See [availability matrix](data_availability.md), [machine-readable catalogue](source_catalog.json) and [attempt register](acquisition_manifest.json).
+## Current uploaded analytical sources — updated 2026-10-18
+
+All four workbooks are attributed to the **Ministry of Housing and Urban Planning (MOHUP)** as original provider. The **download/publishing portal** is recorded separately. On 2026-10-18 (Asia/Muscat), the repository owner confirmed these portal origins; no new official-file retrieval or independent resource verification is claimed.
+
+| Workbook / dataset ID | Original provider evidence | User-confirmed download/publishing portal | URL role |
+|---|---|---|---|
+| November 2022 land / `land_nov_2022` | Owner-declared MOHUP attribution | [MOHUP monthly Buy and Sell datasets portal](https://webapps.housing.gov.om/opendata/ar/pages/default.aspx) | Portal landing page only |
+| December 2022 land / `land_dec_2022` | Owner-declared MOHUP attribution | [MOHUP monthly Buy and Sell datasets portal](https://webapps.housing.gov.om/opendata/ar/pages/default.aspx) | Portal landing page only |
+| October 2024 land / `land_oct_2024` | Owner-declared MOHUP attribution | [MOHUP monthly Buy and Sell datasets portal](https://webapps.housing.gov.om/opendata/ar/pages/default.aspx) | Portal landing page only |
+| Muscat brokerage 2025 / `muscat_brokerage_2025` | Embedded MOHUP attribution and Ministry contact domain | [Oman Open Data Portal](https://opendata.gov.om/) | Portal homepage only; dataset-specific page unverified |
+
+Exact dataset pages, downloadable-resource URLs, file-applicable redistribution licences, verified publication dates and original download dates remain **unverified** for all four. A portal name does not establish service definitions, monetary units, dataset completeness or a match between the government's binary and these local bytes.
+
+**NCSI supplied none of these four analytical datasets.** It was a recommended third statistical source for future research. Historical NCSI discovery/administrative references below are not imported market observations or a source licence for the uploaded files.
+
+[source_attribution.json](source_attribution.json) is the current machine-readable attribution addendum, linked to each dataset ID and original SHA-256. [uploaded_source_registry.json](uploaded_source_registry.json) is the immutable ingestion snapshot used by the existing audit fingerprints. Its metadata and the processed `dim_dataset` remain historical; the addendum supplies current portal evidence without rewriting data or analysis results. The dashboard reads this addendum only for Sources and Methodology. See [the provenance audit](../DATA_PROVENANCE_AUDIT.md).
+
+## Historical discovery review — 2026-10-12
+
+The following records describe Phase 2 candidate-source research. At that stage official-file acquisition was blocked and no originals/analytical CSVs had been created by the collector. The four later user uploads and current derivatives described above now exist; the old collector's failed attempts are not their acquisition receipts. See [availability matrix](data_availability.md), [machine-readable catalogue](source_catalog.json) and [attempt register](acquisition_manifest.json).
 
 ## Providers and evidence levels
 
@@ -18,7 +37,7 @@ Reviewed **2026-10-12**. Phase 2 research has inspected actual official NCSI tab
 
 Third-party inventories were used only to discover candidate official URLs for an XLSX release and a migrated historical PDF. Their claims, dates and rows are not accepted as government observations. Such URLs remain `secondary_discovery_unverified` until verified on the official host.
 
-## Verified definitions and units
+## Historical NCSI discovery definitions and units — not used in the analysis
 
 NCSI national activity tables distinguish total traded property value, sales, mortgages, barter, fees and issued deeds. Monetary measures use **million OMR**; counts are raw counts. Total traded value is not sales value. Issued deeds are not sales-contract counts. Six observation columns mix annual, monthly and year-to-date intervals; the final percent-change column must be excluded from observations.
 
@@ -56,7 +75,7 @@ After access is enabled, originals retain their decoded source filename in `data
 
 The current audit uses genuine uploaded files, not online table transcriptions or generated observations. The original byte checksums and Git upload commit are recorded in [uploaded_source_registry.json](uploaded_source_registry.json). See [uploaded workflow](uploaded_data_workflow.md) for actual periods, schemas and the immutable audit report.
 
-Muscat's embedded metadata attributes the Ministry of Housing and Urban Planning. The three land files have no embedded resource URLs; official provenance is user-attributed and requires exact dataset-page/download links. Provider entry points in the registry are investigation leads, not verified provenance for these particular files. Download URL, licence and land-file publication date remain null. No blocked acquisition URL was retried.
+Muscat's embedded metadata attributes the Ministry of Housing and Urban Planning. The three land files have no embedded resource URLs. The owner has now confirmed their MOHUP download portal and Muscat's Oman Open Data Portal origin as recorded in the current addendum above. Earlier `provider_entry_point` fields remain historical discovery leads, not verified exact resource URLs. Exact download URL, applicable licence and verified publication date remain null. No blocked acquisition URL was retried.
 
 Actual coverage is Nov/Dec 2022 land records across all eleven modern governorates (legacy Sharqiyah resolved by observed wilayat), Oct 2024 service-coded records across eleven, and Jan–Sep 2025 Muscat brokerage registrations only. The Muscat source publication label predates some records, requiring confirmation. RE_VALUE units and RN13A/RN13C meanings are unknown. No national historical continuity, completeness or price series is claimed.
 
@@ -75,7 +94,8 @@ The Streamlit app uses only the existing reviewed aggregate facts in
 XLSX checksums, audited inputs, EDA CSVs and audit evidence used in the app.
 It performs no network data retrieval, new source collection or source replacement.
 
-All previous source-attribution, reporting-period, service-code, monetary-unit and
-licence limitations still apply. The app presents actual attribution evidence and
-labels provider entry points as entry points rather than verified download URLs.
+Reporting-period, service-code, monetary-unit and licence limitations still apply.
+The app presents original provider evidence separately from the user-confirmed
+download portal in `source_attribution.json`; landing pages are explicitly not
+verified exact dataset URLs. The addendum never changes the analytical tables.
 See [dashboard documentation](DASHBOARD.md).
