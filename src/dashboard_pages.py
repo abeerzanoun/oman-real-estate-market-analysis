@@ -264,12 +264,17 @@ def sources(bundle):
             "NCSI was recommended for future research and supplied none of the four analytical workbooks.")
     for row in bundle["tables"]["dim_dataset"].to_dict("records"):
         source = attribution[row['dataset_id']]
-        with st.expander(row["file"].split("/")[-1], expanded=False):
-            st.write(f"Original data provider: {source['original_data_provider']}")
+        portal_name = ("MOHUP Open Data" if source["download_portal"] ==
+                       "MOHUP monthly Buy and Sell datasets portal" else source["download_portal"])
+        with st.expander(row["file"].split("/")[-1], expanded=True):
+            st.markdown(f"**Original data provider:** {source['original_data_provider']}")
+            st.markdown(f"**Download portal:** {portal_name}  \n"
+                        f"[{source['portal_landing_url']}]({source['portal_landing_url']})")
+            st.markdown("**Verification status:** Download portal confirmed by the project owner; "
+                        "exact dataset download URL and redistribution licence not yet independently verified.")
+            st.caption("Portal landing page only, not an exact dataset page or file download. "
+                       "Owner confirmation: " + source['confirmation_date'] + ".")
             st.write(f"Provider attribution evidence: {source['provider_evidence']}")
-            st.write(f"Download / publishing portal: {source['download_portal']}")
-            st.caption("Download portal: user-confirmed on " + source['confirmation_date'] +
-                       "; exact resource and official-host byte match not independently verified.")
             st.write(f"Observed dates: {row['min_date']} → {row['max_date']}")
             st.write(f"Sheet: {row['sheet']} · Header row: {row['header_row']} · Source occurrences: {row['reported_record_count']:,}")
             st.code(row["sha256"], language=None)

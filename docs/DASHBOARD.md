@@ -110,6 +110,14 @@ data hashes are unchanged; only this source presentation uses the addendum.
 Filters, charts, exports, counts and interpretation caveats retain their existing
 behavior. No deployment action is part of this attribution update.
 
+Each workbook's source panel opens expanded by default and starts with bold
+**Original data provider**, **Download portal** and **Verification status** fields.
+The portal's full URL is visible clickable text in that panel, as well as the
+existing landing-page button. Land panels display the short portal name
+“MOHUP Open Data”; this is a presentation label for the owner-confirmed monthly
+Buy and Sell portal, not a change to the attribution register or transaction
+definitions. Users can still collapse any panel.
+
 | Page | Purpose and interpretation |
 |---|---|
 | Executive Overview | Three separate cohort cards, plus one-cohort/one-month geographic snapshot. No combined national market total. |
