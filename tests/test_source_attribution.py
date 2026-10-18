@@ -85,9 +85,9 @@ def test_sources_page_shows_provider_portals_and_remaining_gaps():
     app.radio(key='page').set_value('Sources and Methodology').run()
     assert not app.exception and not app.error
     markdown = '\n'.join(item.value for item in app.markdown)
-    assert markdown.count('Original data provider: Ministry of Housing and Urban Planning, Oman') == 4
-    assert markdown.count('Download / publishing portal: MOHUP monthly Buy and Sell datasets portal') == 3
-    assert markdown.count('Download / publishing portal: Oman Open Data Portal') == 1
+    assert markdown.count('**Original data provider:** Ministry of Housing and Urban Planning, Oman') == 4
+    assert markdown.count('**Download portal:** MOHUP Open Data') == 3
+    assert markdown.count('**Download portal:** Oman Open Data Portal') == 1
     assert 'redistribution licence' in markdown and 'unverified' in markdown
     assert 'verified publication date' in markdown and 'original download date' in markdown
     assert any('NCSI' in info.value and 'supplied none' in info.value for info in app.info)
@@ -96,6 +96,24 @@ def test_sources_page_shows_provider_portals_and_remaining_gaps():
     assert [button.proto.url for button in buttons].count(MOHUP_PORTAL) == 3
     assert [button.proto.url for button in buttons].count('https://opendata.gov.om/') == 1
     assert all('landing page' in button.proto.label for button in buttons)
+    # Check the actual container for each workbook: global notices or a button
+    # elsewhere on the page must not satisfy the individual-panel requirement.
+    panels = app.get('expander')
+    assert len(panels) == 4
+    expected_files = {row['file'].split('/')[-1] for row in
+                      load_dashboard()['tables']['dim_dataset'].to_dict('records')}
+    assert {panel.proto.label for panel in panels} == expected_files
+    for panel in panels:
+        assert panel.proto.expanded
+        content = '\n'.join(item.value for item in panel.get('markdown'))
+        assert '**Original data provider:** Ministry of Housing and Urban Planning, Oman' in content
+        broker = panel.proto.label == 'muscat_brokerage_sales_2025.xlsx'
+        name = 'Oman Open Data Portal' if broker else 'MOHUP Open Data'
+        url = 'https://opendata.gov.om/' if broker else MOHUP_PORTAL
+        assert f'**Download portal:** {name}' in content
+        assert f'[{url}]({url})' in content  # URL is visible link text, not just a hidden target.
+        assert ('**Verification status:** Download portal confirmed by the project owner; '
+                'exact dataset download URL and redistribution licence not yet independently verified.') in content
     assert '/blob/main/DATA_PROVENANCE_AUDIT.md' in markdown
     assert '/blob/feature/streamlit-dashboard/' not in markdown
 

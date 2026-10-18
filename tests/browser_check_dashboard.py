@@ -56,11 +56,26 @@ def main():
                 main_overflow = page.locator('[data-testid="stMain"]').evaluate("e=>e.scrollWidth > e.clientWidth + 2")
                 assert not main_overflow, (profile, name, "main content horizontal overflow")
                 if name != "Sources and Methodology":
+                    # The browser can commit the final chart after Streamlit's
+                    # completion marker, especially at tablet viewport sizes.
+                    page.locator('[data-testid="stPlotlyChart"]').first.wait_for(state="visible", timeout=60000)
                     assert page.locator('[data-testid="stPlotlyChart"]').count() > 0, (profile, name)
                     chart = page.locator('[data-testid="stPlotlyChart"]').first
                     chart.locator('svg.main-svg').first.wait_for(timeout=60000)
                     chart.scroll_into_view_if_needed()
                     chart.screenshot(path=str(output / f"{profile}_{index+1}_chart.png"))
+                else:
+                    panels = page.locator('[data-testid="stExpander"]')
+                    assert panels.count() == 4
+                    for panel in panels.all():
+                        assert panel.locator('details').evaluate('e=>e.open'), (profile, 'collapsed source panel')
+                        for field in ('Original data provider:', 'Download portal:', 'Verification status:'):
+                            assert panel.get_by_text(field, exact=True).is_visible(), (profile, field)
+                        filename = panel.locator('summary').inner_text()
+                        url = ('https://opendata.gov.om/' if 'muscat_brokerage_sales_2025.xlsx' in filename
+                               else 'https://webapps.housing.gov.om/opendata/ar/pages/default.aspx')
+                        link = panel.get_by_role('link', name=url, exact=True)
+                        assert link.is_visible() and link.get_attribute('href') == url, (profile, filename)
                 page.locator('[data-testid="stMain"]').evaluate("e=>e.scrollTop=0")
                 page.screenshot(path=str(output / f"{profile}_{index+1}.png"), full_page=True)
                 print(f"PASS {profile} {width}x{height}: {name}", flush=True)
