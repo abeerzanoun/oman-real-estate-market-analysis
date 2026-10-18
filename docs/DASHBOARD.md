@@ -90,6 +90,26 @@ redistribution licences retain their unresolved documented status.
 
 ## Pages and filters
 
+### Current attribution and historical metadata
+
+The Sources and Methodology page reads `docs/source_attribution.json`, a current
+attribution addendum checked against the reviewed `dim_dataset` by dataset ID,
+original SHA-256 and provider. It displays **MOHUP as original provider** separately
+from the **download/publishing portal**: the owner-confirmed [MOHUP monthly Buy and
+Sell portal landing page](https://webapps.housing.gov.om/opendata/ar/pages/default.aspx)
+for November/December 2022 and October 2024 land files, and the [Oman Open Data
+Portal homepage](https://opendata.gov.om/) for Muscat brokerage 2025. Confirmation
+was provided on 2026-10-18; it is not independent verification of an exact resource
+or an official-file checksum match. The page links to documentation on `main`.
+
+Exact dataset/download URLs, redistribution licences, verified publication dates
+and original download dates remain unverified. NCSI supplied none of these four
+analytical workbooks. Earlier discovery/geography references do not import NCSI
+market observations. The immutable ingestion registry, processed metadata and
+data hashes are unchanged; only this source presentation uses the addendum.
+Filters, charts, exports, counts and interpretation caveats retain their existing
+behavior. No deployment action is part of this attribution update.
+
 | Page | Purpose and interpretation |
 |---|---|
 | Executive Overview | Three separate cohort cards, plus one-cohort/one-month geographic snapshot. No combined national market total. |
@@ -97,7 +117,7 @@ redistribution licences retain their unresolved documented status.
 | Muscat Brokerage Analysis | January–September 2025 registrations only, with month, wilayat, land-use and property-description filters. |
 | Governorate and Wilayat Comparisons | One cohort and one month at a time, ranked governorates, observed wilayat labels and a complete comparison table. |
 | Data Coverage and Quality | 2020–2026 availability metadata, actual date ranges, source-column missingness and the completed duplicate audit. |
-| Sources and Methodology | Workbook checksums, attribution evidence, unresolved resource URLs/licences and interpretation rules. |
+| Sources and Methodology | Original MOHUP provider evidence, separately labelled user-confirmed download/publishing portals, workbook checksums, unresolved exact resource URLs/licences and interpretation rules. |
 
 Governorate labels are bilingual from the reviewed dimensions. Wilayat and
 property-category names retain the Arabic source labels. English translations

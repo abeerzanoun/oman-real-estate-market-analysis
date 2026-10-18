@@ -98,3 +98,27 @@ full-original-row equality meaning from the original cohort; it is not recalcula
 after filtering, a verified duplicate count, or a deletion recommendation.
 Financial and private demographic fields are not present in these downloads.
 See [dashboard documentation](DASHBOARD.md) for filter/denominator rules.
+
+## Current source attribution metadata
+
+[source_attribution.json](source_attribution.json) supplements the immutable
+ingestion registry; it is not a transaction table and is not joined into the
+analytical facts. The Sources and Methodology page checks dataset IDs, hashes and
+provider against the existing dimension before displaying this metadata.
+
+| Field | Meaning / evidence |
+|---|---|
+| dataset_id / source_sha256 | Existing reviewed dataset identity and original workbook checksum; no new record IDs or observations |
+| original_data_provider / provider_evidence | MOHUP attribution for all four files; embedded evidence for Muscat, owner-declared for land files |
+| download_portal / portal_landing_url | Hosting/acquisition portal, separately identified from the original provider; user-confirmed MOHUP monthly Buy and Sell portal or Oman Open Data Portal |
+| portal_url_role | `portal_landing_page_not_dataset_page_or_download`; never an exact resource assertion |
+| download_portal_evidence | `user_confirmed`; independent retrieval not claimed |
+| confirmation_date / confirmation_source | Owner's 2026-10-18 confirmation (Asia/Muscat), not the original download or publication date |
+| independently_verified_official_download | `false`; no authenticated government-host binary match |
+| dataset_page_url / exact_download_url | Null: dataset-specific page and downloadable resource remain unverified |
+| redistribution_licence / licence_url | Null: no file-applicable redistribution grant verified |
+| verified_publication_date / original_download_date | Null: unsupported dates are not inferred from workbook properties or confirmation date |
+
+NCSI is recorded as a future statistical-source recommendation, not a provider or
+download portal for these four analytical workbooks. Historical discovery and
+administrative references do not supply market observations.

@@ -3,6 +3,7 @@ import streamlit as st
 
 from src.dashboard_charts import coverage_heatmap, period_bar, ranked_bar
 from src.dashboard_data import COUNT, FAMILIES, SCOPES, export_csv, family_frame, filter_frame, summarize
+from src.source_attribution import load_source_attribution
 
 PAGES = {
     "Executive Overview": "Executive Overview | نظرة عامة",
@@ -257,16 +258,26 @@ def sources(bundle):
                 "filter observed facts, and sum `reported_record_count`. Shares use all occurrences in the current filtered "
                 "selection. No missing observations, financial values or transaction identities are inferred. "
                 "Repeated occurrences are retained, and source populations remain separate.")
+    attribution = load_source_attribution(bundle["tables"]["dim_dataset"])
+    st.info("The owner confirmed the download portals on 2026-10-18. Portal landing pages are not exact "
+            "dataset pages or file downloads; no independent official-file match or redistribution licence is verified. "
+            "NCSI was recommended for future research and supplied none of the four analytical workbooks.")
     for row in bundle["tables"]["dim_dataset"].to_dict("records"):
+        source = attribution[row['dataset_id']]
         with st.expander(row["file"].split("/")[-1], expanded=False):
-            st.write(f"Provider: {row['provider']}")
-            st.write(f"Evidence: {row['provider_evidence']}")
+            st.write(f"Original data provider: {source['original_data_provider']}")
+            st.write(f"Provider attribution evidence: {source['provider_evidence']}")
+            st.write(f"Download / publishing portal: {source['download_portal']}")
+            st.caption("Download portal: user-confirmed on " + source['confirmation_date'] +
+                       "; exact resource and official-host byte match not independently verified.")
             st.write(f"Observed dates: {row['min_date']} → {row['max_date']}")
             st.write(f"Sheet: {row['sheet']} · Header row: {row['header_row']} · Source occurrences: {row['reported_record_count']:,}")
             st.code(row["sha256"], language=None)
-            st.write(f"Attribution status: {row['source_verification_status']}")
-            st.write("Exact official dataset URL and redistribution licence: unresolved in the existing registry.")
-            st.link_button("Provider entry point (not a verified dataset download)", row["provider_entry_point"])
+            st.write("Exact dataset page, exact download URL, redistribution licence, verified publication date "
+                     "and original download date: unverified. Portal confirmation does not verify service definitions or monetary units.")
+            st.link_button("User-confirmed portal landing page (not an exact dataset URL)", source["portal_landing_url"])
+    st.caption("Current attribution: docs/source_attribution.json. The ingestion registry and processed "
+               "dim_dataset are preserved historical audit snapshots; no source rows or calculations are changed.")
     st.markdown("**Interpretation:** location rankings describe recorded activity in the supplied cohort. "
                 "They cannot establish property prices, returns, annual growth or market completeness. "
                 "The 2022 land and 2024 service-coded definitions are not interchangeable; brokerage is a separate population.")
@@ -274,11 +285,12 @@ def sources(bundle):
                 "are retained; no unverified English translations are added. Historical Sharqiyah resolution and nonstandard "
                 "labels are documented in the audit. Property-use and description labels come from the brokerage workbook only.")
     repo = "https://github.com/abeerzanoun/oman-real-estate-market-analysis"
-    for path, label in [("docs/data_sources.md", "Source documentation"), ("docs/data_dictionary.md", "Data dictionary"),
+    for path, label in [("DATA_PROVENANCE_AUDIT.md", "Provenance audit"),
+                        ("docs/source_attribution.json", "Current provider and portal register"),
+                        ("docs/data_sources.md", "Source documentation"), ("docs/data_dictionary.md", "Data dictionary"),
                         ("reports/DUPLICATE_AUDIT.md", "Duplicate audit"), ("reports/EDA_INDEX.md", "EDA report"),
                         ("docs/DASHBOARD.md", "Dashboard setup and interpretation")]:
-        st.markdown(f"[{label}]({repo}/blob/feature/streamlit-dashboard/{path})")
-    st.info("This is a local dashboard. Public hosting requires the repository owner's approval; no public deployment has been configured.")
+        st.markdown(f"[{label}]({repo}/blob/main/{path})")
 
 
 def render_page(page, bundle):

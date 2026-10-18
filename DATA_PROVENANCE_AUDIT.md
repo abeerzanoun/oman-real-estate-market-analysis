@@ -1,14 +1,29 @@
 # Data provenance and completeness audit
 
-**Reviewed:** October 15, 2026 (Asia/Muscat).
+**Original workbook/content review:** October 15, 2026 (Asia/Muscat). **Portal-attribution update:** October 18, 2026, using the repository owner's confirmation.
 
-**Baseline:** `main` at `d664f7f3ae4c3517ce4fb833a3038d31f2fe994c` (including merged PR #9).
+**Original audit baseline:** `main` at `d664f7f3ae4c3517ce4fb833a3038d31f2fe994c` (including merged PR #9). The attribution update starts from `eade9fc` (including merged PR #12).
 
-**Scope:** the four original XLSX files currently feeding the audited records, EDA and dashboard. This is a documentation-only review; no original, processed dataset or dashboard is changed.
+**Scope:** the four original XLSX files feeding the audited records, EDA and dashboard. The October 18 update changes documentation and the dashboard's source-attribution presentation only. Original/processed data, checksums, row counts, analysis, filters, calculations and methodological caveats remain unchanged.
 
 ## Findings
 
 **None of the four exact official dataset-page/download URLs is verified by the available evidence. None has a documented, file-applicable redistribution licence.** Muscat has verifiable **embedded Ministry attribution**; the other three files have **user-declared attribution**. Embedded attribution is stronger documentary evidence than a declaration alone, but neither independently authenticates an official download.
+
+### Original provider versus download/publishing portal — owner confirmation
+
+The **original provider is attributed to MOHUP for all four files**. On October 18 the owner confirmed downloading the three land workbooks from the Ministry's monthly Buy and Sell datasets portal, and the Muscat workbook from the Oman Open Data Portal. This improves acquisition attribution; it does not provide an independently verified resource URL, official-host byte match, publication date or licence.
+
+| Dataset | Original provider / evidence | User-confirmed download/publishing portal | Verification boundary |
+|---|---|---|---|
+| `land_nov_2022` | MOHUP; owner-declared | [MOHUP monthly Buy and Sell datasets portal](https://webapps.housing.gov.om/opendata/ar/pages/default.aspx) | Portal landing page, not exact dataset/file URL |
+| `land_dec_2022` | MOHUP; owner-declared | [Same MOHUP portal](https://webapps.housing.gov.om/opendata/ar/pages/default.aspx) | Portal landing page, not exact dataset/file URL |
+| `land_oct_2024` | MOHUP; owner-declared | [Same MOHUP portal](https://webapps.housing.gov.om/opendata/ar/pages/default.aspx) | Portal landing page; RN13A/RN13C meanings and RE_VALUE units still unknown |
+| `muscat_brokerage_2025` | MOHUP; embedded attribution and Ministry contact domain | [Oman Open Data Portal](https://opendata.gov.om/) | Portal homepage only; dataset-specific page unverified |
+
+**NCSI was recommended as a third statistical source but supplied none of the four uploaded analytical workbooks.** Historical discovery notes and geography references do not supply NCSI market observations to this analysis. NCSI's website licence cannot be transferred to these workbooks.
+
+Current evidence is recorded in [source_attribution.json](docs/source_attribution.json), keyed by dataset ID and original SHA-256. The [ingestion registry](docs/uploaded_source_registry.json) and processed `dim_dataset` stay unchanged as historical audit snapshots. Their null exact-resource/licence fields remain null. The dashboard validates the addendum against the reviewed dimension and shows it separately; no analysis is regenerated to update source labels.
 
 The four files contain **28,558 source record occurrences**. This is an inventory total across different administrative populations, **not** a national market total or a verified unique-transaction count. Every current checksum matches both the registry and its original Git upload blob.
 
@@ -33,14 +48,14 @@ The four files contain **28,558 source record occurrences**. This is an inventor
 
 No dataset-specific publisher URL was found in the workbook metadata or external relationships. The Muscat workbook contains a Ministry-domain contact email, not a dataset URL. The land workbooks have no additional metadata sheets or external source links. Technical metadata and hashes establish local integrity and traceability, not publisher authentication or complete market coverage.
 
-### Existing official-source investigation leads
+### Historical official-source investigation leads
 
-These are **previously recorded provider entry points**, not verified original URLs for any of these four files:
+These are **previously recorded provider entry points**, not verified exact resource URLs for any of these four files. The user-confirmed acquisition portals above supersede discovery-only wording about portal origins; resource-level verification is still pending:
 
 | Existing lead | What the evidence supports | What it does not establish |
 |---|---|---|
 | [MOHUP real estate transaction catalogue](https://mohup.gov.om/en/open-data/data/Realestate%20Transaction) | Registry/discovery lead for Ministry transaction resources | The exact November/December 2022 or October 2024 export, its revision, checksum, publication date or licence |
-| [National Open Data Portal](https://opendata.gov.om/en) | Registry lead for regional brokerage resources | The Muscat workbook's exact dataset page or original binary |
+| [National Open Data Portal](https://opendata.gov.om/en) | Earlier registry lead; owner now confirms this portal as the Muscat download portal | The Muscat workbook's exact dataset page or original binary |
 | [MOHUP terms-of-use lead](https://webapps.housing.gov.om/opendata/en/pages/TermsofUse.aspx) | A terms URL recorded in the earlier discovery catalogue; its resource applicability remains pending | A verified licence grant covering any current upload |
 
 The previously documented **NCSI** site licence cannot automatically be assigned to these **MOHUP-attributed** files. Likewise, a quarterly Ministry PDF, a January 2026 NCSI XLSX, or a portal's related-resource listing does not identify the source of these particular row-level uploads. No new URL has been constructed or guessed.
@@ -51,7 +66,7 @@ The previously documented **NCSI** site licence cannot automatically be assigned
 
 - **Local file / dataset ID:** `muscat_brokerage_sales_2025.xlsx` / `muscat_brokerage_2025`.
 - **Evidence:** worksheet `البيانات الوصفية ` names the group `تسجيل عقد بيع من خلال مكاتب الوساطة العقارية-محافظة مسقط 2025`; its source field says `منصة وزارة الإسكان والتخطيط العمراني`. A contact address uses `housing.gov.om`. Worksheet `المتغيرات ` explains the procedure date, wilayat, property use and property description. These statements are verified **inside the uploaded file**; official-host origin remains unverified.
-- **Original official URL / licence:** neither is documented or independently verified. The portal homepage is only a discovery lead.
+- **Download portal / original resource / licence:** owner confirms downloading from the Oman Open Data Portal (`opendata.gov.om`). Its homepage is a user-confirmed portal origin, not a verified dataset-specific page or download URL. The exact resource and applicable licence remain unverified; embedded provider attribution remains MOHUP.
 - **Actual data sheet:** `تسجيل عقد بيع - مسقط`, five columns, header row 3, **9,366** nonempty data rows from Excel row 4 onward. The metadata's total of 9,366 reconciles with the rows, but does not prove annual completeness.
 - **Observed period:** January–September 2025, dated **January 2 through September 30**. There are **181 distinct procedure dates**. All nine supplied months contain rows; October–December 2025 are absent from this file.
 - **Geography:** Muscat governorate only, with six observed wilayat labels: السيب, العامرات, بوشر, قريات, مسقط, مطرح. No observations for the other ten governorates are supplied by this workbook; they are outside its declared scope, not national zeros.
@@ -77,7 +92,7 @@ These are supplied-record counts, not an annual sales series. Dates without rows
 ### 2. Land BuySell records, November 2022
 
 - **Local file / dataset ID:** `oman_land_transactions_nov_2022.xlsx` / `land_nov_2022`.
-- **Provenance:** user-declared Ministry upload. The `BuySell` sheet and field layout are consistent with the recorded transaction-resource lead, but schema similarity is not official provenance. No embedded publisher statement, dataset URL or resource licence was found.
+- **Provenance:** owner-declared MOHUP provider; owner confirms the monthly Buy and Sell portal landing page listed above as the download portal. The `BuySell` sheet/layout is not independent proof of an official download. No embedded publisher statement, exact dataset URL or resource licence was found.
 - **Actual sheet:** `BuySell`, eleven columns, header row 1; **7,501** data rows. Declared worksheet size `A1` recovers to **7,502 × 11**, including the header, in memory.
 - **Observed period:** **2022-11-01–2022-11-29**, with **22 distinct dates**. November days **4, 5, 12, 18, 19, 25, 26, 30** have no supplied rows. This is a monthly extract, not evidence of complete daily capture. Other 2022 months are not in this file; December is supplied separately, leaving January–October absent from the comparable 2022 collection.
 - **Geography:** all eleven modern governorates represented after the documented legacy Sharqiyah mapping; **62 observed wilayat keys/labels**, including one nonstandard الساحل الشرقي occurrence in Dhofar. This is not proof of a complete official wilayat inventory.
@@ -88,7 +103,7 @@ These are supplied-record counts, not an annual sales series. Dates without rows
 ### 3. Land BuySell records, December 2022
 
 - **Local file / dataset ID:** `oman_land_transactions_dec_2022.xlsx` / `land_dec_2022`.
-- **Provenance / licence:** user-declared Ministry attribution only; exact official source and applicable licence remain unverified. No embedded publisher statement or resource URL was found.
+- **Provenance / licence:** owner-declared MOHUP provider and user-confirmed Ministry monthly Buy and Sell download portal. The landing page is not a verified exact official resource; applicable licence remains unverified. No embedded publisher statement or resource URL was found.
 - **Actual sheet:** `BuySell`, the same eleven-column layout as November, header row 1; **5,667** data rows. `A1` recovers to **5,668 × 11**, including the header, without saving the original.
 - **Observed period:** **2022-12-04–2022-12-29**, with **20 distinct dates**. December days **1, 2, 3, 9, 10, 16, 17, 23, 24, 30, 31** have no supplied rows. No other month is contained in this file. Together with November, the supplied comparable 2022 collection covers only two months.
 - **Geography:** eleven modern governorates after the documented mapping; **61 observed wilayat keys/labels**, including one nonstandard الساحل الشرقي occurrence in Dhofar. Regional representation does not establish complete transaction capture within every region or wilayat.
@@ -99,7 +114,7 @@ These are supplied-record counts, not an annual sales series. Dates without rows
 ### 4. Service-coded land records, October 2024
 
 - **Local file / dataset ID:** `oman_land_transactions_oct_2024.xlsx` / `land_oct_2024`.
-- **Provenance / licence:** user-declared Ministry attribution only; exact official dataset page, download URL and applicable licence remain unverified. There is no embedded publisher statement or resource URL.
+- **Provenance / licence:** owner-declared MOHUP provider and user-confirmed Ministry monthly Buy and Sell download portal. This portal label does not verify the service-coded file's transaction meanings. Exact official dataset page, download URL and applicable licence remain unverified; no embedded publisher statement or resource URL is present.
 - **Actual sheet:** `Sheet1`, fifteen columns, header row 1; **6,024** data rows. `A1` recovers to **6,025 × 15**, including the header, in memory.
 - **Observed period:** **2024-10-01–2024-10-31**, with **23 distinct dates**. October days **4, 5, 11, 12, 18, 19, 25, 26** have no supplied rows. Matching the first and last calendar day does not prove a complete monthly export. January–September and November–December 2024 are absent from the collection.
 - **Geography:** eleven modern governorates after the documented mapping; **63 observed wilayat keys/labels**. No nonstandard wilayat-label occurrence is flagged in this file; this still does not establish administrative or market completeness.
@@ -150,6 +165,8 @@ The years/months in this table are **coverage metadata**, not additional observa
 | Are the current originals unchanged since the recorded upload? | **Yes:** all four match registry SHA-256 and original Git blobs. |
 | Are the record dates, counts and represented locations inspectable? | **Yes:** independently re-read and reconciled with pinned derivatives. |
 | Is an exact government-host download authenticated for these bytes? | **No:** no verified resource URL, retrieval receipt or official-file match is available. |
+| Is the download/publishing portal known? | **Owner-confirmed:** MOHUP monthly Buy and Sell portal for the three land files; Oman Open Data Portal for Muscat. Landing pages are not exact resource verification. |
+| Did NCSI supply any uploaded analytical workbook? | **No.** Recommended future statistical source only; discovery/geography references are not market-data inputs. |
 | Is Ministry attribution present inside a file? | **Yes, Muscat only.** The three land-file attributions are user-declared. |
 | Is redistribution permission documented for these four files? | **Not established.** No applicable resource licence is verified. |
 | Do all eleven governorates appear in each supplied land month? | **Yes in the documented modern mapping.** This does not prove complete regional capture. |
@@ -173,7 +190,7 @@ For **each** workbook, obtain its exact official dataset page and downloadable r
 
 Separately confirm the publisher's completeness/reporting calendar, transaction/event grain, unique identifier, the annual-versus-partial Muscat metadata, RN13A/RN13C definitions and `RE_VALUE` unit/meaning. Obtain complete comparable monthly series and actual official price-index/area data before attempting historical or pricing analysis. An official source page alone would not resolve every one of these independent gaps.
 
-## Validation and preservation
+## Original audit validation and preservation — October 15
 
 Fresh read-only verification re-read all four originals and all six worksheets, recovered the three dimension errors in memory, reconciled the dates/counts/geography, verified the pinned dashboard inputs, and matched all four original Git-upload blobs. No workbook was saved and no data or dashboard implementation was changed.
 
@@ -185,4 +202,10 @@ python -m pytest tests/test_uploaded_audit.py tests/test_duplicate_audit.py test
 
 **Result: 57 passed**, with 14 existing Matplotlib/Pyparsing deprecation warnings; no failed or skipped tests. The selected modules cover the original workbooks and dimension recovery, lineage and record counts, duplicate interpretation, EDA reconciliation and dashboard views. All four original checksums were verified again after the tests.
 
-`git diff` against the baseline is empty for the data, source code, entry point, notebook, reports, existing documentation, requirements and Streamlit/CI configuration. **Only this new report is added.** Technical validation does not resolve the external source/licence gaps identified above.
+That original audit added only this report. The October 18 attribution update also changes source documentation and Sources and Methodology presentation; it preserves all original/processed data and analytical artifacts. Technical validation and the owner's portal confirmation do not resolve exact-resource authenticity or licensing gaps.
+
+### Attribution-update validation — October 18
+
+Regression checks cover the ID/checksum-bound addendum, separation of original provider and download portal, user-confirmed versus independently verified evidence, unresolved exact URLs/licences/publication/download dates, NCSI's non-use as an analytical data supplier, and actual Sources and Methodology rendering. Existing full analysis, dashboard/filter and Power BI package checks are rerun. The original ingestion registry, data, reports, notebook and Power BI package remain byte-for-byte unchanged. Test results are recorded in the pull request; no official portal was fetched to upgrade the evidence level.
+
+Local result: `python -m pytest tests powerbi/tests -q` — **143 passed**, including 10 new attribution tests, with the same 14 existing Matplotlib/Pyparsing deprecation warnings. The Power BI reproduction preflight (2,227 reference comparisons), all 18 M syntax checks, environment validation, dependency consistency and 79 local documentation links passed. A separate SHA-256 inventory verified 166 tracked data/analysis/Power BI/registry/configuration files unchanged; an AST comparison confirmed only the dashboard's `sources` function changed. Microsoft Power BI engine execution remains pending as before.
