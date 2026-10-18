@@ -1,4 +1,4 @@
-# Oman Real Estate Market Analysis (2020–2026)
+# Oman Real Estate Market Analysis | Python & Streamlit
 
 **Reproducible geographic analysis with Python, an interactive Streamlit dashboard, and Power BI preparation.**
 
@@ -112,7 +112,7 @@ Separate sales from mortgages and other registrations. Do not combine national t
 
 ## Technology stack
 
-**Analysis and reproducibility:** Python **3.12**, Pandas, NumPy, Matplotlib, Seaborn, Jupyter/JupyterLab, openpyxl, XlsxWriter and Pytest. **Interactive reporting:** Plotly and Streamlit, with runtime compatibility tested on Python **3.12/3.14**. **BI and collaboration:** Microsoft Excel, Power BI Desktop, Git and GitHub. OpenAI Codex assists project implementation. Excel and Power BI are separate desktop applications, not pip dependencies.
+**Analysis and reproducibility:** Python **3.12**, Pandas, NumPy, Matplotlib, Seaborn, Jupyter/JupyterLab, openpyxl, XlsxWriter and Pytest. **Interactive reporting:** Plotly and Streamlit, with runtime compatibility tested on Python **3.12/3.14**. **BI and collaboration:** Microsoft Excel, Power BI Desktop, Git and GitHub support. project development and version control. Excel and Power BI are separate desktop applications, not pip dependencies.
 
 ## Setup and execution
 
