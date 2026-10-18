@@ -1,0 +1,18 @@
+measure,home_table,family,kind,format
+Land 2022 Reported Records,fact_land_2022,land_2022,count,"#,0;(#,0);0"
+Land Oct 2024 Reported Records,fact_land_2024,land_2024,count,"#,0;(#,0);0"
+Muscat Brokerage Registrations,fact_brokerage_2025,brokerage_2025,count,"#,0;(#,0);0"
+Land 2022 Geographic Share,fact_land_2022,land_2022,geographic_share,0.00%
+Land Oct 2024 Geographic Share,fact_land_2024,land_2024,geographic_share,0.00%
+Muscat Brokerage Geographic Share,fact_brokerage_2025,brokerage_2025,geographic_share,0.00%
+Brokerage Property Use Share,fact_brokerage_2025,brokerage_2025,property_use_share,0.00%
+Land 2022 Supplied Governorates,fact_land_2022,land_2022,governorates,"#,0;(#,0);0"
+Land Oct 2024 Supplied Governorates,fact_land_2024,land_2024,governorates,"#,0;(#,0);0"
+Muscat Brokerage Supplied Months,fact_brokerage_2025,brokerage_2025,months,"#,0;(#,0);0"
+Land 2022 Repeated Group Share,fact_land_2022,land_2022,repeated_share,0.00%
+Land Oct 2024 Repeated Group Share,fact_land_2024,land_2024,repeated_share,0.00%
+Muscat Brokerage Repeated Group Share,fact_brokerage_2025,brokerage_2025,repeated_share,0.00%
+Land 2022 November Rows,fact_land_2022,land_2022,november,"#,0;(#,0);0"
+Land 2022 December Rows,fact_land_2022,land_2022,december,"#,0;(#,0);0"
+Land 2022 Nov Dec Row Difference,fact_land_2022,land_2022,difference,"#,0;(#,0);0"
+Land 2022 Nov Dec Row Change,fact_land_2022,land_2022,change,0.00%

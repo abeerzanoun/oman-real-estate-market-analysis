@@ -43,4 +43,13 @@ jobs:
         run: python -m src.validate_uploads
       - name: Reproduce scoped EDA and execute notebook
         run: python -m src.run_eda
-      - run: python -m pytest
+      - run: python -m pytest tests powerbi/tests
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: powerbi/package-lock.json
+      - name: Check Power Query syntax with the locked Microsoft parser
+        run: |
+          npm ci --prefix powerbi --ignore-scripts
+          npm --prefix powerbi run validate:m

@@ -1,0 +1,98 @@
+{
+  "parser": "@microsoft/powerquery-parser",
+  "version": "0.19.0",
+  "validation": "syntax_only",
+  "microsoft_power_query_engine_executed": false,
+  "queries": [
+    {
+      "file": "m/coverage_matrix_2020_2026.pq",
+      "sha256": "0c7cc5beb4d9249723b5eff44bdd9bbfbd81c1ebfcd49ed6c31d81c0f5e6bc51",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/data_quality_summary.pq",
+      "sha256": "912c54208092fc74078bb969b2b24a0feec6e69eae2108acc7aacc52e7999a56",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/dataset_summary.pq",
+      "sha256": "192ae8af12042590fee342aabe6414e63848a6e57e7a462966fd92ecb2ca65d4",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/dim_buyer_type.pq",
+      "sha256": "fc9103037a83cefeedb6f1f7c3f6e7e311bffb4503723ebfba6d0229d0d21596",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/dim_dataset.pq",
+      "sha256": "a46827fdb455dfb2134972ca8004d8097746d31e3623789ca3a7d83333ff4b42",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/dim_governorate.pq",
+      "sha256": "523eb595a33f4bf036916dd2579888ab592d32fb88ba86c594950b9e37dc4972",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/dim_ownership_band.pq",
+      "sha256": "d8d929f8a5aec2310660764cc9fa847e65004341ec34a981ca9dfa34dfea6e2a",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/dim_period.pq",
+      "sha256": "58042fc0408d24a026470ed0ef3bb7ad14b1f943d82e8a65606b5066e18fb42f",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/dim_property_description.pq",
+      "sha256": "e19bba1168e06886c8ee8d347e902d90e5acf5ae26e745cb315755d98b17d17d",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/dim_property_use.pq",
+      "sha256": "8b2c518d2ef3c267391ffb0eb9469e58ade7d29c82ee356accad319bfe5d6560",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/dim_service_code.pq",
+      "sha256": "0b81114cad6470096e8bd41bfab49971b67a0e3a6f0d8996b4b29f3e1c600545",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/dim_wilayat.pq",
+      "sha256": "02a8009e8b58b6450537d9f7bf300baf93b5f6b40cd8728e0516ce3f43741c55",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/fact_brokerage_2025.pq",
+      "sha256": "e480e9b61cad7843dbc9e0ee1d0ee12a288b5ef106f0c958baa85ff9d225ba20",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/fact_land_2022.pq",
+      "sha256": "c9eef3260c1e7225f9d507f528f7952b72c825bd4d5165172a41a6fb5ba516ab",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/fact_land_2024.pq",
+      "sha256": "754f311d86a34eb134d5bf3d7d35fba907dc9264f3a5d04e6784ed71b9abce42",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/fnAuditedCsv.pq",
+      "sha256": "d3ed0d64fbde3166158582ba2fcfcceef29d8e8ebbd3d3c58d78e4a4f314bd3f",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/pRepositoryRoot.pq",
+      "sha256": "94b6601f0a40e113b568de0a1378920a6971b170b463b8fde57a69c6587711bb",
+      "syntax": "passed"
+    },
+    {
+      "file": "m/source_column_quality.pq",
+      "sha256": "23d8d952b439d067ae8429f893cd8eafa8d102555bcbcd5dcc2ad014062b2686",
+      "syntax": "passed"
+    }
+  ]
+}
