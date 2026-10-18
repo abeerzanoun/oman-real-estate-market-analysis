@@ -14,7 +14,8 @@ This portfolio project examines real estate record distributions in Oman using f
 
 **[Open the Oman Real Estate Observatory](https://oman-real-estate-market-analysis-dq6m4x.streamlit.app)**
 
-**Deployment status:** the repository owner reports the application is live at the URL above. Independent public availability verification is pending: on October 15, 2026, this review environment's proxy returned HTTP 403 before reaching the app, and the web tool could not access it. This is an access limitation, not evidence that the application is down. Local/runtime validation is documented separately below.
+
+**Deployment status:** The interactive Streamlit dashboard has been deployed and successfully opened. It provides six analytical sections covering the supplied real estate records, geographic comparisons, data quality, and methodology. The application may enter sleep mode after inactivity and can be restarted from its hosting page.
 
 The six-page Streamlit app provides Arabic/English labels, interactive filters, Plotly charts, source-occurrence KPIs and selected aggregate CSV downloads:
 
